@@ -1,0 +1,22 @@
+{
+  "1dc55438-d48e-441a-b800-4d8ebfd44d71": {
+    "url": "db://assets/resources",
+    "value": {},
+    "versionCode": 1
+  },
+  "bc24167b-280d-46d6-9328-233e76809fc6": {
+    "url": "db://assets/script",
+    "value": {},
+    "versionCode": 1
+  },
+  "240bcc8c-fa53-4424-9185-1b6247580b2b": {
+    "url": "db://assets/script/BaseBlock.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "70abf7fc-d604-4b0e-970d-4d6a9b497454": {
+    "url": "db://assets/script/NewComponent.ts",
+    "value": {},
+    "versionCode": 1
+  }
+}

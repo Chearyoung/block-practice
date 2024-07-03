@@ -1,11 +1,43 @@
-7-3-2024 11:27:22 - log: Load engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine
-7-3-2024 11:27:22 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-7-3-2024 11:27:22 - log: Register native engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-7-3-2024 11:27:23 - log: Request namespace: device-list
-7-3-2024 11:27:37 - log: [Scene] meshopt wasm decoder initialized
-7-3-2024 11:27:37 - log: [Scene] [box2d]:box2d wasm lib loaded.
-7-3-2024 11:27:37 - log: [Scene] [bullet]:bullet wasm lib loaded.
-7-3-2024 11:27:37 - log: [Scene] [PHYSICS]: using builtin.
-7-3-2024 11:27:37 - log: [Scene] Cocos Creator v3.8.3
-7-3-2024 11:27:37 - info: [Scene] Forward render pipeline initialized.
-7-3-2024 11:27:37 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+7-3-2024 11:56:03 - log: Load engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine
+7-3-2024 11:56:04 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+7-3-2024 11:56:04 - log: Register native engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+7-3-2024 11:56:04 - log: Request namespace: device-list
+7-3-2024 11:56:09 - log: [Scene] meshopt wasm decoder initialized
+7-3-2024 11:56:09 - log: [Scene] [box2d]:box2d wasm lib loaded.
+7-3-2024 11:56:09 - log: [Scene] [bullet]:bullet wasm lib loaded.
+7-3-2024 11:56:09 - log: [Scene] [PHYSICS]: using builtin.
+7-3-2024 11:56:09 - log: [Scene] Cocos Creator v3.8.3
+7-3-2024 11:56:09 - info: [Scene] Forward render pipeline initialized.
+7-3-2024 11:56:09 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+7-3-2024 11:57:13 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:69429:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1091)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/types/asset-dump.ccc:1:946)
+    at _decodeByType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:4617)
+    at decodePatch (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:6224)
+7-3-2024 11:57:13 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:69429:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1091)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/types/asset-dump.ccc:1:946)
+    at _decodeByType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:4617)
+    at decodePatch (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:6224)
+7-3-2024 11:57:14 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:69429:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1091)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/types/asset-dump.ccc:1:946)
+    at _decodeByType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:4617)
+    at decodePatch (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:6224)
+7-3-2024 11:57:14 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:69429:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1091)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/types/asset-dump.ccc:1:946)
+    at _decodeByType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:4617)
+    at decodePatch (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:6224)

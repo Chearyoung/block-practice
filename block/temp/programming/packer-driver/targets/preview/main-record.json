@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 11752.7045839997,
+      "mTimestamp": 4529.37008299958,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 14327.057249999605,
+      "mTimestamp": 309176.777125,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -425,6 +425,20 @@
               "column": 155
             }
           }
+        },
+        {
+          "value": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "end": {
+              "line": 5,
+              "column": 105
+            }
+          }
         }
       ],
       "type": "esm",
@@ -433,6 +447,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts"
           },
           "messages": []
         }
@@ -461,6 +482,80 @@
             "end": {
               "line": 1,
               "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts": {
+      "mTimestamp": {
+        "mtime": 1719979252307.409,
+        "uuid": "240bcc8c-fa53-4424-9185-1b6247580b2b"
+      },
+      "chunkId": "6ea1a4bac0de97d7b48cf64816f3c4d3d45e82fc",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/NewComponent.ts": {
+      "mTimestamp": {
+        "mtime": 1719979268751.2913,
+        "uuid": "70abf7fc-d604-4b0e-970d-4d6a9b497454"
+      },
+      "chunkId": "9275cafa4cdef0cc4fc5b9dedae0d516f9fd3431",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
             }
           }
         }
