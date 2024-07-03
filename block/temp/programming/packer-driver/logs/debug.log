@@ -170,3 +170,249 @@ Feature changed: false
 12:09:47 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 12:09:47 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
 12:09:47 debug: Target(preview) ends with cost 16.705417000688612ms.
+12:14:59 debug: Dispatch build request for time accumulated 1 asset changes.
+12:14:59 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+12:14:59 debug: Target(editor) build started.
+12:14:59 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:44 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:05:56 GMT+0800 (中国标准时间)
+12:14:59 debug: Inspect cce:/internal/x/prerequisite-imports
+12:14:59 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:14:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
+12:14:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts.
+12:14:59 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts
+12:14:59 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+12:14:59 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+12:14:59 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+12:14:59 debug: Target(editor) ends with cost 31.524833000265062ms.
+12:14:59 debug: Target(preview) build started.
+12:14:59 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:44 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:05:56 GMT+0800 (中国标准时间)
+12:14:59 debug: Inspect cce:/internal/x/prerequisite-imports
+12:14:59 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:14:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
+12:14:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts.
+12:14:59 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts
+12:14:59 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+12:14:59 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+12:14:59 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+12:14:59 debug: Target(preview) ends with cost 31.51958299987018ms.
+12:23:17 debug: Dispatch build request for time accumulated 1 asset changes.
+12:23:17 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+12:23:17 debug: Target(editor) build started.
+12:23:17 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:05:56 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:14:15 GMT+0800 (中国标准时间)
+12:23:17 debug: Inspect cce:/internal/x/prerequisite-imports
+12:23:17 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:23:17 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
+12:23:17 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts.
+12:23:17 debug: Detected change: file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts. Last mtime: Wed Jul 03 2024 12:14:59 GMT+0800 (中国标准时间)@65682309-5676-46ad-a308-d6f346e92a26, Current mtime: Wed Jul 03 2024 12:17:20 GMT+0800 (中国标准时间)@65682309-5676-46ad-a308-d6f346e92a26
+12:23:17 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts
+12:23:18 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+12:23:18 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+12:23:18 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+12:23:18 debug: Target(editor) ends with cost 38.88075000047684ms.
+12:23:18 debug: Target(preview) build started.
+12:23:18 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:05:56 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:14:15 GMT+0800 (中国标准时间)
+12:23:18 debug: Inspect cce:/internal/x/prerequisite-imports
+12:23:18 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:23:18 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
+12:23:18 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts.
+12:23:18 debug: Detected change: file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts. Last mtime: Wed Jul 03 2024 12:14:59 GMT+0800 (中国标准时间)@65682309-5676-46ad-a308-d6f346e92a26, Current mtime: Wed Jul 03 2024 12:17:20 GMT+0800 (中国标准时间)@65682309-5676-46ad-a308-d6f346e92a26
+12:23:18 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts
+12:23:18 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+12:23:18 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+12:23:18 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+12:23:18 debug: Target(preview) ends with cost 29.23058299906552ms.
+14:04:45 debug: Dispatch build request for time accumulated 1 asset changes.
+14:04:45 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:04:45 debug: Target(editor) build started.
+14:04:45 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:14:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:55:42 GMT+0800 (中国标准时间)
+14:04:45 debug: Inspect cce:/internal/x/prerequisite-imports
+14:04:45 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:04:45 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
+14:04:45 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts.
+14:04:45 debug: Detected change: file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts. Last mtime: Wed Jul 03 2024 12:17:20 GMT+0800 (中国标准时间)@65682309-5676-46ad-a308-d6f346e92a26, Current mtime: Wed Jul 03 2024 12:29:34 GMT+0800 (中国标准时间)@65682309-5676-46ad-a308-d6f346e92a26
+14:04:45 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts
+14:04:45 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+14:04:45 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+14:04:45 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+14:04:45 debug: Target(editor) ends with cost 36.53775000013411ms.
+14:04:45 debug: Target(preview) build started.
+14:04:45 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:14:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:55:42 GMT+0800 (中国标准时间)
+14:04:45 debug: Inspect cce:/internal/x/prerequisite-imports
+14:04:45 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:04:45 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
+14:04:45 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts.
+14:04:45 debug: Detected change: file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts. Last mtime: Wed Jul 03 2024 12:17:20 GMT+0800 (中国标准时间)@65682309-5676-46ad-a308-d6f346e92a26, Current mtime: Wed Jul 03 2024 12:29:34 GMT+0800 (中国标准时间)@65682309-5676-46ad-a308-d6f346e92a26
+14:04:45 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts
+14:04:45 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+14:04:45 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+14:04:45 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts as cce:/internal/x/cc.
+14:04:45 debug: Target(preview) ends with cost 31.492374999448657ms.
+14:07:11 debug: Dispatch build request for time accumulated 1 asset changes.
+14:07:11 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:07:11 debug: Target(editor) build started.
+14:07:11 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:55:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:58:08 GMT+0800 (中国标准时间)
+14:07:11 debug: Inspect cce:/internal/x/prerequisite-imports
+14:07:11 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:07:11 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
+14:07:11 debug: Target(editor) ends with cost 16.538292000070214ms.
+14:07:11 debug: Target(preview) build started.
+14:07:11 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:55:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:58:08 GMT+0800 (中国标准时间)
+14:07:11 debug: Inspect cce:/internal/x/prerequisite-imports
+14:07:11 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:07:11 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
+14:07:11 debug: Target(preview) ends with cost 13.461958998814225ms.
+14:08:33 debug: Dispatch build request for time accumulated 2 asset changes.
+14:08:33 debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+14:08:33 debug: Target(editor) build started.
+14:08:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:58:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:59:30 GMT+0800 (中国标准时间)
+14:08:33 debug: Inspect cce:/internal/x/prerequisite-imports
+14:08:33 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:08:33 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
+14:08:33 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+14:08:33 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts
+14:08:33 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/code-quality/cr.mjs.
+14:08:33 debug: Inspect cce:/internal/code-quality/cr.mjs
+14:08:33 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
+14:08:33 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
+14:08:33 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
+14:08:33 debug: Failed to resolve '../Data/WeaponData' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 "../Data/WeaponData"
+14:08:33 debug: Failed to resolve '../Data/GridData' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 "../Data/GridData"
+14:08:33 debug: Failed to resolve '../../Constants' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 "../../Constants"
+14:08:33 debug: Failed to resolve '../../../../../script-oops/core/Oops' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 "../../../../../script-oops/core/Oops"
+14:08:33 debug: Failed to resolve '../../../../constant/EventConstant' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 "../../../../constant/EventConstant"
+14:08:33 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+14:08:33 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts
+14:08:33 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/code-quality/cr.mjs.
+14:08:33 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
+14:08:33 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
+14:08:33 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
+14:08:33 debug: Failed to resolve '../Data/WeaponData' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 "../Data/WeaponData"
+14:08:33 debug: Failed to resolve '../Data/GridData' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 "../Data/GridData"
+14:08:33 debug: Failed to resolve '../../Constants' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 "../../Constants"
+14:08:33 debug: Failed to resolve '../../Frame/OpenPopupManager' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 "../../Frame/OpenPopupManager"
+14:08:33 debug: Failed to resolve '../../../../constant/EventConstant' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 "../../../../constant/EventConstant"
+14:08:33 debug: Failed to resolve '../../../../../script-oops/core/Oops' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 "../../../../../script-oops/core/Oops"
+14:08:33 debug: Target(editor) ends with cost 144.64208300039172ms.
+14:08:33 debug: Target(preview) build started.
+14:08:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:58:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:59:31 GMT+0800 (中国标准时间)
+14:08:33 debug: Inspect cce:/internal/x/prerequisite-imports
+14:08:33 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:08:33 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
+14:08:33 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+14:08:33 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts
+14:08:33 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/code-quality/cr.mjs.
+14:08:33 debug: Inspect cce:/internal/code-quality/cr.mjs
+14:08:33 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
+14:08:33 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
+14:08:33 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
+14:08:33 debug: Failed to resolve '../Data/WeaponData' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 "../Data/WeaponData"
+14:08:33 debug: Failed to resolve '../Data/GridData' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 "../Data/GridData"
+14:08:33 debug: Failed to resolve '../../Constants' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 "../../Constants"
+14:08:33 debug: Failed to resolve '../../../../../script-oops/core/Oops' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 "../../../../../script-oops/core/Oops"
+14:08:33 debug: Failed to resolve '../../../../constant/EventConstant' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 "../../../../constant/EventConstant"
+14:08:33 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+14:08:33 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts
+14:08:33 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/code-quality/cr.mjs.
+14:08:33 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
+14:08:33 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
+14:08:33 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
+14:08:33 debug: Failed to resolve '../Data/WeaponData' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 "../Data/WeaponData"
+14:08:33 debug: Failed to resolve '../Data/GridData' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 "../Data/GridData"
+14:08:33 debug: Failed to resolve '../../Constants' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 "../../Constants"
+14:08:33 debug: Failed to resolve '../../Frame/OpenPopupManager' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 "../../Frame/OpenPopupManager"
+14:08:33 debug: Failed to resolve '../../../../constant/EventConstant' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 "../../../../constant/EventConstant"
+14:08:33 debug: Failed to resolve '../../../../../script-oops/core/Oops' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 "../../../../../script-oops/core/Oops"
+14:08:33 debug: Target(preview) ends with cost 110.7977499999106ms.
+14:09:36 debug: Dispatch build request for time accumulated 1 asset changes.
+14:09:36 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:09:36 debug: Target(editor) build started.
+14:09:36 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:59:30 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:00:33 GMT+0800 (中国标准时间)
+14:09:36 debug: Inspect cce:/internal/x/prerequisite-imports
+14:09:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:09:36 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
+14:09:36 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
+14:09:36 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts
+14:09:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/code-quality/cr.mjs.
+14:09:36 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
+14:09:36 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
+14:09:36 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
+14:09:36 debug: Failed to resolve '../../../../manager/TemplateMgr' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts 为起点找不到模块 "../../../../manager/TemplateMgr"
+14:09:36 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+14:09:36 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+14:09:36 debug: Target(editor) ends with cost 48.5794580001384ms.
+14:09:36 debug: Target(preview) build started.
+14:09:36 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:59:31 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:00:33 GMT+0800 (中国标准时间)
+14:09:36 debug: Inspect cce:/internal/x/prerequisite-imports
+14:09:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:09:36 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
+14:09:36 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
+14:09:36 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts
+14:09:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/code-quality/cr.mjs.
+14:09:36 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
+14:09:36 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
+14:09:36 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
+14:09:36 debug: Failed to resolve '../../../../manager/TemplateMgr' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts 为起点找不到模块 "../../../../manager/TemplateMgr"
+14:09:36 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+14:09:36 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+14:09:36 debug: Target(preview) ends with cost 44.833165999501944ms.
+14:10:27 debug: Dispatch build request for time accumulated 1 asset changes.
+14:10:27 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:10:27 debug: Target(editor) build started.
+14:10:27 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:00:33 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:01:24 GMT+0800 (中国标准时间)
+14:10:27 debug: Inspect cce:/internal/x/prerequisite-imports
+14:10:27 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:10:27 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
+14:10:27 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
+14:10:27 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts.
+14:10:27 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts
+14:10:27 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/code-quality/cr.mjs.
+14:10:27 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
+14:10:27 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
+14:10:27 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
+14:10:27 debug: Failed to resolve '../Data/GridData' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 "../Data/GridData"
+14:10:27 debug: Resolve ../Data/WeaponData from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
+14:10:27 debug: Failed to resolve '../../Constants' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 "../../Constants"
+14:10:27 debug: Resolve ../Weapon/WeaponItem from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+14:10:27 debug: Resolve ../Weapon/WeaponBgItem from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+14:10:27 debug: Failed to resolve '../../../../../script-oops/core/Oops' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 "../../../../../script-oops/core/Oops"
+14:10:27 debug: Failed to resolve '../../../../battle/util/Util' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 "../../../../battle/util/Util"
+14:10:27 debug: Failed to resolve '../../../../constant/EventConstant' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 "../../../../constant/EventConstant"
+14:10:27 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+14:10:27 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+14:10:27 debug: Target(editor) ends with cost 79.35775000043213ms.
+14:10:27 debug: Target(preview) build started.
+14:10:27 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:00:33 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:01:24 GMT+0800 (中国标准时间)
+14:10:27 debug: Inspect cce:/internal/x/prerequisite-imports
+14:10:27 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:10:27 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.
+14:10:27 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
+14:10:27 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts.
+14:10:27 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts
+14:10:27 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/code-quality/cr.mjs.
+14:10:27 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
+14:10:27 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
+14:10:27 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
+14:10:27 debug: Failed to resolve '../Data/GridData' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 "../Data/GridData"
+14:10:27 debug: Resolve ../Data/WeaponData from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
+14:10:27 debug: Failed to resolve '../../Constants' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 "../../Constants"
+14:10:27 debug: Resolve ../Weapon/WeaponItem from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+14:10:27 debug: Resolve ../Weapon/WeaponBgItem from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+14:10:27 debug: Failed to resolve '../../../../../script-oops/core/Oops' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 "../../../../../script-oops/core/Oops"
+14:10:27 debug: Failed to resolve '../../../../battle/util/Util' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 "../../../../battle/util/Util"
+14:10:27 debug: Failed to resolve '../../../../constant/EventConstant' from 'file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts'(module type: esm). Reason: Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 "../../../../constant/EventConstant"
+14:10:27 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+14:10:27 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+14:10:27 debug: Target(preview) ends with cost 73.26445900090039ms.

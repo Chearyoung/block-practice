@@ -19,7 +19,7 @@
       "uuid": "240bcc8c-fa53-4424-9185-1b6247580b2b"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script": {
-      "time": 1719979684776.4836,
+      "time": 1719987014377.208,
       "uuid": "bc24167b-280d-46d6-9328-233e76809fc6"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts": {
@@ -31,6 +31,55 @@
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.meta": {
       "time": 1719979684776.5317
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/Weapon.meta": {
+      "time": 1719986825481.231
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/Weapon": {
+      "time": 1719986913731.0447,
+      "uuid": "46ce02f0-0a91-4a76-a3c2-eaf6876e4427"
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.meta": {
+      "time": 1719986913725.2405
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts": {
+      "time": 1719986913715.5752,
+      "uuid": "f96cdda8-70dd-40bf-bb22-6763256f3d3b"
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.meta": {
+      "time": 1719986913731.1262
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts": {
+      "time": 1719986913729.3188,
+      "uuid": "25dfd9f6-3516-4f28-b669-20ec18f39c22"
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/Data.meta": {
+      "time": 1719986932740.2744
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/Data": {
+      "time": 1719986976481.7488,
+      "uuid": "f4d0a3c8-927d-4bbb-9ace-64f868e77c94"
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.meta": {
+      "time": 1719986976481.8164
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts": {
+      "time": 1719986976480.3772,
+      "uuid": "9134856f-a96e-418b-aabc-4816f7e1df95"
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/Mgr.meta": {
+      "time": 1719987014378.3276
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/Mgr": {
+      "time": 1719987027119.9597,
+      "uuid": "05f51175-adb4-420a-ac11-61e018ea3898"
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts.meta": {
+      "time": 1719987027120.132
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts": {
+      "time": 1719987027111.8572,
+      "uuid": "80502411-c055-4a2a-aae4-002bb4f8b2bd"
     }
   },
   "missing": {
@@ -48,6 +97,16 @@
       "path": "/Users/wangzhaoye/block-practice/block/assets/Game\bController.ts",
       "time": 1719979420165.5967,
       "removeTime": 1719979787524
+    },
+    "65682309-5676-46ad-a308-d6f346e92a26": {
+      "path": "/Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts",
+      "time": 1719980974577.9636,
+      "removeTime": 1719986831558
+    },
+    "f4d0a3c8-927d-4bbb-9ace-64f868e77c94": {
+      "path": "/Users/wangzhaoye/block-practice/block/assets/script/Da ta",
+      "time": 1719986932738.436,
+      "removeTime": 1719986940374
     }
   }
 }

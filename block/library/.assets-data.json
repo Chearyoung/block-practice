@@ -23,5 +23,45 @@
     "url": "db://assets/Game\bController.ts",
     "value": {},
     "versionCode": 1
+  },
+  "65682309-5676-46ad-a308-d6f346e92a26": {
+    "url": "db://assets/script/WeaponManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "46ce02f0-0a91-4a76-a3c2-eaf6876e4427": {
+    "url": "db://assets/script/Weapon",
+    "value": {},
+    "versionCode": 1
+  },
+  "f96cdda8-70dd-40bf-bb22-6763256f3d3b": {
+    "url": "db://assets/script/Weapon/WeaponBgItem.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "25dfd9f6-3516-4f28-b669-20ec18f39c22": {
+    "url": "db://assets/script/Weapon/WeaponItem.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f4d0a3c8-927d-4bbb-9ace-64f868e77c94": {
+    "url": "db://assets/script/Data",
+    "value": {},
+    "versionCode": 1
+  },
+  "9134856f-a96e-418b-aabc-4816f7e1df95": {
+    "url": "db://assets/script/Data/WeaponData.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "05f51175-adb4-420a-ac11-61e018ea3898": {
+    "url": "db://assets/script/Mgr",
+    "value": {},
+    "versionCode": 1
+  },
+  "80502411-c055-4a2a-aae4-002bb4f8b2bd": {
+    "url": "db://assets/script/Mgr/WeaponManager.ts",
+    "value": {},
+    "versionCode": 1
   }
 }

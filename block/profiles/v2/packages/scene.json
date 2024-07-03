@@ -32,5 +32,56 @@
   "rect-snap-configs": {
     "enableSnapping": true,
     "snapThreshold": 4
+  },
+  "camera-infos": {
+    "6adb5af7-66c9-435e-b556-59b828da342f": {
+      "position": {
+        "x": 446.79591909759256,
+        "y": 818.5168337875224,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 102.18641259848165,
+        "y": 646.2120805379669,
+        "width": 210,
+        "height": 105
+      },
+      "scale": 0.304692697153643
+    }
+  },
+  "camera-uuids": [
+    "6adb5af7-66c9-435e-b556-59b828da342f"
+  ],
+  "camera": {
+    "color": [
+      48,
+      48,
+      48,
+      255
+    ],
+    "fov": 45,
+    "far": 10000,
+    "near": 0.01,
+    "wheelSpeed": 0.01,
+    "wanderSpeed": 10,
+    "enableAcceleration": true,
+    "size": "__default_design__",
+    "far2D": 10000,
+    "near2D": 1,
+    "wheelSpeed2D": 6,
+    "iso": 0,
+    "aperture": 19,
+    "shutter": 7
   }
 }
