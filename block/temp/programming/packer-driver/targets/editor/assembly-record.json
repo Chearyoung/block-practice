@@ -12,6 +12,30 @@
       },
       "timestamp": 1719977254678
     },
+    "6ea1a4bac0de97d7b48cf64816f3c4d3d45e82fc": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1719979256300
+    },
+    "9275cafa4cdef0cc4fc5b9dedae0d516f9fd3431": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1719979268801
+    },
     "93ba276ea7b26ffcdc433fab14afc1ed6f05647b": {
       "imports": {
         "__unresolved_0": {
@@ -225,9 +249,9 @@
           "messages": []
         }
       },
-      "timestamp": 1719978968718
+      "timestamp": 1719979747374
     },
-    "6ea1a4bac0de97d7b48cf64816f3c4d3d45e82fc": {
+    "3c1c236bbaa72b292539401de12758e0adf6b071": {
       "imports": {
         "cc": {
           "resolved": {
@@ -237,9 +261,9 @@
           "messages": []
         }
       },
-      "timestamp": 1719979256300
+      "timestamp": 1719979747396
     },
-    "9275cafa4cdef0cc4fc5b9dedae0d516f9fd3431": {
+    "8176ffb0c0a88e799d3660a9a6e8e613f72a93e6": {
       "imports": {
         "cc": {
           "resolved": {
@@ -249,7 +273,7 @@
           "messages": []
         }
       },
-      "timestamp": 1719979268801
+      "timestamp": 1719979747403
     },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
@@ -263,18 +287,18 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
-            "id": "6ea1a4bac0de97d7b48cf64816f3c4d3d45e82fc"
+            "id": "8176ffb0c0a88e799d3660a9a6e8e613f72a93e6"
           },
           "messages": []
         }
       },
-      "timestamp": 1719979273324
+      "timestamp": 1719979787550
     }
   },
   "entries": {
     "cce:/internal/x/cc": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
     "cce:/internal/x/prerequisite-imports": "6d8fd2b0177941b032ddc0733af48a561fb60657",
     "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "31e3c2f26607ebb67e59edfae1b48b9458089fb9",
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts": "6ea1a4bac0de97d7b48cf64816f3c4d3d45e82fc"
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts": "8176ffb0c0a88e799d3660a9a6e8e613f72a93e6"
   }
 }

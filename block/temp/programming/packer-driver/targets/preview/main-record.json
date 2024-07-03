@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 4529.37008299958,
+      "mTimestamp": 4584.192625000142,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 309176.777125,
+      "mTimestamp": 44796.056750000454,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -427,7 +427,7 @@
           }
         },
         {
-          "value": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts",
+          "value": "file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -436,7 +436,7 @@
             },
             "end": {
               "line": 5,
-              "column": 105
+              "column": 81
             }
           }
         }
@@ -453,7 +453,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts"
+            "url": "file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts"
           },
           "messages": []
         }
@@ -576,6 +576,80 @@
           },
           "messages": []
         },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/wangzhaoye/block-practice/block/assets/Game%08Controller.ts": {
+      "mTimestamp": {
+        "mtime": 1719979420165.5967,
+        "uuid": "87db79bc-1cc8-487a-9ea6-5c337af998ca"
+      },
+      "chunkId": "3c1c236bbaa72b292539401de12758e0adf6b071",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts": {
+      "mTimestamp": {
+        "mtime": 1719979684776.4067,
+        "uuid": "240bcc8c-fa53-4424-9185-1b6247580b2b"
+      },
+      "chunkId": "8176ffb0c0a88e799d3660a9a6e8e613f72a93e6",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
         {
           "resolved": {
             "type": "module",

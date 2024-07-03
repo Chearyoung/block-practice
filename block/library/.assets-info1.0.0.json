@@ -4,10 +4,6 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources.meta": {
       "time": 1719979219191.8286
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources": {
-      "time": 1719979189487.3909,
-      "uuid": "1dc55438-d48e-441a-b800-4d8ebfd44d71"
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script.meta": {
       "time": 1719979226792.7869
     },
@@ -21,18 +17,37 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts": {
       "time": 1719979252307.409,
       "uuid": "240bcc8c-fa53-4424-9185-1b6247580b2b"
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script": {
+      "time": 1719979684776.4836,
+      "uuid": "bc24167b-280d-46d6-9328-233e76809fc6"
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts": {
+      "time": 1719979684776.4067,
+      "uuid": "240bcc8c-fa53-4424-9185-1b6247580b2b"
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script.meta": {
+      "time": 1719979684776.2998
+    },
+    "/Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts.meta": {
+      "time": 1719979684776.5317
     }
   },
   "missing": {
     "1dc55438-d48e-441a-b800-4d8ebfd44d71": {
-      "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/folder",
+      "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources",
       "time": 1719979189487.3909,
-      "removeTime": 1719979219190
+      "removeTime": 1719979747665
     },
     "70abf7fc-d604-4b0e-970d-4d6a9b497454": {
       "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/NewComponent.ts",
       "time": 1719979268751.2913,
       "removeTime": 1719979273299
+    },
+    "87db79bc-1cc8-487a-9ea6-5c337af998ca": {
+      "path": "/Users/wangzhaoye/block-practice/block/assets/Game\bController.ts",
+      "time": 1719979420165.5967,
+      "removeTime": 1719979787524
     }
   }
 }

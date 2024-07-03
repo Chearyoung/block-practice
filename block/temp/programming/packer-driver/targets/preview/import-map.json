@@ -3,7 +3,7 @@
     "cce:/internal/x/cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js",
     "cce:/internal/x/prerequisite-imports": "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js",
     "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/31/31e3c2f26607ebb67e59edfae1b48b9458089fb9.js",
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts": "./chunks/6e/6ea1a4bac0de97d7b48cf64816f3c4d3d45e82fc.js"
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts": "./chunks/81/8176ffb0c0a88e799d3660a9a6e8e613f72a93e6.js"
   },
   "scopes": {
     "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
@@ -29,9 +29,9 @@
     },
     "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js": {
       "__unresolved_0": "./chunks/31/31e3c2f26607ebb67e59edfae1b48b9458089fb9.js",
-      "__unresolved_1": "./chunks/6e/6ea1a4bac0de97d7b48cf64816f3c4d3d45e82fc.js"
+      "__unresolved_1": "./chunks/81/8176ffb0c0a88e799d3660a9a6e8e613f72a93e6.js"
     },
-    "./chunks/6e/6ea1a4bac0de97d7b48cf64816f3c4d3d45e82fc.js": {
+    "./chunks/81/8176ffb0c0a88e799d3660a9a6e8e613f72a93e6.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/31/31e3c2f26607ebb67e59edfae1b48b9458089fb9.js": {
