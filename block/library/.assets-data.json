@@ -10,7 +10,7 @@
     "versionCode": 1
   },
   "240bcc8c-fa53-4424-9185-1b6247580b2b": {
-    "url": "db://assets/script/BaseBlock.ts",
+    "url": "db://assets/script/block/BaseBlock.ts",
     "value": {},
     "versionCode": 1
   },
@@ -1064,6 +1064,33 @@
   },
   "6077d639-3a4b-4bb8-9b64-774a9761a2bc": {
     "url": "db://assets/scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "130ad698-3028-4b54-9667-9fc7a1ef4016": {
+    "url": "db://assets/scene/Block.scene",
+    "value": {
+      "depends": [
+        "130ad698-3028-4b54-9667-9fc7a1ef4016"
+      ],
+      "dependScripts": [
+        "9e2c5b53-d802-4690-9a50-8e9a1823e585"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d7bbd0f3-3bd1-42f4-b352-744c1d91822b": {
+    "url": "db://assets/script/scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "ab18158a-02e2-40b2-9ac6-e3b75c810a76": {
+    "url": "db://assets/script/block",
+    "value": {},
+    "versionCode": 1
+  },
+  "9e2c5b53-d802-4690-9a50-8e9a1823e585": {
+    "url": "db://assets/script/scene/MainScene.ts",
     "value": {},
     "versionCode": 1
   }

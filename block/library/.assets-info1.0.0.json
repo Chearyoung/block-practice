@@ -12,15 +12,8 @@
       "time": 1719979226792.7869
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script": {
-      "time": 1719979273299.0303,
+      "time": 1719980939100.895,
       "uuid": "bc24167b-280d-46d6-9328-233e76809fc6"
-    },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts.meta": {
-      "time": 1719979256262.344
-    },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts": {
-      "time": 1719979252307.409,
-      "uuid": "240bcc8c-fa53-4424-9185-1b6247580b2b"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab.meta": {
       "time": 1719979751154.9565
@@ -334,8 +327,43 @@
       "time": 1719980212900.1768
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene": {
-      "time": 1719980212897.94,
+      "time": 1719980400161.5337,
       "uuid": "6077d639-3a4b-4bb8-9b64-774a9761a2bc"
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Block.scene.meta": {
+      "time": 1719980390087.665
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Block.scene": {
+      "time": 1719987256842.0803,
+      "uuid": "130ad698-3028-4b54-9667-9fc7a1ef4016"
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene.meta": {
+      "time": 1719980888792.542
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene": {
+      "time": 1719981033137.411,
+      "uuid": "d7bbd0f3-3bd1-42f4-b352-744c1d91822b"
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block.meta": {
+      "time": 1719980929111.3953
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block": {
+      "time": 1719980939100.895,
+      "uuid": "ab18158a-02e2-40b2-9ac6-e3b75c810a76"
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts.meta": {
+      "time": 1719979256262.344
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts": {
+      "time": 1719979252307.409,
+      "uuid": "240bcc8c-fa53-4424-9185-1b6247580b2b"
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts.meta": {
+      "time": 1719981033138.7803
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts": {
+      "time": 1719981033136.7349,
+      "uuid": "9e2c5b53-d802-4690-9a50-8e9a1823e585"
     }
   },
   "missing": {
@@ -363,6 +391,26 @@
       "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/101.png",
       "time": 1719979847335.7268,
       "removeTime": 1719980084494
+    },
+    "130ad698-3028-4b54-9667-9fc7a1ef4016": {
+      "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/block.scene",
+      "time": 1719980390086.222,
+      "removeTime": 1719980400160
+    },
+    "d7bbd0f3-3bd1-42f4-b352-744c1d91822b": {
+      "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/folder",
+      "time": 1719980888790.791,
+      "removeTime": 1719980900314
+    },
+    "ab18158a-02e2-40b2-9ac6-e3b75c810a76": {
+      "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/folder",
+      "time": 1719980929109.3792,
+      "removeTime": 1719980936845
+    },
+    "240bcc8c-fa53-4424-9185-1b6247580b2b": {
+      "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts",
+      "time": 1719979252307.409,
+      "removeTime": 1719980939101
     }
   }
 }

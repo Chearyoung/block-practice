@@ -251,6 +251,18 @@
       },
       "timestamp": 1719979268801
     },
+    "1360649b71002ad4014c36f3b77d32d72e25654d": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1719980939132
+    },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
         "__unresolved_0": {
@@ -263,18 +275,38 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
-            "id": "6ea1a4bac0de97d7b48cf64816f3c4d3d45e82fc"
+            "id": "1360649b71002ad4014c36f3b77d32d72e25654d"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "95c95bfbf0ecde8e394362bc35cdb05cee4e1c83"
           },
           "messages": []
         }
       },
-      "timestamp": 1719979273324
+      "timestamp": 1719981033165
+    },
+    "95c95bfbf0ecde8e394362bc35cdb05cee4e1c83": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1719981033181
     }
   },
   "entries": {
     "cce:/internal/x/cc": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
     "cce:/internal/x/prerequisite-imports": "6d8fd2b0177941b032ddc0733af48a561fb60657",
     "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "31e3c2f26607ebb67e59edfae1b48b9458089fb9",
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts": "6ea1a4bac0de97d7b48cf64816f3c4d3d45e82fc"
+    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts": "1360649b71002ad4014c36f3b77d32d72e25654d",
+    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts": "95c95bfbf0ecde8e394362bc35cdb05cee4e1c83"
   }
 }
