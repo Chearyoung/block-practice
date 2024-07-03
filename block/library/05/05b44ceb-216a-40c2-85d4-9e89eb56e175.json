@@ -1,0 +1,678 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbskilleffect",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 10001,
+      "triggerParticleEffects": 0,
+      "triggerResult": 1,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 10002,
+      "triggerParticleEffects": 0,
+      "triggerResult": 6,
+      "triggerEffectPara": [
+        "10002"
+      ],
+      "targetRange": 7,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 10003,
+      "triggerParticleEffects": 0,
+      "triggerResult": 6,
+      "triggerEffectPara": [
+        "10003"
+      ],
+      "targetRange": 7,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 10004,
+      "triggerParticleEffects": 0,
+      "triggerResult": 6,
+      "triggerEffectPara": [
+        "10004"
+      ],
+      "targetRange": 2,
+      "targetRangePara": [],
+      "targetCamp": 1,
+      "targetCondition": 2,
+      "targetNum": 1
+    },
+    {
+      "id": 10008,
+      "triggerParticleEffects": 0,
+      "triggerResult": 6,
+      "triggerEffectPara": [
+        "10008"
+      ],
+      "targetRange": 3,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 20001,
+      "triggerParticleEffects": 0,
+      "triggerResult": 1,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 20003,
+      "triggerParticleEffects": 0,
+      "triggerResult": 6,
+      "triggerEffectPara": [
+        "20003"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 20004,
+      "triggerParticleEffects": 0,
+      "triggerResult": 3,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 5,
+      "targetRangePara": [
+        0,
+        10
+      ],
+      "targetCamp": 2,
+      "targetCondition": 3,
+      "targetNum": 1
+    },
+    {
+      "id": 20006,
+      "triggerParticleEffects": 0,
+      "triggerResult": 3,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 5,
+      "targetRangePara": [
+        0,
+        10
+      ],
+      "targetCamp": 2,
+      "targetCondition": 3,
+      "targetNum": 1
+    },
+    {
+      "id": 20007,
+      "triggerParticleEffects": 0,
+      "triggerResult": 2,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 5,
+      "targetRangePara": [
+        0,
+        3
+      ],
+      "targetCamp": 2,
+      "targetCondition": 1,
+      "targetNum": 0
+    },
+    {
+      "id": 20008,
+      "triggerParticleEffects": 0,
+      "triggerResult": 3,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 5,
+      "targetRangePara": [
+        0,
+        10
+      ],
+      "targetCamp": 2,
+      "targetCondition": 3,
+      "targetNum": 1
+    },
+    {
+      "id": 30001,
+      "triggerParticleEffects": 0,
+      "triggerResult": 1,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 30002,
+      "triggerParticleEffects": 0,
+      "triggerResult": 2,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 30005,
+      "triggerParticleEffects": 0,
+      "triggerResult": 6,
+      "triggerEffectPara": [
+        "30005"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 30006,
+      "triggerParticleEffects": 0,
+      "triggerResult": 6,
+      "triggerEffectPara": [
+        "30006"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 40001,
+      "triggerParticleEffects": 0,
+      "triggerResult": 1,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 4,
+      "targetRangePara": [
+        0,
+        10
+      ],
+      "targetCamp": 2,
+      "targetCondition": 1,
+      "targetNum": 0
+    },
+    {
+      "id": 40005,
+      "triggerParticleEffects": 0,
+      "triggerResult": 7,
+      "triggerEffectPara": [
+        "2001"
+      ],
+      "targetRange": 7,
+      "targetRangePara": [
+        1
+      ],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 40006,
+      "triggerParticleEffects": 0,
+      "triggerResult": 2,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 5,
+      "targetRangePara": [
+        0,
+        10
+      ],
+      "targetCamp": 2,
+      "targetCondition": 1,
+      "targetNum": 0
+    },
+    {
+      "id": 40008,
+      "triggerParticleEffects": 0,
+      "triggerResult": 2,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 5,
+      "targetRangePara": [
+        0,
+        10
+      ],
+      "targetCamp": 2,
+      "targetCondition": 1,
+      "targetNum": 0
+    },
+    {
+      "id": 50001,
+      "triggerParticleEffects": 0,
+      "triggerResult": 1,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 60001,
+      "triggerParticleEffects": 0,
+      "triggerResult": 1,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 60005,
+      "triggerParticleEffects": 0,
+      "triggerResult": 4,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 5,
+      "targetRangePara": [
+        0,
+        10
+      ],
+      "targetCamp": 2,
+      "targetCondition": 4,
+      "targetNum": 1
+    },
+    {
+      "id": 60007,
+      "triggerParticleEffects": 0,
+      "triggerResult": 4,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 5,
+      "targetRangePara": [
+        5
+      ],
+      "targetCamp": 2,
+      "targetCondition": 4,
+      "targetNum": 1
+    },
+    {
+      "id": 60008,
+      "triggerParticleEffects": 0,
+      "triggerResult": 2,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 5,
+      "targetRangePara": [
+        0,
+        10
+      ],
+      "targetCamp": 2,
+      "targetCondition": 1,
+      "targetNum": 0
+    },
+    {
+      "id": 70001,
+      "triggerParticleEffects": 0,
+      "triggerResult": 1,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 70002,
+      "triggerParticleEffects": 0,
+      "triggerResult": 2,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 5,
+      "targetRangePara": [
+        0,
+        5
+      ],
+      "targetCamp": 2,
+      "targetCondition": 1,
+      "targetNum": 0
+    },
+    {
+      "id": 70007,
+      "triggerParticleEffects": 0,
+      "triggerResult": 6,
+      "triggerEffectPara": [
+        "70007"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 70009,
+      "triggerParticleEffects": 0,
+      "triggerResult": 6,
+      "triggerEffectPara": [
+        "70009"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 80001,
+      "triggerParticleEffects": 0,
+      "triggerResult": 1,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 1
+    },
+    {
+      "id": 80002,
+      "triggerParticleEffects": 0,
+      "triggerResult": 5,
+      "triggerEffectPara": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1"
+      ],
+      "targetRange": 2,
+      "targetRangePara": [],
+      "targetCamp": 1,
+      "targetCondition": 2,
+      "targetNum": 1
+    },
+    {
+      "id": 80005,
+      "triggerParticleEffects": 0,
+      "triggerResult": 6,
+      "triggerEffectPara": [
+        "80005"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 80007,
+      "triggerParticleEffects": 0,
+      "triggerResult": 6,
+      "triggerEffectPara": [
+        "80007"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 100001,
+      "triggerParticleEffects": 0,
+      "triggerResult": 1,
+      "triggerEffectPara": [
+        "1"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 100002,
+      "triggerParticleEffects": 0,
+      "triggerResult": 1,
+      "triggerEffectPara": [
+        "1"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    },
+    {
+      "id": 200001,
+      "triggerParticleEffects": 0,
+      "triggerResult": 1,
+      "triggerEffectPara": [
+        "1"
+      ],
+      "targetRange": 1,
+      "targetRangePara": [],
+      "targetCamp": 0,
+      "targetCondition": 0,
+      "targetNum": 0
+    }
+  ]
+}

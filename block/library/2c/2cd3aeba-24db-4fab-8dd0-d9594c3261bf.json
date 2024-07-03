@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbpublicrogueskill",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 1,
+      "Group": 1,
+      "preId": [],
+      "repelId": [],
+      "name": "攻击强化",
+      "quality": 1,
+      "desc": "战斗中，英雄的攻击+20%",
+      "weight": 100,
+      "targetRangePara": [
+        10002
+      ]
+    },
+    {
+      "id": 2,
+      "Group": 1,
+      "preId": [],
+      "repelId": [],
+      "name": "速度强化",
+      "quality": 1,
+      "desc": "战斗中，英雄的攻击速度+20%",
+      "weight": 100,
+      "targetRangePara": [
+        10002
+      ]
+    },
+    {
+      "id": 3,
+      "Group": 1,
+      "preId": [],
+      "repelId": [],
+      "name": "防御强化",
+      "quality": 1,
+      "desc": "战斗中，英雄的防御+20%",
+      "weight": 100,
+      "targetRangePara": [
+        10002
+      ]
+    },
+    {
+      "id": 4,
+      "Group": 1,
+      "preId": [],
+      "repelId": [],
+      "name": "暴击强化",
+      "quality": 1,
+      "desc": "战斗中，英雄的暴击率+20%",
+      "weight": 100,
+      "targetRangePara": [
+        10002
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1001,
+    "name": "火海",
+    "moveType": 1,
+    "resource": "creature/prefab/Creature_1",
+    "ifAttack": false,
+    "baseSpeed": 0,
+    "defaultWeapon": 300001,
+    "activeSkills": [],
+    "passiveSkills": [],
+    "dieType": 2,
+    "dieTypePara": 15000,
+    "attrInherit": []
+  }
+]

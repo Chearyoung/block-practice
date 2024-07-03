@@ -1,0 +1,242 @@
+[
+  {
+    "id": 10000,
+    "cid": 1000,
+    "wave": 1,
+    "refreshTime": 0,
+    "spawnPoint": 1,
+    "radius": 100,
+    "mid": 10000,
+    "count": 10
+  },
+  {
+    "id": 10001,
+    "cid": 1000,
+    "wave": 1,
+    "refreshTime": 0,
+    "spawnPoint": 2,
+    "radius": 100,
+    "mid": 10002,
+    "count": 10
+  },
+  {
+    "id": 10002,
+    "cid": 1000,
+    "wave": 1,
+    "refreshTime": 0,
+    "spawnPoint": 3,
+    "radius": 100,
+    "mid": 10004,
+    "count": 10
+  },
+  {
+    "id": 10003,
+    "cid": 1000,
+    "wave": 2,
+    "refreshTime": 5000,
+    "spawnPoint": 1,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10004,
+    "cid": 1000,
+    "wave": 2,
+    "refreshTime": 5000,
+    "spawnPoint": 2,
+    "radius": 100,
+    "mid": 10003,
+    "count": 10
+  },
+  {
+    "id": 10005,
+    "cid": 1000,
+    "wave": 2,
+    "refreshTime": 5000,
+    "spawnPoint": 3,
+    "radius": 100,
+    "mid": 10005,
+    "count": 10
+  },
+  {
+    "id": 10006,
+    "cid": 1000,
+    "wave": 3,
+    "refreshTime": 10000,
+    "spawnPoint": 1,
+    "radius": 100,
+    "mid": 10005,
+    "count": 10
+  },
+  {
+    "id": 10007,
+    "cid": 1000,
+    "wave": 3,
+    "refreshTime": 10000,
+    "spawnPoint": 2,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10008,
+    "cid": 1000,
+    "wave": 3,
+    "refreshTime": 10000,
+    "spawnPoint": 3,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10009,
+    "cid": 1000,
+    "wave": 4,
+    "refreshTime": 15000,
+    "spawnPoint": 1,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10010,
+    "cid": 1000,
+    "wave": 4,
+    "refreshTime": 15000,
+    "spawnPoint": 2,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10011,
+    "cid": 1000,
+    "wave": 4,
+    "refreshTime": 15000,
+    "spawnPoint": 3,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10012,
+    "cid": 1000,
+    "wave": 5,
+    "refreshTime": 20000,
+    "spawnPoint": 1,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10013,
+    "cid": 1000,
+    "wave": 5,
+    "refreshTime": 20000,
+    "spawnPoint": 2,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10014,
+    "cid": 1000,
+    "wave": 5,
+    "refreshTime": 20000,
+    "spawnPoint": 3,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10015,
+    "cid": 1000,
+    "wave": 6,
+    "refreshTime": 25000,
+    "spawnPoint": 1,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10016,
+    "cid": 1000,
+    "wave": 6,
+    "refreshTime": 25000,
+    "spawnPoint": 2,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10017,
+    "cid": 1000,
+    "wave": 6,
+    "refreshTime": 25000,
+    "spawnPoint": 3,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10018,
+    "cid": 1000,
+    "wave": 7,
+    "refreshTime": 30000,
+    "spawnPoint": 1,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10019,
+    "cid": 1000,
+    "wave": 7,
+    "refreshTime": 30000,
+    "spawnPoint": 2,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10020,
+    "cid": 1000,
+    "wave": 7,
+    "refreshTime": 30000,
+    "spawnPoint": 3,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10021,
+    "cid": 1000,
+    "wave": 8,
+    "refreshTime": 35000,
+    "spawnPoint": 1,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10022,
+    "cid": 1000,
+    "wave": 8,
+    "refreshTime": 35000,
+    "spawnPoint": 2,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  },
+  {
+    "id": 10023,
+    "cid": 1000,
+    "wave": 8,
+    "refreshTime": 35000,
+    "spawnPoint": 3,
+    "radius": 100,
+    "mid": 10001,
+    "count": 10
+  }
+]

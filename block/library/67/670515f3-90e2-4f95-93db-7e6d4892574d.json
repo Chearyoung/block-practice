@@ -1,0 +1,171 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbhero",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 1,
+      "heroId": 1,
+      "name": "曹操",
+      "desc": "魏",
+      "icon": "1",
+      "camp": 1,
+      "quality": 1,
+      "baseSpeed": 50,
+      "defaultWeapon": 100001,
+      "defaultSkin": 1,
+      "debrisGet": [
+        {
+          "id": 1,
+          "num": 100
+        },
+        {
+          "id": 2,
+          "num": 100
+        }
+      ],
+      "skill": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "heroId": 2,
+      "name": "刘备",
+      "desc": "蜀",
+      "icon": "2",
+      "camp": 2,
+      "quality": 2,
+      "baseSpeed": 50,
+      "defaultWeapon": 100002,
+      "defaultSkin": 2,
+      "debrisGet": [
+        {
+          "id": 1,
+          "num": 100
+        },
+        {
+          "id": 2,
+          "num": 100
+        }
+      ],
+      "skill": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "heroId": 3,
+      "name": "孙权",
+      "desc": "吴",
+      "icon": "3",
+      "camp": 3,
+      "quality": 3,
+      "baseSpeed": 50,
+      "defaultWeapon": 100001,
+      "defaultSkin": 3,
+      "debrisGet": [
+        {
+          "id": 1,
+          "num": 100
+        },
+        {
+          "id": 2,
+          "num": 100
+        }
+      ],
+      "skill": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 4,
+      "heroId": 4,
+      "name": "孙权4",
+      "desc": "吴",
+      "icon": "3",
+      "camp": 3,
+      "quality": 3,
+      "baseSpeed": 50,
+      "defaultWeapon": 100002,
+      "defaultSkin": 3,
+      "debrisGet": [
+        {
+          "id": 1,
+          "num": 100
+        },
+        {
+          "id": 2,
+          "num": 100
+        }
+      ],
+      "skill": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "heroId": 5,
+      "name": "孙权5",
+      "desc": "吴",
+      "icon": "3",
+      "camp": 3,
+      "quality": 3,
+      "baseSpeed": 50,
+      "defaultWeapon": 100001,
+      "defaultSkin": 3,
+      "debrisGet": [
+        {
+          "id": 1,
+          "num": 100
+        },
+        {
+          "id": 2,
+          "num": 100
+        }
+      ],
+      "skill": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 6,
+      "heroId": 6,
+      "name": "孙权6",
+      "desc": "吴",
+      "icon": "3",
+      "camp": 3,
+      "quality": 3,
+      "baseSpeed": 50,
+      "defaultWeapon": 100002,
+      "defaultSkin": 3,
+      "debrisGet": [
+        {
+          "id": 1,
+          "num": 100
+        },
+        {
+          "id": 2,
+          "num": 100
+        }
+      ],
+      "skill": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

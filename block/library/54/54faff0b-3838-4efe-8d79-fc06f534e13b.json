@@ -1,0 +1,229 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbstagetdb",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 1,
+      "cid": 1000,
+      "wave": 1,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10000101,
+        10000102,
+        10000103
+      ]
+    },
+    {
+      "id": 2,
+      "cid": 1000,
+      "wave": 2,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10000201,
+        10000202,
+        10000203
+      ]
+    },
+    {
+      "id": 3,
+      "cid": 1000,
+      "wave": 3,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10000301,
+        10000302,
+        10000303
+      ]
+    },
+    {
+      "id": 4,
+      "cid": 1000,
+      "wave": 4,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10000401,
+        10000402,
+        10000403
+      ]
+    },
+    {
+      "id": 5,
+      "cid": 1000,
+      "wave": 5,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10000501,
+        10000502,
+        10000503
+      ]
+    },
+    {
+      "id": 6,
+      "cid": 1000,
+      "wave": 6,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10000601,
+        10000602,
+        10000603
+      ]
+    },
+    {
+      "id": 7,
+      "cid": 1000,
+      "wave": 7,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10000701,
+        10000702,
+        10000703
+      ]
+    },
+    {
+      "id": 8,
+      "cid": 1000,
+      "wave": 8,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10000801,
+        10000802,
+        10000803
+      ]
+    },
+    {
+      "id": 9,
+      "cid": 1000,
+      "wave": 9,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10000901,
+        10000902,
+        10000903
+      ]
+    },
+    {
+      "id": 10,
+      "cid": 1000,
+      "wave": 10,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10001001,
+        10001002,
+        10001003
+      ]
+    },
+    {
+      "id": 11,
+      "cid": 1000,
+      "wave": 11,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10001101,
+        10001102,
+        10001103
+      ]
+    },
+    {
+      "id": 12,
+      "cid": 1000,
+      "wave": 12,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10001201,
+        10001202,
+        10001203
+      ]
+    },
+    {
+      "id": 13,
+      "cid": 1000,
+      "wave": 13,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10001301,
+        10001302,
+        10001303
+      ]
+    },
+    {
+      "id": 14,
+      "cid": 1000,
+      "wave": 14,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10001401,
+        10001402,
+        10001403
+      ]
+    },
+    {
+      "id": 15,
+      "cid": 1000,
+      "wave": 15,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10001501,
+        10001502,
+        10001503
+      ]
+    },
+    {
+      "id": 16,
+      "cid": 1000,
+      "wave": 16,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10001601,
+        10001602,
+        10001603
+      ]
+    },
+    {
+      "id": 17,
+      "cid": 1000,
+      "wave": 17,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10001701,
+        10001702,
+        10001703
+      ]
+    },
+    {
+      "id": 18,
+      "cid": 1000,
+      "wave": 18,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10001801,
+        10001802,
+        10001803
+      ]
+    },
+    {
+      "id": 19,
+      "cid": 1000,
+      "wave": 19,
+      "waveInterval": 10000,
+      "monsterGroup": [
+        10001901,
+        10001902,
+        10001903
+      ]
+    },
+    {
+      "id": 20,
+      "cid": 1000,
+      "wave": 20,
+      "waveInterval": -1,
+      "monsterGroup": [
+        10002001,
+        10002002,
+        10002003
+      ]
+    }
+  ]
+}

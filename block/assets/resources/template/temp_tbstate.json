@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "stateExclusion": []
+  },
+  {
+    "id": 2,
+    "stateExclusion": []
+  },
+  {
+    "id": 3,
+    "stateExclusion": []
+  },
+  {
+    "id": 4,
+    "stateExclusion": []
+  },
+  {
+    "id": 5,
+    "stateExclusion": []
+  },
+  {
+    "id": 6,
+    "stateExclusion": [
+      9,
+      11,
+      13
+    ]
+  },
+  {
+    "id": 7,
+    "stateExclusion": []
+  },
+  {
+    "id": 8,
+    "stateExclusion": [
+      9,
+      11,
+      13
+    ]
+  },
+  {
+    "id": 9,
+    "stateExclusion": []
+  },
+  {
+    "id": 10,
+    "stateExclusion": [
+      9
+    ]
+  },
+  {
+    "id": 11,
+    "stateExclusion": []
+  },
+  {
+    "id": 12,
+    "stateExclusion": [
+      11
+    ]
+  },
+  {
+    "id": 13,
+    "stateExclusion": []
+  },
+  {
+    "id": 14,
+    "stateExclusion": [
+      13
+    ]
+  }
+]

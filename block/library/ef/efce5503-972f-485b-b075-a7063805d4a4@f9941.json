@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jindutiao@2x",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 566,
+      "height": 47
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 566,
+      "height": 47
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -283,
+        -23.5,
+        0,
+        283,
+        -23.5,
+        0,
+        -283,
+        23.5,
+        0,
+        283,
+        23.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        47,
+        566,
+        47,
+        0,
+        0,
+        566,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -283,
+        "y": -23.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 283,
+        "y": 23.5,
+        "z": 0
+      }
+    },
+    "texture": "efce5503-972f-485b-b075-a7063805d4a4@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

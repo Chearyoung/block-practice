@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbroguepara",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 101,
+      "para": "distAdd"
+    },
+    {
+      "id": 102,
+      "para": "mgzAdd"
+    },
+    {
+      "id": 103,
+      "para": "rldAdd"
+    },
+    {
+      "id": 104,
+      "para": "ballAdd"
+    },
+    {
+      "id": 105,
+      "para": "burstAdd"
+    },
+    {
+      "id": 106,
+      "para": "CldtAdd"
+    },
+    {
+      "id": 107,
+      "para": "ctAdd"
+    },
+    {
+      "id": 108,
+      "para": "tprbAdd"
+    },
+    {
+      "id": 109,
+      "para": "stcAdd"
+    },
+    {
+      "id": 110,
+      "para": "skillDamPer"
+    },
+    {
+      "id": 111,
+      "para": "trtAdd"
+    },
+    {
+      "id": 112,
+      "para": "wideAdd"
+    },
+    {
+      "id": 113,
+      "para": "tnumAdd"
+    },
+    {
+      "id": 114,
+      "para": "bdurAdd"
+    },
+    {
+      "id": 115,
+      "para": "bavAdd"
+    },
+    {
+      "id": 116,
+      "para": "sdurAdd"
+    }
+  ]
+}

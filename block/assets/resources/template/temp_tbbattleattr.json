@@ -1,0 +1,2132 @@
+[
+  {
+    "id": 101001,
+    "name": "hpBaseHero",
+    "desc": "英雄基础生命",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础生命"
+  },
+  {
+    "id": 101002,
+    "name": "hpPerHero",
+    "desc": "英雄生命加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "生命加成"
+  },
+  {
+    "id": 101003,
+    "name": "hpAddHero",
+    "desc": "英雄附加生命",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "生命"
+  },
+  {
+    "id": 101004,
+    "name": "hpBaseWpn",
+    "desc": "武器基础生命",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础生命"
+  },
+  {
+    "id": 101005,
+    "name": "hpPerWpn",
+    "desc": "武器生命加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "生命加成"
+  },
+  {
+    "id": 101006,
+    "name": "hpAddWpn",
+    "desc": "武器附加生命",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "生命"
+  },
+  {
+    "id": 101007,
+    "name": "hpBaseBuff",
+    "desc": "Buff基础生命",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础生命"
+  },
+  {
+    "id": 101008,
+    "name": "hpPerBuff",
+    "desc": "Buff生命加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "生命加成"
+  },
+  {
+    "id": 101009,
+    "name": "hpAddBuff",
+    "desc": "Buff附加生命",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "生命"
+  },
+  {
+    "id": 101010,
+    "name": "hpBaseScene",
+    "desc": "场景基础生命",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础生命"
+  },
+  {
+    "id": 101011,
+    "name": "hpPerScene",
+    "desc": "场景生命加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "生命加成"
+  },
+  {
+    "id": 101012,
+    "name": "hpAddScene",
+    "desc": "场景附加生命",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "生命"
+  },
+  {
+    "id": 201001,
+    "name": "hpBase",
+    "desc": "基础生命",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "hpBaseHero+hpBaseWpn+hpBaseBuff+hpBaseScene",
+    "showName": ""
+  },
+  {
+    "id": 201002,
+    "name": "hpPer",
+    "desc": "生命加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "hpPerHero+hpPerWpn+hpPerBuff+hpPerScene",
+    "showName": ""
+  },
+  {
+    "id": 201003,
+    "name": "hpAdd",
+    "desc": "附加生命",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "hpAddHero+hpAddWpn+hpAddBuff+hpAddScene",
+    "showName": ""
+  },
+  {
+    "id": 301001,
+    "name": "hpAll",
+    "desc": "总生命",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "floor(hpBase*(1+hpPer/10000)+hpAdd)",
+    "showName": "生命"
+  },
+  {
+    "id": 102001,
+    "name": "atkBaseHero",
+    "desc": "英雄基础攻击",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础攻击"
+  },
+  {
+    "id": 102002,
+    "name": "atkPerHero",
+    "desc": "英雄攻击加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "攻击加成"
+  },
+  {
+    "id": 102003,
+    "name": "atkAddHero",
+    "desc": "英雄附加攻击",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "攻击"
+  },
+  {
+    "id": 102004,
+    "name": "atkBaseWpn",
+    "desc": "武器基础攻击",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础攻击"
+  },
+  {
+    "id": 102005,
+    "name": "atkPerWpn",
+    "desc": "武器攻击加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "攻击加成"
+  },
+  {
+    "id": 102006,
+    "name": "atkAddWpn",
+    "desc": "武器附加攻击",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "攻击"
+  },
+  {
+    "id": 102007,
+    "name": "atkBaseBuff",
+    "desc": "Buff基础攻击",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础攻击"
+  },
+  {
+    "id": 102008,
+    "name": "atkPerBuff",
+    "desc": "Buff攻击加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "攻击加成"
+  },
+  {
+    "id": 102009,
+    "name": "atkAddBuff",
+    "desc": "Buff附加攻击",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "攻击"
+  },
+  {
+    "id": 102010,
+    "name": "atkBaseScene",
+    "desc": "场景基础攻击",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础攻击"
+  },
+  {
+    "id": 102011,
+    "name": "atkPerScene",
+    "desc": "场景攻击加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "攻击加成"
+  },
+  {
+    "id": 102012,
+    "name": "atkAddScene",
+    "desc": "场景附加攻击",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "攻击"
+  },
+  {
+    "id": 202001,
+    "name": "atkBase",
+    "desc": "基础攻击",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "atkBaseHero+atkBaseWpn+atkBaseBuff+atkBaseScene",
+    "showName": ""
+  },
+  {
+    "id": 202002,
+    "name": "atkPer",
+    "desc": "攻击加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "atkPerHero+atkPerWpn+atkPerBuff+atkPerScene",
+    "showName": ""
+  },
+  {
+    "id": 202003,
+    "name": "atkAdd",
+    "desc": "附加攻击",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "atkAddHero+atkAddWpn+atkAddBuff+atkAddScene",
+    "showName": ""
+  },
+  {
+    "id": 302001,
+    "name": "atkAll",
+    "desc": "总攻击",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "floor(atkBase*(1+atkPer/10000)+atkAdd)",
+    "showName": "攻击"
+  },
+  {
+    "id": 103001,
+    "name": "defBaseHero",
+    "desc": "英雄基础防御",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础防御"
+  },
+  {
+    "id": 103002,
+    "name": "defPerHero",
+    "desc": "英雄防御加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "防御加成"
+  },
+  {
+    "id": 103003,
+    "name": "defAddHero",
+    "desc": "英雄附加防御",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "防御"
+  },
+  {
+    "id": 103004,
+    "name": "defBaseWpn",
+    "desc": "武器基础防御",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础防御"
+  },
+  {
+    "id": 103005,
+    "name": "defPerWpn",
+    "desc": "武器防御加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "防御加成"
+  },
+  {
+    "id": 103006,
+    "name": "defAddWpn",
+    "desc": "武器附加防御",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "防御"
+  },
+  {
+    "id": 103007,
+    "name": "defBaseBuff",
+    "desc": "Buff基础防御",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础防御"
+  },
+  {
+    "id": 103008,
+    "name": "defPerBuff",
+    "desc": "Buff防御加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "防御加成"
+  },
+  {
+    "id": 103009,
+    "name": "defAddBuff",
+    "desc": "Buff附加防御",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "防御"
+  },
+  {
+    "id": 103010,
+    "name": "defBaseScene",
+    "desc": "场景基础防御",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础防御"
+  },
+  {
+    "id": 103011,
+    "name": "defPerScene",
+    "desc": "场景防御加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "防御加成"
+  },
+  {
+    "id": 103012,
+    "name": "defAddScene",
+    "desc": "场景附加防御",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "防御"
+  },
+  {
+    "id": 203001,
+    "name": "defBase",
+    "desc": "基础防御",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "defBaseHero+defBaseWpn+defBaseBuff+defBaseScene",
+    "showName": ""
+  },
+  {
+    "id": 203002,
+    "name": "defPer",
+    "desc": "防御加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "defPerHero+defPerWpn+defPerBuff+defPerScene",
+    "showName": ""
+  },
+  {
+    "id": 203003,
+    "name": "defAdd",
+    "desc": "附加防御",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "defAddHero+defAddWpn+defAddBuff+defAddScene",
+    "showName": ""
+  },
+  {
+    "id": 303001,
+    "name": "defAll",
+    "desc": "总防御",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "floor(defBase*(1+defPer/10000)+defAdd)",
+    "showName": "防御"
+  },
+  {
+    "id": 104001,
+    "name": "critHero",
+    "desc": "英雄暴击",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击"
+  },
+  {
+    "id": 104002,
+    "name": "critWpn",
+    "desc": "武器暴击",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击"
+  },
+  {
+    "id": 104003,
+    "name": "critBuff",
+    "desc": "Buff暴击",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击"
+  },
+  {
+    "id": 104004,
+    "name": "critScene",
+    "desc": "场景暴击",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击"
+  },
+  {
+    "id": 204001,
+    "name": "crit",
+    "desc": "暴击",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "critHero+critWpn+critBuff+critScene",
+    "showName": "暴击"
+  },
+  {
+    "id": 105001,
+    "name": "critResistHero",
+    "desc": "英雄暴击抵抗",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击抵抗"
+  },
+  {
+    "id": 105002,
+    "name": "critResistWpn",
+    "desc": "武器暴击抵抗",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击抵抗"
+  },
+  {
+    "id": 105003,
+    "name": "critResistBuff",
+    "desc": "Buff暴击抵抗",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击抵抗"
+  },
+  {
+    "id": 105004,
+    "name": "critResistScene",
+    "desc": "场景暴击抵抗",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击抵抗"
+  },
+  {
+    "id": 205001,
+    "name": "critResist",
+    "desc": "暴击抵抗",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "critResistHero+critResistWpn+critResistBuff+critResistScene",
+    "showName": "暴击抵抗"
+  },
+  {
+    "id": 106001,
+    "name": "critDamHero",
+    "desc": "英雄暴击增幅",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击增幅"
+  },
+  {
+    "id": 106002,
+    "name": "critDamWpn",
+    "desc": "武器暴击增幅",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击增幅"
+  },
+  {
+    "id": 106003,
+    "name": "critDamBuff",
+    "desc": "Buff暴击增幅",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击增幅"
+  },
+  {
+    "id": 106004,
+    "name": "critDamScene",
+    "desc": "场景暴击增幅",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击增幅"
+  },
+  {
+    "id": 206001,
+    "name": "critDam",
+    "desc": "暴击增幅",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "critDamHero+critDamWpn+critDamBuff+critDamScene",
+    "showName": "暴击增幅"
+  },
+  {
+    "id": 107001,
+    "name": "critDamRedHero",
+    "desc": "英雄暴击耐性",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击耐性"
+  },
+  {
+    "id": 107002,
+    "name": "critDamRedWpn",
+    "desc": "武器暴击耐性",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击耐性"
+  },
+  {
+    "id": 107003,
+    "name": "critDamRedBuff",
+    "desc": "Buff暴击耐性",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击耐性"
+  },
+  {
+    "id": 107004,
+    "name": "critDamRedScene",
+    "desc": "场景暴击耐性",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击耐性"
+  },
+  {
+    "id": 207001,
+    "name": "critDamRed",
+    "desc": "暴击耐性",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "critDamRedHero+critDamRedWpn+critRedBuff+critDamRedScene",
+    "showName": "暴击耐性"
+  },
+  {
+    "id": 108001,
+    "name": "dodgeHero",
+    "desc": "英雄闪避",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "闪避"
+  },
+  {
+    "id": 108002,
+    "name": "dodgeWpn",
+    "desc": "武器闪避",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "闪避"
+  },
+  {
+    "id": 108003,
+    "name": "dodgeBuff",
+    "desc": "Buff闪避",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "闪避"
+  },
+  {
+    "id": 108004,
+    "name": "dodgeScene",
+    "desc": "场景闪避",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "闪避"
+  },
+  {
+    "id": 208001,
+    "name": "dodge",
+    "desc": "闪避",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "dodgeHero+dodgeWpn+dodgeBuff+dodgeScene",
+    "showName": "闪避"
+  },
+  {
+    "id": 109001,
+    "name": "hitHero",
+    "desc": "英雄命中",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "命中"
+  },
+  {
+    "id": 109002,
+    "name": "hitWpn",
+    "desc": "武器命中",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "命中"
+  },
+  {
+    "id": 109003,
+    "name": "hitBuff",
+    "desc": "Buff命中",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "命中"
+  },
+  {
+    "id": 109004,
+    "name": "hitScene",
+    "desc": "场景命中",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "命中"
+  },
+  {
+    "id": 209001,
+    "name": "hit",
+    "desc": "命中",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "hitHero+hitWpn+hitBuff+hitScene",
+    "showName": "命中"
+  },
+  {
+    "id": 110001,
+    "name": "blockHero",
+    "desc": "英雄格挡",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "格挡"
+  },
+  {
+    "id": 110002,
+    "name": "blockWpn",
+    "desc": "武器格挡",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "格挡"
+  },
+  {
+    "id": 110003,
+    "name": "blockBuff",
+    "desc": "Buff格挡",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "格挡"
+  },
+  {
+    "id": 110004,
+    "name": "blockScene",
+    "desc": "场景格挡",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "格挡"
+  },
+  {
+    "id": 210001,
+    "name": "block",
+    "desc": "格挡",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "blockHero+blockWpn+blockBuff+blockScene",
+    "showName": "格挡"
+  },
+  {
+    "id": 111001,
+    "name": "damHero",
+    "desc": "英雄伤害加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "伤害加成"
+  },
+  {
+    "id": 111002,
+    "name": "damWpn",
+    "desc": "武器伤害加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "伤害加成"
+  },
+  {
+    "id": 111003,
+    "name": "damBuff",
+    "desc": "Buff伤害加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "伤害加成"
+  },
+  {
+    "id": 111004,
+    "name": "damScene",
+    "desc": "场景伤害加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "伤害加成"
+  },
+  {
+    "id": 211001,
+    "name": "dam",
+    "desc": "伤害加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "damHero+damWpn+damBuff+damScene",
+    "showName": "伤害加成"
+  },
+  {
+    "id": 112001,
+    "name": "damRedHero",
+    "desc": "英雄伤害减免",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "伤害减免"
+  },
+  {
+    "id": 112002,
+    "name": "damRedWpn",
+    "desc": "武器伤害减免",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "伤害减免"
+  },
+  {
+    "id": 112003,
+    "name": "damRedBuff",
+    "desc": "Buff伤害减免",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "伤害减免"
+  },
+  {
+    "id": 112004,
+    "name": "damRedScene",
+    "desc": "场景伤害减免",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "伤害减免"
+  },
+  {
+    "id": 212001,
+    "name": "damRed",
+    "desc": "伤害减免",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "damRedHero+damRedWpn+damRedBuff+damRedScene",
+    "showName": "伤害减免"
+  },
+  {
+    "id": 113001,
+    "name": "crwDamHero",
+    "desc": "英雄近战伤害加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "近程武器伤害加成"
+  },
+  {
+    "id": 113002,
+    "name": "crwDamWpn",
+    "desc": "武器近战伤害加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "近程武器伤害加成"
+  },
+  {
+    "id": 113003,
+    "name": "crwDamBuff",
+    "desc": "Buff近战伤害加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "近程武器伤害加成"
+  },
+  {
+    "id": 113004,
+    "name": "crwDamScene",
+    "desc": "场景近战伤害加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "近程武器伤害加成"
+  },
+  {
+    "id": 213001,
+    "name": "crwDam",
+    "desc": "近战伤害加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "crwDamHero+crwDamWpn+crwDamBuff+crwDamScene",
+    "showName": "近程武器伤害加成"
+  },
+  {
+    "id": 114001,
+    "name": "lrwDamHero",
+    "desc": "英雄远程伤害加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "远程武器伤害加成"
+  },
+  {
+    "id": 114002,
+    "name": "lrwDamWpn",
+    "desc": "武器远程伤害加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "远程武器伤害加成"
+  },
+  {
+    "id": 114003,
+    "name": "lrwDamBuff",
+    "desc": "Buff远程伤害加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "远程武器伤害加成"
+  },
+  {
+    "id": 114004,
+    "name": "lrwDamScene",
+    "desc": "场景远程伤害加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "远程武器伤害加成"
+  },
+  {
+    "id": 214001,
+    "name": "lrwDam",
+    "desc": "远程伤害加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "lrwDamHero+lrwDamWpn+lrwDamBuff+lrwDamScene",
+    "showName": "远程武器伤害加成"
+  },
+  {
+    "id": 115001,
+    "name": "healHero",
+    "desc": "英雄治疗加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "治疗加成"
+  },
+  {
+    "id": 115002,
+    "name": "healWpn",
+    "desc": "武器治疗加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "治疗加成"
+  },
+  {
+    "id": 115003,
+    "name": "healBuff",
+    "desc": "Buff治疗加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "治疗加成"
+  },
+  {
+    "id": 115004,
+    "name": "healScene",
+    "desc": "场景治疗加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "治疗加成"
+  },
+  {
+    "id": 215001,
+    "name": "heal",
+    "desc": "治疗加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "healHero+healWpn+healBuff+healScene",
+    "showName": "治疗加成"
+  },
+  {
+    "id": 116001,
+    "name": "vitaHero",
+    "desc": "英雄受愈",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "受愈"
+  },
+  {
+    "id": 116002,
+    "name": "vitaWpn",
+    "desc": "武器受愈",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "受愈"
+  },
+  {
+    "id": 116003,
+    "name": "vitaBuff",
+    "desc": "Buff受愈",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "受愈"
+  },
+  {
+    "id": 116004,
+    "name": "vitaScene",
+    "desc": "场景受愈",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "受愈"
+  },
+  {
+    "id": 216001,
+    "name": "vita",
+    "desc": "受愈",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "vitaHero+vitaWpn+vitaBuff+vitaScene",
+    "showName": "受愈"
+  },
+  {
+    "id": 117001,
+    "name": "energyHero",
+    "desc": "英雄回能效率",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "回能"
+  },
+  {
+    "id": 117002,
+    "name": "energyWpn",
+    "desc": "武器回能效率",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "回能"
+  },
+  {
+    "id": 117003,
+    "name": "energyBuff",
+    "desc": "Buff回能效率",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "回能"
+  },
+  {
+    "id": 117004,
+    "name": "energyScene",
+    "desc": "场景回能效率",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "回能"
+  },
+  {
+    "id": 217001,
+    "name": "energy",
+    "desc": "回能效率",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "energyHero+energyWpn+energyBuff+energyScene",
+    "showName": "回能"
+  },
+  {
+    "id": 118001,
+    "name": "hasteHero",
+    "desc": "英雄急速",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "急速"
+  },
+  {
+    "id": 118002,
+    "name": "hasteWpn",
+    "desc": "武器急速",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "急速"
+  },
+  {
+    "id": 118003,
+    "name": "hasteBuff",
+    "desc": "Buff急速",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "急速"
+  },
+  {
+    "id": 118004,
+    "name": "hasteScene",
+    "desc": "场景急速",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "急速"
+  },
+  {
+    "id": 218001,
+    "name": "haste",
+    "desc": "急速",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "hasteHero+hasteWpn+hasteBuff+hasteScene",
+    "showName": "急速"
+  },
+  {
+    "id": 119001,
+    "name": "moveHero",
+    "desc": "英雄移动速度",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "移动速度"
+  },
+  {
+    "id": 119002,
+    "name": "moveWpn",
+    "desc": "武器移动速度",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "移动速度"
+  },
+  {
+    "id": 119003,
+    "name": "moveBuff",
+    "desc": "Buff移动速度",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "移动速度"
+  },
+  {
+    "id": 119004,
+    "name": "moveScene",
+    "desc": "场景移动速度",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "移动速度"
+  },
+  {
+    "id": 219001,
+    "name": "move",
+    "desc": "移动速度",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "moveHero+moveWpn+moveBuff+moveScene",
+    "showName": "移动速度"
+  },
+  {
+    "id": 120001,
+    "name": "blockDamHero",
+    "desc": "英雄格挡伤害加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": ""
+  },
+  {
+    "id": 120002,
+    "name": "blockDamWpn",
+    "desc": "武器格挡伤害加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": ""
+  },
+  {
+    "id": 120003,
+    "name": "blockDamBuff",
+    "desc": "Buff格挡伤害加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": ""
+  },
+  {
+    "id": 120004,
+    "name": "blockDamScene",
+    "desc": "场景格挡伤害加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": ""
+  },
+  {
+    "id": 220001,
+    "name": "blockDam",
+    "desc": "格挡伤害",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "blockDamHero+blockDamWpn+blockDamBuff+blockDamScene",
+    "showName": ""
+  },
+  {
+    "id": 121001,
+    "name": "blockDamRedHero",
+    "desc": "英雄格挡伤害减免",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": ""
+  },
+  {
+    "id": 121002,
+    "name": "blockDamRedWpn",
+    "desc": "武器格挡伤害减免",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": ""
+  },
+  {
+    "id": 121003,
+    "name": "blockDamRedBuff",
+    "desc": "Buff格挡伤害减免",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": ""
+  },
+  {
+    "id": 121004,
+    "name": "blockDamRedScene",
+    "desc": "场景格挡伤害减免",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": ""
+  },
+  {
+    "id": 221001,
+    "name": "blockDamRed",
+    "desc": "格挡伤害减免",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "blockDamRedHero+blockDamRedWpn+blockDamRedBuff+blockDamRedScene",
+    "showName": ""
+  },
+  {
+    "id": 401001,
+    "name": "carHpBaseCar",
+    "desc": "车辆基础车辆耐久",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础耐久"
+  },
+  {
+    "id": 401002,
+    "name": "carHpPerCar",
+    "desc": "车辆车辆耐久加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "耐久加成"
+  },
+  {
+    "id": 401003,
+    "name": "carHpAddCar",
+    "desc": "车辆附加车辆耐久",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "耐久"
+  },
+  {
+    "id": 401004,
+    "name": "carHpBaseBuff",
+    "desc": "Buff基础车辆耐久",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础耐久"
+  },
+  {
+    "id": 401005,
+    "name": "carHpPerBuff",
+    "desc": "Buff车辆耐久加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "耐久加成"
+  },
+  {
+    "id": 401006,
+    "name": "carHpAddBuff",
+    "desc": "Buff附加车辆耐久",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "耐久"
+  },
+  {
+    "id": 401007,
+    "name": "carHpBaseScene",
+    "desc": "场景基础车辆耐久",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础耐久"
+  },
+  {
+    "id": 401008,
+    "name": "carHpPerScene",
+    "desc": "场景车辆耐久加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "耐久加成"
+  },
+  {
+    "id": 401009,
+    "name": "carHpAddScene",
+    "desc": "场景附加车辆耐久",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "耐久"
+  },
+  {
+    "id": 501001,
+    "name": "carHpBase",
+    "desc": "基础车辆耐久",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carHpBaseCar+carHpBaseBuff+carHpBaseScene",
+    "showName": ""
+  },
+  {
+    "id": 501002,
+    "name": "carHpPer",
+    "desc": "车辆耐久加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carHpPerCar+carHpPerBuff+carHpPerScene",
+    "showName": ""
+  },
+  {
+    "id": 501003,
+    "name": "carHpAdd",
+    "desc": "附加车辆耐久",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carHpAddCar+carHpAddBuff+carHpAddScene",
+    "showName": ""
+  },
+  {
+    "id": 601001,
+    "name": "carHpAll",
+    "desc": "总车辆耐久",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "floor(carHpBase*(1+carHpPer/10000)+carHpAdd)",
+    "showName": "耐久"
+  },
+  {
+    "id": 402001,
+    "name": "carAtkBaseCar",
+    "desc": "车辆基础车辆撞击",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础撞击"
+  },
+  {
+    "id": 402002,
+    "name": "carAtkPerCar",
+    "desc": "车辆车辆撞击加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "撞击加成"
+  },
+  {
+    "id": 402003,
+    "name": "carAtkAddCar",
+    "desc": "车辆附加车辆撞击",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "撞击"
+  },
+  {
+    "id": 402004,
+    "name": "carAtkBaseBuff",
+    "desc": "Buff基础车辆撞击",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础撞击"
+  },
+  {
+    "id": 402005,
+    "name": "carAtkPerBuff",
+    "desc": "Buff车辆撞击加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "撞击加成"
+  },
+  {
+    "id": 402006,
+    "name": "carAtkAddBuff",
+    "desc": "Buff附加车辆撞击",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "撞击"
+  },
+  {
+    "id": 402007,
+    "name": "carAtkBaseScene",
+    "desc": "场景基础车辆撞击",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础撞击"
+  },
+  {
+    "id": 402008,
+    "name": "carAtkPerScene",
+    "desc": "场景车辆撞击加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "撞击加成"
+  },
+  {
+    "id": 402009,
+    "name": "carAtkAddScene",
+    "desc": "场景附加车辆撞击",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "撞击"
+  },
+  {
+    "id": 502001,
+    "name": "carAtkBase",
+    "desc": "基础车辆撞击",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carAtkBaseCar+carAtkBaseBuff+carAtkBaseScene",
+    "showName": ""
+  },
+  {
+    "id": 502002,
+    "name": "carAtkPer",
+    "desc": "车辆撞击加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carAtkPerCar+carAtkPerBuff+carAtkPerScene",
+    "showName": ""
+  },
+  {
+    "id": 502003,
+    "name": "carAtkAdd",
+    "desc": "附加车辆撞击",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carAtkAddCar+carAtkAddBuff+carAtkAddScene",
+    "showName": ""
+  },
+  {
+    "id": 602001,
+    "name": "carAtkAll",
+    "desc": "总车辆撞击",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "floor(carAtkBase*(1+carAtkPer/10000)+carAtkAdd)",
+    "showName": "撞击"
+  },
+  {
+    "id": 403001,
+    "name": "carDefBaseCar",
+    "desc": "英雄基础车辆装甲",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础装甲"
+  },
+  {
+    "id": 403002,
+    "name": "carDefPerCar",
+    "desc": "英雄车辆装甲加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "装甲加成"
+  },
+  {
+    "id": 403003,
+    "name": "carDefAddCar",
+    "desc": "英雄附加车辆装甲",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "装甲"
+  },
+  {
+    "id": 403004,
+    "name": "carDefBaseBuff",
+    "desc": "Buff基础车辆装甲",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础装甲"
+  },
+  {
+    "id": 403005,
+    "name": "carDefPerBuff",
+    "desc": "Buff车辆装甲加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "装甲加成"
+  },
+  {
+    "id": 403006,
+    "name": "carDefAddBuff",
+    "desc": "Buff附加车辆装甲",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "装甲"
+  },
+  {
+    "id": 403007,
+    "name": "carDefBaseScene",
+    "desc": "场景基础车辆装甲",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "基础装甲"
+  },
+  {
+    "id": 403008,
+    "name": "carDefPerScene",
+    "desc": "场景车辆装甲加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "装甲加成"
+  },
+  {
+    "id": 403009,
+    "name": "carDefAddScene",
+    "desc": "场景附加车辆装甲",
+    "attrValueType": 1,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "装甲"
+  },
+  {
+    "id": 503001,
+    "name": "carDefBase",
+    "desc": "基础车辆装甲",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carDefBaseCar+carDefBaseBuff+carDefBaseScene",
+    "showName": ""
+  },
+  {
+    "id": 503002,
+    "name": "carDefPer",
+    "desc": "车辆装甲加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carDefPerCar+carDefPerBuff+carDefPerScene",
+    "showName": ""
+  },
+  {
+    "id": 503003,
+    "name": "carDefAdd",
+    "desc": "附加车辆装甲",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carDefAddCar+carDefAddBuff+carDefAddScene",
+    "showName": ""
+  },
+  {
+    "id": 603001,
+    "name": "carDefAll",
+    "desc": "总车辆装甲",
+    "attrValueType": 1,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "floor(carDefBase*(1+carDefPer/10000)+carDefAdd)",
+    "showName": "装甲"
+  },
+  {
+    "id": 404001,
+    "name": "carCritCar",
+    "desc": "车辆车辆暴击",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击"
+  },
+  {
+    "id": 404002,
+    "name": "carCritBuff",
+    "desc": "Buff车辆暴击",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击"
+  },
+  {
+    "id": 404003,
+    "name": "carCritScene",
+    "desc": "场景车辆暴击",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击"
+  },
+  {
+    "id": 504001,
+    "name": "carCrit",
+    "desc": "车辆暴击",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carCritCar+carCritBuff+carCritScene",
+    "showName": "暴击"
+  },
+  {
+    "id": 405001,
+    "name": "carCritResistCar",
+    "desc": "车辆车辆暴击抵抗",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击抵抗"
+  },
+  {
+    "id": 405002,
+    "name": "carCritResistBuff",
+    "desc": "Buff车辆暴击抵抗",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击抵抗"
+  },
+  {
+    "id": 405003,
+    "name": "carCritResistScene",
+    "desc": "场景车辆暴击抵抗",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击抵抗"
+  },
+  {
+    "id": 505001,
+    "name": "carCritResist",
+    "desc": "车辆暴击抵抗",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carCritResistCar+carCritResistBuff+carCritResistScene",
+    "showName": "暴击抵抗"
+  },
+  {
+    "id": 406001,
+    "name": "carCritDamCar",
+    "desc": "车辆车辆暴击增幅",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击增幅"
+  },
+  {
+    "id": 406002,
+    "name": "carCritDamBuff",
+    "desc": "Buff车辆暴击增幅",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击增幅"
+  },
+  {
+    "id": 406003,
+    "name": "carCritDamScene",
+    "desc": "场景车辆暴击增幅",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击增幅"
+  },
+  {
+    "id": 506001,
+    "name": "carCritDam",
+    "desc": "车辆暴击增幅",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carCritDamCar+carCritDamBuff+carCritDamScene",
+    "showName": "暴击增幅"
+  },
+  {
+    "id": 407001,
+    "name": "carCritDamRedCar",
+    "desc": "车辆车辆暴击耐性",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击耐性"
+  },
+  {
+    "id": 407002,
+    "name": "carCritDamRedBuff",
+    "desc": "Buff车辆暴击耐性",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击耐性"
+  },
+  {
+    "id": 407003,
+    "name": "carCritDamRedScene",
+    "desc": "场景车辆暴击耐性",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "暴击耐性"
+  },
+  {
+    "id": 507001,
+    "name": "carCritDamRed",
+    "desc": "暴击耐性",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carCritDamRedCar+critRedBuff+carCritDamRedScene",
+    "showName": "暴击耐性"
+  },
+  {
+    "id": 408001,
+    "name": "carDodgeCar",
+    "desc": "车辆车辆闪避",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "闪避"
+  },
+  {
+    "id": 408002,
+    "name": "carDodgeBuff",
+    "desc": "Buff车辆闪避",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "闪避"
+  },
+  {
+    "id": 408003,
+    "name": "carDodgeScene",
+    "desc": "场景车辆闪避",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "闪避"
+  },
+  {
+    "id": 508001,
+    "name": "carDodge",
+    "desc": "车辆闪避",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carDodgeCar+carDodgeBuff+carDodgeScene",
+    "showName": "闪避"
+  },
+  {
+    "id": 409001,
+    "name": "carHitCar",
+    "desc": "车辆车辆命中",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "命中"
+  },
+  {
+    "id": 409002,
+    "name": "carHitBuff",
+    "desc": "Buff车辆命中",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "命中"
+  },
+  {
+    "id": 409003,
+    "name": "carHitScene",
+    "desc": "场景车辆命中",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "命中"
+  },
+  {
+    "id": 509001,
+    "name": "carHit",
+    "desc": "车辆命中",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carHitCar+carHitBuff+carHitScene",
+    "showName": "命中"
+  },
+  {
+    "id": 410001,
+    "name": "carDamCar",
+    "desc": "车辆车辆伤害加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "伤害加成"
+  },
+  {
+    "id": 410002,
+    "name": "carDamBuff",
+    "desc": "Buff车辆伤害加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "伤害加成"
+  },
+  {
+    "id": 410003,
+    "name": "carDamScene",
+    "desc": "场景车辆伤害加成",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "伤害加成"
+  },
+  {
+    "id": 510001,
+    "name": "carDam",
+    "desc": "车辆伤害加成",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carDamCar+carDamBuff+carDamScene",
+    "showName": "伤害加成"
+  },
+  {
+    "id": 411001,
+    "name": "carDamRedCar",
+    "desc": "车辆车辆伤害减免",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "伤害减免"
+  },
+  {
+    "id": 411002,
+    "name": "carDamRedBuff",
+    "desc": "Buff车辆伤害减免",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "伤害减免"
+  },
+  {
+    "id": 411003,
+    "name": "carDamRedScene",
+    "desc": "场景车辆伤害减免",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "伤害减免"
+  },
+  {
+    "id": 511001,
+    "name": "carDamRed",
+    "desc": "伤害减免",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carDamRedCar+carDamRedBuff+carDamRedScene",
+    "showName": "伤害减免"
+  },
+  {
+    "id": 412001,
+    "name": "carMoveCar",
+    "desc": "车辆移动速度",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": false,
+    "formula": "",
+    "showName": "行驶速度"
+  },
+  {
+    "id": 412002,
+    "name": "carMoveBuff",
+    "desc": "Buff车辆移动速度",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "行驶速度"
+  },
+  {
+    "id": 412003,
+    "name": "carMoveScene",
+    "desc": "场景车辆移动速度",
+    "attrValueType": 2,
+    "inFight": true,
+    "isFormula": false,
+    "formula": "",
+    "showName": "行驶速度"
+  },
+  {
+    "id": 512001,
+    "name": "carMove",
+    "desc": "车辆移动速度",
+    "attrValueType": 2,
+    "inFight": false,
+    "isFormula": true,
+    "formula": "carMoveCar+carMoveBuff+carMoveScene",
+    "showName": "行驶速度"
+  }
+]

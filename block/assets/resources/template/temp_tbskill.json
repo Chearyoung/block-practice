@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 10001,
+    "name": "",
+    "desc": "挥动警棍攻击身前的敌人，对敌人造成伤害，",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 1,
+    "SkillType": 1,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      10001
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 10002,
+    "name": "",
+    "desc": "持有盾牌的英雄格挡几率+20%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 1,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 7,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      10002
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 10003,
+    "name": "",
+    "desc": "持有盾牌的英雄格挡几率+20%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 1,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 7,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      10003
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 10004,
+    "name": "",
+    "desc": "持有盾牌的英雄每攻击10次，则会给场上血量最低的1名车下队友添加一个保护状态，保护状态下，英雄有10%的几率格挡伤害，保护状态持续5秒",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 1,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 1,
+    "triggerConditionPara": [
+      10
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      10004
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 10005,
+    "name": "",
+    "desc": "支援保护的车下队友数量+1",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 1,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      10004
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      113,
+      1
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 10006,
+    "name": "",
+    "desc": "保护状态的格挡几率+10%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 1,
+    "SkillType": 4,
+    "PassiveParaType": 5,
+    "PassiveParaPara": [
+      10004
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      115,
+      1000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 10007,
+    "name": "",
+    "desc": "保护状态的持续时间+3秒",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 1,
+    "SkillType": 4,
+    "PassiveParaType": 5,
+    "PassiveParaPara": [
+      10004
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      114,
+      3000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 10008,
+    "name": "",
+    "desc": "持有盾牌的英雄格挡时，会让攻击者进入3秒的迟缓状态，迟缓状态下，怪物的移动速度和攻击速度降低30%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 1,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 2,
+    "triggerConditionPara": [],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      10008
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 20001,
+    "name": "",
+    "desc": "释放1道高压电流，对目标造成电击伤害",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 2,
+    "SkillType": 1,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      20001
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 20002,
+    "name": "",
+    "desc": "高压电流伤害+50%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 2,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      20001,
+      20004,
+      20005
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      5000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 20003,
+    "name": "",
+    "desc": "高压电流会让目标麻痹1秒",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 2,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 3,
+    "triggerConditionPara": [
+      20001
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      20003
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 20004,
+    "name": "",
+    "desc": "高压电流会向最近的敌人进行1次传导",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 2,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 3,
+    "triggerConditionPara": [
+      20001
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      20004
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 20005,
+    "name": "",
+    "desc": "高压电流伤害-20%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 2,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      20001,
+      20004,
+      20005
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      -2000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 20006,
+    "name": "",
+    "desc": "高压电流的传导次数+1",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 2,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [
+      20004
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      20006
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 20007,
+    "name": "",
+    "desc": "高压电流会造成小范围的爆炸效果",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 2,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 3,
+    "triggerConditionPara": [
+      20001,
+      20004,
+      20005
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      20007
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 20008,
+    "name": "",
+    "desc": "爆炸伤害+50%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 2,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      20007
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [
+      20006
+    ],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      5000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 20009,
+    "name": "",
+    "desc": "高压电流传导时有50%的几率裂变出一道未经强化的高压电流（近身范围）",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 2,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 3,
+    "triggerConditionPara": [
+      20001,
+      20004,
+      20005
+    ],
+    "triggerProbability": 5000,
+    "skillEffects": [
+      20009
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 30001,
+    "name": "",
+    "desc": "单体攻击敌方",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 3,
+    "SkillType": 1,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      30001
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 30002,
+    "name": "",
+    "desc": "7次攻击后给予敌方1次重击，造成1.5倍伤害",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 3,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 1,
+    "triggerConditionPara": [
+      7
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      30002
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 30003,
+    "name": "",
+    "desc": "重击伤害变为2倍伤害",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 3,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      30002
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [
+      30002
+    ],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      3333
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 30004,
+    "name": "",
+    "desc": "每5次即可进行1次重击",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 3,
+    "SkillType": 4,
+    "PassiveParaType": 3,
+    "PassiveParaPara": [
+      30002
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      109,
+      -2
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 30005,
+    "name": "",
+    "desc": "被重击对象产生迟缓状态，移动及攻击速度降低50%，持续3s",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 3,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 3,
+    "triggerConditionPara": [
+      30002
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      30005
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 30006,
+    "name": "",
+    "desc": "被重击敌人有20%概率眩晕，持续1s",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 3,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 3,
+    "triggerConditionPara": [
+      30002
+    ],
+    "triggerProbability": 2000,
+    "skillEffects": [
+      30006
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 30007,
+    "name": "",
+    "desc": "眩晕时间变为2s",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 3,
+    "SkillType": 4,
+    "PassiveParaType": 5,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      114,
+      1000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 30008,
+    "name": "",
+    "desc": "重击变为范围攻击",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 3,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      30002
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      111,
+      1
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 30009,
+    "name": "",
+    "desc": "重击伤害范围增加30%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 3,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      30002
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      112,
+      1
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 40001,
+    "name": "",
+    "desc": "喷射火焰，对一定范围内的所有敌人造成持续伤害",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 4,
+    "SkillType": 1,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      40001
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 40002,
+    "name": "",
+    "desc": "喷火器的喷射距离+50%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 4,
+    "SkillType": 4,
+    "PassiveParaType": 1,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      101,
+      5000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 40003,
+    "name": "",
+    "desc": "喷火器的喷射范围+100%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 4,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      40001
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      112,
+      10000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 40004,
+    "name": "",
+    "desc": "喷火器的喷射伤害+50%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 4,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      40001
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      5000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 40005,
+    "name": "",
+    "desc": "喷火器喷射结束后，会生成一片燃烧区域，进入燃烧区域的敌人会受到持续伤害",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 4,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 4,
+    "triggerConditionPara": [],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      40005
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 40006,
+    "name": "",
+    "desc": "进入燃烧区域的敌人会受到持续伤害",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 4,
+    "skillCallerPara": 1001,
+    "SkillType": 1,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      40006
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 40007,
+    "name": "",
+    "desc": "燃烧区域的造成的伤害+50%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 4,
+    "skillCallerPara": 1001,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      40006
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      5000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 40008,
+    "name": "",
+    "desc": "燃烧区域结束后，会产生爆炸效果",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 4,
+    "skillCallerPara": 1001,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 5,
+    "triggerConditionPara": [
+      2001
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      40008
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 40009,
+    "name": "",
+    "desc": "燃烧区域结束后产生的爆炸伤害+50%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 4,
+    "skillCallerPara": 1001,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      40008
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      5000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 50001,
+    "name": "",
+    "desc": "发射子弹射击敌人，对敌人造成伤害",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 5,
+    "SkillType": 1,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      50001
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 50002,
+    "name": "",
+    "desc": "冲锋枪射出的子弹伤害+50%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 5,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      50001
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      5000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 50003,
+    "name": "",
+    "desc": "冲锋枪射击时，连发数量+1",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 5,
+    "SkillType": 4,
+    "PassiveParaType": 2,
+    "PassiveParaPara": [
+      1
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      105,
+      1
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 50004,
+    "name": "",
+    "desc": "子弹造成的伤害-20%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 5,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      50001
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      -2000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 50005,
+    "name": "",
+    "desc": "冲锋枪射击时，连发数量+1",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 5,
+    "SkillType": 4,
+    "PassiveParaType": 2,
+    "PassiveParaPara": [
+      1
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      105,
+      1
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 50006,
+    "name": "",
+    "desc": "冲锋枪射击时的弹道数量+1",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 5,
+    "SkillType": 4,
+    "PassiveParaType": 2,
+    "PassiveParaPara": [
+      1
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      104,
+      1
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 50007,
+    "name": "",
+    "desc": "子弹造成的伤害-20%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 5,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      50001
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      -2000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 50008,
+    "name": "",
+    "desc": "冲锋枪射击时的弹道数量+1",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 5,
+    "SkillType": 4,
+    "PassiveParaType": 2,
+    "PassiveParaPara": [
+      1
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      104,
+      1
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 50009,
+    "name": "",
+    "desc": "冲锋枪射出的子弹穿透+1",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 5,
+    "SkillType": 4,
+    "PassiveParaType": 2,
+    "PassiveParaPara": [
+      1
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      106,
+      1
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 50010,
+    "name": "",
+    "desc": "子弹造成的伤害-20%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 5,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      50001
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      -2000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 50011,
+    "name": "",
+    "desc": "冲锋枪射出的子弹穿透+1",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 5,
+    "SkillType": 4,
+    "PassiveParaType": 2,
+    "PassiveParaPara": [
+      1
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      1061
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 60001,
+    "name": "",
+    "desc": "锁定一名怪物，发射制导激光，造成持续伤害，杀死怪物后会转移至其他怪物",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 6,
+    "SkillType": 1,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      60001
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 60002,
+    "name": "",
+    "desc": "制导激光的伤害+50%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 6,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      60001,
+      60005,
+      60007
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      5000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 60003,
+    "name": "",
+    "desc": "制导激光的伤害次数+15",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 6,
+    "SkillType": 4,
+    "PassiveParaType": 1,
+    "PassiveParaPara": [
+      6
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      102,
+      15
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 60004,
+    "name": "",
+    "desc": "制导激光对主目标的伤害+100%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 6,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      60001
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      10000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 60005,
+    "name": "",
+    "desc": "制导激光命中目标后，折射数量+1",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 6,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 3,
+    "triggerConditionPara": [
+      60001
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      60005
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 60006,
+    "name": "",
+    "desc": "激光伤害-20%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 6,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      60001,
+      60005,
+      60007
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      -2000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 60007,
+    "name": "",
+    "desc": "制导激光命中目标后，折射数量+1",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 6,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 3,
+    "triggerConditionPara": [
+      60005
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      60007
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 60008,
+    "name": "",
+    "desc": "制导激光命中主目标后，会造成小范围内爆炸",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 6,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 3,
+    "triggerConditionPara": [
+      60001
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      60008
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 60009,
+    "name": "",
+    "desc": "制导激光造成的爆炸伤害+50%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 6,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      60008
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [
+      0
+    ],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      5000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 70001,
+    "name": "",
+    "desc": "发射一枚干冰榴弹，命中目标后，对一定范围内的怪物造成干冰爆炸伤害",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 7,
+    "SkillType": 1,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [
+      0
+    ],
+    "triggerProbability": 0,
+    "skillEffects": [
+      70001
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 70002,
+    "name": "",
+    "desc": "对一定范围内的怪物造成干冰爆炸伤害",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 7,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 3,
+    "triggerConditionPara": [
+      70001
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      70002
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 70003,
+    "name": "",
+    "desc": "干冰爆炸伤害+30%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 7,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      70002
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      3000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 70004,
+    "name": "",
+    "desc": "干冰爆炸范围+30%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 7,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      70002
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      112,
+      3000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 70005,
+    "name": "",
+    "desc": "射击时，额外射出1发干冰弹，",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 7,
+    "SkillType": 4,
+    "PassiveParaType": 2,
+    "PassiveParaPara": [
+      2
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      104,
+      1
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 70006,
+    "name": "",
+    "desc": "造成的伤害-20%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 7,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      70001,
+      70002
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      110,
+      -2000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 70007,
+    "name": "",
+    "desc": "被干冰弹直接击中的目标附着冰霜状态，冰霜状态的敌人移动速度-50%，冰霜状态持续2s",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 7,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 3,
+    "triggerConditionPara": [
+      70001
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      70007
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 70008,
+    "name": "",
+    "desc": "被干冰弹爆炸击中的敌人也增加冰霜附加效果，移动速度-50%，冰霜状态持续2s",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 7,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 3,
+    "triggerConditionPara": [
+      70002
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      70007
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 70009,
+    "name": "",
+    "desc": "冰霜效果结束后30%概率出现冻结，行动及攻击完全停止，持续1.5秒",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 7,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 6,
+    "triggerConditionPara": [
+      70007
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      70009
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 80001,
+    "name": "",
+    "desc": "左手枪械射击",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 8,
+    "SkillType": 1,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [
+      0
+    ],
+    "triggerProbability": 0,
+    "skillEffects": [
+      80001
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 80002,
+    "name": "",
+    "desc": "治疗",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 8,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 1,
+    "triggerConditionPara": [
+      10
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      80002
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 80003,
+    "name": "",
+    "desc": "对场上生命值最低的2名队友进行治疗",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 8,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      80002
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      113,
+      1
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 80004,
+    "name": "",
+    "desc": "对场上生命值最低的3名队友进行治疗",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 8,
+    "SkillType": 4,
+    "PassiveParaType": 4,
+    "PassiveParaPara": [
+      80002
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      113,
+      1
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 80005,
+    "name": "",
+    "desc": "治疗子弹治疗队友后，会让队友在接下来的3秒内持续恢复生命值",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 8,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 3,
+    "triggerConditionPara": [
+      80002
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      80005
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 80006,
+    "name": "",
+    "desc": "恢复状态的持续时间+2秒",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 8,
+    "SkillType": 4,
+    "PassiveParaType": 5,
+    "PassiveParaPara": [
+      80005
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      114,
+      2000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 80007,
+    "name": "",
+    "desc": "治疗子弹对队友进行治疗后，会让队友兴奋3秒，兴奋状态下，队友的攻击速度+10%",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 8,
+    "SkillType": 2,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 3,
+    "triggerConditionPara": [
+      80001
+    ],
+    "triggerProbability": 10000,
+    "skillEffects": [
+      80007
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 80008,
+    "name": "",
+    "desc": "兴奋状态的持续时间+2秒",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 8,
+    "SkillType": 4,
+    "PassiveParaType": 5,
+    "PassiveParaPara": [
+      80007
+    ],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      114,
+      2000
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 100001,
+    "name": "",
+    "desc": "默认近战武器伤害",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 1,
+    "SkillType": 1,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      100001
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 100002,
+    "name": "",
+    "desc": "默认远程武器伤害",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 1,
+    "SkillType": 1,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      100002
+    ],
+    "coolTime": 0
+  },
+  {
+    "id": 200001,
+    "name": "",
+    "desc": "小怪默认伤害",
+    "icon": "",
+    "skillAction": 0,
+    "skillCaller": 1,
+    "skillCallerPara": 1,
+    "SkillType": 1,
+    "PassiveParaType": 0,
+    "PassiveParaPara": [],
+    "triggerCondition": 0,
+    "triggerConditionPara": [],
+    "triggerProbability": 0,
+    "skillEffects": [
+      200001
+    ],
+    "coolTime": 0
+  }
+]

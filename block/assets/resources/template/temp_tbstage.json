@@ -1,0 +1,177 @@
+[
+  {
+    "id": 10000,
+    "cid": 1000,
+    "spawnPoint": 1,
+    "mid": 10000,
+    "count": 100
+  },
+  {
+    "id": 10001,
+    "cid": 1000,
+    "spawnPoint": 2,
+    "mid": 10002,
+    "count": 50
+  },
+  {
+    "id": 10002,
+    "cid": 1000,
+    "spawnPoint": 3,
+    "mid": 10004,
+    "count": 60
+  },
+  {
+    "id": 10003,
+    "cid": 1000,
+    "spawnPoint": 4,
+    "mid": 10001,
+    "count": 22
+  },
+  {
+    "id": 10004,
+    "cid": 1000,
+    "spawnPoint": 5,
+    "mid": 10003,
+    "count": 25
+  },
+  {
+    "id": 10005,
+    "cid": 1000,
+    "spawnPoint": 6,
+    "mid": 10005,
+    "count": 26
+  },
+  {
+    "id": 10006,
+    "cid": 1000,
+    "spawnPoint": 7,
+    "mid": 10005,
+    "count": 27
+  },
+  {
+    "id": 10007,
+    "cid": 1000,
+    "spawnPoint": 8,
+    "mid": 10001,
+    "count": 28
+  },
+  {
+    "id": 10008,
+    "cid": 1000,
+    "spawnPoint": 9,
+    "mid": 10001,
+    "count": 29
+  },
+  {
+    "id": 10009,
+    "cid": 1000,
+    "spawnPoint": 10,
+    "mid": 10001,
+    "count": 30
+  },
+  {
+    "id": 10010,
+    "cid": 1000,
+    "spawnPoint": 11,
+    "mid": 10001,
+    "count": 31
+  },
+  {
+    "id": 10011,
+    "cid": 1000,
+    "spawnPoint": 12,
+    "mid": 10001,
+    "count": 32
+  },
+  {
+    "id": 10012,
+    "cid": 1000,
+    "spawnPoint": 13,
+    "mid": 10001,
+    "count": 33
+  },
+  {
+    "id": 10013,
+    "cid": 1000,
+    "spawnPoint": 14,
+    "mid": 10001,
+    "count": 34
+  },
+  {
+    "id": 10014,
+    "cid": 1000,
+    "spawnPoint": 15,
+    "mid": 10001,
+    "count": 35
+  },
+  {
+    "id": 10015,
+    "cid": 1000,
+    "spawnPoint": 16,
+    "mid": 10001,
+    "count": 36
+  },
+  {
+    "id": 10016,
+    "cid": 1000,
+    "spawnPoint": 17,
+    "mid": 10001,
+    "count": 37
+  },
+  {
+    "id": 10017,
+    "cid": 1000,
+    "spawnPoint": 18,
+    "mid": 10001,
+    "count": 38
+  },
+  {
+    "id": 10018,
+    "cid": 1000,
+    "spawnPoint": 19,
+    "mid": 10001,
+    "count": 39
+  },
+  {
+    "id": 10019,
+    "cid": 1000,
+    "spawnPoint": 20,
+    "mid": 10001,
+    "count": 40
+  },
+  {
+    "id": 10020,
+    "cid": 1000,
+    "spawnPoint": 21,
+    "mid": 10001,
+    "count": 41
+  },
+  {
+    "id": 10021,
+    "cid": 1000,
+    "spawnPoint": 22,
+    "mid": 10001,
+    "count": 42
+  },
+  {
+    "id": 10022,
+    "cid": 1000,
+    "spawnPoint": 23,
+    "mid": 10001,
+    "count": 43
+  },
+  {
+    "id": 10023,
+    "cid": 1000,
+    "spawnPoint": 24,
+    "mid": 10001,
+    "count": 44
+  },
+  {
+    "id": 10024,
+    "cid": 1000,
+    "spawnPoint": 25,
+    "mid": 10001,
+    "count": 45
+  }
+]

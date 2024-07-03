@@ -1,0 +1,31 @@
+[
+  {
+    "id": 100,
+    "res": "",
+    "damageType": 0,
+    "damageAni": "",
+    "minDispAngle": 45,
+    "speed": 300,
+    "distance": 400,
+    "selfRotation": 70,
+    "attr": [
+      [
+        401001,
+        100
+      ],
+      [
+        402001,
+        30
+      ],
+      [
+        403001,
+        10
+      ],
+      [
+        408001,
+        5000
+      ]
+    ],
+    "damageFactor": 1
+  }
+]

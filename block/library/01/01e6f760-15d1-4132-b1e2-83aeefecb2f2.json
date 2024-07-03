@@ -1,0 +1,129 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbheroskill",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 1000,
+      "level": 1,
+      "starlevel": 1,
+      "effect": 0
+    },
+    {
+      "id": 1001,
+      "level": 2,
+      "starlevel": 5,
+      "effect": 0
+    },
+    {
+      "id": 1002,
+      "level": 3,
+      "starlevel": 9,
+      "effect": 0
+    },
+    {
+      "id": 1003,
+      "level": 4,
+      "starlevel": 13,
+      "effect": 0
+    },
+    {
+      "id": 1004,
+      "level": 5,
+      "starlevel": 17,
+      "effect": 0
+    },
+    {
+      "id": 1005,
+      "level": 1,
+      "starlevel": 2,
+      "effect": 0
+    },
+    {
+      "id": 1006,
+      "level": 2,
+      "starlevel": 6,
+      "effect": 0
+    },
+    {
+      "id": 1007,
+      "level": 3,
+      "starlevel": 10,
+      "effect": 0
+    },
+    {
+      "id": 1008,
+      "level": 4,
+      "starlevel": 14,
+      "effect": 0
+    },
+    {
+      "id": 1009,
+      "level": 5,
+      "starlevel": 18,
+      "effect": 0
+    },
+    {
+      "id": 1010,
+      "level": 1,
+      "starlevel": 3,
+      "effect": 0
+    },
+    {
+      "id": 1011,
+      "level": 2,
+      "starlevel": 7,
+      "effect": 0
+    },
+    {
+      "id": 1012,
+      "level": 3,
+      "starlevel": 11,
+      "effect": 0
+    },
+    {
+      "id": 1013,
+      "level": 4,
+      "starlevel": 15,
+      "effect": 0
+    },
+    {
+      "id": 1014,
+      "level": 5,
+      "starlevel": 19,
+      "effect": 0
+    },
+    {
+      "id": 1015,
+      "level": 1,
+      "starlevel": 4,
+      "effect": 0
+    },
+    {
+      "id": 1016,
+      "level": 2,
+      "starlevel": 8,
+      "effect": 0
+    },
+    {
+      "id": 1017,
+      "level": 3,
+      "starlevel": 12,
+      "effect": 0
+    },
+    {
+      "id": 1018,
+      "level": 4,
+      "starlevel": 16,
+      "effect": 0
+    },
+    {
+      "id": 1019,
+      "level": 5,
+      "starlevel": 20,
+      "effect": 0
+    }
+  ]
+}

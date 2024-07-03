@@ -1,0 +1,669 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbblockrefreshlibrary",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 1,
+      "blockItemLevel": 1,
+      "blockItemId": 1,
+      "weight": 100
+    },
+    {
+      "id": 2,
+      "blockItemLevel": 1,
+      "blockItemId": 11,
+      "weight": 100
+    },
+    {
+      "id": 3,
+      "blockItemLevel": 1,
+      "blockItemId": 21,
+      "weight": 100
+    },
+    {
+      "id": 4,
+      "blockItemLevel": 1,
+      "blockItemId": 31,
+      "weight": 100
+    },
+    {
+      "id": 5,
+      "blockItemLevel": 1,
+      "blockItemId": 41,
+      "weight": 100
+    },
+    {
+      "id": 6,
+      "blockItemLevel": 1,
+      "blockItemId": 51,
+      "weight": 100
+    },
+    {
+      "id": 7,
+      "blockItemLevel": 1,
+      "blockItemId": 61,
+      "weight": 100
+    },
+    {
+      "id": 8,
+      "blockItemLevel": 1,
+      "blockItemId": 71,
+      "weight": 100
+    },
+    {
+      "id": 9,
+      "blockItemLevel": 1,
+      "blockItemId": 81,
+      "weight": 100
+    },
+    {
+      "id": 10,
+      "blockItemLevel": 1,
+      "blockItemId": 91,
+      "weight": 100
+    },
+    {
+      "id": 11,
+      "blockItemLevel": 1,
+      "blockItemId": 101,
+      "weight": 100
+    },
+    {
+      "id": 12,
+      "blockItemLevel": 2,
+      "blockItemId": 2,
+      "weight": 100
+    },
+    {
+      "id": 13,
+      "blockItemLevel": 2,
+      "blockItemId": 12,
+      "weight": 100
+    },
+    {
+      "id": 14,
+      "blockItemLevel": 2,
+      "blockItemId": 22,
+      "weight": 100
+    },
+    {
+      "id": 15,
+      "blockItemLevel": 2,
+      "blockItemId": 32,
+      "weight": 100
+    },
+    {
+      "id": 16,
+      "blockItemLevel": 2,
+      "blockItemId": 42,
+      "weight": 100
+    },
+    {
+      "id": 17,
+      "blockItemLevel": 2,
+      "blockItemId": 52,
+      "weight": 100
+    },
+    {
+      "id": 18,
+      "blockItemLevel": 2,
+      "blockItemId": 62,
+      "weight": 100
+    },
+    {
+      "id": 19,
+      "blockItemLevel": 2,
+      "blockItemId": 72,
+      "weight": 100
+    },
+    {
+      "id": 20,
+      "blockItemLevel": 2,
+      "blockItemId": 82,
+      "weight": 100
+    },
+    {
+      "id": 21,
+      "blockItemLevel": 2,
+      "blockItemId": 92,
+      "weight": 100
+    },
+    {
+      "id": 22,
+      "blockItemLevel": 2,
+      "blockItemId": 102,
+      "weight": 100
+    },
+    {
+      "id": 23,
+      "blockItemLevel": 3,
+      "blockItemId": 3,
+      "weight": 100
+    },
+    {
+      "id": 24,
+      "blockItemLevel": 3,
+      "blockItemId": 13,
+      "weight": 100
+    },
+    {
+      "id": 25,
+      "blockItemLevel": 3,
+      "blockItemId": 23,
+      "weight": 100
+    },
+    {
+      "id": 26,
+      "blockItemLevel": 3,
+      "blockItemId": 33,
+      "weight": 100
+    },
+    {
+      "id": 27,
+      "blockItemLevel": 3,
+      "blockItemId": 43,
+      "weight": 100
+    },
+    {
+      "id": 28,
+      "blockItemLevel": 3,
+      "blockItemId": 53,
+      "weight": 100
+    },
+    {
+      "id": 29,
+      "blockItemLevel": 3,
+      "blockItemId": 63,
+      "weight": 100
+    },
+    {
+      "id": 30,
+      "blockItemLevel": 3,
+      "blockItemId": 73,
+      "weight": 100
+    },
+    {
+      "id": 31,
+      "blockItemLevel": 3,
+      "blockItemId": 83,
+      "weight": 100
+    },
+    {
+      "id": 32,
+      "blockItemLevel": 3,
+      "blockItemId": 93,
+      "weight": 100
+    },
+    {
+      "id": 33,
+      "blockItemLevel": 3,
+      "blockItemId": 103,
+      "weight": 100
+    },
+    {
+      "id": 34,
+      "blockItemLevel": 4,
+      "blockItemId": 4,
+      "weight": 100
+    },
+    {
+      "id": 35,
+      "blockItemLevel": 4,
+      "blockItemId": 14,
+      "weight": 100
+    },
+    {
+      "id": 36,
+      "blockItemLevel": 4,
+      "blockItemId": 24,
+      "weight": 100
+    },
+    {
+      "id": 37,
+      "blockItemLevel": 4,
+      "blockItemId": 34,
+      "weight": 100
+    },
+    {
+      "id": 38,
+      "blockItemLevel": 4,
+      "blockItemId": 44,
+      "weight": 100
+    },
+    {
+      "id": 39,
+      "blockItemLevel": 4,
+      "blockItemId": 54,
+      "weight": 100
+    },
+    {
+      "id": 40,
+      "blockItemLevel": 4,
+      "blockItemId": 64,
+      "weight": 100
+    },
+    {
+      "id": 41,
+      "blockItemLevel": 4,
+      "blockItemId": 74,
+      "weight": 100
+    },
+    {
+      "id": 42,
+      "blockItemLevel": 4,
+      "blockItemId": 84,
+      "weight": 100
+    },
+    {
+      "id": 43,
+      "blockItemLevel": 4,
+      "blockItemId": 94,
+      "weight": 100
+    },
+    {
+      "id": 44,
+      "blockItemLevel": 4,
+      "blockItemId": 104,
+      "weight": 100
+    },
+    {
+      "id": 45,
+      "blockItemLevel": 5,
+      "blockItemId": 5,
+      "weight": 100
+    },
+    {
+      "id": 46,
+      "blockItemLevel": 5,
+      "blockItemId": 15,
+      "weight": 100
+    },
+    {
+      "id": 47,
+      "blockItemLevel": 5,
+      "blockItemId": 25,
+      "weight": 100
+    },
+    {
+      "id": 48,
+      "blockItemLevel": 5,
+      "blockItemId": 35,
+      "weight": 100
+    },
+    {
+      "id": 49,
+      "blockItemLevel": 5,
+      "blockItemId": 45,
+      "weight": 100
+    },
+    {
+      "id": 50,
+      "blockItemLevel": 5,
+      "blockItemId": 55,
+      "weight": 100
+    },
+    {
+      "id": 51,
+      "blockItemLevel": 5,
+      "blockItemId": 65,
+      "weight": 100
+    },
+    {
+      "id": 52,
+      "blockItemLevel": 5,
+      "blockItemId": 75,
+      "weight": 100
+    },
+    {
+      "id": 53,
+      "blockItemLevel": 5,
+      "blockItemId": 85,
+      "weight": 100
+    },
+    {
+      "id": 54,
+      "blockItemLevel": 5,
+      "blockItemId": 95,
+      "weight": 100
+    },
+    {
+      "id": 55,
+      "blockItemLevel": 5,
+      "blockItemId": 105,
+      "weight": 100
+    },
+    {
+      "id": 56,
+      "blockItemLevel": 6,
+      "blockItemId": 6,
+      "weight": 100
+    },
+    {
+      "id": 57,
+      "blockItemLevel": 6,
+      "blockItemId": 16,
+      "weight": 100
+    },
+    {
+      "id": 58,
+      "blockItemLevel": 6,
+      "blockItemId": 26,
+      "weight": 100
+    },
+    {
+      "id": 59,
+      "blockItemLevel": 6,
+      "blockItemId": 36,
+      "weight": 100
+    },
+    {
+      "id": 60,
+      "blockItemLevel": 6,
+      "blockItemId": 46,
+      "weight": 100
+    },
+    {
+      "id": 61,
+      "blockItemLevel": 6,
+      "blockItemId": 56,
+      "weight": 100
+    },
+    {
+      "id": 62,
+      "blockItemLevel": 6,
+      "blockItemId": 66,
+      "weight": 100
+    },
+    {
+      "id": 63,
+      "blockItemLevel": 6,
+      "blockItemId": 76,
+      "weight": 100
+    },
+    {
+      "id": 64,
+      "blockItemLevel": 6,
+      "blockItemId": 86,
+      "weight": 100
+    },
+    {
+      "id": 65,
+      "blockItemLevel": 6,
+      "blockItemId": 96,
+      "weight": 100
+    },
+    {
+      "id": 66,
+      "blockItemLevel": 6,
+      "blockItemId": 106,
+      "weight": 100
+    },
+    {
+      "id": 67,
+      "blockItemLevel": 7,
+      "blockItemId": 7,
+      "weight": 100
+    },
+    {
+      "id": 68,
+      "blockItemLevel": 7,
+      "blockItemId": 17,
+      "weight": 100
+    },
+    {
+      "id": 69,
+      "blockItemLevel": 7,
+      "blockItemId": 27,
+      "weight": 100
+    },
+    {
+      "id": 70,
+      "blockItemLevel": 7,
+      "blockItemId": 37,
+      "weight": 100
+    },
+    {
+      "id": 71,
+      "blockItemLevel": 7,
+      "blockItemId": 47,
+      "weight": 100
+    },
+    {
+      "id": 72,
+      "blockItemLevel": 7,
+      "blockItemId": 57,
+      "weight": 100
+    },
+    {
+      "id": 73,
+      "blockItemLevel": 7,
+      "blockItemId": 67,
+      "weight": 100
+    },
+    {
+      "id": 74,
+      "blockItemLevel": 7,
+      "blockItemId": 77,
+      "weight": 100
+    },
+    {
+      "id": 75,
+      "blockItemLevel": 7,
+      "blockItemId": 87,
+      "weight": 100
+    },
+    {
+      "id": 76,
+      "blockItemLevel": 7,
+      "blockItemId": 97,
+      "weight": 100
+    },
+    {
+      "id": 77,
+      "blockItemLevel": 7,
+      "blockItemId": 107,
+      "weight": 100
+    },
+    {
+      "id": 78,
+      "blockItemLevel": 8,
+      "blockItemId": 8,
+      "weight": 100
+    },
+    {
+      "id": 79,
+      "blockItemLevel": 8,
+      "blockItemId": 18,
+      "weight": 100
+    },
+    {
+      "id": 80,
+      "blockItemLevel": 8,
+      "blockItemId": 28,
+      "weight": 100
+    },
+    {
+      "id": 81,
+      "blockItemLevel": 8,
+      "blockItemId": 38,
+      "weight": 100
+    },
+    {
+      "id": 82,
+      "blockItemLevel": 8,
+      "blockItemId": 48,
+      "weight": 100
+    },
+    {
+      "id": 83,
+      "blockItemLevel": 8,
+      "blockItemId": 58,
+      "weight": 100
+    },
+    {
+      "id": 84,
+      "blockItemLevel": 8,
+      "blockItemId": 68,
+      "weight": 100
+    },
+    {
+      "id": 85,
+      "blockItemLevel": 8,
+      "blockItemId": 78,
+      "weight": 100
+    },
+    {
+      "id": 86,
+      "blockItemLevel": 8,
+      "blockItemId": 88,
+      "weight": 100
+    },
+    {
+      "id": 87,
+      "blockItemLevel": 8,
+      "blockItemId": 98,
+      "weight": 100
+    },
+    {
+      "id": 88,
+      "blockItemLevel": 8,
+      "blockItemId": 108,
+      "weight": 100
+    },
+    {
+      "id": 89,
+      "blockItemLevel": 9,
+      "blockItemId": 9,
+      "weight": 100
+    },
+    {
+      "id": 90,
+      "blockItemLevel": 9,
+      "blockItemId": 19,
+      "weight": 100
+    },
+    {
+      "id": 91,
+      "blockItemLevel": 9,
+      "blockItemId": 29,
+      "weight": 100
+    },
+    {
+      "id": 92,
+      "blockItemLevel": 9,
+      "blockItemId": 39,
+      "weight": 100
+    },
+    {
+      "id": 93,
+      "blockItemLevel": 9,
+      "blockItemId": 49,
+      "weight": 100
+    },
+    {
+      "id": 94,
+      "blockItemLevel": 9,
+      "blockItemId": 59,
+      "weight": 100
+    },
+    {
+      "id": 95,
+      "blockItemLevel": 9,
+      "blockItemId": 69,
+      "weight": 100
+    },
+    {
+      "id": 96,
+      "blockItemLevel": 9,
+      "blockItemId": 79,
+      "weight": 100
+    },
+    {
+      "id": 97,
+      "blockItemLevel": 9,
+      "blockItemId": 89,
+      "weight": 100
+    },
+    {
+      "id": 98,
+      "blockItemLevel": 9,
+      "blockItemId": 99,
+      "weight": 100
+    },
+    {
+      "id": 99,
+      "blockItemLevel": 9,
+      "blockItemId": 109,
+      "weight": 100
+    },
+    {
+      "id": 100,
+      "blockItemLevel": 10,
+      "blockItemId": 10,
+      "weight": 100
+    },
+    {
+      "id": 101,
+      "blockItemLevel": 10,
+      "blockItemId": 20,
+      "weight": 100
+    },
+    {
+      "id": 102,
+      "blockItemLevel": 10,
+      "blockItemId": 30,
+      "weight": 100
+    },
+    {
+      "id": 103,
+      "blockItemLevel": 10,
+      "blockItemId": 40,
+      "weight": 100
+    },
+    {
+      "id": 104,
+      "blockItemLevel": 10,
+      "blockItemId": 50,
+      "weight": 100
+    },
+    {
+      "id": 105,
+      "blockItemLevel": 10,
+      "blockItemId": 60,
+      "weight": 100
+    },
+    {
+      "id": 106,
+      "blockItemLevel": 10,
+      "blockItemId": 70,
+      "weight": 100
+    },
+    {
+      "id": 107,
+      "blockItemLevel": 10,
+      "blockItemId": 80,
+      "weight": 100
+    },
+    {
+      "id": 108,
+      "blockItemLevel": 10,
+      "blockItemId": 90,
+      "weight": 100
+    },
+    {
+      "id": 109,
+      "blockItemLevel": 10,
+      "blockItemId": 100,
+      "weight": 100
+    },
+    {
+      "id": 110,
+      "blockItemLevel": 10,
+      "blockItemId": 110,
+      "weight": 100
+    }
+  ]
+}

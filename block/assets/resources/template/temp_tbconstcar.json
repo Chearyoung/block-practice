@@ -1,0 +1,28 @@
+[
+  {
+    "cameraOrthoHeight": 780,
+    "speedv1": 150,
+    "speedv2": 300,
+    "acc": 50,
+    "speedv3": 300,
+    "carStartPoint": {
+      "x": -4,
+      "y": -344
+    },
+    "speedv4": 150,
+    "speedv5": 150,
+    "joystickAlpha": 255,
+    "shakeIntensity": 20,
+    "shakeFrequency": 0.25,
+    "shakeCount": 2,
+    "spawnPointDis": 5000,
+    "killCount": 3,
+    "timeInterval": 1,
+    "posCD": 10,
+    "rotaCount": 1,
+    "rotaFrequency": 0.3,
+    "unitToPixel": 10,
+    "oilConsumption": 0.1,
+    "enemyDelay": 0.1
+  }
+]

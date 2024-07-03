@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbheroskin",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 1,
+      "name": "皮肤1",
+      "desc": "皮肤1描述",
+      "icon": "skin1"
+    },
+    {
+      "id": 2,
+      "name": "皮肤2",
+      "desc": "皮肤2描述",
+      "icon": "skin2"
+    },
+    {
+      "id": 3,
+      "name": "皮肤3",
+      "desc": "皮肤3描述",
+      "icon": "skin3"
+    }
+  ]
+}

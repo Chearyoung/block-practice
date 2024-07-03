@@ -1,0 +1,155 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "4559fe6b-6673-44ea-a477-94f896aac1a0",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "5a010": {
+      "importer": "sprite-frame",
+      "uuid": "4559fe6b-6673-44ea-a477-94f896aac1a0@5a010",
+      "displayName": "",
+      "id": "5a010",
+      "name": "logo_font",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 1,
+        "trimY": 1,
+        "width": 327,
+        "height": 19,
+        "rawWidth": 327,
+        "rawHeight": 19,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ed5d6782-4814-4d4b-868d-6bc52120f8b9@6c48a",
+        "atlasUuid": "4559fe6b-6673-44ea-a477-94f896aac1a0"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e93f4": {
+      "importer": "sprite-frame",
+      "uuid": "4559fe6b-6673-44ea-a477-94f896aac1a0@e93f4",
+      "displayName": "",
+      "id": "e93f4",
+      "name": "logo_habby",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 1,
+        "trimY": 205,
+        "width": 225,
+        "height": 299,
+        "rawWidth": 225,
+        "rawHeight": 299,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ed5d6782-4814-4d4b-868d-6bc52120f8b9@6c48a",
+        "atlasUuid": "4559fe6b-6673-44ea-a477-94f896aac1a0"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fd330": {
+      "importer": "sprite-frame",
+      "uuid": "4559fe6b-6673-44ea-a477-94f896aac1a0@fd330",
+      "displayName": "",
+      "id": "fd330",
+      "name": "logo_yiduo",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 1,
+        "trimY": 22,
+        "width": 350,
+        "height": 181,
+        "rawWidth": 350,
+        "rawHeight": 181,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ed5d6782-4814-4d4b-868d-6bc52120f8b9@6c48a",
+        "atlasUuid": "4559fe6b-6673-44ea-a477-94f896aac1a0"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "TP_Logo.png",
+    "format": 3,
+    "uuid": "4559fe6b-6673-44ea-a477-94f896aac1a0",
+    "textureUuid": "ed5d6782-4814-4d4b-868d-6bc52120f8b9@6c48a"
+  }
+}

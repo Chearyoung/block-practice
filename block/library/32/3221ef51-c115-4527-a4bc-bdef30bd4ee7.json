@@ -1,0 +1,42 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbstagesummary",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 1000,
+      "chapterId": 1000,
+      "name": "第一关",
+      "RefreshId": 1,
+      "PublicRogueSkillId": 1,
+      "privateGridLen": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": 1001,
+      "chapterId": 1000,
+      "name": "第二关",
+      "RefreshId": 1,
+      "PublicRogueSkillId": 1,
+      "privateGridLen": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": 1002,
+      "chapterId": 1000,
+      "name": "第三关",
+      "RefreshId": 1,
+      "PublicRogueSkillId": 1,
+      "privateGridLen": [
+        3,
+        3
+      ]
+    }
+  ]
+}

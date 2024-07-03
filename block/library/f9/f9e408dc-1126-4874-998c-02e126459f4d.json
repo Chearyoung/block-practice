@@ -1,0 +1,111 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbherobreak",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 1,
+      "breakLv": 10,
+      "need": [
+        {
+          "id": 1,
+          "num": 10
+        },
+        {
+          "id": 2,
+          "num": 10
+        }
+      ],
+      "attribute": [
+        {
+          "attr": 1,
+          "val": 100
+        },
+        {
+          "attr": 2,
+          "val": 100
+        }
+      ],
+      "reward": [
+        {
+          "id": 1,
+          "num": 10
+        },
+        {
+          "id": 2,
+          "num": 10
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "breakLv": 20,
+      "need": [
+        {
+          "id": 1,
+          "num": 10
+        },
+        {
+          "id": 2,
+          "num": 10
+        }
+      ],
+      "attribute": [
+        {
+          "attr": 1,
+          "val": 100
+        },
+        {
+          "attr": 2,
+          "val": 101
+        }
+      ],
+      "reward": [
+        {
+          "id": 1,
+          "num": 10
+        },
+        {
+          "id": 2,
+          "num": 11
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "breakLv": 30,
+      "need": [
+        {
+          "id": 1,
+          "num": 10
+        },
+        {
+          "id": 2,
+          "num": 10
+        }
+      ],
+      "attribute": [
+        {
+          "attr": 1,
+          "val": 100
+        },
+        {
+          "attr": 2,
+          "val": 102
+        }
+      ],
+      "reward": [
+        {
+          "id": 1,
+          "num": 10
+        },
+        {
+          "id": 2,
+          "num": 12
+        }
+      ]
+    }
+  ]
+}

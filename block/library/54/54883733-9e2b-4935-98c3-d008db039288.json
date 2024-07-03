@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbchaptersummary",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 1000,
+      "name": "第一章"
+    },
+    {
+      "id": 1001,
+      "name": "第二章"
+    },
+    {
+      "id": 1002,
+      "name": "第三章"
+    }
+  ]
+}

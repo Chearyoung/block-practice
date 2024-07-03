@@ -1,0 +1,200 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbbuff",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 10002,
+      "name": "格挡",
+      "icon": "",
+      "artEffect": "",
+      "buffType": 1,
+      "buffDuration": -1,
+      "buffState": 1,
+      "buffStatePara": [
+        [
+          110003,
+          1000
+        ]
+      ],
+      "getSame": 1,
+      "overlayLimit": 0,
+      "ifDispel": false
+    },
+    {
+      "id": 10003,
+      "name": "格挡",
+      "icon": "",
+      "artEffect": "",
+      "buffType": 1,
+      "buffDuration": -1,
+      "buffState": 1,
+      "buffStatePara": [
+        [
+          110003,
+          1000
+        ]
+      ],
+      "getSame": 1,
+      "overlayLimit": 0,
+      "ifDispel": false
+    },
+    {
+      "id": 10004,
+      "name": "保护",
+      "icon": "",
+      "artEffect": "",
+      "buffType": 1,
+      "buffDuration": 5000,
+      "buffState": 1,
+      "buffStatePara": [
+        [
+          110003,
+          1000
+        ]
+      ],
+      "getSame": 1,
+      "overlayLimit": 0,
+      "ifDispel": true
+    },
+    {
+      "id": 10008,
+      "name": "迟缓",
+      "icon": "",
+      "artEffect": "",
+      "buffType": 2,
+      "buffDuration": 3000,
+      "buffState": 1,
+      "buffStatePara": [
+        [
+          119003,
+          -3000
+        ],
+        [
+          118003,
+          -3000
+        ]
+      ],
+      "getSame": 1,
+      "overlayLimit": 0,
+      "ifDispel": true
+    },
+    {
+      "id": 20004,
+      "name": "麻痹",
+      "icon": "",
+      "artEffect": "",
+      "buffType": 2,
+      "buffDuration": 1000,
+      "buffState": 7,
+      "buffStatePara": [],
+      "getSame": 1,
+      "overlayLimit": 0,
+      "ifDispel": true
+    },
+    {
+      "id": 30005,
+      "name": "迟缓",
+      "icon": "",
+      "artEffect": "",
+      "buffType": 2,
+      "buffDuration": 3000,
+      "buffState": 1,
+      "buffStatePara": [
+        [
+          119003,
+          -3000
+        ],
+        [
+          118003,
+          -3000
+        ]
+      ],
+      "getSame": 1,
+      "overlayLimit": 0,
+      "ifDispel": true
+    },
+    {
+      "id": 30006,
+      "name": "眩晕",
+      "icon": "",
+      "artEffect": "",
+      "buffType": 2,
+      "buffDuration": 1000,
+      "buffState": 7,
+      "buffStatePara": [],
+      "getSame": 1,
+      "overlayLimit": 0,
+      "ifDispel": true
+    },
+    {
+      "id": 70007,
+      "name": "减速",
+      "icon": "",
+      "artEffect": "",
+      "buffType": 2,
+      "buffDuration": 3000,
+      "buffState": 1,
+      "buffStatePara": [
+        [
+          119003,
+          -3000
+        ]
+      ],
+      "getSame": 1,
+      "overlayLimit": 0,
+      "ifDispel": true
+    },
+    {
+      "id": 70009,
+      "name": "冻结",
+      "icon": "",
+      "artEffect": "",
+      "buffType": 2,
+      "buffDuration": 1500,
+      "buffState": 7,
+      "buffStatePara": [],
+      "getSame": 1,
+      "overlayLimit": 0,
+      "ifDispel": true
+    },
+    {
+      "id": 80005,
+      "name": "持续回复",
+      "icon": "",
+      "artEffect": "",
+      "buffType": 1,
+      "buffDuration": 1500,
+      "buffState": 3,
+      "buffStatePara": [
+        [
+          500,
+          1000
+        ]
+      ],
+      "getSame": 1,
+      "overlayLimit": 0,
+      "ifDispel": true
+    },
+    {
+      "id": 80007,
+      "name": "兴奋",
+      "icon": "",
+      "artEffect": "",
+      "buffType": 1,
+      "buffDuration": 5000,
+      "buffState": 1,
+      "buffStatePara": [
+        [
+          118003,
+          1000
+        ]
+      ],
+      "getSame": 1,
+      "overlayLimit": 0,
+      "ifDispel": true
+    }
+  ]
+}

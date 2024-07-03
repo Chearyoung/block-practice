@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "TP_Logo",
+    "spriteFrames": [
+      "logo_font",
+      "4559fe6b-6673-44ea-a477-94f896aac1a0@5a010",
+      "logo_habby",
+      "4559fe6b-6673-44ea-a477-94f896aac1a0@e93f4",
+      "logo_yiduo",
+      "4559fe6b-6673-44ea-a477-94f896aac1a0@fd330"
+    ]
+  }
+}

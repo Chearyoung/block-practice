@@ -1,0 +1,643 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbblockitem",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 1001,
+      "name": "一个格子",
+      "icon": "10000",
+      "type": 3,
+      "group": 1,
+      "level": 1,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1002,
+      "name": "横向两个格子",
+      "icon": "10000",
+      "type": 3,
+      "group": 1,
+      "level": 1,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        2
+      ],
+      "shapeTypePara": [
+        [
+          1,
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1003,
+      "name": "竖向两个格子",
+      "icon": "10000",
+      "type": 3,
+      "group": 1,
+      "level": 1,
+      "targetId": 0,
+      "shapeType": [
+        2,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1004,
+      "name": "转向3个格子",
+      "icon": "10000",
+      "type": 3,
+      "group": 1,
+      "level": 1,
+      "targetId": 0,
+      "shapeType": [
+        2,
+        2
+      ],
+      "shapeTypePara": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1005,
+      "name": "转向3个格子",
+      "icon": "10000",
+      "type": 3,
+      "group": 1,
+      "level": 1,
+      "targetId": 0,
+      "shapeType": [
+        2,
+        2
+      ],
+      "shapeTypePara": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1006,
+      "name": "转向3个格子",
+      "icon": "10000",
+      "type": 3,
+      "group": 1,
+      "level": 1,
+      "targetId": 0,
+      "shapeType": [
+        2,
+        2
+      ],
+      "shapeTypePara": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1007,
+      "name": "转向3个格子",
+      "icon": "10000",
+      "type": 3,
+      "group": 1,
+      "level": 1,
+      "targetId": 0,
+      "shapeType": [
+        2,
+        2
+      ],
+      "shapeTypePara": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1008,
+      "name": "普通剑1",
+      "icon": "101",
+      "type": 1,
+      "group": 1,
+      "level": 1,
+      "targetId": 0,
+      "shapeType": [
+        2,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1009,
+      "name": "普通剑2",
+      "icon": "102",
+      "type": 1,
+      "group": 1,
+      "level": 2,
+      "targetId": 0,
+      "shapeType": [
+        2,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1010,
+      "name": "普通剑3",
+      "icon": "103",
+      "type": 1,
+      "group": 1,
+      "level": 3,
+      "targetId": 0,
+      "shapeType": [
+        2,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1011,
+      "name": "普通斧头1",
+      "icon": "201",
+      "type": 1,
+      "group": 2,
+      "level": 1,
+      "targetId": 0,
+      "shapeType": [
+        2,
+        2
+      ],
+      "shapeTypePara": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1012,
+      "name": "普通斧头2",
+      "icon": "202",
+      "type": 1,
+      "group": 2,
+      "level": 2,
+      "targetId": 0,
+      "shapeType": [
+        2,
+        2
+      ],
+      "shapeTypePara": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1013,
+      "name": "普通斧头3",
+      "icon": "203",
+      "type": 1,
+      "group": 2,
+      "level": 3,
+      "targetId": 0,
+      "shapeType": [
+        2,
+        2
+      ],
+      "shapeTypePara": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1014,
+      "name": "普通球1",
+      "icon": "301",
+      "type": 1,
+      "group": 3,
+      "level": 1,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1015,
+      "name": "普通球2",
+      "icon": "302",
+      "type": 1,
+      "group": 3,
+      "level": 2,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1016,
+      "name": "普通球3",
+      "icon": "303",
+      "type": 1,
+      "group": 3,
+      "level": 3,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1017,
+      "name": "普通刀1",
+      "icon": "401",
+      "type": 1,
+      "group": 4,
+      "level": 1,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        2
+      ],
+      "shapeTypePara": [
+        [
+          1,
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1018,
+      "name": "普通刀2",
+      "icon": "402",
+      "type": 1,
+      "group": 4,
+      "level": 2,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        2
+      ],
+      "shapeTypePara": [
+        [
+          1,
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1019,
+      "name": "普通刀3",
+      "icon": "403",
+      "type": 1,
+      "group": 4,
+      "level": 3,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        2
+      ],
+      "shapeTypePara": [
+        [
+          1,
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1020,
+      "name": "手套1",
+      "icon": "501",
+      "type": 1,
+      "group": 5,
+      "level": 1,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1021,
+      "name": "手套2",
+      "icon": "502",
+      "type": 1,
+      "group": 5,
+      "level": 2,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1022,
+      "name": "手套3",
+      "icon": "503",
+      "type": 1,
+      "group": 5,
+      "level": 3,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1023,
+      "name": "手套4",
+      "icon": "504",
+      "type": 1,
+      "group": 5,
+      "level": 4,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1024,
+      "name": "手里剑1",
+      "icon": "601",
+      "type": 1,
+      "group": 6,
+      "level": 1,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1025,
+      "name": "手里剑2",
+      "icon": "602",
+      "type": 1,
+      "group": 6,
+      "level": 2,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1026,
+      "name": "手里剑3",
+      "icon": "603",
+      "type": 1,
+      "group": 6,
+      "level": 3,
+      "targetId": 0,
+      "shapeType": [
+        1,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1027,
+      "name": "弓箭1",
+      "icon": "701",
+      "type": 1,
+      "group": 6,
+      "level": 1,
+      "targetId": 0,
+      "shapeType": [
+        2,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1,
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1028,
+      "name": "弓箭2",
+      "icon": "702",
+      "type": 1,
+      "group": 6,
+      "level": 2,
+      "targetId": 0,
+      "shapeType": [
+        2,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1,
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    },
+    {
+      "id": 1029,
+      "name": "弓箭3",
+      "icon": "703",
+      "type": 1,
+      "group": 6,
+      "level": 3,
+      "targetId": 0,
+      "shapeType": [
+        2,
+        1
+      ],
+      "shapeTypePara": [
+        [
+          1,
+          1
+        ]
+      ],
+      "compoundId": 0,
+      "optionsNum": 10
+    }
+  ]
+}

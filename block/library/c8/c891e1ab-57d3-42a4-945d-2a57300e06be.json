@@ -1,0 +1,843 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbrogueskill",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 10001,
+      "Group": 2,
+      "GroupPara": 1,
+      "preId": [],
+      "repelId": [],
+      "name": "格挡强化",
+      "quality": 1,
+      "desc": "持有盾牌的英雄格挡几率+20%",
+      "weight": 100,
+      "targetRangePara": [
+        10002
+      ]
+    },
+    {
+      "id": 10002,
+      "Group": 2,
+      "GroupPara": 1,
+      "preId": [],
+      "repelId": [],
+      "name": "格挡强化",
+      "quality": 1,
+      "desc": "持有盾牌的英雄格挡几率+20%",
+      "weight": 100,
+      "targetRangePara": [
+        10003
+      ]
+    },
+    {
+      "id": 10003,
+      "Group": 2,
+      "GroupPara": 1,
+      "preId": [],
+      "repelId": [],
+      "name": "支援保护",
+      "quality": 1,
+      "desc": "持有盾牌的英雄每攻击10次，则会给场上血量最低的1名车下队友添加一个保护状态，保护状态下，英雄有10%的几率格挡伤害，保护状态持续5秒",
+      "weight": 100,
+      "targetRangePara": [
+        10004
+      ]
+    },
+    {
+      "id": 10004,
+      "Group": 2,
+      "GroupPara": 1,
+      "preId": [
+        10003
+      ],
+      "repelId": [],
+      "name": "支援增员",
+      "quality": 1,
+      "desc": "支援保护的车下队友数量+1",
+      "weight": 100,
+      "targetRangePara": [
+        10005
+      ]
+    },
+    {
+      "id": 10005,
+      "Group": 2,
+      "GroupPara": 1,
+      "preId": [
+        10003
+      ],
+      "repelId": [],
+      "name": "保护增效",
+      "quality": 1,
+      "desc": "保护状态的格挡几率+10%",
+      "weight": 100,
+      "targetRangePara": [
+        10006
+      ]
+    },
+    {
+      "id": 10006,
+      "Group": 2,
+      "GroupPara": 1,
+      "preId": [
+        10003
+      ],
+      "repelId": [],
+      "name": "支援增强",
+      "quality": 1,
+      "desc": "保护状态的持续时间+3秒",
+      "weight": 100,
+      "targetRangePara": [
+        10007
+      ]
+    },
+    {
+      "id": 10007,
+      "Group": 2,
+      "GroupPara": 1,
+      "preId": [],
+      "repelId": [],
+      "name": "格挡迟缓",
+      "quality": 1,
+      "desc": "持有盾牌的英雄格挡时，会让攻击者进入3秒的迟缓状态，迟缓状态下，怪物的移动速度和攻击速度降低30%",
+      "weight": 100,
+      "targetRangePara": [
+        10008
+      ]
+    },
+    {
+      "id": 20001,
+      "Group": 2,
+      "GroupPara": 2,
+      "preId": [],
+      "repelId": [],
+      "name": "高压增伤",
+      "quality": 1,
+      "desc": "高压电流伤害+50%",
+      "weight": 100,
+      "targetRangePara": [
+        20002
+      ]
+    },
+    {
+      "id": 20002,
+      "Group": 2,
+      "GroupPara": 2,
+      "preId": [],
+      "repelId": [],
+      "name": "电流增强",
+      "quality": 1,
+      "desc": "高压电流会让目标麻痹1秒",
+      "weight": 100,
+      "targetRangePara": [
+        20003
+      ]
+    },
+    {
+      "id": 20003,
+      "Group": 2,
+      "GroupPara": 2,
+      "preId": [],
+      "repelId": [],
+      "name": "电流传导",
+      "quality": 1,
+      "desc": "高压电流会向最近的敌人进行1次传导，但是高压电流的伤害-20%",
+      "weight": 100,
+      "targetRangePara": [
+        20004,
+        20005
+      ]
+    },
+    {
+      "id": 20004,
+      "Group": 2,
+      "GroupPara": 2,
+      "preId": [
+        20003
+      ],
+      "repelId": [],
+      "name": "传导增强",
+      "quality": 1,
+      "desc": "高压电流的传导次数+1",
+      "weight": 100,
+      "targetRangePara": [
+        20006
+      ]
+    },
+    {
+      "id": 20005,
+      "Group": 2,
+      "GroupPara": 2,
+      "preId": [],
+      "repelId": [],
+      "name": "电磁爆炸",
+      "quality": 1,
+      "desc": "高压电流会造成小范围的爆炸效果",
+      "weight": 100,
+      "targetRangePara": [
+        20007
+      ]
+    },
+    {
+      "id": 20006,
+      "Group": 2,
+      "GroupPara": 2,
+      "preId": [
+        20005
+      ],
+      "repelId": [],
+      "name": "爆炸增幅",
+      "quality": 1,
+      "desc": "爆炸伤害+50%",
+      "weight": 100,
+      "targetRangePara": [
+        20008
+      ]
+    },
+    {
+      "id": 20007,
+      "Group": 2,
+      "GroupPara": 2,
+      "preId": [
+        20003
+      ],
+      "repelId": [],
+      "name": "分裂电流",
+      "quality": 1,
+      "desc": "高压电流传导时有50%的几率裂变出一道未经强化的高压电流（近身范围）",
+      "weight": 100,
+      "targetRangePara": [
+        20009
+      ]
+    },
+    {
+      "id": 30001,
+      "Group": 2,
+      "GroupPara": 3,
+      "preId": [],
+      "repelId": [],
+      "name": "重击加强",
+      "quality": 1,
+      "desc": "重击伤害变为2倍伤害",
+      "weight": 100,
+      "targetRangePara": [
+        30003
+      ]
+    },
+    {
+      "id": 30002,
+      "Group": 2,
+      "GroupPara": 3,
+      "preId": [],
+      "repelId": [],
+      "name": "加速重击",
+      "quality": 1,
+      "desc": "每5次即可进行1次重击",
+      "weight": 100,
+      "targetRangePara": [
+        30004
+      ]
+    },
+    {
+      "id": 30003,
+      "Group": 2,
+      "GroupPara": 3,
+      "preId": [],
+      "repelId": [],
+      "name": "重击迟缓",
+      "quality": 1,
+      "desc": "被重击对象产生迟缓状态，移动及攻击速度降低50%，持续3s",
+      "weight": 100,
+      "targetRangePara": [
+        30005
+      ]
+    },
+    {
+      "id": 30004,
+      "Group": 2,
+      "GroupPara": 3,
+      "preId": [],
+      "repelId": [],
+      "name": "重击眩晕",
+      "quality": 1,
+      "desc": "被重击敌人有20%概率眩晕，持续1s",
+      "weight": 100,
+      "targetRangePara": [
+        30006
+      ]
+    },
+    {
+      "id": 30005,
+      "Group": 2,
+      "GroupPara": 3,
+      "preId": [
+        30004
+      ],
+      "repelId": [],
+      "name": "眩晕强化",
+      "quality": 1,
+      "desc": "眩晕时间变为2s",
+      "weight": 100,
+      "targetRangePara": [
+        30007
+      ]
+    },
+    {
+      "id": 30006,
+      "Group": 2,
+      "GroupPara": 3,
+      "preId": [],
+      "repelId": [],
+      "name": "范围重击",
+      "quality": 1,
+      "desc": "重击变为范围攻击",
+      "weight": 100,
+      "targetRangePara": [
+        30008
+      ]
+    },
+    {
+      "id": 30007,
+      "Group": 2,
+      "GroupPara": 3,
+      "preId": [
+        30006
+      ],
+      "repelId": [],
+      "name": "范围强化",
+      "quality": 1,
+      "desc": "重击伤害范围增加30%",
+      "weight": 100,
+      "targetRangePara": [
+        30009
+      ]
+    },
+    {
+      "id": 40001,
+      "Group": 2,
+      "GroupPara": 4,
+      "preId": [],
+      "repelId": [],
+      "name": "喷射加压",
+      "quality": 1,
+      "desc": "喷火器的喷射距离+50%",
+      "weight": 100,
+      "targetRangePara": [
+        40003
+      ]
+    },
+    {
+      "id": 40002,
+      "Group": 2,
+      "GroupPara": 4,
+      "preId": [],
+      "repelId": [],
+      "name": "喷射增幅",
+      "quality": 1,
+      "desc": "喷火器的喷射范围+100%",
+      "weight": 100,
+      "targetRangePara": [
+        40004
+      ]
+    },
+    {
+      "id": 40003,
+      "Group": 2,
+      "GroupPara": 4,
+      "preId": [],
+      "repelId": [],
+      "name": "喷射扩容",
+      "quality": 1,
+      "desc": "喷火器的喷射伤害+50%",
+      "weight": 100,
+      "targetRangePara": [
+        40005
+      ]
+    },
+    {
+      "id": 40004,
+      "Group": 2,
+      "GroupPara": 4,
+      "preId": [],
+      "repelId": [],
+      "name": "燃烧区域",
+      "quality": 1,
+      "desc": "喷火器喷射结束后，会生成一片燃烧区域，进入燃烧区域的敌人会受到持续伤害",
+      "weight": 100,
+      "targetRangePara": [
+        40006
+      ]
+    },
+    {
+      "id": 40005,
+      "Group": 2,
+      "GroupPara": 4,
+      "preId": [
+        40004
+      ],
+      "repelId": [],
+      "name": "区域增幅",
+      "quality": 1,
+      "desc": "燃烧区域的造成的伤害+50%",
+      "weight": 100,
+      "targetRangePara": [
+        40007
+      ]
+    },
+    {
+      "id": 40006,
+      "Group": 2,
+      "GroupPara": 4,
+      "preId": [
+        40004
+      ],
+      "repelId": [],
+      "name": "燃烧爆炸",
+      "quality": 1,
+      "desc": "燃烧区域结束后，会产生爆炸效果",
+      "weight": 100,
+      "targetRangePara": [
+        40008
+      ]
+    },
+    {
+      "id": 40007,
+      "Group": 2,
+      "GroupPara": 4,
+      "preId": [
+        40004
+      ],
+      "repelId": [],
+      "name": "爆炸增幅",
+      "quality": 1,
+      "desc": "燃烧区域结束后产生的爆炸伤害+50%",
+      "weight": 100,
+      "targetRangePara": [
+        40009
+      ]
+    },
+    {
+      "id": 50001,
+      "Group": 2,
+      "GroupPara": 5,
+      "preId": [],
+      "repelId": [],
+      "name": "子弹增伤",
+      "quality": 1,
+      "desc": "冲锋枪射出的子弹伤害+50%",
+      "weight": 100,
+      "targetRangePara": [
+        50002
+      ]
+    },
+    {
+      "id": 50002,
+      "Group": 2,
+      "GroupPara": 5,
+      "preId": [],
+      "repelId": [],
+      "name": "连发子弹",
+      "quality": 1,
+      "desc": "冲锋枪射击时，连发数量+1，但是子弹造成的伤害-20%",
+      "weight": 100,
+      "targetRangePara": [
+        50003,
+        50004
+      ]
+    },
+    {
+      "id": 50003,
+      "Group": 2,
+      "GroupPara": 5,
+      "preId": [
+        50002
+      ],
+      "repelId": [],
+      "name": "连发强化",
+      "quality": 1,
+      "desc": "冲锋枪射击时的连发数量+2",
+      "weight": 100,
+      "targetRangePara": [
+        50005
+      ]
+    },
+    {
+      "id": 50004,
+      "Group": 2,
+      "GroupPara": 5,
+      "preId": [],
+      "repelId": [],
+      "name": "齐射子弹",
+      "quality": 1,
+      "desc": "冲锋枪射击时，射出的弹道数量+1，但是子弹造成的伤害-20%",
+      "weight": 100,
+      "targetRangePara": [
+        50006,
+        50007
+      ]
+    },
+    {
+      "id": 50005,
+      "Group": 2,
+      "GroupPara": 5,
+      "preId": [
+        50004
+      ],
+      "repelId": [],
+      "name": "齐射强化",
+      "quality": 1,
+      "desc": "冲锋枪射击时的弹道数量+1",
+      "weight": 100,
+      "targetRangePara": [
+        50008
+      ]
+    },
+    {
+      "id": 50006,
+      "Group": 2,
+      "GroupPara": 5,
+      "preId": [],
+      "repelId": [],
+      "name": "穿透子弹",
+      "quality": 1,
+      "desc": "冲锋枪射出的子弹穿透+1，但子弹造成的伤害-20%",
+      "weight": 100,
+      "targetRangePara": [
+        50009,
+        50010
+      ]
+    },
+    {
+      "id": 50007,
+      "Group": 2,
+      "GroupPara": 5,
+      "preId": [
+        50006
+      ],
+      "repelId": [],
+      "name": "穿透加深",
+      "quality": 1,
+      "desc": "冲锋枪射出的子弹穿透+1",
+      "weight": 100,
+      "targetRangePara": [
+        50011
+      ]
+    },
+    {
+      "id": 60001,
+      "Group": 2,
+      "GroupPara": 6,
+      "preId": [],
+      "repelId": [],
+      "name": "制导增伤",
+      "quality": 1,
+      "desc": "制导激光的伤害+50%",
+      "weight": 100,
+      "targetRangePara": [
+        60002
+      ]
+    },
+    {
+      "id": 60002,
+      "Group": 2,
+      "GroupPara": 6,
+      "preId": [],
+      "repelId": [],
+      "name": "功率增幅",
+      "quality": 1,
+      "desc": "制导激光的伤害次数+15",
+      "weight": 100,
+      "targetRangePara": [
+        60003
+      ]
+    },
+    {
+      "id": 60003,
+      "Group": 2,
+      "GroupPara": 6,
+      "preId": [],
+      "repelId": [],
+      "name": "制导聚焦",
+      "quality": 1,
+      "desc": "制导激光对主目标的伤害+100%",
+      "weight": 100,
+      "targetRangePara": [
+        60004
+      ]
+    },
+    {
+      "id": 60004,
+      "Group": 2,
+      "GroupPara": 6,
+      "preId": [],
+      "repelId": [],
+      "name": "制导折射",
+      "quality": 1,
+      "desc": "制导激光命中目标后，会进行1次随机折射，但激光伤害-20%",
+      "weight": 100,
+      "targetRangePara": [
+        60005,
+        60006
+      ]
+    },
+    {
+      "id": 60005,
+      "Group": 2,
+      "GroupPara": 6,
+      "preId": [
+        60004
+      ],
+      "repelId": [],
+      "name": "折射强化",
+      "quality": 1,
+      "desc": "制导激光命中目标后，折射数量+1",
+      "weight": 100,
+      "targetRangePara": [
+        60007
+      ]
+    },
+    {
+      "id": 60006,
+      "Group": 2,
+      "GroupPara": 6,
+      "preId": [],
+      "repelId": [],
+      "name": "制导爆炸",
+      "quality": 1,
+      "desc": "制导激光命中主目标后，会造成小范围内爆炸",
+      "weight": 100,
+      "targetRangePara": [
+        60008
+      ]
+    },
+    {
+      "id": 60007,
+      "Group": 2,
+      "GroupPara": 6,
+      "preId": [
+        60006
+      ],
+      "repelId": [],
+      "name": "爆炸增幅",
+      "quality": 1,
+      "desc": "制导激光造成的爆炸伤害+50%",
+      "weight": 100,
+      "targetRangePara": [
+        60009
+      ]
+    },
+    {
+      "id": 70001,
+      "Group": 2,
+      "GroupPara": 7,
+      "preId": [],
+      "repelId": [],
+      "name": "增加伤害",
+      "quality": 1,
+      "desc": "干冰爆炸伤害+30%",
+      "weight": 100,
+      "targetRangePara": [
+        70002
+      ]
+    },
+    {
+      "id": 70002,
+      "Group": 2,
+      "GroupPara": 7,
+      "preId": [],
+      "repelId": [],
+      "name": "增加范围",
+      "quality": 1,
+      "desc": "干冰爆炸范围+30%",
+      "weight": 100,
+      "targetRangePara": [
+        70003
+      ]
+    },
+    {
+      "id": 70003,
+      "Group": 2,
+      "GroupPara": 7,
+      "preId": [],
+      "repelId": [],
+      "name": "双发射击",
+      "quality": 1,
+      "desc": "射击时，额外射出1发干冰弹，造成的伤害-20%",
+      "weight": 100,
+      "targetRangePara": [
+        70004
+      ]
+    },
+    {
+      "id": 70004,
+      "Group": 2,
+      "GroupPara": 7,
+      "preId": [
+        70003
+      ],
+      "repelId": [],
+      "name": "三发射击",
+      "quality": 1,
+      "desc": "射击时，额外射出2发干冰弹。",
+      "weight": 100,
+      "targetRangePara": [
+        70005,
+        70006
+      ]
+    },
+    {
+      "id": 70005,
+      "Group": 2,
+      "GroupPara": 7,
+      "preId": [],
+      "repelId": [],
+      "name": "冰霜陷阱",
+      "quality": 1,
+      "desc": "被干冰弹直接击中的目标附着冰霜状态，冰霜状态的敌人移动速度-50%，冰霜状态持续2s",
+      "weight": 100,
+      "targetRangePara": [
+        70007
+      ]
+    },
+    {
+      "id": 70006,
+      "Group": 2,
+      "GroupPara": 7,
+      "preId": [
+        70005
+      ],
+      "repelId": [],
+      "name": "冰霜扩散",
+      "quality": 1,
+      "desc": "被干冰弹爆炸击中的敌人也增加冰霜附加效果，移动速度-50%，冰霜状态持续2s",
+      "weight": 100,
+      "targetRangePara": [
+        70008
+      ]
+    },
+    {
+      "id": 70007,
+      "Group": 2,
+      "GroupPara": 7,
+      "preId": [
+        70005
+      ],
+      "repelId": [],
+      "name": "冰冻陷阱",
+      "quality": 1,
+      "desc": "冰霜效果结束后30%概率出现冻结，行动及攻击完全停止，持续1.5秒",
+      "weight": 100,
+      "targetRangePara": [
+        70009
+      ]
+    },
+    {
+      "id": 80001,
+      "Group": 2,
+      "GroupPara": 8,
+      "preId": [],
+      "repelId": [],
+      "name": "增加伤害",
+      "quality": 1,
+      "desc": "左手枪械射击8次即可发射治疗子弹",
+      "weight": 100,
+      "targetRangePara": [
+        80002
+      ]
+    },
+    {
+      "id": 80002,
+      "Group": 2,
+      "GroupPara": 8,
+      "preId": [],
+      "repelId": [],
+      "name": "增加范围",
+      "quality": 1,
+      "desc": "对场上生命值最低的2名队友进行治疗",
+      "weight": 100,
+      "targetRangePara": [
+        80003
+      ]
+    },
+    {
+      "id": 80003,
+      "Group": 2,
+      "GroupPara": 8,
+      "preId": [
+        80002
+      ],
+      "repelId": [],
+      "name": "双发射击",
+      "quality": 1,
+      "desc": "对场上生命值最低的3名队友进行治疗",
+      "weight": 100,
+      "targetRangePara": [
+        80004
+      ]
+    },
+    {
+      "id": 80004,
+      "Group": 2,
+      "GroupPara": 8,
+      "preId": [],
+      "repelId": [],
+      "name": "三发射击",
+      "quality": 1,
+      "desc": "治疗子弹治疗队友后，会让队友在接下来的3秒内持续恢复生命值",
+      "weight": 100,
+      "targetRangePara": [
+        80005
+      ]
+    },
+    {
+      "id": 80005,
+      "Group": 2,
+      "GroupPara": 8,
+      "preId": [
+        80004
+      ],
+      "repelId": [],
+      "name": "冰霜陷阱",
+      "quality": 1,
+      "desc": "恢复状态的持续时间+2秒",
+      "weight": 100,
+      "targetRangePara": [
+        80006
+      ]
+    },
+    {
+      "id": 80006,
+      "Group": 2,
+      "GroupPara": 8,
+      "preId": [],
+      "repelId": [],
+      "name": "冰霜扩散",
+      "quality": 1,
+      "desc": "治疗子弹对队友进行治疗后，会让队友兴奋3秒，兴奋状态下，队友的攻击速度+10%",
+      "weight": 100,
+      "targetRangePara": [
+        80007
+      ]
+    },
+    {
+      "id": 80007,
+      "Group": 2,
+      "GroupPara": 8,
+      "preId": [
+        80006
+      ],
+      "repelId": [],
+      "name": "冰冻陷阱",
+      "quality": 1,
+      "desc": "兴奋状态的持续时间+2秒",
+      "weight": 100,
+      "targetRangePara": [
+        80008
+      ]
+    }
+  ]
+}

@@ -1,0 +1,702 @@
+[
+  {
+    "id": 10101,
+    "refreshId": 1,
+    "refreshLevel": 1,
+    "blockItemLevel": 1,
+    "weight": 100
+  },
+  {
+    "id": 10102,
+    "refreshId": 1,
+    "refreshLevel": 1,
+    "blockItemLevel": 2,
+    "weight": 0
+  },
+  {
+    "id": 10103,
+    "refreshId": 1,
+    "refreshLevel": 1,
+    "blockItemLevel": 3,
+    "weight": 0
+  },
+  {
+    "id": 10104,
+    "refreshId": 1,
+    "refreshLevel": 1,
+    "blockItemLevel": 4,
+    "weight": 0
+  },
+  {
+    "id": 10105,
+    "refreshId": 1,
+    "refreshLevel": 1,
+    "blockItemLevel": 5,
+    "weight": 0
+  },
+  {
+    "id": 10106,
+    "refreshId": 1,
+    "refreshLevel": 1,
+    "blockItemLevel": 6,
+    "weight": 0
+  },
+  {
+    "id": 10107,
+    "refreshId": 1,
+    "refreshLevel": 1,
+    "blockItemLevel": 7,
+    "weight": 0
+  },
+  {
+    "id": 10108,
+    "refreshId": 1,
+    "refreshLevel": 1,
+    "blockItemLevel": 8,
+    "weight": 0
+  },
+  {
+    "id": 10109,
+    "refreshId": 1,
+    "refreshLevel": 1,
+    "blockItemLevel": 9,
+    "weight": 0
+  },
+  {
+    "id": 10110,
+    "refreshId": 1,
+    "refreshLevel": 1,
+    "blockItemLevel": 10,
+    "weight": 0
+  },
+  {
+    "id": 10201,
+    "refreshId": 1,
+    "refreshLevel": 2,
+    "blockItemLevel": 1,
+    "weight": 100
+  },
+  {
+    "id": 10202,
+    "refreshId": 1,
+    "refreshLevel": 2,
+    "blockItemLevel": 2,
+    "weight": 100
+  },
+  {
+    "id": 10203,
+    "refreshId": 1,
+    "refreshLevel": 2,
+    "blockItemLevel": 3,
+    "weight": 0
+  },
+  {
+    "id": 10204,
+    "refreshId": 1,
+    "refreshLevel": 2,
+    "blockItemLevel": 4,
+    "weight": 0
+  },
+  {
+    "id": 10205,
+    "refreshId": 1,
+    "refreshLevel": 2,
+    "blockItemLevel": 5,
+    "weight": 0
+  },
+  {
+    "id": 10206,
+    "refreshId": 1,
+    "refreshLevel": 2,
+    "blockItemLevel": 6,
+    "weight": 0
+  },
+  {
+    "id": 10207,
+    "refreshId": 1,
+    "refreshLevel": 2,
+    "blockItemLevel": 7,
+    "weight": 0
+  },
+  {
+    "id": 10208,
+    "refreshId": 1,
+    "refreshLevel": 2,
+    "blockItemLevel": 8,
+    "weight": 0
+  },
+  {
+    "id": 10209,
+    "refreshId": 1,
+    "refreshLevel": 2,
+    "blockItemLevel": 9,
+    "weight": 0
+  },
+  {
+    "id": 10210,
+    "refreshId": 1,
+    "refreshLevel": 2,
+    "blockItemLevel": 10,
+    "weight": 0
+  },
+  {
+    "id": 10301,
+    "refreshId": 1,
+    "refreshLevel": 3,
+    "blockItemLevel": 1,
+    "weight": 100
+  },
+  {
+    "id": 10302,
+    "refreshId": 1,
+    "refreshLevel": 3,
+    "blockItemLevel": 2,
+    "weight": 100
+  },
+  {
+    "id": 10303,
+    "refreshId": 1,
+    "refreshLevel": 3,
+    "blockItemLevel": 3,
+    "weight": 100
+  },
+  {
+    "id": 10304,
+    "refreshId": 1,
+    "refreshLevel": 3,
+    "blockItemLevel": 4,
+    "weight": 0
+  },
+  {
+    "id": 10305,
+    "refreshId": 1,
+    "refreshLevel": 3,
+    "blockItemLevel": 5,
+    "weight": 0
+  },
+  {
+    "id": 10306,
+    "refreshId": 1,
+    "refreshLevel": 3,
+    "blockItemLevel": 6,
+    "weight": 0
+  },
+  {
+    "id": 10307,
+    "refreshId": 1,
+    "refreshLevel": 3,
+    "blockItemLevel": 7,
+    "weight": 0
+  },
+  {
+    "id": 10308,
+    "refreshId": 1,
+    "refreshLevel": 3,
+    "blockItemLevel": 8,
+    "weight": 0
+  },
+  {
+    "id": 10309,
+    "refreshId": 1,
+    "refreshLevel": 3,
+    "blockItemLevel": 9,
+    "weight": 0
+  },
+  {
+    "id": 10310,
+    "refreshId": 1,
+    "refreshLevel": 3,
+    "blockItemLevel": 10,
+    "weight": 0
+  },
+  {
+    "id": 10401,
+    "refreshId": 1,
+    "refreshLevel": 4,
+    "blockItemLevel": 1,
+    "weight": 100
+  },
+  {
+    "id": 10402,
+    "refreshId": 1,
+    "refreshLevel": 4,
+    "blockItemLevel": 2,
+    "weight": 100
+  },
+  {
+    "id": 10403,
+    "refreshId": 1,
+    "refreshLevel": 4,
+    "blockItemLevel": 3,
+    "weight": 100
+  },
+  {
+    "id": 10404,
+    "refreshId": 1,
+    "refreshLevel": 4,
+    "blockItemLevel": 4,
+    "weight": 100
+  },
+  {
+    "id": 10405,
+    "refreshId": 1,
+    "refreshLevel": 4,
+    "blockItemLevel": 5,
+    "weight": 0
+  },
+  {
+    "id": 10406,
+    "refreshId": 1,
+    "refreshLevel": 4,
+    "blockItemLevel": 6,
+    "weight": 0
+  },
+  {
+    "id": 10407,
+    "refreshId": 1,
+    "refreshLevel": 4,
+    "blockItemLevel": 7,
+    "weight": 0
+  },
+  {
+    "id": 10408,
+    "refreshId": 1,
+    "refreshLevel": 4,
+    "blockItemLevel": 8,
+    "weight": 0
+  },
+  {
+    "id": 10409,
+    "refreshId": 1,
+    "refreshLevel": 4,
+    "blockItemLevel": 9,
+    "weight": 0
+  },
+  {
+    "id": 10410,
+    "refreshId": 1,
+    "refreshLevel": 4,
+    "blockItemLevel": 10,
+    "weight": 0
+  },
+  {
+    "id": 10501,
+    "refreshId": 1,
+    "refreshLevel": 5,
+    "blockItemLevel": 1,
+    "weight": 100
+  },
+  {
+    "id": 10502,
+    "refreshId": 1,
+    "refreshLevel": 5,
+    "blockItemLevel": 2,
+    "weight": 100
+  },
+  {
+    "id": 10503,
+    "refreshId": 1,
+    "refreshLevel": 5,
+    "blockItemLevel": 3,
+    "weight": 100
+  },
+  {
+    "id": 10504,
+    "refreshId": 1,
+    "refreshLevel": 5,
+    "blockItemLevel": 4,
+    "weight": 100
+  },
+  {
+    "id": 10505,
+    "refreshId": 1,
+    "refreshLevel": 5,
+    "blockItemLevel": 5,
+    "weight": 100
+  },
+  {
+    "id": 10506,
+    "refreshId": 1,
+    "refreshLevel": 5,
+    "blockItemLevel": 6,
+    "weight": 0
+  },
+  {
+    "id": 10507,
+    "refreshId": 1,
+    "refreshLevel": 5,
+    "blockItemLevel": 7,
+    "weight": 0
+  },
+  {
+    "id": 10508,
+    "refreshId": 1,
+    "refreshLevel": 5,
+    "blockItemLevel": 8,
+    "weight": 0
+  },
+  {
+    "id": 10509,
+    "refreshId": 1,
+    "refreshLevel": 5,
+    "blockItemLevel": 9,
+    "weight": 0
+  },
+  {
+    "id": 10510,
+    "refreshId": 1,
+    "refreshLevel": 5,
+    "blockItemLevel": 10,
+    "weight": 0
+  },
+  {
+    "id": 10601,
+    "refreshId": 1,
+    "refreshLevel": 6,
+    "blockItemLevel": 1,
+    "weight": 100
+  },
+  {
+    "id": 10602,
+    "refreshId": 1,
+    "refreshLevel": 6,
+    "blockItemLevel": 2,
+    "weight": 100
+  },
+  {
+    "id": 10603,
+    "refreshId": 1,
+    "refreshLevel": 6,
+    "blockItemLevel": 3,
+    "weight": 100
+  },
+  {
+    "id": 10604,
+    "refreshId": 1,
+    "refreshLevel": 6,
+    "blockItemLevel": 4,
+    "weight": 100
+  },
+  {
+    "id": 10605,
+    "refreshId": 1,
+    "refreshLevel": 6,
+    "blockItemLevel": 5,
+    "weight": 100
+  },
+  {
+    "id": 10606,
+    "refreshId": 1,
+    "refreshLevel": 6,
+    "blockItemLevel": 6,
+    "weight": 100
+  },
+  {
+    "id": 10607,
+    "refreshId": 1,
+    "refreshLevel": 6,
+    "blockItemLevel": 7,
+    "weight": 0
+  },
+  {
+    "id": 10608,
+    "refreshId": 1,
+    "refreshLevel": 6,
+    "blockItemLevel": 8,
+    "weight": 0
+  },
+  {
+    "id": 10609,
+    "refreshId": 1,
+    "refreshLevel": 6,
+    "blockItemLevel": 9,
+    "weight": 0
+  },
+  {
+    "id": 10610,
+    "refreshId": 1,
+    "refreshLevel": 6,
+    "blockItemLevel": 10,
+    "weight": 0
+  },
+  {
+    "id": 10701,
+    "refreshId": 1,
+    "refreshLevel": 7,
+    "blockItemLevel": 1,
+    "weight": 100
+  },
+  {
+    "id": 10702,
+    "refreshId": 1,
+    "refreshLevel": 7,
+    "blockItemLevel": 2,
+    "weight": 100
+  },
+  {
+    "id": 10703,
+    "refreshId": 1,
+    "refreshLevel": 7,
+    "blockItemLevel": 3,
+    "weight": 100
+  },
+  {
+    "id": 10704,
+    "refreshId": 1,
+    "refreshLevel": 7,
+    "blockItemLevel": 4,
+    "weight": 100
+  },
+  {
+    "id": 10705,
+    "refreshId": 1,
+    "refreshLevel": 7,
+    "blockItemLevel": 5,
+    "weight": 100
+  },
+  {
+    "id": 10706,
+    "refreshId": 1,
+    "refreshLevel": 7,
+    "blockItemLevel": 6,
+    "weight": 100
+  },
+  {
+    "id": 10707,
+    "refreshId": 1,
+    "refreshLevel": 7,
+    "blockItemLevel": 7,
+    "weight": 100
+  },
+  {
+    "id": 10708,
+    "refreshId": 1,
+    "refreshLevel": 7,
+    "blockItemLevel": 8,
+    "weight": 0
+  },
+  {
+    "id": 10709,
+    "refreshId": 1,
+    "refreshLevel": 7,
+    "blockItemLevel": 9,
+    "weight": 0
+  },
+  {
+    "id": 10710,
+    "refreshId": 1,
+    "refreshLevel": 7,
+    "blockItemLevel": 10,
+    "weight": 0
+  },
+  {
+    "id": 10801,
+    "refreshId": 1,
+    "refreshLevel": 8,
+    "blockItemLevel": 1,
+    "weight": 100
+  },
+  {
+    "id": 10802,
+    "refreshId": 1,
+    "refreshLevel": 8,
+    "blockItemLevel": 2,
+    "weight": 100
+  },
+  {
+    "id": 10803,
+    "refreshId": 1,
+    "refreshLevel": 8,
+    "blockItemLevel": 3,
+    "weight": 100
+  },
+  {
+    "id": 10804,
+    "refreshId": 1,
+    "refreshLevel": 8,
+    "blockItemLevel": 4,
+    "weight": 100
+  },
+  {
+    "id": 10805,
+    "refreshId": 1,
+    "refreshLevel": 8,
+    "blockItemLevel": 5,
+    "weight": 100
+  },
+  {
+    "id": 10806,
+    "refreshId": 1,
+    "refreshLevel": 8,
+    "blockItemLevel": 6,
+    "weight": 100
+  },
+  {
+    "id": 10807,
+    "refreshId": 1,
+    "refreshLevel": 8,
+    "blockItemLevel": 7,
+    "weight": 100
+  },
+  {
+    "id": 10808,
+    "refreshId": 1,
+    "refreshLevel": 8,
+    "blockItemLevel": 8,
+    "weight": 100
+  },
+  {
+    "id": 10809,
+    "refreshId": 1,
+    "refreshLevel": 8,
+    "blockItemLevel": 9,
+    "weight": 0
+  },
+  {
+    "id": 10810,
+    "refreshId": 1,
+    "refreshLevel": 8,
+    "blockItemLevel": 10,
+    "weight": 0
+  },
+  {
+    "id": 10901,
+    "refreshId": 1,
+    "refreshLevel": 9,
+    "blockItemLevel": 1,
+    "weight": 100
+  },
+  {
+    "id": 10902,
+    "refreshId": 1,
+    "refreshLevel": 9,
+    "blockItemLevel": 2,
+    "weight": 100
+  },
+  {
+    "id": 10903,
+    "refreshId": 1,
+    "refreshLevel": 9,
+    "blockItemLevel": 3,
+    "weight": 100
+  },
+  {
+    "id": 10904,
+    "refreshId": 1,
+    "refreshLevel": 9,
+    "blockItemLevel": 4,
+    "weight": 100
+  },
+  {
+    "id": 10905,
+    "refreshId": 1,
+    "refreshLevel": 9,
+    "blockItemLevel": 5,
+    "weight": 100
+  },
+  {
+    "id": 10906,
+    "refreshId": 1,
+    "refreshLevel": 9,
+    "blockItemLevel": 6,
+    "weight": 100
+  },
+  {
+    "id": 10907,
+    "refreshId": 1,
+    "refreshLevel": 9,
+    "blockItemLevel": 7,
+    "weight": 100
+  },
+  {
+    "id": 10908,
+    "refreshId": 1,
+    "refreshLevel": 9,
+    "blockItemLevel": 8,
+    "weight": 100
+  },
+  {
+    "id": 10909,
+    "refreshId": 1,
+    "refreshLevel": 9,
+    "blockItemLevel": 9,
+    "weight": 100
+  },
+  {
+    "id": 10910,
+    "refreshId": 1,
+    "refreshLevel": 9,
+    "blockItemLevel": 10,
+    "weight": 0
+  },
+  {
+    "id": 11001,
+    "refreshId": 1,
+    "refreshLevel": 10,
+    "blockItemLevel": 1,
+    "weight": 100
+  },
+  {
+    "id": 11002,
+    "refreshId": 1,
+    "refreshLevel": 10,
+    "blockItemLevel": 2,
+    "weight": 100
+  },
+  {
+    "id": 11003,
+    "refreshId": 1,
+    "refreshLevel": 10,
+    "blockItemLevel": 3,
+    "weight": 100
+  },
+  {
+    "id": 11004,
+    "refreshId": 1,
+    "refreshLevel": 10,
+    "blockItemLevel": 4,
+    "weight": 100
+  },
+  {
+    "id": 11005,
+    "refreshId": 1,
+    "refreshLevel": 10,
+    "blockItemLevel": 5,
+    "weight": 100
+  },
+  {
+    "id": 11006,
+    "refreshId": 1,
+    "refreshLevel": 10,
+    "blockItemLevel": 6,
+    "weight": 100
+  },
+  {
+    "id": 11007,
+    "refreshId": 1,
+    "refreshLevel": 10,
+    "blockItemLevel": 7,
+    "weight": 100
+  },
+  {
+    "id": 11008,
+    "refreshId": 1,
+    "refreshLevel": 10,
+    "blockItemLevel": 8,
+    "weight": 100
+  },
+  {
+    "id": 11009,
+    "refreshId": 1,
+    "refreshLevel": 10,
+    "blockItemLevel": 9,
+    "weight": 100
+  },
+  {
+    "id": 11010,
+    "refreshId": 1,
+    "refreshLevel": 10,
+    "blockItemLevel": 10,
+    "weight": 100
+  }
+]

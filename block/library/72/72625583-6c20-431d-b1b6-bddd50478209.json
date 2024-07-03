@@ -1,0 +1,129 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "temp_tbformula",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    {
+      "id": 1001,
+      "name": "carHpDecr",
+      "desc": "车辆撞击耐久减少",
+      "formula": "monsterAtk-carDef"
+    },
+    {
+      "id": 1002,
+      "name": "carHitHpDecr",
+      "desc": "车辆撞击障碍物耐久减少",
+      "formula": "carHp-6000"
+    },
+    {
+      "id": 1003,
+      "name": "enemyCarHpDecr",
+      "desc": "僵尸被撞血量减少",
+      "formula": "enemyCarHp-10"
+    },
+    {
+      "id": 1004,
+      "name": "rogueValueIncr",
+      "desc": "僵尸被撞死增加肉鸽值",
+      "formula": "baseRogue"
+    },
+    {
+      "id": 1005,
+      "name": "finalCarHit",
+      "desc": "撞击/车载武器命中判断公式",
+      "formula": "min(max(10000+o.carhit-t.cardodge,0),1)"
+    },
+    {
+      "id": 1006,
+      "name": "finalCarCrit",
+      "desc": "撞击/车载武器暴击判断公式",
+      "formula": "min(max(o.carCrit-t.carCritResist,0),1)"
+    },
+    {
+      "id": 1007,
+      "name": "finalCarCritDam",
+      "desc": "撞击/车载武器暴击伤害计算公式",
+      "formula": "min(max(1+o.carCritDam-t.carCritDamReduction,0.2),2)"
+    },
+    {
+      "id": 1008,
+      "name": "finalCarDam",
+      "desc": "撞击/车载武器伤害计算公式",
+      "formula": "max(floor(o.carAtkAll*o.carAtkAll/max(o.carAtkAll+t.carDefAll,1)*o.coefficient*(1+o.carDam-t.carDamReduction)*(1+finalCarCritDam)),1)"
+    },
+    {
+      "id": 2001,
+      "name": "finalCrwDam",
+      "desc": "TD战斗近程武器伤害加成计算",
+      "formula": "o.crwDam"
+    },
+    {
+      "id": 2002,
+      "name": "finalLrwDam",
+      "desc": "TD战斗远程武器伤害加成计算",
+      "formula": "o.lrwDam"
+    },
+    {
+      "id": 2003,
+      "name": "finalHit",
+      "desc": "TD战斗命中判断公式",
+      "formula": "min(max(10000+o.hit-t.dodge,0),10000)"
+    },
+    {
+      "id": 2004,
+      "name": "finalCrit",
+      "desc": "TD战斗暴击判断公式",
+      "formula": "o.crit-t.critResist"
+    },
+    {
+      "id": 2005,
+      "name": "finalCritDam",
+      "desc": "TD战斗暴击伤害计算",
+      "formula": "min(max(10000+o.critDam-t.critDamReduction,2000),20000)/10000"
+    },
+    {
+      "id": 2006,
+      "name": "finalBlock",
+      "desc": "TD战斗格挡概率计算",
+      "formula": "t.block"
+    },
+    {
+      "id": 2007,
+      "name": "finalBlockDam",
+      "desc": "TD战斗格挡伤害",
+      "formula": "min(max(5000+o.blockDam-t.blockDamRed,1000),9000)/10000"
+    },
+    {
+      "id": 2008,
+      "name": "finalDam",
+      "desc": "TD战斗伤害计算",
+      "formula": "max(floor(o.atkAll*o.atkAll/max(o.atkAll+t.defAll,1)*o.coefficient*(1+o.dam-t.damReduction+o.tempCrwDam+o.tempLrwDam)*(1+o.tempCritDam)*(1-o.tempBlockDam)),1)"
+    },
+    {
+      "id": 2009,
+      "name": "finalheal",
+      "desc": "TD战斗治疗计算",
+      "formula": "o.atkAll*o.coefficient*(1+o.heal)*(1+t.vita)"
+    },
+    {
+      "id": 3001,
+      "name": "ifCarHit",
+      "desc": "撞击/车载武器命中判断",
+      "formula": "floor(random() * 10000) + 1<=finalCarHit"
+    },
+    {
+      "id": 3002,
+      "name": "ifCarCrit",
+      "desc": "撞击/车载武器暴击判断",
+      "formula": "floor(random() * 10000) + 1<=finalCarCrit"
+    },
+    {
+      "id": 3003,
+      "name": "finalCarDam2",
+      "desc": "撞击/车载武器伤害计算公式",
+      "formula": "max(floor(o.carAtkAll*o.carAtkAll/max(o.carAtkAll+t.carDefAll,1)*o.coefficient*(1+o.carDam-t.carDamReduction)*(1+ifCarCrit*finalCarCritDam)),1)*ifCarHit"
+    }
+  ]
+}
