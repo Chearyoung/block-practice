@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6", "__unresolved_7", "__unresolved_8"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6", "__unresolved_7"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, game, instantiate, Intersection2D, Layout, Node, Prefab, UITransform, v2, v3, GridData, CoinObj, WeaponData, Constants, WeaponItem, WeaponBgItem, oops, BlockUtil, EventConstant, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, WeaponManager;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, game, instantiate, Intersection2D, Layout, Node, Prefab, UITransform, v2, v3, resources, GridData, WeaponData, Constants, WeaponItem, WeaponBgItem, BlockUtil, EventConstant, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, WeaponManager;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -21,16 +21,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     _reporterNs.report("WeaponObj", "../Data/GridData", _context.meta, extras);
   }
 
-  function _reportPossibleCrUseOfCoinObj(extras) {
-    _reporterNs.report("CoinObj", "../Data/WeaponData", _context.meta, extras);
-  }
-
   function _reportPossibleCrUseOfWeaponData(extras) {
     _reporterNs.report("WeaponData", "../Data/WeaponData", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfConstants(extras) {
-    _reporterNs.report("Constants", "../../Constants", _context.meta, extras);
+    _reporterNs.report("Constants", "../Constants", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfWeaponItem(extras) {
@@ -41,16 +37,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     _reporterNs.report("WeaponBgItem", "../Weapon/WeaponBgItem", _context.meta, extras);
   }
 
-  function _reportPossibleCrUseOfoops(extras) {
-    _reporterNs.report("oops", "../../../../../script-oops/core/Oops", _context.meta, extras);
-  }
-
   function _reportPossibleCrUseOfBlockUtil(extras) {
-    _reporterNs.report("BlockUtil", "../../../../battle/util/Util", _context.meta, extras);
+    _reporterNs.report("BlockUtil", "../Util", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfEventConstant(extras) {
-    _reporterNs.report("EventConstant", "../../../../constant/EventConstant", _context.meta, extras);
+    _reporterNs.report("EventConstant", "../EventConstant", _context.meta, extras);
   }
 
   return {
@@ -71,10 +63,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       UITransform = _cc.UITransform;
       v2 = _cc.v2;
       v3 = _cc.v3;
+      resources = _cc.resources;
     }, function (_unresolved_2) {
       GridData = _unresolved_2.GridData;
     }, function (_unresolved_3) {
-      CoinObj = _unresolved_3.CoinObj;
       WeaponData = _unresolved_3.WeaponData;
     }, function (_unresolved_4) {
       Constants = _unresolved_4.Constants;
@@ -83,18 +75,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     }, function (_unresolved_6) {
       WeaponBgItem = _unresolved_6.WeaponBgItem;
     }, function (_unresolved_7) {
-      oops = _unresolved_7.oops;
+      BlockUtil = _unresolved_7.BlockUtil;
     }, function (_unresolved_8) {
-      BlockUtil = _unresolved_8.BlockUtil;
-    }, function (_unresolved_9) {
-      EventConstant = _unresolved_9.EventConstant;
+      EventConstant = _unresolved_8.EventConstant;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "80502QRwFVKKqrkACu0+LK9", "WeaponManager", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'game', 'instantiate', 'Intersection2D', 'Layout', 'Node', 'Prefab', 'UITransform', 'v2', 'v3']);
+      __checkObsolete__(['_decorator', 'Component', 'game', 'instantiate', 'Intersection2D', 'Layout', 'Node', 'Prefab', 'UITransform', 'v2', 'v3', 'resources']);
 
       ({
         ccclass,
@@ -145,9 +135,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             var pos = (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
               error: Error()
             }), GridData) : GridData).instance.getItemPosByTiledObj(gridObjArr);
-            (_crd && oops === void 0 ? (_reportPossibleCrUseOfoops({
-              error: Error()
-            }), oops) : oops).res.load(path, Prefab, (err, content) => {
+            resources.load(path, Prefab, (err, content) => {
               var weaponItem = instantiate(content);
               weaponItem.parent = this.weaponList;
               weaponItem.setPosition(pos);
@@ -197,9 +185,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
               }), Constants) : Constants).weaponBgPath;
             }
 
-            (_crd && oops === void 0 ? (_reportPossibleCrUseOfoops({
-              error: Error()
-            }), oops) : oops).res.load(path, Prefab, (err, content) => {
+            resources.load(path, Prefab, (err, content) => {
+              if (err) {
+                console.error('Failed to load prefab:', err);
+                return;
+              }
+
               var weaponItem = instantiate(content);
               weaponItem.parent = _this.removeWeaponList;
 
@@ -207,9 +198,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
                 weaponItem.getComponent(_crd && WeaponItem === void 0 ? (_reportPossibleCrUseOfWeaponItem({
                   error: Error()
                 }), WeaponItem) : WeaponItem).init(weaponCfg, key, false);
-              } else if (weaponCfg.itemType == "2") {// TODO: 少一个配件
+              } else if (weaponCfg.itemType == "2") {// TODO: 处理 itemType 为 "2" 的情况
               } else if (weaponCfg.itemType == "3") {
-                //格子
                 weaponItem.getComponent(_crd && WeaponBgItem === void 0 ? (_reportPossibleCrUseOfWeaponBgItem({
                   error: Error()
                 }), WeaponBgItem) : WeaponBgItem).init(weaponCfg, key, false);
@@ -217,6 +207,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
               _this.updateRemoveLayOut();
             });
+            game.emit((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+              error: Error()
+            }), EventConstant) : EventConstant).GAME_TAP_BTN);
           };
 
           for (var i = 0; i < weaponIdData.length; i++) {
@@ -290,34 +283,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
               }), WeaponItem) : WeaponItem).setBuildWeaponPos(key, pos);
             }
           });
-        }
-        /* 转换飞的金币动画 */
-
-
-        showFlyGoldAnim() {
-          if (this.removeWeaponList.children.length) {
-            var items = this.removeWeaponList.children;
-
-            for (var i = 0; i < items.length; i++) {
-              var element = items[i];
-              var coinObj = new (_crd && CoinObj === void 0 ? (_reportPossibleCrUseOfCoinObj({
-                error: Error()
-              }), CoinObj) : CoinObj)();
-              coinObj.wpos = element.getComponent(UITransform).convertToWorldSpaceAR(v3(0, 0, 0));
-              coinObj.num = (_crd && BlockUtil === void 0 ? (_reportPossibleCrUseOfBlockUtil({
-                error: Error()
-              }), BlockUtil) : BlockUtil).getRandomInt(5, 10);
-              game.emit((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
-                error: Error()
-              }), EventConstant) : EventConstant).WEAPON_CHANGE_COIN, coinObj);
-            }
-          }
-        }
-        /* 隐藏显示卸载列表 */
-
-
-        showHideRemoveList(status) {
-          this.removeWeaponList.active = status;
         }
         /* 根据内容设置排布 */
 

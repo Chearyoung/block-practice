@@ -10,9 +10,9 @@
           "messages": []
         }
       },
-      "timestamp": 1719977254678
+      "timestamp": 1719987659671
     },
-    "6ea1a4bac0de97d7b48cf64816f3c4d3d45e82fc": {
+    "e370a5e2ee96b909166c3f63f6eaaf95bf65c53e": {
       "imports": {
         "cc": {
           "resolved": {
@@ -22,9 +22,9 @@
           "messages": []
         }
       },
-      "timestamp": 1719979256300
+      "timestamp": 1719987659894
     },
-    "9275cafa4cdef0cc4fc5b9dedae0d516f9fd3431": {
+    "031fc0514dc01761721dcbc481e7cc4447214774": {
       "imports": {
         "cc": {
           "resolved": {
@@ -34,7 +34,61 @@
           "messages": []
         }
       },
-      "timestamp": 1719979268801
+      "timestamp": 1719988426545
+    },
+    "5f4276738e7dac56ba5536ef19e4a9b2e81c074b": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1719988506396
+    },
+    "014a702cab8bbf030982926e82cc893d67db23a1": {
+      "imports": {},
+      "timestamp": 1719990233268
+    },
+    "2ea03bf006411ff355cc82e9abca1b0938aaf051": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1719990811798
+    },
+    "60d7c718b913b6b7e9d22cddda249a4b80503d9d": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "2ea03bf006411ff355cc82e9abca1b0938aaf051"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1719990839785
     },
     "93ba276ea7b26ffcdc433fab14afc1ed6f05647b": {
       "imports": {
@@ -249,128 +303,13 @@
           "messages": []
         }
       },
-      "timestamp": 1719979747374
-    },
-    "3c1c236bbaa72b292539401de12758e0adf6b071": {
-      "imports": {
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1719979747396
-    },
-    "8176ffb0c0a88e799d3660a9a6e8e613f72a93e6": {
-      "imports": {
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1719979747403
-    },
-    "9530bb5decc75fd1a85e28ccff3d71cbee66facc": {
-      "imports": {
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1719986685396
-    },
-    "65395e6f15b201b6c4d6832b45d4bc9f6c1109ac": {
-      "imports": {
-        "__unresolved_0": {
-          "resolved": {
-            "type": "chunk",
-            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
-          },
-          "messages": []
-        },
-        "__unresolved_1": {
-          "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 \"../Data/WeaponData\""
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
-        },
-        "__unresolved_2": {
-          "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 \"../Data/GridData\""
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
-        },
-        "__unresolved_3": {
-          "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 \"../../Constants\""
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
-        },
-        "__unresolved_4": {
-          "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 \"../../../../../script-oops/core/Oops\""
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
-        },
-        "__unresolved_5": {
-          "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts 为起点找不到模块 \"../../../../constant/EventConstant\""
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
-        },
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1719986913804
+      "timestamp": 1719994707515
     },
     "6a5019a719a9014c047e67aa1cf34453ab8392ce": {
       "imports": {},
-      "timestamp": 1719986913817
+      "timestamp": 1719994707534
     },
-    "65c46289c786cdea6bdfde86f14facac9c233706": {
+    "79a5023d7ea89ec414b8bb64d53ef6fd9b951ead": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -381,75 +320,24 @@
         },
         "__unresolved_1": {
           "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 \"../Data/WeaponData\""
+            "type": "chunk",
+            "id": "9ce1c0f263ebe02c6086dfb880266a85040cb119"
           },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
+          "messages": []
         },
         "__unresolved_2": {
           "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 \"../Data/GridData\""
+            "type": "chunk",
+            "id": "60d7c718b913b6b7e9d22cddda249a4b80503d9d"
           },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
+          "messages": []
         },
         "__unresolved_3": {
           "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 \"../../Constants\""
+            "type": "chunk",
+            "id": "031fc0514dc01761721dcbc481e7cc4447214774"
           },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
-        },
-        "__unresolved_4": {
-          "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 \"../../Frame/OpenPopupManager\""
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
-        },
-        "__unresolved_5": {
-          "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 \"../../../../constant/EventConstant\""
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
-        },
-        "__unresolved_6": {
-          "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts 为起点找不到模块 \"../../../../../script-oops/core/Oops\""
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
+          "messages": []
         },
         "cc": {
           "resolved": {
@@ -459,7 +347,7 @@
           "messages": []
         }
       },
-      "timestamp": 1719986913881
+      "timestamp": 1719995637759
     },
     "9ce1c0f263ebe02c6086dfb880266a85040cb119": {
       "imports": {
@@ -472,15 +360,10 @@
         },
         "__unresolved_1": {
           "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts 为起点找不到模块 \"../../../../manager/TemplateMgr\""
+            "type": "chunk",
+            "id": "60d7c718b913b6b7e9d22cddda249a4b80503d9d"
           },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
+          "messages": []
         },
         "cc": {
           "resolved": {
@@ -490,9 +373,9 @@
           "messages": []
         }
       },
-      "timestamp": 1719986976538
+      "timestamp": 1719995637802
     },
-    "1360649b71002ad4014c36f3b77d32d72e25654d": {
+    "8865fec114a2682799ba2b117b4f0115058eb265": {
       "imports": {
         "cc": {
           "resolved": {
@@ -502,7 +385,153 @@
           "messages": []
         }
       },
-      "timestamp": 1719980939132
+      "timestamp": 1719996122284
+    },
+    "1392f1efa6f078936b523467acdd8edc90c6c222": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1719996833893
+    },
+    "5b0b9d66b14a7168003f624dedd32cd518a8399f": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1719997072765
+    },
+    "443c05a027ebe780a9fe039a05508f7e0e2f54f0": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "206eef875977a76b4852eff17b0de7010155be0d"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "60d7c718b913b6b7e9d22cddda249a4b80503d9d"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
+            "id": "79a5023d7ea89ec414b8bb64d53ef6fd9b951ead"
+          },
+          "messages": []
+        },
+        "__unresolved_4": {
+          "resolved": {
+            "type": "chunk",
+            "id": "1392f1efa6f078936b523467acdd8edc90c6c222"
+          },
+          "messages": []
+        },
+        "__unresolved_5": {
+          "resolved": {
+            "type": "chunk",
+            "id": "5f4276738e7dac56ba5536ef19e4a9b2e81c074b"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1720000805215
+    },
+    "206eef875977a76b4852eff17b0de7010155be0d": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "79a5023d7ea89ec414b8bb64d53ef6fd9b951ead"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "9ce1c0f263ebe02c6086dfb880266a85040cb119"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
+            "id": "8865fec114a2682799ba2b117b4f0115058eb265"
+          },
+          "messages": []
+        },
+        "__unresolved_4": {
+          "resolved": {
+            "type": "chunk",
+            "id": "65c46289c786cdea6bdfde86f14facac9c233706"
+          },
+          "messages": []
+        },
+        "__unresolved_5": {
+          "resolved": {
+            "type": "chunk",
+            "id": "65395e6f15b201b6c4d6832b45d4bc9f6c1109ac"
+          },
+          "messages": []
+        },
+        "__unresolved_6": {
+          "resolved": {
+            "type": "chunk",
+            "id": "031fc0514dc01761721dcbc481e7cc4447214774"
+          },
+          "messages": []
+        },
+        "__unresolved_7": {
+          "resolved": {
+            "type": "chunk",
+            "id": "5f4276738e7dac56ba5536ef19e4a9b2e81c074b"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1720001481072
     },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
@@ -516,51 +545,105 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
-<<<<<<< HEAD
-            "id": "8176ffb0c0a88e799d3660a9a6e8e613f72a93e6"
-=======
-            "id": "1360649b71002ad4014c36f3b77d32d72e25654d"
->>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
+            "id": "8865fec114a2682799ba2b117b4f0115058eb265"
           },
           "messages": []
         },
-        "__unresolved_2": {
-          "resolved": {
-            "type": "chunk",
-<<<<<<< HEAD
-            "id": "9ce1c0f263ebe02c6086dfb880266a85040cb119"
-          },
-          "messages": []
-        },
-        "__unresolved_3": {
-          "resolved": {
-            "type": "chunk",
-            "id": "206eef875977a76b4852eff17b0de7010155be0d"
-          },
-          "messages": []
-        },
-        "__unresolved_4": {
+        "__unresolved_10": {
           "resolved": {
             "type": "chunk",
             "id": "65395e6f15b201b6c4d6832b45d4bc9f6c1109ac"
           },
           "messages": []
         },
-        "__unresolved_5": {
+        "__unresolved_11": {
           "resolved": {
             "type": "chunk",
             "id": "65c46289c786cdea6bdfde86f14facac9c233706"
-=======
-            "id": "95c95bfbf0ecde8e394362bc35cdb05cee4e1c83"
->>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
+          },
+          "messages": []
+        },
+        "__unresolved_12": {
+          "resolved": {
+            "type": "chunk",
+            "id": "e370a5e2ee96b909166c3f63f6eaaf95bf65c53e"
+          },
+          "messages": []
+        },
+        "__unresolved_13": {
+          "resolved": {
+            "type": "chunk",
+            "id": "443c05a027ebe780a9fe039a05508f7e0e2f54f0"
+          },
+          "messages": []
+        },
+        "__unresolved_14": {
+          "resolved": {
+            "type": "chunk",
+            "id": "2ea03bf006411ff355cc82e9abca1b0938aaf051"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "79a5023d7ea89ec414b8bb64d53ef6fd9b951ead"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
+            "id": "9ce1c0f263ebe02c6086dfb880266a85040cb119"
+          },
+          "messages": []
+        },
+        "__unresolved_4": {
+          "resolved": {
+            "type": "chunk",
+            "id": "5f4276738e7dac56ba5536ef19e4a9b2e81c074b"
+          },
+          "messages": []
+        },
+        "__unresolved_5": {
+          "resolved": {
+            "type": "chunk",
+            "id": "5b0b9d66b14a7168003f624dedd32cd518a8399f"
+          },
+          "messages": []
+        },
+        "__unresolved_6": {
+          "resolved": {
+            "type": "chunk",
+            "id": "1392f1efa6f078936b523467acdd8edc90c6c222"
+          },
+          "messages": []
+        },
+        "__unresolved_7": {
+          "resolved": {
+            "type": "chunk",
+            "id": "60d7c718b913b6b7e9d22cddda249a4b80503d9d"
+          },
+          "messages": []
+        },
+        "__unresolved_8": {
+          "resolved": {
+            "type": "chunk",
+            "id": "206eef875977a76b4852eff17b0de7010155be0d"
+          },
+          "messages": []
+        },
+        "__unresolved_9": {
+          "resolved": {
+            "type": "chunk",
+            "id": "031fc0514dc01761721dcbc481e7cc4447214774"
           },
           "messages": []
         }
       },
-<<<<<<< HEAD
-      "timestamp": 1719987027142
+      "timestamp": 1720003141775
     },
-    "206eef875977a76b4852eff17b0de7010155be0d": {
+    "65c46289c786cdea6bdfde86f14facac9c233706": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -571,91 +654,32 @@
         },
         "__unresolved_1": {
           "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 \"../Data/GridData\""
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
-        },
-        "__unresolved_2": {
-          "resolved": {
             "type": "chunk",
             "id": "9ce1c0f263ebe02c6086dfb880266a85040cb119"
           },
           "messages": []
         },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "79a5023d7ea89ec414b8bb64d53ef6fd9b951ead"
+          },
+          "messages": []
+        },
         "__unresolved_3": {
           "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 \"../../Constants\""
+            "type": "chunk",
+            "id": "8865fec114a2682799ba2b117b4f0115058eb265"
           },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
+          "messages": []
         },
         "__unresolved_4": {
           "resolved": {
             "type": "chunk",
-            "id": "65c46289c786cdea6bdfde86f14facac9c233706"
+            "id": "5f4276738e7dac56ba5536ef19e4a9b2e81c074b"
           },
           "messages": []
         },
-        "__unresolved_5": {
-          "resolved": {
-            "type": "chunk",
-            "id": "65395e6f15b201b6c4d6832b45d4bc9f6c1109ac"
-          },
-          "messages": []
-        },
-        "__unresolved_6": {
-          "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 \"../../../../../script-oops/core/Oops\""
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
-        },
-        "__unresolved_7": {
-          "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 \"../../../../battle/util/Util\""
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
-        },
-        "__unresolved_8": {
-          "resolved": {
-            "type": "error",
-            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts 为起点找不到模块 \"../../../../constant/EventConstant\""
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-            }
-          ]
-        },
-=======
-      "timestamp": 1719981033165
-    },
-    "95c95bfbf0ecde8e394362bc35cdb05cee4e1c83": {
-      "imports": {
->>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
         "cc": {
           "resolved": {
             "type": "chunk",
@@ -664,26 +688,73 @@
           "messages": []
         }
       },
-<<<<<<< HEAD
-      "timestamp": 1719987027195
-=======
-      "timestamp": 1719981033181
->>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
+      "timestamp": 1720003141828
+    },
+    "65395e6f15b201b6c4d6832b45d4bc9f6c1109ac": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "9ce1c0f263ebe02c6086dfb880266a85040cb119"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "79a5023d7ea89ec414b8bb64d53ef6fd9b951ead"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
+            "id": "8865fec114a2682799ba2b117b4f0115058eb265"
+          },
+          "messages": []
+        },
+        "__unresolved_4": {
+          "resolved": {
+            "type": "chunk",
+            "id": "5f4276738e7dac56ba5536ef19e4a9b2e81c074b"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1720003141867
     }
   },
   "entries": {
     "cce:/internal/x/cc": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
     "cce:/internal/x/prerequisite-imports": "6d8fd2b0177941b032ddc0733af48a561fb60657",
     "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "31e3c2f26607ebb67e59edfae1b48b9458089fb9",
-<<<<<<< HEAD
-    "file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts": "8176ffb0c0a88e799d3660a9a6e8e613f72a93e6",
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts": "8865fec114a2682799ba2b117b4f0115058eb265",
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts": "79a5023d7ea89ec414b8bb64d53ef6fd9b951ead",
     "file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts": "9ce1c0f263ebe02c6086dfb880266a85040cb119",
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts": "5f4276738e7dac56ba5536ef19e4a9b2e81c074b",
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts": "5b0b9d66b14a7168003f624dedd32cd518a8399f",
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts": "1392f1efa6f078936b523467acdd8edc90c6c222",
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts": "60d7c718b913b6b7e9d22cddda249a4b80503d9d",
     "file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts": "206eef875977a76b4852eff17b0de7010155be0d",
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts": "031fc0514dc01761721dcbc481e7cc4447214774",
     "file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts": "65395e6f15b201b6c4d6832b45d4bc9f6c1109ac",
-    "file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts": "65c46289c786cdea6bdfde86f14facac9c233706"
-=======
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts": "1360649b71002ad4014c36f3b77d32d72e25654d",
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts": "95c95bfbf0ecde8e394362bc35cdb05cee4e1c83"
->>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts": "65c46289c786cdea6bdfde86f14facac9c233706",
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/block/BaseBlock.ts": "e370a5e2ee96b909166c3f63f6eaaf95bf65c53e",
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts": "443c05a027ebe780a9fe039a05508f7e0e2f54f0",
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts": "2ea03bf006411ff355cc82e9abca1b0938aaf051"
   }
 }

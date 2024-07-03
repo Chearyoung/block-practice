@@ -1,9 +1,8 @@
-import { _decorator, Color, Component, game, instantiate, Layout, Node, Sprite, SpriteFrame, Tween, tween, UIOpacity, UITransform, v2, v3, Vec2, Vec3 } from 'cc';
+import { _decorator, Color, Component, game, instantiate, Layout, Node, resources, Sprite, SpriteFrame, Tween, tween, UIOpacity, UITransform, v2, v3, Vec2, Vec3} from 'cc';
 import { WeaponData, WeaponModel } from '../Data/WeaponData';
 import { GridData, GridObj } from '../Data/GridData';
-import { Constants } from '../../Constants';
-import { oops } from '../../../../../script-oops/core/Oops';
-import { EventConstant } from '../../../../constant/EventConstant';
+import { Constants } from '../Constants';
+import { EventConstant } from '../EventConstant';
 const { ccclass, property } = _decorator;
 
 @ccclass('WeaponItem')
@@ -83,7 +82,7 @@ export class WeaponBgItem extends Component {
     /* 设置武器图标 */
     private setGridIcon() {
         let path = Constants.weaponIconPath + this.weaponCfg.Res + '/spriteFrame';
-        oops.res.load(path, SpriteFrame, (err: Error | null, content: SpriteFrame) => {
+        resources.load(path, SpriteFrame, (err: Error | null, content: SpriteFrame) => {
             this.icon.spriteFrame = content;
             //设置格子
             let iconList = this.icon.node.parent!;

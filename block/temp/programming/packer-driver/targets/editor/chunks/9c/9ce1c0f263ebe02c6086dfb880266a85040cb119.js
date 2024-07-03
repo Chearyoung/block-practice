@@ -4,7 +4,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
   var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, Vec3, Templates, WeaponData, CoinObj, _crd;
 
   function _reportPossibleCrUseOfTemplates(extras) {
-    _reporterNs.report("Templates", "../../../../manager/TemplateMgr", _context.meta, extras);
+    _reporterNs.report("Templates", "../Mgr/TemplateMgr", _context.meta, extras);
   }
 
   _export({

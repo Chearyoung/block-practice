@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, game, instantiate, Layout, Sprite, SpriteFrame, UIOpacity, UITransform, v2, Vec3, WeaponData, GridData, GridObj, Constants, oops, EventConstant, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, WeaponBgItem, TouchStatus;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, game, instantiate, Layout, resources, Sprite, SpriteFrame, UIOpacity, UITransform, v2, Vec3, WeaponData, GridData, GridObj, Constants, EventConstant, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, WeaponBgItem, TouchStatus;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -26,15 +26,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
   }
 
   function _reportPossibleCrUseOfConstants(extras) {
-    _reporterNs.report("Constants", "../../Constants", _context.meta, extras);
-  }
-
-  function _reportPossibleCrUseOfoops(extras) {
-    _reporterNs.report("oops", "../../../../../script-oops/core/Oops", _context.meta, extras);
+    _reporterNs.report("Constants", "../Constants", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfEventConstant(extras) {
-    _reporterNs.report("EventConstant", "../../../../constant/EventConstant", _context.meta, extras);
+    _reporterNs.report("EventConstant", "../EventConstant", _context.meta, extras);
   }
 
   return {
@@ -49,6 +45,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       game = _cc.game;
       instantiate = _cc.instantiate;
       Layout = _cc.Layout;
+      resources = _cc.resources;
       Sprite = _cc.Sprite;
       SpriteFrame = _cc.SpriteFrame;
       UIOpacity = _cc.UIOpacity;
@@ -63,16 +60,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     }, function (_unresolved_4) {
       Constants = _unresolved_4.Constants;
     }, function (_unresolved_5) {
-      oops = _unresolved_5.oops;
-    }, function (_unresolved_6) {
-      EventConstant = _unresolved_6.EventConstant;
+      EventConstant = _unresolved_5.EventConstant;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "f96cd2ocN1Av7siZ2Mlbz07", "WeaponBgItem", undefined);
 
-      __checkObsolete__(['_decorator', 'Color', 'Component', 'game', 'instantiate', 'Layout', 'Node', 'Sprite', 'SpriteFrame', 'Tween', 'tween', 'UIOpacity', 'UITransform', 'v2', 'v3', 'Vec2', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Color', 'Component', 'game', 'instantiate', 'Layout', 'Node', 'resources', 'Sprite', 'SpriteFrame', 'Tween', 'tween', 'UIOpacity', 'UITransform', 'v2', 'v3', 'Vec2', 'Vec3']);
 
       ({
         ccclass,
@@ -179,9 +174,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           var path = (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).weaponIconPath + this.weaponCfg.Res + '/spriteFrame';
-          (_crd && oops === void 0 ? (_reportPossibleCrUseOfoops({
-            error: Error()
-          }), oops) : oops).res.load(path, SpriteFrame, (err, content) => {
+          resources.load(path, SpriteFrame, (err, content) => {
             this.icon.spriteFrame = content; //设置格子
 
             var iconList = this.icon.node.parent;

@@ -4,34 +4,63 @@
     "value": {},
     "versionCode": 1
   },
+  "6077d639-3a4b-4bb8-9b64-774a9761a2bc": {
+    "url": "db://assets/scene",
+    "value": {},
+    "versionCode": 1
+  },
   "bc24167b-280d-46d6-9328-233e76809fc6": {
     "url": "db://assets/script",
     "value": {},
     "versionCode": 1
   },
-  "240bcc8c-fa53-4424-9185-1b6247580b2b": {
-    "url": "db://assets/script/block/BaseBlock.ts",
+  "030023b0-2889-4f8b-9adc-ea18359c090a": {
+    "url": "db://assets/resources/images",
     "value": {},
     "versionCode": 1
   },
-  "70abf7fc-d604-4b0e-970d-4d6a9b497454": {
-    "url": "db://assets/script/NewComponent.ts",
+  "f4d0a3c8-927d-4bbb-9ace-64f868e77c94": {
+    "url": "db://assets/script/Data",
     "value": {},
     "versionCode": 1
   },
-<<<<<<< HEAD
-  "87db79bc-1cc8-487a-9ea6-5c337af998ca": {
-    "url": "db://assets/Game\bController.ts",
-    "value": {},
-    "versionCode": 1
-  },
-  "65682309-5676-46ad-a308-d6f346e92a26": {
-    "url": "db://assets/script/WeaponManager.ts",
+  "05f51175-adb4-420a-ac11-61e018ea3898": {
+    "url": "db://assets/script/Mgr",
     "value": {},
     "versionCode": 1
   },
   "46ce02f0-0a91-4a76-a3c2-eaf6876e4427": {
     "url": "db://assets/script/Weapon",
+    "value": {},
+    "versionCode": 1
+  },
+  "ab18158a-02e2-40b2-9ac6-e3b75c810a76": {
+    "url": "db://assets/script/block",
+    "value": {},
+    "versionCode": 1
+  },
+  "d7bbd0f3-3bd1-42f4-b352-744c1d91822b": {
+    "url": "db://assets/script/scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "ae51181a-32ac-48d5-b51f-9af84662a51b": {
+    "url": "db://assets/resources/images/grid",
+    "value": {},
+    "versionCode": 1
+  },
+  "19a3c8bb-51fe-44dc-9c30-ee4383d89542": {
+    "url": "db://assets/resources/images/weapon",
+    "value": {},
+    "versionCode": 1
+  },
+  "9134856f-a96e-418b-aabc-4816f7e1df95": {
+    "url": "db://assets/script/Data/WeaponData.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "80502411-c055-4a2a-aae4-002bb4f8b2bd": {
+    "url": "db://assets/script/Mgr/WeaponManager.ts",
     "value": {},
     "versionCode": 1
   },
@@ -45,65 +74,29 @@
     "value": {},
     "versionCode": 1
   },
-  "f4d0a3c8-927d-4bbb-9ace-64f868e77c94": {
-    "url": "db://assets/script/Data",
+  "240bcc8c-fa53-4424-9185-1b6247580b2b": {
+    "url": "db://assets/script/block/BaseBlock.ts",
     "value": {},
     "versionCode": 1
   },
-  "9134856f-a96e-418b-aabc-4816f7e1df95": {
-    "url": "db://assets/script/Data/WeaponData.ts",
+  "9e2c5b53-d802-4690-9a50-8e9a1823e585": {
+    "url": "db://assets/script/scene/MainScene.ts",
     "value": {},
     "versionCode": 1
   },
-  "05f51175-adb4-420a-ac11-61e018ea3898": {
-    "url": "db://assets/script/Mgr",
-    "value": {},
-    "versionCode": 1
-  },
-  "80502411-c055-4a2a-aae4-002bb4f8b2bd": {
-    "url": "db://assets/script/Mgr/WeaponManager.ts",
-=======
-  "f4f04196-119c-4fb1-bb73-efa1c4fbce63": {
-    "url": "db://assets/resources/prefab",
-    "value": {},
-    "versionCode": 1
-  },
-  "030023b0-2889-4f8b-9adc-ea18359c090a": {
-    "url": "db://assets/resources/images",
-    "value": {},
-    "versionCode": 1
-  },
-  "160ba03e-0d60-49d5-b9fa-e061ea0d7843": {
-    "url": "db://assets/resources/images/101.png",
-    "value": {},
-    "versionCode": 1
-  },
-  "160ba03e-0d60-49d5-b9fa-e061ea0d7843@6c48a": {
-    "url": "db://assets/resources/images/101.png@6c48a",
+  "130ad698-3028-4b54-9667-9fc7a1ef4016": {
+    "url": "db://assets/scene/Block.scene",
     "value": {
       "depends": [
-        "160ba03e-0d60-49d5-b9fa-e061ea0d7843"
+        "130ad698-3028-4b54-9667-9fc7a1ef4016",
+        "86d249e2-3ba8-4df5-8461-cee44b400dd1@f9941"
+      ],
+      "dependScripts": [
+        "80502411-c055-4a2a-aae4-002bb4f8b2bd",
+        "de5e720e-fb39-4df9-abc1-37b468f7136c",
+        "9e2c5b53-d802-4690-9a50-8e9a1823e585"
       ]
     },
-    "versionCode": 1
-  },
-  "160ba03e-0d60-49d5-b9fa-e061ea0d7843@f9941": {
-    "url": "db://assets/resources/images/101.png@f9941",
-    "value": {
-      "depends": [
-        "160ba03e-0d60-49d5-b9fa-e061ea0d7843@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "19a3c8bb-51fe-44dc-9c30-ee4383d89542": {
-    "url": "db://assets/resources/images/weapon",
-    "value": {},
-    "versionCode": 1
-  },
-  "ae51181a-32ac-48d5-b51f-9af84662a51b": {
-    "url": "db://assets/resources/images/grid",
-    "value": {},
     "versionCode": 1
   },
   "5be94216-066f-464b-a2cc-c480fcd84369": {
@@ -113,26 +106,29 @@
     },
     "versionCode": 1
   },
-  "5be94216-066f-464b-a2cc-c480fcd84369@6c48a": {
-    "url": "db://assets/resources/images/grid/bag.png@6c48a",
-    "value": {
-      "depends": [
-        "5be94216-066f-464b-a2cc-c480fcd84369"
-      ]
-    },
-    "versionCode": 1
-  },
-  "5be94216-066f-464b-a2cc-c480fcd84369@f9941": {
-    "url": "db://assets/resources/images/grid/bag.png@f9941",
-    "value": {
-      "depends": [
-        "5be94216-066f-464b-a2cc-c480fcd84369@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
   "3a2e813f-f48e-4b16-826f-1e8b573ef4d8": {
     "url": "db://assets/resources/images/grid/bag1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ee8d3ecd-a486-4a81-81da-6642e5bb6d1e": {
+    "url": "db://assets/resources/images/grid/bag3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c479aeec-13fe-4bf0-ae28-9bf56934d2f3": {
+    "url": "db://assets/resources/images/grid/bag5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9191638b-1fba-4290-b8bb-15b72fa62354": {
+    "url": "db://assets/resources/images/grid/bag6.png",
     "value": {
       "depends": []
     },
@@ -147,44 +143,12 @@
     },
     "versionCode": 1
   },
-  "3a2e813f-f48e-4b16-826f-1e8b573ef4d8@f9941": {
-    "url": "db://assets/resources/images/grid/bag1.png@f9941",
+  "5be94216-066f-464b-a2cc-c480fcd84369@6c48a": {
+    "url": "db://assets/resources/images/grid/bag.png@6c48a",
     "value": {
       "depends": [
-        "3a2e813f-f48e-4b16-826f-1e8b573ef4d8@6c48a"
+        "5be94216-066f-464b-a2cc-c480fcd84369"
       ]
-    },
-    "versionCode": 1
-  },
-  "ee8d3ecd-a486-4a81-81da-6642e5bb6d1e": {
-    "url": "db://assets/resources/images/grid/bag3.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "ee8d3ecd-a486-4a81-81da-6642e5bb6d1e@6c48a": {
-    "url": "db://assets/resources/images/grid/bag3.png@6c48a",
-    "value": {
-      "depends": [
-        "ee8d3ecd-a486-4a81-81da-6642e5bb6d1e"
-      ]
-    },
-    "versionCode": 1
-  },
-  "ee8d3ecd-a486-4a81-81da-6642e5bb6d1e@f9941": {
-    "url": "db://assets/resources/images/grid/bag3.png@f9941",
-    "value": {
-      "depends": [
-        "ee8d3ecd-a486-4a81-81da-6642e5bb6d1e@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "c479aeec-13fe-4bf0-ae28-9bf56934d2f3": {
-    "url": "db://assets/resources/images/grid/bag5.png",
-    "value": {
-      "depends": []
     },
     "versionCode": 1
   },
@@ -197,17 +161,26 @@
     },
     "versionCode": 1
   },
-  "c479aeec-13fe-4bf0-ae28-9bf56934d2f3@f9941": {
-    "url": "db://assets/resources/images/grid/bag5.png@f9941",
+  "ee8d3ecd-a486-4a81-81da-6642e5bb6d1e@6c48a": {
+    "url": "db://assets/resources/images/grid/bag3.png@6c48a",
     "value": {
       "depends": [
-        "c479aeec-13fe-4bf0-ae28-9bf56934d2f3@6c48a"
+        "ee8d3ecd-a486-4a81-81da-6642e5bb6d1e"
       ]
     },
     "versionCode": 1
   },
-  "9191638b-1fba-4290-b8bb-15b72fa62354": {
-    "url": "db://assets/resources/images/grid/bag6.png",
+  "3a2e813f-f48e-4b16-826f-1e8b573ef4d8@f9941": {
+    "url": "db://assets/resources/images/grid/bag1.png@f9941",
+    "value": {
+      "depends": [
+        "3a2e813f-f48e-4b16-826f-1e8b573ef4d8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c8a9ae2d-2ce8-41b3-b817-752ca39e7560": {
+    "url": "db://assets/resources/images/grid/bag7.png",
     "value": {
       "depends": []
     },
@@ -222,6 +195,54 @@
     },
     "versionCode": 1
   },
+  "5be94216-066f-464b-a2cc-c480fcd84369@f9941": {
+    "url": "db://assets/resources/images/grid/bag.png@f9941",
+    "value": {
+      "depends": [
+        "5be94216-066f-464b-a2cc-c480fcd84369@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "beb4ab82-e5f6-4f32-91ea-e768a0bd6e6c": {
+    "url": "db://assets/resources/images/grid/bag8.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c479aeec-13fe-4bf0-ae28-9bf56934d2f3@f9941": {
+    "url": "db://assets/resources/images/grid/bag5.png@f9941",
+    "value": {
+      "depends": [
+        "c479aeec-13fe-4bf0-ae28-9bf56934d2f3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ee8d3ecd-a486-4a81-81da-6642e5bb6d1e@f9941": {
+    "url": "db://assets/resources/images/grid/bag3.png@f9941",
+    "value": {
+      "depends": [
+        "ee8d3ecd-a486-4a81-81da-6642e5bb6d1e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "19ab4d71-12ca-48ca-b881-dfcb7b8ae7de": {
+    "url": "db://assets/resources/images/grid/bag9.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "37ad525b-7124-454a-af36-c4d8950cca91": {
+    "url": "db://assets/resources/images/grid/cell.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
   "9191638b-1fba-4290-b8bb-15b72fa62354@f9941": {
     "url": "db://assets/resources/images/grid/bag6.png@f9941",
     "value": {
@@ -231,8 +252,8 @@
     },
     "versionCode": 1
   },
-  "c8a9ae2d-2ce8-41b3-b817-752ca39e7560": {
-    "url": "db://assets/resources/images/grid/bag7.png",
+  "ea643814-787d-4f0b-93aa-a664f7c4eed1": {
+    "url": "db://assets/resources/images/grid/cellBg.png",
     "value": {
       "depends": []
     },
@@ -247,19 +268,12 @@
     },
     "versionCode": 1
   },
-  "c8a9ae2d-2ce8-41b3-b817-752ca39e7560@f9941": {
-    "url": "db://assets/resources/images/grid/bag7.png@f9941",
+  "37ad525b-7124-454a-af36-c4d8950cca91@6c48a": {
+    "url": "db://assets/resources/images/grid/cell.png@6c48a",
     "value": {
       "depends": [
-        "c8a9ae2d-2ce8-41b3-b817-752ca39e7560@6c48a"
+        "37ad525b-7124-454a-af36-c4d8950cca91"
       ]
-    },
-    "versionCode": 1
-  },
-  "beb4ab82-e5f6-4f32-91ea-e768a0bd6e6c": {
-    "url": "db://assets/resources/images/grid/bag8.png",
-    "value": {
-      "depends": []
     },
     "versionCode": 1
   },
@@ -272,22 +286,6 @@
     },
     "versionCode": 1
   },
-  "beb4ab82-e5f6-4f32-91ea-e768a0bd6e6c@f9941": {
-    "url": "db://assets/resources/images/grid/bag8.png@f9941",
-    "value": {
-      "depends": [
-        "beb4ab82-e5f6-4f32-91ea-e768a0bd6e6c@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "19ab4d71-12ca-48ca-b881-dfcb7b8ae7de": {
-    "url": "db://assets/resources/images/grid/bag9.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
   "19ab4d71-12ca-48ca-b881-dfcb7b8ae7de@6c48a": {
     "url": "db://assets/resources/images/grid/bag9.png@6c48a",
     "value": {
@@ -297,44 +295,12 @@
     },
     "versionCode": 1
   },
-  "19ab4d71-12ca-48ca-b881-dfcb7b8ae7de@f9941": {
-    "url": "db://assets/resources/images/grid/bag9.png@f9941",
+  "c8a9ae2d-2ce8-41b3-b817-752ca39e7560@f9941": {
+    "url": "db://assets/resources/images/grid/bag7.png@f9941",
     "value": {
       "depends": [
-        "19ab4d71-12ca-48ca-b881-dfcb7b8ae7de@6c48a"
+        "c8a9ae2d-2ce8-41b3-b817-752ca39e7560@6c48a"
       ]
-    },
-    "versionCode": 1
-  },
-  "37ad525b-7124-454a-af36-c4d8950cca91": {
-    "url": "db://assets/resources/images/grid/cell.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "37ad525b-7124-454a-af36-c4d8950cca91@6c48a": {
-    "url": "db://assets/resources/images/grid/cell.png@6c48a",
-    "value": {
-      "depends": [
-        "37ad525b-7124-454a-af36-c4d8950cca91"
-      ]
-    },
-    "versionCode": 1
-  },
-  "37ad525b-7124-454a-af36-c4d8950cca91@f9941": {
-    "url": "db://assets/resources/images/grid/cell.png@f9941",
-    "value": {
-      "depends": [
-        "37ad525b-7124-454a-af36-c4d8950cca91@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "ea643814-787d-4f0b-93aa-a664f7c4eed1": {
-    "url": "db://assets/resources/images/grid/cellBg.png",
-    "value": {
-      "depends": []
     },
     "versionCode": 1
   },
@@ -347,17 +313,40 @@
     },
     "versionCode": 1
   },
-  "ea643814-787d-4f0b-93aa-a664f7c4eed1@f9941": {
-    "url": "db://assets/resources/images/grid/cellBg.png@f9941",
+  "e3d7c799-25ba-4ce0-bbd3-a7cd397d5665": {
+    "url": "db://assets/resources/images/grid/cellBgTips.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "beb4ab82-e5f6-4f32-91ea-e768a0bd6e6c@f9941": {
+    "url": "db://assets/resources/images/grid/bag8.png@f9941",
     "value": {
       "depends": [
-        "ea643814-787d-4f0b-93aa-a664f7c4eed1@6c48a"
+        "beb4ab82-e5f6-4f32-91ea-e768a0bd6e6c@6c48a"
       ]
     },
     "versionCode": 1
   },
-  "e3d7c799-25ba-4ce0-bbd3-a7cd397d5665": {
-    "url": "db://assets/resources/images/grid/cellBgTips.png",
+  "3d652096-31f6-48f5-85fe-9858dd8b9e2c": {
+    "url": "db://assets/resources/images/grid/cellTips.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "19ab4d71-12ca-48ca-b881-dfcb7b8ae7de@f9941": {
+    "url": "db://assets/resources/images/grid/bag9.png@f9941",
+    "value": {
+      "depends": [
+        "19ab4d71-12ca-48ca-b881-dfcb7b8ae7de@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "594e8aeb-d6ab-4e7c-ba78-6892a0448e91": {
+    "url": "db://assets/resources/images/weapon/10000.png",
     "value": {
       "depends": []
     },
@@ -372,6 +361,56 @@
     },
     "versionCode": 1
   },
+  "3d652096-31f6-48f5-85fe-9858dd8b9e2c@6c48a": {
+    "url": "db://assets/resources/images/grid/cellTips.png@6c48a",
+    "value": {
+      "depends": [
+        "3d652096-31f6-48f5-85fe-9858dd8b9e2c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "594e8aeb-d6ab-4e7c-ba78-6892a0448e91@6c48a": {
+    "url": "db://assets/resources/images/weapon/10000.png@6c48a",
+    "value": {
+      "depends": [
+        "594e8aeb-d6ab-4e7c-ba78-6892a0448e91"
+      ]
+    },
+    "versionCode": 1
+  },
+  "37ad525b-7124-454a-af36-c4d8950cca91@f9941": {
+    "url": "db://assets/resources/images/grid/cell.png@f9941",
+    "value": {
+      "depends": [
+        "37ad525b-7124-454a-af36-c4d8950cca91@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "66144777-d36c-4067-b95f-c7b3f250d633": {
+    "url": "db://assets/resources/images/weapon/101.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ea643814-787d-4f0b-93aa-a664f7c4eed1@f9941": {
+    "url": "db://assets/resources/images/grid/cellBg.png@f9941",
+    "value": {
+      "depends": [
+        "ea643814-787d-4f0b-93aa-a664f7c4eed1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0ab44aa2-2432-4a18-8e7e-7a8a7d8b2779": {
+    "url": "db://assets/resources/images/weapon/102.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
   "e3d7c799-25ba-4ce0-bbd3-a7cd397d5665@f9941": {
     "url": "db://assets/resources/images/grid/cellBgTips.png@f9941",
     "value": {
@@ -381,19 +420,10 @@
     },
     "versionCode": 1
   },
-  "3d652096-31f6-48f5-85fe-9858dd8b9e2c": {
-    "url": "db://assets/resources/images/grid/cellTips.png",
+  "652b1dc2-4174-4c9d-b71b-bd40c7077fb0": {
+    "url": "db://assets/resources/images/weapon/103.png",
     "value": {
       "depends": []
-    },
-    "versionCode": 1
-  },
-  "3d652096-31f6-48f5-85fe-9858dd8b9e2c@6c48a": {
-    "url": "db://assets/resources/images/grid/cellTips.png@6c48a",
-    "value": {
-      "depends": [
-        "3d652096-31f6-48f5-85fe-9858dd8b9e2c"
-      ]
     },
     "versionCode": 1
   },
@@ -406,8 +436,24 @@
     },
     "versionCode": 1
   },
-  "66144777-d36c-4067-b95f-c7b3f250d633": {
-    "url": "db://assets/resources/images/weapon/101.png",
+  "98fcfd35-e127-450f-8c73-b221e853d866": {
+    "url": "db://assets/resources/images/weapon/104.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "594e8aeb-d6ab-4e7c-ba78-6892a0448e91@f9941": {
+    "url": "db://assets/resources/images/weapon/10000.png@f9941",
+    "value": {
+      "depends": [
+        "594e8aeb-d6ab-4e7c-ba78-6892a0448e91@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dc605e74-beac-4de2-a463-f491b015e0c3": {
+    "url": "db://assets/resources/images/weapon/201.png",
     "value": {
       "depends": []
     },
@@ -422,69 +468,12 @@
     },
     "versionCode": 1
   },
-  "66144777-d36c-4067-b95f-c7b3f250d633@f9941": {
-    "url": "db://assets/resources/images/weapon/101.png@f9941",
-    "value": {
-      "depends": [
-        "66144777-d36c-4067-b95f-c7b3f250d633@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "0ab44aa2-2432-4a18-8e7e-7a8a7d8b2779": {
-    "url": "db://assets/resources/images/weapon/102.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
   "0ab44aa2-2432-4a18-8e7e-7a8a7d8b2779@6c48a": {
     "url": "db://assets/resources/images/weapon/102.png@6c48a",
     "value": {
       "depends": [
         "0ab44aa2-2432-4a18-8e7e-7a8a7d8b2779"
       ]
-    },
-    "versionCode": 1
-  },
-  "0ab44aa2-2432-4a18-8e7e-7a8a7d8b2779@f9941": {
-    "url": "db://assets/resources/images/weapon/102.png@f9941",
-    "value": {
-      "depends": [
-        "0ab44aa2-2432-4a18-8e7e-7a8a7d8b2779@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "86abe560-cfe0-46ba-90e0-b907c4676488": {
-    "url": "db://assets/resources/images/weapon/202.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "86abe560-cfe0-46ba-90e0-b907c4676488@6c48a": {
-    "url": "db://assets/resources/images/weapon/202.png@6c48a",
-    "value": {
-      "depends": [
-        "86abe560-cfe0-46ba-90e0-b907c4676488"
-      ]
-    },
-    "versionCode": 1
-  },
-  "86abe560-cfe0-46ba-90e0-b907c4676488@f9941": {
-    "url": "db://assets/resources/images/weapon/202.png@f9941",
-    "value": {
-      "depends": [
-        "86abe560-cfe0-46ba-90e0-b907c4676488@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "652b1dc2-4174-4c9d-b71b-bd40c7077fb0": {
-    "url": "db://assets/resources/images/weapon/103.png",
-    "value": {
-      "depends": []
     },
     "versionCode": 1
   },
@@ -497,22 +486,6 @@
     },
     "versionCode": 1
   },
-  "652b1dc2-4174-4c9d-b71b-bd40c7077fb0@f9941": {
-    "url": "db://assets/resources/images/weapon/103.png@f9941",
-    "value": {
-      "depends": [
-        "652b1dc2-4174-4c9d-b71b-bd40c7077fb0@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "98fcfd35-e127-450f-8c73-b221e853d866": {
-    "url": "db://assets/resources/images/weapon/104.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
   "98fcfd35-e127-450f-8c73-b221e853d866@6c48a": {
     "url": "db://assets/resources/images/weapon/104.png@6c48a",
     "value": {
@@ -522,192 +495,33 @@
     },
     "versionCode": 1
   },
-  "98fcfd35-e127-450f-8c73-b221e853d866@f9941": {
-    "url": "db://assets/resources/images/weapon/104.png@f9941",
+  "66144777-d36c-4067-b95f-c7b3f250d633@f9941": {
+    "url": "db://assets/resources/images/weapon/101.png@f9941",
     "value": {
       "depends": [
-        "98fcfd35-e127-450f-8c73-b221e853d866@6c48a"
+        "66144777-d36c-4067-b95f-c7b3f250d633@6c48a"
       ]
     },
     "versionCode": 1
   },
-  "c8821289-a04e-4b1b-90d4-3feaac5717fc": {
-    "url": "db://assets/resources/images/weapon/401.png",
+  "86abe560-cfe0-46ba-90e0-b907c4676488": {
+    "url": "db://assets/resources/images/weapon/202.png",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
-  "c8821289-a04e-4b1b-90d4-3feaac5717fc@6c48a": {
-    "url": "db://assets/resources/images/weapon/401.png@6c48a",
+  "0ab44aa2-2432-4a18-8e7e-7a8a7d8b2779@f9941": {
+    "url": "db://assets/resources/images/weapon/102.png@f9941",
     "value": {
       "depends": [
-        "c8821289-a04e-4b1b-90d4-3feaac5717fc"
-      ]
-    },
-    "versionCode": 1
-  },
-  "c8821289-a04e-4b1b-90d4-3feaac5717fc@f9941": {
-    "url": "db://assets/resources/images/weapon/401.png@f9941",
-    "value": {
-      "depends": [
-        "c8821289-a04e-4b1b-90d4-3feaac5717fc@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "cb5ea402-415d-4bb0-b0e5-0c02130e2ffc": {
-    "url": "db://assets/resources/images/weapon/303.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "cb5ea402-415d-4bb0-b0e5-0c02130e2ffc@6c48a": {
-    "url": "db://assets/resources/images/weapon/303.png@6c48a",
-    "value": {
-      "depends": [
-        "cb5ea402-415d-4bb0-b0e5-0c02130e2ffc"
-      ]
-    },
-    "versionCode": 1
-  },
-  "cb5ea402-415d-4bb0-b0e5-0c02130e2ffc@f9941": {
-    "url": "db://assets/resources/images/weapon/303.png@f9941",
-    "value": {
-      "depends": [
-        "cb5ea402-415d-4bb0-b0e5-0c02130e2ffc@6c48a"
+        "0ab44aa2-2432-4a18-8e7e-7a8a7d8b2779@6c48a"
       ]
     },
     "versionCode": 1
   },
   "7e037404-71e2-442d-834e-dcc7188f8443": {
     "url": "db://assets/resources/images/weapon/203.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "7e037404-71e2-442d-834e-dcc7188f8443@6c48a": {
-    "url": "db://assets/resources/images/weapon/203.png@6c48a",
-    "value": {
-      "depends": [
-        "7e037404-71e2-442d-834e-dcc7188f8443"
-      ]
-    },
-    "versionCode": 1
-  },
-  "7e037404-71e2-442d-834e-dcc7188f8443@f9941": {
-    "url": "db://assets/resources/images/weapon/203.png@f9941",
-    "value": {
-      "depends": [
-        "7e037404-71e2-442d-834e-dcc7188f8443@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "068bbd28-8cb0-4d6a-bda0-622becab38a8": {
-    "url": "db://assets/resources/images/weapon/301.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "068bbd28-8cb0-4d6a-bda0-622becab38a8@6c48a": {
-    "url": "db://assets/resources/images/weapon/301.png@6c48a",
-    "value": {
-      "depends": [
-        "068bbd28-8cb0-4d6a-bda0-622becab38a8"
-      ]
-    },
-    "versionCode": 1
-  },
-  "068bbd28-8cb0-4d6a-bda0-622becab38a8@f9941": {
-    "url": "db://assets/resources/images/weapon/301.png@f9941",
-    "value": {
-      "depends": [
-        "068bbd28-8cb0-4d6a-bda0-622becab38a8@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "3eece4f9-5838-4b7a-bff6-aa455c3cbc2f": {
-    "url": "db://assets/resources/images/weapon/402.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "3eece4f9-5838-4b7a-bff6-aa455c3cbc2f@6c48a": {
-    "url": "db://assets/resources/images/weapon/402.png@6c48a",
-    "value": {
-      "depends": [
-        "3eece4f9-5838-4b7a-bff6-aa455c3cbc2f"
-      ]
-    },
-    "versionCode": 1
-  },
-  "3eece4f9-5838-4b7a-bff6-aa455c3cbc2f@f9941": {
-    "url": "db://assets/resources/images/weapon/402.png@f9941",
-    "value": {
-      "depends": [
-        "3eece4f9-5838-4b7a-bff6-aa455c3cbc2f@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "2f29fe97-ae9a-4d5a-87b4-7b312502b4f3": {
-    "url": "db://assets/resources/images/weapon/403.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "2f29fe97-ae9a-4d5a-87b4-7b312502b4f3@6c48a": {
-    "url": "db://assets/resources/images/weapon/403.png@6c48a",
-    "value": {
-      "depends": [
-        "2f29fe97-ae9a-4d5a-87b4-7b312502b4f3"
-      ]
-    },
-    "versionCode": 1
-  },
-  "2f29fe97-ae9a-4d5a-87b4-7b312502b4f3@f9941": {
-    "url": "db://assets/resources/images/weapon/403.png@f9941",
-    "value": {
-      "depends": [
-        "2f29fe97-ae9a-4d5a-87b4-7b312502b4f3@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "8a7ac936-6465-43a2-9082-3fc0f8bcf408": {
-    "url": "db://assets/resources/images/weapon/302.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "8a7ac936-6465-43a2-9082-3fc0f8bcf408@6c48a": {
-    "url": "db://assets/resources/images/weapon/302.png@6c48a",
-    "value": {
-      "depends": [
-        "8a7ac936-6465-43a2-9082-3fc0f8bcf408"
-      ]
-    },
-    "versionCode": 1
-  },
-  "8a7ac936-6465-43a2-9082-3fc0f8bcf408@f9941": {
-    "url": "db://assets/resources/images/weapon/302.png@f9941",
-    "value": {
-      "depends": [
-        "8a7ac936-6465-43a2-9082-3fc0f8bcf408@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "dc605e74-beac-4de2-a463-f491b015e0c3": {
-    "url": "db://assets/resources/images/weapon/201.png",
     "value": {
       "depends": []
     },
@@ -722,6 +536,38 @@
     },
     "versionCode": 1
   },
+  "652b1dc2-4174-4c9d-b71b-bd40c7077fb0@f9941": {
+    "url": "db://assets/resources/images/weapon/103.png@f9941",
+    "value": {
+      "depends": [
+        "652b1dc2-4174-4c9d-b71b-bd40c7077fb0@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "068bbd28-8cb0-4d6a-bda0-622becab38a8": {
+    "url": "db://assets/resources/images/weapon/301.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "98fcfd35-e127-450f-8c73-b221e853d866@f9941": {
+    "url": "db://assets/resources/images/weapon/104.png@f9941",
+    "value": {
+      "depends": [
+        "98fcfd35-e127-450f-8c73-b221e853d866@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8a7ac936-6465-43a2-9082-3fc0f8bcf408": {
+    "url": "db://assets/resources/images/weapon/302.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
   "dc605e74-beac-4de2-a463-f491b015e0c3@f9941": {
     "url": "db://assets/resources/images/weapon/201.png@f9941",
     "value": {
@@ -731,58 +577,133 @@
     },
     "versionCode": 1
   },
-  "dc581086-e58a-4aad-bf44-0cb069ee5e2a": {
-    "url": "db://assets/resources/images/weapon/502.png",
+  "cb5ea402-415d-4bb0-b0e5-0c02130e2ffc": {
+    "url": "db://assets/resources/images/weapon/303.png",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
-  "dc581086-e58a-4aad-bf44-0cb069ee5e2a@6c48a": {
-    "url": "db://assets/resources/images/weapon/502.png@6c48a",
+  "7e037404-71e2-442d-834e-dcc7188f8443@6c48a": {
+    "url": "db://assets/resources/images/weapon/203.png@6c48a",
     "value": {
       "depends": [
-        "dc581086-e58a-4aad-bf44-0cb069ee5e2a"
+        "7e037404-71e2-442d-834e-dcc7188f8443"
       ]
     },
     "versionCode": 1
   },
-  "dc581086-e58a-4aad-bf44-0cb069ee5e2a@f9941": {
-    "url": "db://assets/resources/images/weapon/502.png@f9941",
+  "86abe560-cfe0-46ba-90e0-b907c4676488@6c48a": {
+    "url": "db://assets/resources/images/weapon/202.png@6c48a",
     "value": {
       "depends": [
-        "dc581086-e58a-4aad-bf44-0cb069ee5e2a@6c48a"
+        "86abe560-cfe0-46ba-90e0-b907c4676488"
+      ]
+    },
+    "versionCode": 1
+  },
+  "068bbd28-8cb0-4d6a-bda0-622becab38a8@6c48a": {
+    "url": "db://assets/resources/images/weapon/301.png@6c48a",
+    "value": {
+      "depends": [
+        "068bbd28-8cb0-4d6a-bda0-622becab38a8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8a7ac936-6465-43a2-9082-3fc0f8bcf408@6c48a": {
+    "url": "db://assets/resources/images/weapon/302.png@6c48a",
+    "value": {
+      "depends": [
+        "8a7ac936-6465-43a2-9082-3fc0f8bcf408"
+      ]
+    },
+    "versionCode": 1
+  },
+  "068bbd28-8cb0-4d6a-bda0-622becab38a8@f9941": {
+    "url": "db://assets/resources/images/weapon/301.png@f9941",
+    "value": {
+      "depends": [
+        "068bbd28-8cb0-4d6a-bda0-622becab38a8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c8821289-a04e-4b1b-90d4-3feaac5717fc": {
+    "url": "db://assets/resources/images/weapon/401.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "cb5ea402-415d-4bb0-b0e5-0c02130e2ffc@6c48a": {
+    "url": "db://assets/resources/images/weapon/303.png@6c48a",
+    "value": {
+      "depends": [
+        "cb5ea402-415d-4bb0-b0e5-0c02130e2ffc"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7e037404-71e2-442d-834e-dcc7188f8443@f9941": {
+    "url": "db://assets/resources/images/weapon/203.png@f9941",
+    "value": {
+      "depends": [
+        "7e037404-71e2-442d-834e-dcc7188f8443@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "86abe560-cfe0-46ba-90e0-b907c4676488@f9941": {
+    "url": "db://assets/resources/images/weapon/202.png@f9941",
+    "value": {
+      "depends": [
+        "86abe560-cfe0-46ba-90e0-b907c4676488@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8a7ac936-6465-43a2-9082-3fc0f8bcf408@f9941": {
+    "url": "db://assets/resources/images/weapon/302.png@f9941",
+    "value": {
+      "depends": [
+        "8a7ac936-6465-43a2-9082-3fc0f8bcf408@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3eece4f9-5838-4b7a-bff6-aa455c3cbc2f": {
+    "url": "db://assets/resources/images/weapon/402.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2f29fe97-ae9a-4d5a-87b4-7b312502b4f3": {
+    "url": "db://assets/resources/images/weapon/403.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "15053b5e-ddf1-40ac-aa4f-17dc3193bd5a": {
+    "url": "db://assets/resources/images/weapon/404.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "cb5ea402-415d-4bb0-b0e5-0c02130e2ffc@f9941": {
+    "url": "db://assets/resources/images/weapon/303.png@f9941",
+    "value": {
+      "depends": [
+        "cb5ea402-415d-4bb0-b0e5-0c02130e2ffc@6c48a"
       ]
     },
     "versionCode": 1
   },
   "cd7c6250-f322-4a37-a70c-c1ae00158925": {
     "url": "db://assets/resources/images/weapon/501.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "cd7c6250-f322-4a37-a70c-c1ae00158925@6c48a": {
-    "url": "db://assets/resources/images/weapon/501.png@6c48a",
-    "value": {
-      "depends": [
-        "cd7c6250-f322-4a37-a70c-c1ae00158925"
-      ]
-    },
-    "versionCode": 1
-  },
-  "cd7c6250-f322-4a37-a70c-c1ae00158925@f9941": {
-    "url": "db://assets/resources/images/weapon/501.png@f9941",
-    "value": {
-      "depends": [
-        "cd7c6250-f322-4a37-a70c-c1ae00158925@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "15053b5e-ddf1-40ac-aa4f-17dc3193bd5a": {
-    "url": "db://assets/resources/images/weapon/404.png",
     "value": {
       "depends": []
     },
@@ -797,6 +718,42 @@
     },
     "versionCode": 1
   },
+  "c8821289-a04e-4b1b-90d4-3feaac5717fc@6c48a": {
+    "url": "db://assets/resources/images/weapon/401.png@6c48a",
+    "value": {
+      "depends": [
+        "c8821289-a04e-4b1b-90d4-3feaac5717fc"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2f29fe97-ae9a-4d5a-87b4-7b312502b4f3@6c48a": {
+    "url": "db://assets/resources/images/weapon/403.png@6c48a",
+    "value": {
+      "depends": [
+        "2f29fe97-ae9a-4d5a-87b4-7b312502b4f3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3eece4f9-5838-4b7a-bff6-aa455c3cbc2f@6c48a": {
+    "url": "db://assets/resources/images/weapon/402.png@6c48a",
+    "value": {
+      "depends": [
+        "3eece4f9-5838-4b7a-bff6-aa455c3cbc2f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cd7c6250-f322-4a37-a70c-c1ae00158925@6c48a": {
+    "url": "db://assets/resources/images/weapon/501.png@6c48a",
+    "value": {
+      "depends": [
+        "cd7c6250-f322-4a37-a70c-c1ae00158925"
+      ]
+    },
+    "versionCode": 1
+  },
   "15053b5e-ddf1-40ac-aa4f-17dc3193bd5a@f9941": {
     "url": "db://assets/resources/images/weapon/404.png@f9941",
     "value": {
@@ -806,52 +763,34 @@
     },
     "versionCode": 1
   },
-  "f97b64da-cb77-40c4-94e7-43123b3f4aad": {
-    "url": "db://assets/resources/images/weapon/601.png",
+  "dc581086-e58a-4aad-bf44-0cb069ee5e2a": {
+    "url": "db://assets/resources/images/weapon/502.png",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
-  "f97b64da-cb77-40c4-94e7-43123b3f4aad@6c48a": {
-    "url": "db://assets/resources/images/weapon/601.png@6c48a",
+  "c8821289-a04e-4b1b-90d4-3feaac5717fc@f9941": {
+    "url": "db://assets/resources/images/weapon/401.png@f9941",
     "value": {
       "depends": [
-        "f97b64da-cb77-40c4-94e7-43123b3f4aad"
+        "c8821289-a04e-4b1b-90d4-3feaac5717fc@6c48a"
       ]
     },
     "versionCode": 1
   },
-  "f97b64da-cb77-40c4-94e7-43123b3f4aad@f9941": {
-    "url": "db://assets/resources/images/weapon/601.png@f9941",
-    "value": {
-      "depends": [
-        "f97b64da-cb77-40c4-94e7-43123b3f4aad@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "5a726e44-d1c7-4c75-9dff-c2f11a569e43": {
-    "url": "db://assets/resources/images/weapon/603.png",
+  "f218858a-671e-4d2d-9053-d9197a23b971": {
+    "url": "db://assets/resources/images/weapon/503.png",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
-  "5a726e44-d1c7-4c75-9dff-c2f11a569e43@6c48a": {
-    "url": "db://assets/resources/images/weapon/603.png@6c48a",
+  "2f29fe97-ae9a-4d5a-87b4-7b312502b4f3@f9941": {
+    "url": "db://assets/resources/images/weapon/403.png@f9941",
     "value": {
       "depends": [
-        "5a726e44-d1c7-4c75-9dff-c2f11a569e43"
-      ]
-    },
-    "versionCode": 1
-  },
-  "5a726e44-d1c7-4c75-9dff-c2f11a569e43@f9941": {
-    "url": "db://assets/resources/images/weapon/603.png@f9941",
-    "value": {
-      "depends": [
-        "5a726e44-d1c7-4c75-9dff-c2f11a569e43@6c48a"
+        "2f29fe97-ae9a-4d5a-87b4-7b312502b4f3@6c48a"
       ]
     },
     "versionCode": 1
@@ -863,26 +802,33 @@
     },
     "versionCode": 1
   },
-  "664ff4eb-59e5-4eb6-bb91-c50c0d998777@6c48a": {
-    "url": "db://assets/resources/images/weapon/504.png@6c48a",
+  "3eece4f9-5838-4b7a-bff6-aa455c3cbc2f@f9941": {
+    "url": "db://assets/resources/images/weapon/402.png@f9941",
     "value": {
       "depends": [
-        "664ff4eb-59e5-4eb6-bb91-c50c0d998777"
+        "3eece4f9-5838-4b7a-bff6-aa455c3cbc2f@6c48a"
       ]
     },
     "versionCode": 1
   },
-  "664ff4eb-59e5-4eb6-bb91-c50c0d998777@f9941": {
-    "url": "db://assets/resources/images/weapon/504.png@f9941",
+  "cd7c6250-f322-4a37-a70c-c1ae00158925@f9941": {
+    "url": "db://assets/resources/images/weapon/501.png@f9941",
     "value": {
       "depends": [
-        "664ff4eb-59e5-4eb6-bb91-c50c0d998777@6c48a"
+        "cd7c6250-f322-4a37-a70c-c1ae00158925@6c48a"
       ]
     },
     "versionCode": 1
   },
-  "f218858a-671e-4d2d-9053-d9197a23b971": {
-    "url": "db://assets/resources/images/weapon/503.png",
+  "f97b64da-cb77-40c4-94e7-43123b3f4aad": {
+    "url": "db://assets/resources/images/weapon/601.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7ca3f260-b843-46c5-bfa9-15efbc3e2f38": {
+    "url": "db://assets/resources/images/weapon/602.png",
     "value": {
       "depends": []
     },
@@ -897,19 +843,30 @@
     },
     "versionCode": 1
   },
-  "f218858a-671e-4d2d-9053-d9197a23b971@f9941": {
-    "url": "db://assets/resources/images/weapon/503.png@f9941",
+  "dc581086-e58a-4aad-bf44-0cb069ee5e2a@6c48a": {
+    "url": "db://assets/resources/images/weapon/502.png@6c48a",
     "value": {
       "depends": [
-        "f218858a-671e-4d2d-9053-d9197a23b971@6c48a"
+        "dc581086-e58a-4aad-bf44-0cb069ee5e2a"
       ]
     },
     "versionCode": 1
   },
-  "7ca3f260-b843-46c5-bfa9-15efbc3e2f38": {
-    "url": "db://assets/resources/images/weapon/602.png",
+  "664ff4eb-59e5-4eb6-bb91-c50c0d998777@6c48a": {
+    "url": "db://assets/resources/images/weapon/504.png@6c48a",
     "value": {
-      "depends": []
+      "depends": [
+        "664ff4eb-59e5-4eb6-bb91-c50c0d998777"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f97b64da-cb77-40c4-94e7-43123b3f4aad@6c48a": {
+    "url": "db://assets/resources/images/weapon/601.png@6c48a",
+    "value": {
+      "depends": [
+        "f97b64da-cb77-40c4-94e7-43123b3f4aad"
+      ]
     },
     "versionCode": 1
   },
@@ -922,12 +879,60 @@
     },
     "versionCode": 1
   },
-  "7ca3f260-b843-46c5-bfa9-15efbc3e2f38@f9941": {
-    "url": "db://assets/resources/images/weapon/602.png@f9941",
+  "f218858a-671e-4d2d-9053-d9197a23b971@f9941": {
+    "url": "db://assets/resources/images/weapon/503.png@f9941",
     "value": {
       "depends": [
-        "7ca3f260-b843-46c5-bfa9-15efbc3e2f38@6c48a"
+        "f218858a-671e-4d2d-9053-d9197a23b971@6c48a"
       ]
+    },
+    "versionCode": 1
+  },
+  "5a726e44-d1c7-4c75-9dff-c2f11a569e43": {
+    "url": "db://assets/resources/images/weapon/603.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "dc581086-e58a-4aad-bf44-0cb069ee5e2a@f9941": {
+    "url": "db://assets/resources/images/weapon/502.png@f9941",
+    "value": {
+      "depends": [
+        "dc581086-e58a-4aad-bf44-0cb069ee5e2a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ec7d6450-6b46-41fb-86f4-a17c8e8450fb": {
+    "url": "db://assets/resources/images/weapon/701.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "664ff4eb-59e5-4eb6-bb91-c50c0d998777@f9941": {
+    "url": "db://assets/resources/images/weapon/504.png@f9941",
+    "value": {
+      "depends": [
+        "664ff4eb-59e5-4eb6-bb91-c50c0d998777@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f97b64da-cb77-40c4-94e7-43123b3f4aad@f9941": {
+    "url": "db://assets/resources/images/weapon/601.png@f9941",
+    "value": {
+      "depends": [
+        "f97b64da-cb77-40c4-94e7-43123b3f4aad@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "12d61d58-e450-4270-86f9-bef1f9a5f006": {
+    "url": "db://assets/resources/images/weapon/70101.png",
+    "value": {
+      "depends": []
     },
     "versionCode": 1
   },
@@ -938,28 +943,28 @@
     },
     "versionCode": 1
   },
-  "bc37ec52-f152-40d8-85f1-0785a7fffa12@6c48a": {
-    "url": "db://assets/resources/images/weapon/702.png@6c48a",
+  "7ca3f260-b843-46c5-bfa9-15efbc3e2f38@f9941": {
+    "url": "db://assets/resources/images/weapon/602.png@f9941",
     "value": {
       "depends": [
-        "bc37ec52-f152-40d8-85f1-0785a7fffa12"
+        "7ca3f260-b843-46c5-bfa9-15efbc3e2f38@6c48a"
       ]
     },
     "versionCode": 1
   },
-  "bc37ec52-f152-40d8-85f1-0785a7fffa12@f9941": {
-    "url": "db://assets/resources/images/weapon/702.png@f9941",
-    "value": {
-      "depends": [
-        "bc37ec52-f152-40d8-85f1-0785a7fffa12@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "ec7d6450-6b46-41fb-86f4-a17c8e8450fb": {
-    "url": "db://assets/resources/images/weapon/701.png",
+  "bb6da2e8-5d52-412a-ac22-af149442a832": {
+    "url": "db://assets/resources/images/weapon/70201.png",
     "value": {
       "depends": []
+    },
+    "versionCode": 1
+  },
+  "5a726e44-d1c7-4c75-9dff-c2f11a569e43@6c48a": {
+    "url": "db://assets/resources/images/weapon/603.png@6c48a",
+    "value": {
+      "depends": [
+        "5a726e44-d1c7-4c75-9dff-c2f11a569e43"
+      ]
     },
     "versionCode": 1
   },
@@ -972,44 +977,12 @@
     },
     "versionCode": 1
   },
-  "ec7d6450-6b46-41fb-86f4-a17c8e8450fb@f9941": {
-    "url": "db://assets/resources/images/weapon/701.png@f9941",
+  "bc37ec52-f152-40d8-85f1-0785a7fffa12@6c48a": {
+    "url": "db://assets/resources/images/weapon/702.png@6c48a",
     "value": {
       "depends": [
-        "ec7d6450-6b46-41fb-86f4-a17c8e8450fb@6c48a"
+        "bc37ec52-f152-40d8-85f1-0785a7fffa12"
       ]
-    },
-    "versionCode": 1
-  },
-  "fe1331d3-6636-4eca-949c-b413167ad22e": {
-    "url": "db://assets/resources/images/weapon/703.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "fe1331d3-6636-4eca-949c-b413167ad22e@6c48a": {
-    "url": "db://assets/resources/images/weapon/703.png@6c48a",
-    "value": {
-      "depends": [
-        "fe1331d3-6636-4eca-949c-b413167ad22e"
-      ]
-    },
-    "versionCode": 1
-  },
-  "fe1331d3-6636-4eca-949c-b413167ad22e@f9941": {
-    "url": "db://assets/resources/images/weapon/703.png@f9941",
-    "value": {
-      "depends": [
-        "fe1331d3-6636-4eca-949c-b413167ad22e@6c48a"
-      ]
-    },
-    "versionCode": 1
-  },
-  "12d61d58-e450-4270-86f9-bef1f9a5f006": {
-    "url": "db://assets/resources/images/weapon/70101.png",
-    "value": {
-      "depends": []
     },
     "versionCode": 1
   },
@@ -1022,36 +995,36 @@
     },
     "versionCode": 1
   },
-  "12d61d58-e450-4270-86f9-bef1f9a5f006@f9941": {
-    "url": "db://assets/resources/images/weapon/70101.png@f9941",
+  "bb6da2e8-5d52-412a-ac22-af149442a832@6c48a": {
+    "url": "db://assets/resources/images/weapon/70201.png@6c48a",
     "value": {
       "depends": [
-        "12d61d58-e450-4270-86f9-bef1f9a5f006@6c48a"
+        "bb6da2e8-5d52-412a-ac22-af149442a832"
       ]
     },
     "versionCode": 1
   },
-  "594e8aeb-d6ab-4e7c-ba78-6892a0448e91": {
-    "url": "db://assets/resources/images/weapon/10000.png",
+  "5a726e44-d1c7-4c75-9dff-c2f11a569e43@f9941": {
+    "url": "db://assets/resources/images/weapon/603.png@f9941",
+    "value": {
+      "depends": [
+        "5a726e44-d1c7-4c75-9dff-c2f11a569e43@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fe1331d3-6636-4eca-949c-b413167ad22e": {
+    "url": "db://assets/resources/images/weapon/703.png",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
-  "594e8aeb-d6ab-4e7c-ba78-6892a0448e91@6c48a": {
-    "url": "db://assets/resources/images/weapon/10000.png@6c48a",
+  "ec7d6450-6b46-41fb-86f4-a17c8e8450fb@f9941": {
+    "url": "db://assets/resources/images/weapon/701.png@f9941",
     "value": {
       "depends": [
-        "594e8aeb-d6ab-4e7c-ba78-6892a0448e91"
-      ]
-    },
-    "versionCode": 1
-  },
-  "594e8aeb-d6ab-4e7c-ba78-6892a0448e91@f9941": {
-    "url": "db://assets/resources/images/weapon/10000.png@f9941",
-    "value": {
-      "depends": [
-        "594e8aeb-d6ab-4e7c-ba78-6892a0448e91@6c48a"
+        "ec7d6450-6b46-41fb-86f4-a17c8e8450fb@6c48a"
       ]
     },
     "versionCode": 1
@@ -1063,11 +1036,29 @@
     },
     "versionCode": 1
   },
+  "bc37ec52-f152-40d8-85f1-0785a7fffa12@f9941": {
+    "url": "db://assets/resources/images/weapon/702.png@f9941",
+    "value": {
+      "depends": [
+        "bc37ec52-f152-40d8-85f1-0785a7fffa12@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
   "365343ef-5d0a-4ed9-8ae1-5a7efd4e4d7c@6c48a": {
     "url": "db://assets/resources/images/weapon/70301.png@6c48a",
     "value": {
       "depends": [
         "365343ef-5d0a-4ed9-8ae1-5a7efd4e4d7c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fe1331d3-6636-4eca-949c-b413167ad22e@6c48a": {
+    "url": "db://assets/resources/images/weapon/703.png@6c48a",
+    "value": {
+      "depends": [
+        "fe1331d3-6636-4eca-949c-b413167ad22e"
       ]
     },
     "versionCode": 1
@@ -1081,18 +1072,20 @@
     },
     "versionCode": 1
   },
-  "bb6da2e8-5d52-412a-ac22-af149442a832": {
-    "url": "db://assets/resources/images/weapon/70201.png",
+  "fe1331d3-6636-4eca-949c-b413167ad22e@f9941": {
+    "url": "db://assets/resources/images/weapon/703.png@f9941",
     "value": {
-      "depends": []
+      "depends": [
+        "fe1331d3-6636-4eca-949c-b413167ad22e@6c48a"
+      ]
     },
     "versionCode": 1
   },
-  "bb6da2e8-5d52-412a-ac22-af149442a832@6c48a": {
-    "url": "db://assets/resources/images/weapon/70201.png@6c48a",
+  "12d61d58-e450-4270-86f9-bef1f9a5f006@f9941": {
+    "url": "db://assets/resources/images/weapon/70101.png@f9941",
     "value": {
       "depends": [
-        "bb6da2e8-5d52-412a-ac22-af149442a832"
+        "12d61d58-e450-4270-86f9-bef1f9a5f006@6c48a"
       ]
     },
     "versionCode": 1
@@ -1106,37 +1099,1746 @@
     },
     "versionCode": 1
   },
-  "6077d639-3a4b-4bb8-9b64-774a9761a2bc": {
-    "url": "db://assets/scene",
+  "fe537a22-f782-4f56-8ebd-fc50c71b3860": {
+    "url": "db://assets/script/Data/GridData.ts",
     "value": {},
     "versionCode": 1
   },
-  "130ad698-3028-4b54-9667-9fc7a1ef4016": {
-    "url": "db://assets/scene/Block.scene",
+  "38f6a9ed-0d93-4289-b8a3-739eaba996e9": {
+    "url": "db://assets/script/Constants.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f4f04196-119c-4fb1-bb73-efa1c4fbce63": {
+    "url": "db://assets/resources/prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "080c3bbf-1a4e-4d74-8678-7daad253eefb": {
+    "url": "db://assets/resources/prefabs/weaponItem.prefab",
     "value": {
       "depends": [
-        "130ad698-3028-4b54-9667-9fc7a1ef4016"
+        "a7e0049c-df93-4149-88bf-dbc3a30ea8ff@f9941"
       ],
       "dependScripts": [
-        "9e2c5b53-d802-4690-9a50-8e9a1823e585"
+        "25dfd9f6-3516-4f28-b669-20ec18f39c22"
       ]
     },
     "versionCode": 1
   },
-  "d7bbd0f3-3bd1-42f4-b352-744c1d91822b": {
-    "url": "db://assets/script/scene",
+  "cbae5c33-7d26-46cd-932e-c9e01eb527e0": {
+    "url": "db://assets/script/Oops.ts",
     "value": {},
     "versionCode": 1
   },
-  "ab18158a-02e2-40b2-9ac6-e3b75c810a76": {
-    "url": "db://assets/script/block",
+  "72f8ca39-31a1-42e0-8f8f-7495586c0722": {
+    "url": "db://assets/script/Util.ts",
     "value": {},
     "versionCode": 1
   },
-  "9e2c5b53-d802-4690-9a50-8e9a1823e585": {
-    "url": "db://assets/script/scene/MainScene.ts",
->>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
+  "e56e7ce0-9961-4d5a-8a27-018eacf2c75d": {
+    "url": "db://assets/script/EventConstant.ts",
     "value": {},
+    "versionCode": 1
+  },
+  "ee9a1390-a5c1-4a0e-a26f-bb057ea32add": {
+    "url": "db://assets/script/Mgr/TemplateMgr.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "bb54d597-cf0e-4508-9651-d80250689744": {
+    "url": "db://assets/script/schema.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "30764024-c07a-4d05-93e9-06d955c275d3": {
+    "url": "db://assets/resources/template",
+    "value": {},
+    "versionCode": 1
+  },
+  "0e4f2695-e751-472b-abc3-1c22d008069f": {
+    "url": "db://assets/resources/template/temp_tbaccessory.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8906ca73-2d99-4de6-b8f9-b4b3f7d0cbf0": {
+    "url": "db://assets/resources/template/temp_tbbattleattr.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "281cc0fb-a5c9-42f1-a56b-51fca94d600e": {
+    "url": "db://assets/resources/template/temp_tbblockgrid.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4aba6e37-fe7a-4af6-ac0c-00c633d64c20": {
+    "url": "db://assets/resources/template/temp_tbblockitem.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "598aa521-87ea-435c-89dd-37e6e51894b5": {
+    "url": "db://assets/resources/template/temp_tbblockrefreshlevel.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "74737b3b-8b6a-444c-8d6a-2c758ca58f9d": {
+    "url": "db://assets/resources/template/temp_tbblockrefreshlibrary.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "01772de9-f49e-4167-a5a2-a58decdeacf1": {
+    "url": "db://assets/resources/template/temp_tbbubble.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "db4c370b-f818-442c-8ded-5e29cd6feacb": {
+    "url": "db://assets/resources/template/temp_tbbuff.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "24824f2a-790a-405f-a295-002368ed9c32": {
+    "url": "db://assets/resources/template/temp_tbbullet.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "abdf9232-3620-4ac4-8c6c-8418ffa6482c": {
+    "url": "db://assets/resources/template/temp_tbcar.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "54883733-9e2b-4935-98c3-d008db039288": {
+    "url": "db://assets/resources/template/temp_tbchaptersummary.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6788d1b2-492c-47aa-b1ba-decc0eabd3a1": {
+    "url": "db://assets/resources/template/temp_tbconstcar.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "35bc2606-91ea-4dfb-a20b-2ffc45a0f7b8": {
+    "url": "db://assets/resources/template/temp_tbconstcommon.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a44edff3-f720-4328-b142-8a5e47e8a3a2": {
+    "url": "db://assets/resources/template/temp_tbcreature.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3afbc4a6-7062-4993-b486-0386c433e71d": {
+    "url": "db://assets/resources/template/temp_tbenemy.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "bfee4120-947b-4585-92be-d2e897ad4c9f": {
+    "url": "db://assets/resources/template/temp_tbenemyprototype.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "72625583-6c20-431d-b1b6-bddd50478209": {
+    "url": "db://assets/resources/template/temp_tbformula.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "670515f3-90e2-4f95-93db-7e6d4892574d": {
+    "url": "db://assets/resources/template/temp_tbhero.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f9e408dc-1126-4874-998c-02e126459f4d": {
+    "url": "db://assets/resources/template/temp_tbherobreak.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0a32cd55-ccd0-4f9a-a761-3a2ae2098426": {
+    "url": "db://assets/resources/template/temp_tbherolevel.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "01e6f760-15d1-4132-b1e2-83aeefecb2f2": {
+    "url": "db://assets/resources/template/temp_tbheroskill.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "70299b9c-eecf-4ec6-8a00-bbbeb2ea79ff": {
+    "url": "db://assets/resources/template/temp_tbheroskin.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1cf37375-3494-47e0-9489-ad8c3f86a4c6": {
+    "url": "db://assets/resources/template/temp_tbherostar.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1d4a8a77-9fe6-4628-8d0e-bd8fd1f5ddb3": {
+    "url": "db://assets/resources/template/temp_tbitem.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "df8c4deb-31df-4f96-b61c-ed9d1bc35849": {
+    "url": "db://assets/resources/template/temp_tbmonstergroup.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "bb8a8e6c-ef15-4ef7-92aa-75ae2ee4a7f8": {
+    "url": "db://assets/resources/template/temp_tbobstacle.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2cd3aeba-24db-4fab-8dd0-d9594c3261bf": {
+    "url": "db://assets/resources/template/temp_tbpublicrogueskill.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "30b84193-331b-4a81-a13a-49b3bc2819a4": {
+    "url": "db://assets/resources/template/temp_tbroguepara.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c891e1ab-57d3-42a4-945d-2a57300e06be": {
+    "url": "db://assets/resources/template/temp_tbrogueskill.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ca7abe55-3495-42cc-b850-b81da51e9ec0": {
+    "url": "db://assets/resources/template/temp_tbskill.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "05b44ceb-216a-40c2-85d4-9e89eb56e175": {
+    "url": "db://assets/resources/template/temp_tbskilleffect.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9ff4e992-4134-4283-be5e-ba9309eff525": {
+    "url": "db://assets/resources/template/temp_tbstage.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3221ef51-c115-4527-a4bc-bdef30bd4ee7": {
+    "url": "db://assets/resources/template/temp_tbstagesummary.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9a92ff12-c349-47e8-b33c-90975ae6f8cf": {
+    "url": "db://assets/resources/template/temp_tbstagetd.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "54faff0b-3838-4efe-8d79-fc06f534e13b": {
+    "url": "db://assets/resources/template/temp_tbstagetdb.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4dd7ccee-68ba-4624-9c3a-ca297242e373": {
+    "url": "db://assets/resources/template/temp_tbstate.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "493b1fb6-20d9-4c9b-ad02-304bec9e8abe": {
+    "url": "db://assets/resources/template/temp_tbweapon.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "04daa289-9296-419d-8272-cd19b335fd4a": {
+    "url": "db://assets/resources/prefabs/weaponBgItem.prefab",
+    "value": {
+      "depends": [
+        "37ad525b-7124-454a-af36-c4d8950cca91@f9941"
+      ],
+      "dependScripts": [
+        "f96cdda8-70dd-40bf-bb22-6763256f3d3b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "48707b4a-f720-4455-8d64-365c73594654": {
+    "url": "db://assets/res",
+    "value": {},
+    "versionCode": 1
+  },
+  "c0f94414-7879-47b0-aa42-4902bc4ccad3": {
+    "url": "db://assets/res/static",
+    "value": {},
+    "versionCode": 1
+  },
+  "2940b42c-a43d-45cb-8729-5935942ef4b0": {
+    "url": "db://assets/res/static/bg",
+    "value": {},
+    "versionCode": 1
+  },
+  "28edbea2-c61f-4ff8-915f-7150132fc515": {
+    "url": "db://assets/res/static/block",
+    "value": {},
+    "versionCode": 1
+  },
+  "64d52305-d78a-4ca3-888f-3e5ac633bfc4": {
+    "url": "db://assets/res/static/car",
+    "value": {},
+    "versionCode": 1
+  },
+  "4ef706bc-3df5-4515-82ae-2150e7aab96f": {
+    "url": "db://assets/res/static/common",
+    "value": {},
+    "versionCode": 1
+  },
+  "3a2a7a85-9797-4164-bf4b-0d4ec104aba2": {
+    "url": "db://assets/res/static/joystick",
+    "value": {},
+    "versionCode": 1
+  },
+  "2d08911a-74b1-4a05-8d30-38431def890a": {
+    "url": "db://assets/res/static/launch",
+    "value": {},
+    "versionCode": 1
+  },
+  "7bc76f9e-eef6-4c1a-acac-afaea6fd0f55": {
+    "url": "db://assets/res/static/loading",
+    "value": {},
+    "versionCode": 1
+  },
+  "46ab962d-73ae-4e24-9d1f-e22cb0862a1b": {
+    "url": "db://assets/res/static/login",
+    "value": {},
+    "versionCode": 1
+  },
+  "338ac133-1bbf-4b61-867c-232315d639ba": {
+    "url": "db://assets/res/static/rogue",
+    "value": {},
+    "versionCode": 1
+  },
+  "1c8c2eba-d384-444c-9aca-4fd7d96ac4e4": {
+    "url": "db://assets/res/static/ttf",
+    "value": {},
+    "versionCode": 1
+  },
+  "02dadd29-4616-4c08-906d-f049e9612b30": {
+    "url": "db://assets/res/static/block/popup",
+    "value": {},
+    "versionCode": 1
+  },
+  "5599692b-08ef-4341-901e-de1f1ba7c5f1": {
+    "url": "db://assets/res/static/car/ui",
+    "value": {},
+    "versionCode": 1
+  },
+  "bc775edf-a9de-4bfc-a3eb-d96a926f889e": {
+    "url": "db://assets/res/static/rogue/ui",
+    "value": {},
+    "versionCode": 1
+  },
+  "8c08e7b3-9e4f-4dcb-916b-fa48dd9c1420": {
+    "url": "db://assets/res/static/block/popup/game",
+    "value": {},
+    "versionCode": 1
+  },
+  "b2853591-058d-43b8-9495-480262adfc94": {
+    "url": "db://assets/res/static/block/popup/pause",
+    "value": {},
+    "versionCode": 1
+  },
+  "98abce5f-d2a1-45af-bb34-0c3d870047a8": {
+    "url": "db://assets/res/static/bg/loading_bg.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "bddd2f54-3cb4-4c1a-80f8-9dac28646353": {
+    "url": "db://assets/res/static/car/car.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0067f1b0-b25b-4920-8af8-25a8e1ebf671": {
+    "url": "db://assets/res/static/car/car_yingzi.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "611e95fa-1d77-400d-901a-140ef05e562e": {
+    "url": "db://assets/res/static/common/button3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a0c5c9ea-206d-47d9-a7bd-649ef2d87364": {
+    "url": "db://assets/res/static/common/popup_bg_466.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "bddd2f54-3cb4-4c1a-80f8-9dac28646353@6c48a": {
+    "url": "db://assets/res/static/car/car.png@6c48a",
+    "value": {
+      "depends": [
+        "bddd2f54-3cb4-4c1a-80f8-9dac28646353"
+      ]
+    },
+    "versionCode": 1
+  },
+  "611e95fa-1d77-400d-901a-140ef05e562e@6c48a": {
+    "url": "db://assets/res/static/common/button3.png@6c48a",
+    "value": {
+      "depends": [
+        "611e95fa-1d77-400d-901a-140ef05e562e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0067f1b0-b25b-4920-8af8-25a8e1ebf671@6c48a": {
+    "url": "db://assets/res/static/car/car_yingzi.png@6c48a",
+    "value": {
+      "depends": [
+        "0067f1b0-b25b-4920-8af8-25a8e1ebf671"
+      ]
+    },
+    "versionCode": 1
+  },
+  "98abce5f-d2a1-45af-bb34-0c3d870047a8@6c48a": {
+    "url": "db://assets/res/static/bg/loading_bg.png@6c48a",
+    "value": {
+      "depends": [
+        "98abce5f-d2a1-45af-bb34-0c3d870047a8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a0c5c9ea-206d-47d9-a7bd-649ef2d87364@6c48a": {
+    "url": "db://assets/res/static/common/popup_bg_466.png@6c48a",
+    "value": {
+      "depends": [
+        "a0c5c9ea-206d-47d9-a7bd-649ef2d87364"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bddd2f54-3cb4-4c1a-80f8-9dac28646353@f9941": {
+    "url": "db://assets/res/static/car/car.png@f9941",
+    "value": {
+      "depends": [
+        "bddd2f54-3cb4-4c1a-80f8-9dac28646353@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c338f6ab-0698-4796-872b-aae7ca6eaf59": {
+    "url": "db://assets/res/static/common/tip_bg.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "611e95fa-1d77-400d-901a-140ef05e562e@f9941": {
+    "url": "db://assets/res/static/common/button3.png@f9941",
+    "value": {
+      "depends": [
+        "611e95fa-1d77-400d-901a-140ef05e562e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "868822a0-410c-473b-a675-d940ab90ac1d": {
+    "url": "db://assets/res/static/joystick/inner.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0067f1b0-b25b-4920-8af8-25a8e1ebf671@f9941": {
+    "url": "db://assets/res/static/car/car_yingzi.png@f9941",
+    "value": {
+      "depends": [
+        "0067f1b0-b25b-4920-8af8-25a8e1ebf671@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "329348fa-8862-4fda-91f4-8c7a2ed04a60": {
+    "url": "db://assets/res/static/joystick/round.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a0c5c9ea-206d-47d9-a7bd-649ef2d87364@f9941": {
+    "url": "db://assets/res/static/common/popup_bg_466.png@f9941",
+    "value": {
+      "depends": [
+        "a0c5c9ea-206d-47d9-a7bd-649ef2d87364@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4559fe6b-6673-44ea-a477-94f896aac1a0": {
+    "url": "db://assets/res/static/launch/TP_Logo.plist",
+    "value": {
+      "depends": [
+        "4559fe6b-6673-44ea-a477-94f896aac1a0@5a010",
+        "4559fe6b-6673-44ea-a477-94f896aac1a0@e93f4",
+        "4559fe6b-6673-44ea-a477-94f896aac1a0@fd330"
+      ]
+    },
+    "versionCode": 1
+  },
+  "98abce5f-d2a1-45af-bb34-0c3d870047a8@f9941": {
+    "url": "db://assets/res/static/bg/loading_bg.png@f9941",
+    "value": {
+      "depends": [
+        "98abce5f-d2a1-45af-bb34-0c3d870047a8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c338f6ab-0698-4796-872b-aae7ca6eaf59@6c48a": {
+    "url": "db://assets/res/static/common/tip_bg.png@6c48a",
+    "value": {
+      "depends": [
+        "c338f6ab-0698-4796-872b-aae7ca6eaf59"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ed5d6782-4814-4d4b-868d-6bc52120f8b9": {
+    "url": "db://assets/res/static/launch/TP_Logo.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "868822a0-410c-473b-a675-d940ab90ac1d@6c48a": {
+    "url": "db://assets/res/static/joystick/inner.png@6c48a",
+    "value": {
+      "depends": [
+        "868822a0-410c-473b-a675-d940ab90ac1d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "329348fa-8862-4fda-91f4-8c7a2ed04a60@6c48a": {
+    "url": "db://assets/res/static/joystick/round.png@6c48a",
+    "value": {
+      "depends": [
+        "329348fa-8862-4fda-91f4-8c7a2ed04a60"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4559fe6b-6673-44ea-a477-94f896aac1a0@5a010": {
+    "url": "db://assets/res/static/launch/TP_Logo.plist@5a010",
+    "value": {
+      "depends": [
+        "ed5d6782-4814-4d4b-868d-6bc52120f8b9@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c338f6ab-0698-4796-872b-aae7ca6eaf59@f9941": {
+    "url": "db://assets/res/static/common/tip_bg.png@f9941",
+    "value": {
+      "depends": [
+        "c338f6ab-0698-4796-872b-aae7ca6eaf59@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "83ec06a9-d2e2-4553-b4e4-d752dc4a19d5": {
+    "url": "db://assets/res/static/loading/AutoAtlas.pac",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4559fe6b-6673-44ea-a477-94f896aac1a0@e93f4": {
+    "url": "db://assets/res/static/launch/TP_Logo.plist@e93f4",
+    "value": {
+      "depends": [
+        "ed5d6782-4814-4d4b-868d-6bc52120f8b9@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4559fe6b-6673-44ea-a477-94f896aac1a0@fd330": {
+    "url": "db://assets/res/static/launch/TP_Logo.plist@fd330",
+    "value": {
+      "depends": [
+        "ed5d6782-4814-4d4b-868d-6bc52120f8b9@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "32f8d57c-2147-46a7-be92-2e318d890412": {
+    "url": "db://assets/res/static/loading/guang@2x.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "efce5503-972f-485b-b075-a7063805d4a4": {
+    "url": "db://assets/res/static/loading/jindutiao@2x.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "868822a0-410c-473b-a675-d940ab90ac1d@f9941": {
+    "url": "db://assets/res/static/joystick/inner.png@f9941",
+    "value": {
+      "depends": [
+        "868822a0-410c-473b-a675-d940ab90ac1d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "329348fa-8862-4fda-91f4-8c7a2ed04a60@f9941": {
+    "url": "db://assets/res/static/joystick/round.png@f9941",
+    "value": {
+      "depends": [
+        "329348fa-8862-4fda-91f4-8c7a2ed04a60@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1a4e2e56-732f-4e63-9aca-8476ac495499": {
+    "url": "db://assets/res/static/loading/jindutiaodi@2x.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2d98c58f-6186-4536-9289-93890b99e094": {
+    "url": "db://assets/res/static/loading/loading.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ed5d6782-4814-4d4b-868d-6bc52120f8b9@6c48a": {
+    "url": "db://assets/res/static/launch/TP_Logo.png@6c48a",
+    "value": {
+      "depends": [
+        "ed5d6782-4814-4d4b-868d-6bc52120f8b9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "32f8d57c-2147-46a7-be92-2e318d890412@6c48a": {
+    "url": "db://assets/res/static/loading/guang@2x.png@6c48a",
+    "value": {
+      "depends": [
+        "32f8d57c-2147-46a7-be92-2e318d890412"
+      ]
+    },
+    "versionCode": 1
+  },
+  "efce5503-972f-485b-b075-a7063805d4a4@6c48a": {
+    "url": "db://assets/res/static/loading/jindutiao@2x.png@6c48a",
+    "value": {
+      "depends": [
+        "efce5503-972f-485b-b075-a7063805d4a4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1a4e2e56-732f-4e63-9aca-8476ac495499@6c48a": {
+    "url": "db://assets/res/static/loading/jindutiaodi@2x.png@6c48a",
+    "value": {
+      "depends": [
+        "1a4e2e56-732f-4e63-9aca-8476ac495499"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2d98c58f-6186-4536-9289-93890b99e094@6c48a": {
+    "url": "db://assets/res/static/loading/loading.jpg@6c48a",
+    "value": {
+      "depends": [
+        "2d98c58f-6186-4536-9289-93890b99e094"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ed5d6782-4814-4d4b-868d-6bc52120f8b9@f9941": {
+    "url": "db://assets/res/static/launch/TP_Logo.png@f9941",
+    "value": {
+      "depends": [
+        "ed5d6782-4814-4d4b-868d-6bc52120f8b9@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e53d9dfc-fedc-4e68-b0df-891c48e897dc": {
+    "url": "db://assets/res/static/loading/logo.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "32f8d57c-2147-46a7-be92-2e318d890412@f9941": {
+    "url": "db://assets/res/static/loading/guang@2x.png@f9941",
+    "value": {
+      "depends": [
+        "32f8d57c-2147-46a7-be92-2e318d890412@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4080e781-eb50-48be-848a-9a694c89e399": {
+    "url": "db://assets/res/static/login/cover.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "efce5503-972f-485b-b075-a7063805d4a4@f9941": {
+    "url": "db://assets/res/static/loading/jindutiao@2x.png@f9941",
+    "value": {
+      "depends": [
+        "efce5503-972f-485b-b075-a7063805d4a4@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8512b831-9875-43d3-b40a-9a0897920ce6": {
+    "url": "db://assets/res/static/ttf/PLAY-BOLD.TTF",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1a4e2e56-732f-4e63-9aca-8476ac495499@f9941": {
+    "url": "db://assets/res/static/loading/jindutiaodi@2x.png@f9941",
+    "value": {
+      "depends": [
+        "1a4e2e56-732f-4e63-9aca-8476ac495499@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "61bee6e3-edbc-472c-a3fb-418a059c973b": {
+    "url": "db://assets/res/static/car/ui/auto-atlas.pac",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2ed19416-dc9c-4bde-9c1e-618d0d58b583": {
+    "url": "db://assets/res/static/car/ui/bg_top1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e53d9dfc-fedc-4e68-b0df-891c48e897dc@6c48a": {
+    "url": "db://assets/res/static/loading/logo.png@6c48a",
+    "value": {
+      "depends": [
+        "e53d9dfc-fedc-4e68-b0df-891c48e897dc"
+      ]
+    },
+    "versionCode": 1
+  },
+  "65aaa486-0ced-4ade-a338-4060803e97ea": {
+    "url": "db://assets/res/static/car/ui/bg_wave1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4080e781-eb50-48be-848a-9a694c89e399@6c48a": {
+    "url": "db://assets/res/static/login/cover.jpg@6c48a",
+    "value": {
+      "depends": [
+        "4080e781-eb50-48be-848a-9a694c89e399"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e53d9dfc-fedc-4e68-b0df-891c48e897dc@f9941": {
+    "url": "db://assets/res/static/loading/logo.png@f9941",
+    "value": {
+      "depends": [
+        "e53d9dfc-fedc-4e68-b0df-891c48e897dc@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ed43ba0d-9d37-4a5e-8324-c6b6ac3f7094": {
+    "url": "db://assets/res/static/car/ui/btn1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2ed19416-dc9c-4bde-9c1e-618d0d58b583@6c48a": {
+    "url": "db://assets/res/static/car/ui/bg_top1.png@6c48a",
+    "value": {
+      "depends": [
+        "2ed19416-dc9c-4bde-9c1e-618d0d58b583"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2d98c58f-6186-4536-9289-93890b99e094@f9941": {
+    "url": "db://assets/res/static/loading/loading.jpg@f9941",
+    "value": {
+      "depends": [
+        "2d98c58f-6186-4536-9289-93890b99e094@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "285b1c46-f8dc-429e-830f-c426f05fd032": {
+    "url": "db://assets/res/static/car/ui/btn_yg1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "65aaa486-0ced-4ade-a338-4060803e97ea@6c48a": {
+    "url": "db://assets/res/static/car/ui/bg_wave1.png@6c48a",
+    "value": {
+      "depends": [
+        "65aaa486-0ced-4ade-a338-4060803e97ea"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2ed19416-dc9c-4bde-9c1e-618d0d58b583@f9941": {
+    "url": "db://assets/res/static/car/ui/bg_top1.png@f9941",
+    "value": {
+      "depends": [
+        "2ed19416-dc9c-4bde-9c1e-618d0d58b583@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4080e781-eb50-48be-848a-9a694c89e399@f9941": {
+    "url": "db://assets/res/static/login/cover.jpg@f9941",
+    "value": {
+      "depends": [
+        "4080e781-eb50-48be-848a-9a694c89e399@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c129e4db-175a-4b39-8822-d55d80430e97": {
+    "url": "db://assets/res/static/car/ui/btn_yg2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d5a0ff1d-3c30-46b7-899b-b1612b30fd3a": {
+    "url": "db://assets/res/static/car/ui/icon1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ed43ba0d-9d37-4a5e-8324-c6b6ac3f7094@6c48a": {
+    "url": "db://assets/res/static/car/ui/btn1.png@6c48a",
+    "value": {
+      "depends": [
+        "ed43ba0d-9d37-4a5e-8324-c6b6ac3f7094"
+      ]
+    },
+    "versionCode": 1
+  },
+  "65aaa486-0ced-4ade-a338-4060803e97ea@f9941": {
+    "url": "db://assets/res/static/car/ui/bg_wave1.png@f9941",
+    "value": {
+      "depends": [
+        "65aaa486-0ced-4ade-a338-4060803e97ea@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c7d13e66-b1ee-4383-9986-0711dee9f00b": {
+    "url": "db://assets/res/static/car/ui/icon2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ed43ba0d-9d37-4a5e-8324-c6b6ac3f7094@f9941": {
+    "url": "db://assets/res/static/car/ui/btn1.png@f9941",
+    "value": {
+      "depends": [
+        "ed43ba0d-9d37-4a5e-8324-c6b6ac3f7094@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3911e92c-3df0-4e49-b89d-bc33b3f24e65": {
+    "url": "db://assets/res/static/car/ui/icon3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "285b1c46-f8dc-429e-830f-c426f05fd032@6c48a": {
+    "url": "db://assets/res/static/car/ui/btn_yg1.png@6c48a",
+    "value": {
+      "depends": [
+        "285b1c46-f8dc-429e-830f-c426f05fd032"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c129e4db-175a-4b39-8822-d55d80430e97@6c48a": {
+    "url": "db://assets/res/static/car/ui/btn_yg2.png@6c48a",
+    "value": {
+      "depends": [
+        "c129e4db-175a-4b39-8822-d55d80430e97"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d5a0ff1d-3c30-46b7-899b-b1612b30fd3a@6c48a": {
+    "url": "db://assets/res/static/car/ui/icon1.png@6c48a",
+    "value": {
+      "depends": [
+        "d5a0ff1d-3c30-46b7-899b-b1612b30fd3a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "285b1c46-f8dc-429e-830f-c426f05fd032@f9941": {
+    "url": "db://assets/res/static/car/ui/btn_yg1.png@f9941",
+    "value": {
+      "depends": [
+        "285b1c46-f8dc-429e-830f-c426f05fd032@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "84a58970-2e91-4010-a12d-dd500841193e": {
+    "url": "db://assets/res/static/car/ui/icon_yt.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c7d13e66-b1ee-4383-9986-0711dee9f00b@6c48a": {
+    "url": "db://assets/res/static/car/ui/icon2.png@6c48a",
+    "value": {
+      "depends": [
+        "c7d13e66-b1ee-4383-9986-0711dee9f00b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c129e4db-175a-4b39-8822-d55d80430e97@f9941": {
+    "url": "db://assets/res/static/car/ui/btn_yg2.png@f9941",
+    "value": {
+      "depends": [
+        "c129e4db-175a-4b39-8822-d55d80430e97@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d5a0ff1d-3c30-46b7-899b-b1612b30fd3a@f9941": {
+    "url": "db://assets/res/static/car/ui/icon1.png@f9941",
+    "value": {
+      "depends": [
+        "d5a0ff1d-3c30-46b7-899b-b1612b30fd3a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "575dd808-f67f-4b7c-8533-ebc1ac3238d1": {
+    "url": "db://assets/res/static/car/ui/icon_yt_jd1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2fc97f49-cfcf-4db7-9fe0-4c5dd0b5a903": {
+    "url": "db://assets/res/static/car/ui/icon_yt_jd2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3911e92c-3df0-4e49-b89d-bc33b3f24e65@6c48a": {
+    "url": "db://assets/res/static/car/ui/icon3.png@6c48a",
+    "value": {
+      "depends": [
+        "3911e92c-3df0-4e49-b89d-bc33b3f24e65"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c7d13e66-b1ee-4383-9986-0711dee9f00b@f9941": {
+    "url": "db://assets/res/static/car/ui/icon2.png@f9941",
+    "value": {
+      "depends": [
+        "c7d13e66-b1ee-4383-9986-0711dee9f00b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8a4653be-d286-4ccb-8a37-5ffc7af2e8d8": {
+    "url": "db://assets/res/static/car/ui/image_jd1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3911e92c-3df0-4e49-b89d-bc33b3f24e65@f9941": {
+    "url": "db://assets/res/static/car/ui/icon3.png@f9941",
+    "value": {
+      "depends": [
+        "3911e92c-3df0-4e49-b89d-bc33b3f24e65@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9e0a2468-e9be-4da0-9173-b8b4d7ebb24a": {
+    "url": "db://assets/res/static/car/ui/image_jd2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "84a58970-2e91-4010-a12d-dd500841193e@6c48a": {
+    "url": "db://assets/res/static/car/ui/icon_yt.png@6c48a",
+    "value": {
+      "depends": [
+        "84a58970-2e91-4010-a12d-dd500841193e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2fc97f49-cfcf-4db7-9fe0-4c5dd0b5a903@6c48a": {
+    "url": "db://assets/res/static/car/ui/icon_yt_jd2.png@6c48a",
+    "value": {
+      "depends": [
+        "2fc97f49-cfcf-4db7-9fe0-4c5dd0b5a903"
+      ]
+    },
+    "versionCode": 1
+  },
+  "575dd808-f67f-4b7c-8533-ebc1ac3238d1@6c48a": {
+    "url": "db://assets/res/static/car/ui/icon_yt_jd1.png@6c48a",
+    "value": {
+      "depends": [
+        "575dd808-f67f-4b7c-8533-ebc1ac3238d1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "84a58970-2e91-4010-a12d-dd500841193e@f9941": {
+    "url": "db://assets/res/static/car/ui/icon_yt.png@f9941",
+    "value": {
+      "depends": [
+        "84a58970-2e91-4010-a12d-dd500841193e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1ec053af-6fc6-468e-beb7-86009d1ee030": {
+    "url": "db://assets/res/static/car/ui/image_jd3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8a4653be-d286-4ccb-8a37-5ffc7af2e8d8@6c48a": {
+    "url": "db://assets/res/static/car/ui/image_jd1.png@6c48a",
+    "value": {
+      "depends": [
+        "8a4653be-d286-4ccb-8a37-5ffc7af2e8d8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2fc97f49-cfcf-4db7-9fe0-4c5dd0b5a903@f9941": {
+    "url": "db://assets/res/static/car/ui/icon_yt_jd2.png@f9941",
+    "value": {
+      "depends": [
+        "2fc97f49-cfcf-4db7-9fe0-4c5dd0b5a903@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9aa99325-d0c9-4c23-aae4-35fa3e33dd7a": {
+    "url": "db://assets/res/static/car/ui/image_jd4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "575dd808-f67f-4b7c-8533-ebc1ac3238d1@f9941": {
+    "url": "db://assets/res/static/car/ui/icon_yt_jd1.png@f9941",
+    "value": {
+      "depends": [
+        "575dd808-f67f-4b7c-8533-ebc1ac3238d1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "aa21eebc-1374-4fc5-9913-61d20ea27c4e": {
+    "url": "db://assets/res/static/car/ui/image_jd5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9e0a2468-e9be-4da0-9173-b8b4d7ebb24a@6c48a": {
+    "url": "db://assets/res/static/car/ui/image_jd2.png@6c48a",
+    "value": {
+      "depends": [
+        "9e0a2468-e9be-4da0-9173-b8b4d7ebb24a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8a4653be-d286-4ccb-8a37-5ffc7af2e8d8@f9941": {
+    "url": "db://assets/res/static/car/ui/image_jd1.png@f9941",
+    "value": {
+      "depends": [
+        "8a4653be-d286-4ccb-8a37-5ffc7af2e8d8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "958e5598-fecf-454b-b229-6a879e375fba": {
+    "url": "db://assets/res/static/car/ui/image_jdt1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9e0a2468-e9be-4da0-9173-b8b4d7ebb24a@f9941": {
+    "url": "db://assets/res/static/car/ui/image_jd2.png@f9941",
+    "value": {
+      "depends": [
+        "9e0a2468-e9be-4da0-9173-b8b4d7ebb24a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "407286bc-25ae-4aad-93f0-caa7ca52a9c2": {
+    "url": "db://assets/res/static/car/ui/image_jdt2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1ec053af-6fc6-468e-beb7-86009d1ee030@6c48a": {
+    "url": "db://assets/res/static/car/ui/image_jd3.png@6c48a",
+    "value": {
+      "depends": [
+        "1ec053af-6fc6-468e-beb7-86009d1ee030"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9aa99325-d0c9-4c23-aae4-35fa3e33dd7a@6c48a": {
+    "url": "db://assets/res/static/car/ui/image_jd4.png@6c48a",
+    "value": {
+      "depends": [
+        "9aa99325-d0c9-4c23-aae4-35fa3e33dd7a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "aa21eebc-1374-4fc5-9913-61d20ea27c4e@6c48a": {
+    "url": "db://assets/res/static/car/ui/image_jd5.png@6c48a",
+    "value": {
+      "depends": [
+        "aa21eebc-1374-4fc5-9913-61d20ea27c4e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1ec053af-6fc6-468e-beb7-86009d1ee030@f9941": {
+    "url": "db://assets/res/static/car/ui/image_jd3.png@f9941",
+    "value": {
+      "depends": [
+        "1ec053af-6fc6-468e-beb7-86009d1ee030@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "958e5598-fecf-454b-b229-6a879e375fba@6c48a": {
+    "url": "db://assets/res/static/car/ui/image_jdt1.png@6c48a",
+    "value": {
+      "depends": [
+        "958e5598-fecf-454b-b229-6a879e375fba"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8d62633e-6d7e-416b-9447-1d21796f3530": {
+    "url": "db://assets/res/static/car/ui/image_wave2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9aa99325-d0c9-4c23-aae4-35fa3e33dd7a@f9941": {
+    "url": "db://assets/res/static/car/ui/image_jd4.png@f9941",
+    "value": {
+      "depends": [
+        "9aa99325-d0c9-4c23-aae4-35fa3e33dd7a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dd177590-e12b-438a-9f55-0bb134224146": {
+    "url": "db://assets/res/static/car/ui/jdt_nj1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "aa21eebc-1374-4fc5-9913-61d20ea27c4e@f9941": {
+    "url": "db://assets/res/static/car/ui/image_jd5.png@f9941",
+    "value": {
+      "depends": [
+        "aa21eebc-1374-4fc5-9913-61d20ea27c4e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "407286bc-25ae-4aad-93f0-caa7ca52a9c2@6c48a": {
+    "url": "db://assets/res/static/car/ui/image_jdt2.png@6c48a",
+    "value": {
+      "depends": [
+        "407286bc-25ae-4aad-93f0-caa7ca52a9c2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d72eccb1-23d1-4ce7-9ebd-0d1bd19f112c": {
+    "url": "db://assets/res/static/car/ui/jdt_nj2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "958e5598-fecf-454b-b229-6a879e375fba@f9941": {
+    "url": "db://assets/res/static/car/ui/image_jdt1.png@f9941",
+    "value": {
+      "depends": [
+        "958e5598-fecf-454b-b229-6a879e375fba@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5803c03f-454f-4c9f-bce1-9c63c780011a": {
+    "url": "db://assets/res/static/rogue/ui/bg_1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "407286bc-25ae-4aad-93f0-caa7ca52a9c2@f9941": {
+    "url": "db://assets/res/static/car/ui/image_jdt2.png@f9941",
+    "value": {
+      "depends": [
+        "407286bc-25ae-4aad-93f0-caa7ca52a9c2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a7e0049c-df93-4149-88bf-dbc3a30ea8ff": {
+    "url": "db://assets/res/static/rogue/ui/prograssWhite.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8d62633e-6d7e-416b-9447-1d21796f3530@6c48a": {
+    "url": "db://assets/res/static/car/ui/image_wave2.png@6c48a",
+    "value": {
+      "depends": [
+        "8d62633e-6d7e-416b-9447-1d21796f3530"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dd177590-e12b-438a-9f55-0bb134224146@6c48a": {
+    "url": "db://assets/res/static/car/ui/jdt_nj1.png@6c48a",
+    "value": {
+      "depends": [
+        "dd177590-e12b-438a-9f55-0bb134224146"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d72eccb1-23d1-4ce7-9ebd-0d1bd19f112c@6c48a": {
+    "url": "db://assets/res/static/car/ui/jdt_nj2.png@6c48a",
+    "value": {
+      "depends": [
+        "d72eccb1-23d1-4ce7-9ebd-0d1bd19f112c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5803c03f-454f-4c9f-bce1-9c63c780011a@6c48a": {
+    "url": "db://assets/res/static/rogue/ui/bg_1.png@6c48a",
+    "value": {
+      "depends": [
+        "5803c03f-454f-4c9f-bce1-9c63c780011a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8d62633e-6d7e-416b-9447-1d21796f3530@f9941": {
+    "url": "db://assets/res/static/car/ui/image_wave2.png@f9941",
+    "value": {
+      "depends": [
+        "8d62633e-6d7e-416b-9447-1d21796f3530@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ccdeab3d-0695-4fb1-8ec3-496c9b93fa95": {
+    "url": "db://assets/res/static/block/popup/game/1717616873905176.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a7e0049c-df93-4149-88bf-dbc3a30ea8ff@6c48a": {
+    "url": "db://assets/res/static/rogue/ui/prograssWhite.png@6c48a",
+    "value": {
+      "depends": [
+        "a7e0049c-df93-4149-88bf-dbc3a30ea8ff"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dd177590-e12b-438a-9f55-0bb134224146@f9941": {
+    "url": "db://assets/res/static/car/ui/jdt_nj1.png@f9941",
+    "value": {
+      "depends": [
+        "dd177590-e12b-438a-9f55-0bb134224146@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b470fb93-8863-476d-b52c-bc860afd2d4e": {
+    "url": "db://assets/res/static/block/popup/game/1717616874413177.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d72eccb1-23d1-4ce7-9ebd-0d1bd19f112c@f9941": {
+    "url": "db://assets/res/static/car/ui/jdt_nj2.png@f9941",
+    "value": {
+      "depends": [
+        "d72eccb1-23d1-4ce7-9ebd-0d1bd19f112c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "babe40f5-d9c6-42e5-bd59-896cb8966da9": {
+    "url": "db://assets/res/static/block/popup/game/1717616875951180.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5803c03f-454f-4c9f-bce1-9c63c780011a@f9941": {
+    "url": "db://assets/res/static/rogue/ui/bg_1.png@f9941",
+    "value": {
+      "depends": [
+        "5803c03f-454f-4c9f-bce1-9c63c780011a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4537425f-7b6f-4ca8-b1f6-d59a7d67ace7": {
+    "url": "db://assets/res/static/block/popup/game/19000270638_769.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a7e0049c-df93-4149-88bf-dbc3a30ea8ff@f9941": {
+    "url": "db://assets/res/static/rogue/ui/prograssWhite.png@f9941",
+    "value": {
+      "depends": [
+        "a7e0049c-df93-4149-88bf-dbc3a30ea8ff@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fd9d18f8-8346-44d8-bd5d-2059a35c8b7d": {
+    "url": "db://assets/res/static/block/popup/game/bar.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ccdeab3d-0695-4fb1-8ec3-496c9b93fa95@6c48a": {
+    "url": "db://assets/res/static/block/popup/game/1717616873905176.png@6c48a",
+    "value": {
+      "depends": [
+        "ccdeab3d-0695-4fb1-8ec3-496c9b93fa95"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b470fb93-8863-476d-b52c-bc860afd2d4e@6c48a": {
+    "url": "db://assets/res/static/block/popup/game/1717616874413177.png@6c48a",
+    "value": {
+      "depends": [
+        "b470fb93-8863-476d-b52c-bc860afd2d4e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "babe40f5-d9c6-42e5-bd59-896cb8966da9@6c48a": {
+    "url": "db://assets/res/static/block/popup/game/1717616875951180.png@6c48a",
+    "value": {
+      "depends": [
+        "babe40f5-d9c6-42e5-bd59-896cb8966da9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4537425f-7b6f-4ca8-b1f6-d59a7d67ace7@6c48a": {
+    "url": "db://assets/res/static/block/popup/game/19000270638_769.png@6c48a",
+    "value": {
+      "depends": [
+        "4537425f-7b6f-4ca8-b1f6-d59a7d67ace7"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fd9d18f8-8346-44d8-bd5d-2059a35c8b7d@6c48a": {
+    "url": "db://assets/res/static/block/popup/game/bar.png@6c48a",
+    "value": {
+      "depends": [
+        "fd9d18f8-8346-44d8-bd5d-2059a35c8b7d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ccdeab3d-0695-4fb1-8ec3-496c9b93fa95@f9941": {
+    "url": "db://assets/res/static/block/popup/game/1717616873905176.png@f9941",
+    "value": {
+      "depends": [
+        "ccdeab3d-0695-4fb1-8ec3-496c9b93fa95@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b470fb93-8863-476d-b52c-bc860afd2d4e@f9941": {
+    "url": "db://assets/res/static/block/popup/game/1717616874413177.png@f9941",
+    "value": {
+      "depends": [
+        "b470fb93-8863-476d-b52c-bc860afd2d4e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f0075b91-82f1-4479-abc6-2116e69faeb1": {
+    "url": "db://assets/res/static/block/popup/game/button01.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5a21866d-89d1-455a-8f40-d59b10dbe07b": {
+    "url": "db://assets/res/static/block/popup/game/button02.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "babe40f5-d9c6-42e5-bd59-896cb8966da9@f9941": {
+    "url": "db://assets/res/static/block/popup/game/1717616875951180.png@f9941",
+    "value": {
+      "depends": [
+        "babe40f5-d9c6-42e5-bd59-896cb8966da9@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2bda9e07-d104-4e58-bb9e-086ad9c2b9f2": {
+    "url": "db://assets/res/static/block/popup/game/fail_title.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "fd9d18f8-8346-44d8-bd5d-2059a35c8b7d@f9941": {
+    "url": "db://assets/res/static/block/popup/game/bar.png@f9941",
+    "value": {
+      "depends": [
+        "fd9d18f8-8346-44d8-bd5d-2059a35c8b7d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "37d0323a-89da-4702-8e26-dde7f97d5bd8": {
+    "url": "db://assets/res/static/block/popup/game/gold.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4537425f-7b6f-4ca8-b1f6-d59a7d67ace7@f9941": {
+    "url": "db://assets/res/static/block/popup/game/19000270638_769.png@f9941",
+    "value": {
+      "depends": [
+        "4537425f-7b6f-4ca8-b1f6-d59a7d67ace7@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "64beba9f-f511-4c9a-bc39-08d333458aac": {
+    "url": "db://assets/res/static/block/popup/game/victory_title.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5a21866d-89d1-455a-8f40-d59b10dbe07b@6c48a": {
+    "url": "db://assets/res/static/block/popup/game/button02.png@6c48a",
+    "value": {
+      "depends": [
+        "5a21866d-89d1-455a-8f40-d59b10dbe07b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f0075b91-82f1-4479-abc6-2116e69faeb1@6c48a": {
+    "url": "db://assets/res/static/block/popup/game/button01.png@6c48a",
+    "value": {
+      "depends": [
+        "f0075b91-82f1-4479-abc6-2116e69faeb1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2bda9e07-d104-4e58-bb9e-086ad9c2b9f2@6c48a": {
+    "url": "db://assets/res/static/block/popup/game/fail_title.png@6c48a",
+    "value": {
+      "depends": [
+        "2bda9e07-d104-4e58-bb9e-086ad9c2b9f2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "37d0323a-89da-4702-8e26-dde7f97d5bd8@6c48a": {
+    "url": "db://assets/res/static/block/popup/game/gold.png@6c48a",
+    "value": {
+      "depends": [
+        "37d0323a-89da-4702-8e26-dde7f97d5bd8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5a21866d-89d1-455a-8f40-d59b10dbe07b@f9941": {
+    "url": "db://assets/res/static/block/popup/game/button02.png@f9941",
+    "value": {
+      "depends": [
+        "5a21866d-89d1-455a-8f40-d59b10dbe07b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "64beba9f-f511-4c9a-bc39-08d333458aac@6c48a": {
+    "url": "db://assets/res/static/block/popup/game/victory_title.png@6c48a",
+    "value": {
+      "depends": [
+        "64beba9f-f511-4c9a-bc39-08d333458aac"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e2084fe2-3acd-42ce-a339-c88f695d2354": {
+    "url": "db://assets/res/static/block/popup/pause/1900049e372_3f4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f0075b91-82f1-4479-abc6-2116e69faeb1@f9941": {
+    "url": "db://assets/res/static/block/popup/game/button01.png@f9941",
+    "value": {
+      "depends": [
+        "f0075b91-82f1-4479-abc6-2116e69faeb1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2bda9e07-d104-4e58-bb9e-086ad9c2b9f2@f9941": {
+    "url": "db://assets/res/static/block/popup/game/fail_title.png@f9941",
+    "value": {
+      "depends": [
+        "2bda9e07-d104-4e58-bb9e-086ad9c2b9f2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "64beba9f-f511-4c9a-bc39-08d333458aac@f9941": {
+    "url": "db://assets/res/static/block/popup/game/victory_title.png@f9941",
+    "value": {
+      "depends": [
+        "64beba9f-f511-4c9a-bc39-08d333458aac@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "37d0323a-89da-4702-8e26-dde7f97d5bd8@f9941": {
+    "url": "db://assets/res/static/block/popup/game/gold.png@f9941",
+    "value": {
+      "depends": [
+        "37d0323a-89da-4702-8e26-dde7f97d5bd8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e2084fe2-3acd-42ce-a339-c88f695d2354@6c48a": {
+    "url": "db://assets/res/static/block/popup/pause/1900049e372_3f4.png@6c48a",
+    "value": {
+      "depends": [
+        "e2084fe2-3acd-42ce-a339-c88f695d2354"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e2084fe2-3acd-42ce-a339-c88f695d2354@f9941": {
+    "url": "db://assets/res/static/block/popup/pause/1900049e372_3f4.png@f9941",
+    "value": {
+      "depends": [
+        "e2084fe2-3acd-42ce-a339-c88f695d2354@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fd47677f-e3f4-4f1c-b5d7-1761c31dd6ca": {
+    "url": "db://assets/script/GameDefine.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0b26ff02-bd9b-4821-a173-2771d5831051": {
+    "url": "db://assets/script/Frame",
+    "value": {},
+    "versionCode": 1
+  },
+  "de5e720e-fb39-4df9-abc1-37b468f7136c": {
+    "url": "db://assets/script/Frame/ContentWidthAdapter.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "56c8c658-363c-40b9-bfa0-1eac9357ff7a": {
+    "url": "db://assets/resources/images/button",
+    "value": {},
+    "versionCode": 1
+  },
+  "86d249e2-3ba8-4df5-8461-cee44b400dd1": {
+    "url": "db://assets/resources/images/button/button01.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "86d249e2-3ba8-4df5-8461-cee44b400dd1@6c48a": {
+    "url": "db://assets/resources/images/button/button01.png@6c48a",
+    "value": {
+      "depends": [
+        "86d249e2-3ba8-4df5-8461-cee44b400dd1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "86d249e2-3ba8-4df5-8461-cee44b400dd1@f9941": {
+    "url": "db://assets/resources/images/button/button01.png@f9941",
+    "value": {
+      "depends": [
+        "86d249e2-3ba8-4df5-8461-cee44b400dd1@6c48a"
+      ]
+    },
     "versionCode": 1
   }
 }

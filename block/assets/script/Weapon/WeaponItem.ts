@@ -1,11 +1,8 @@
-import { _decorator, Color, Component, EventTouch, game, Input, input, instantiate, Label, Node, Prefab, ProgressBar, Sprite, SpriteFrame, Tween, tween, UITransform, v2, v3, Vec2, Vec3 } from 'cc';
+import { _decorator, Color, Component, EventTouch, game, Input, input, instantiate, Label, Node, Prefab, ProgressBar, Sprite, SpriteFrame, Tween, tween, UITransform, v2, v3, Vec2, Vec3,resources } from 'cc';
 import { WeaponData, WeaponModel } from '../Data/WeaponData';
-import { SynItem } from '../Battle/SynItem';
 import { GridData, GridObj } from '../Data/GridData';
-import { Constants } from '../../Constants';
-import { OpenPopupManager } from '../../Frame/OpenPopupManager';
-import { EventConstant } from '../../../../constant/EventConstant';
-import { oops } from '../../../../../script-oops/core/Oops';
+import { Constants } from '../Constants';
+import { EventConstant } from '../EventConstant';
 
 const { ccclass, property } = _decorator;
 
@@ -96,7 +93,7 @@ export class WeaponItem extends Component {
     /* 设置武器图标 */
     private setWeaponIcon() {
         let path = Constants.weaponIconPath + this.weaponCfg.Res + '/spriteFrame';
-        oops.res.load(path, SpriteFrame, (err: Error | null, content: SpriteFrame) => {
+        resources.load(path, SpriteFrame, (err: Error | null, content: SpriteFrame) => {
             this.icon.spriteFrame = content;
             this.bar.spriteFrame = content;
             let size = this.icon.getComponent(UITransform)!.contentSize;
@@ -226,7 +223,7 @@ export class WeaponItem extends Component {
     private setSynEffect() {
         let path = Constants.synPath;
 
-        oops.res.load(path, Prefab, (err: Error | null, content: Prefab) => {
+        resources.load(path, Prefab, (err: Error | null, content: Prefab) => {
             // let synItem = instantiate(content);
             // synItem.parent = this.node;
             // if (synItem.getComponent(SynItem) != null) {
@@ -259,10 +256,6 @@ export class WeaponItem extends Component {
 
     private onTouchEnd(wpos?: Vec2) {
         if (this._isTouch) {
-            if (this._touchStatus == TouchStatus.START) {
-                //弹出详情
-                OpenPopupManager.instance.showWeaponDetailPopup(this.weaponCfg);
-            }
             this._isTouch = false;
             WeaponData.instance.isSelect = false;
             this.onPenWeaponPopup();
@@ -270,19 +263,7 @@ export class WeaponItem extends Component {
             this._touchStatus = TouchStatus.END;
         }
     }
-
-    private onTouchCancle(wpos?: Vec2) {
-        if (this._isTouch) {
-            this._isTouch = false;
-            WeaponData.instance.isSelect = false;
-            this._touchStatus = TouchStatus.CANCEL;
-            //添加到待上阵武器列表
-            game.emit(EventConstant.ADD_REMOVE_WEAPON_LIST, this.node);
-            //设置战斗按钮状态
-            game.emit(EventConstant.SET_BATTLE_BTN_STATUS);
-        }
-    }
-
+    
     protected onEnable(): void {
         game.on(EventConstant.GAME_TOUCH_START, this.onTouchStart, this);
         game.on(EventConstant.GAME_TOUCH_MOVE, this.onTouchMove, this);

@@ -1,5 +1,5 @@
 import { Vec3 } from "cc";
-import { Templates } from "../../../../manager/TemplateMgr";
+import { Templates } from "../Mgr/TemplateMgr";
 
 
 export interface WeaponModel {

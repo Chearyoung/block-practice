@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Color, Component, game, Label, Prefab, ProgressBar, Sprite, SpriteFrame, Tween, tween, UITransform, v2, v3, Vec3, WeaponData, GridData, GridObj, Constants, OpenPopupManager, EventConstant, oops, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, WeaponItem, TouchStatus;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Color, Component, game, Label, Prefab, ProgressBar, Sprite, SpriteFrame, Tween, tween, UITransform, v2, v3, Vec3, resources, WeaponData, GridData, GridObj, Constants, EventConstant, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, WeaponItem, TouchStatus;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -26,19 +26,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
   }
 
   function _reportPossibleCrUseOfConstants(extras) {
-    _reporterNs.report("Constants", "../../Constants", _context.meta, extras);
-  }
-
-  function _reportPossibleCrUseOfOpenPopupManager(extras) {
-    _reporterNs.report("OpenPopupManager", "../../Frame/OpenPopupManager", _context.meta, extras);
+    _reporterNs.report("Constants", "../Constants", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfEventConstant(extras) {
-    _reporterNs.report("EventConstant", "../../../../constant/EventConstant", _context.meta, extras);
-  }
-
-  function _reportPossibleCrUseOfoops(extras) {
-    _reporterNs.report("oops", "../../../../../script-oops/core/Oops", _context.meta, extras);
+    _reporterNs.report("EventConstant", "../EventConstant", _context.meta, extras);
   }
 
   return {
@@ -63,6 +55,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       v2 = _cc.v2;
       v3 = _cc.v3;
       Vec3 = _cc.Vec3;
+      resources = _cc.resources;
     }, function (_unresolved_2) {
       WeaponData = _unresolved_2.WeaponData;
     }, function (_unresolved_3) {
@@ -71,18 +64,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     }, function (_unresolved_4) {
       Constants = _unresolved_4.Constants;
     }, function (_unresolved_5) {
-      OpenPopupManager = _unresolved_5.OpenPopupManager;
-    }, function (_unresolved_6) {
-      EventConstant = _unresolved_6.EventConstant;
-    }, function (_unresolved_7) {
-      oops = _unresolved_7.oops;
+      EventConstant = _unresolved_5.EventConstant;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "25dfdn2NRZPKLZpIOwY85wi", "WeaponItem", undefined);
 
-      __checkObsolete__(['_decorator', 'Color', 'Component', 'EventTouch', 'game', 'Input', 'input', 'instantiate', 'Label', 'Node', 'Prefab', 'ProgressBar', 'Sprite', 'SpriteFrame', 'Tween', 'tween', 'UITransform', 'v2', 'v3', 'Vec2', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Color', 'Component', 'EventTouch', 'game', 'Input', 'input', 'instantiate', 'Label', 'Node', 'Prefab', 'ProgressBar', 'Sprite', 'SpriteFrame', 'Tween', 'tween', 'UITransform', 'v2', 'v3', 'Vec2', 'Vec3', 'resources']);
 
       ({
         ccclass,
@@ -200,9 +189,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           var path = (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).weaponIconPath + this.weaponCfg.Res + '/spriteFrame';
-          (_crd && oops === void 0 ? (_reportPossibleCrUseOfoops({
-            error: Error()
-          }), oops) : oops).res.load(path, SpriteFrame, (err, content) => {
+          resources.load(path, SpriteFrame, (err, content) => {
             this.icon.spriteFrame = content;
             this.bar.spriteFrame = content;
             var size = this.icon.getComponent(UITransform).contentSize;
@@ -357,9 +344,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           var path = (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).synPath;
-          (_crd && oops === void 0 ? (_reportPossibleCrUseOfoops({
-            error: Error()
-          }), oops) : oops).res.load(path, Prefab, (err, content) => {// let synItem = instantiate(content);
+          resources.load(path, Prefab, (err, content) => {// let synItem = instantiate(content);
             // synItem.parent = this.node;
             // if (synItem.getComponent(SynItem) != null) {
             //     synItem.getComponent(SynItem)!.init();
@@ -404,13 +389,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
         onTouchEnd(wpos) {
           if (this._isTouch) {
-            if (this._touchStatus == TouchStatus.START) {
-              //弹出详情
-              (_crd && OpenPopupManager === void 0 ? (_reportPossibleCrUseOfOpenPopupManager({
-                error: Error()
-              }), OpenPopupManager) : OpenPopupManager).instance.showWeaponDetailPopup(this.weaponCfg);
-            }
-
             this._isTouch = false;
             (_crd && WeaponData === void 0 ? (_reportPossibleCrUseOfWeaponData({
               error: Error()
@@ -418,24 +396,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             this.onPenWeaponPopup();
             this.onPlaceFinish();
             this._touchStatus = TouchStatus.END;
-          }
-        }
-
-        onTouchCancle(wpos) {
-          if (this._isTouch) {
-            this._isTouch = false;
-            (_crd && WeaponData === void 0 ? (_reportPossibleCrUseOfWeaponData({
-              error: Error()
-            }), WeaponData) : WeaponData).instance.isSelect = false;
-            this._touchStatus = TouchStatus.CANCEL; //添加到待上阵武器列表
-
-            game.emit((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
-              error: Error()
-            }), EventConstant) : EventConstant).ADD_REMOVE_WEAPON_LIST, this.node); //设置战斗按钮状态
-
-            game.emit((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
-              error: Error()
-            }), EventConstant) : EventConstant).SET_BATTLE_BTN_STATUS);
           }
         }
 

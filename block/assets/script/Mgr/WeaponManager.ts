@@ -1,12 +1,11 @@
-import { _decorator, Component, game, instantiate, Intersection2D, Layout, Node, Prefab, UITransform, v2, v3 } from 'cc';
+import { _decorator, Component, game, instantiate, Intersection2D, Layout, Node, Prefab, UITransform, v2, v3 , resources } from 'cc';
 import { GridData, GridObj, WeaponObj } from '../Data/GridData';
 import { CoinObj, WeaponData } from '../Data/WeaponData';
-import { Constants } from '../../Constants';
+import { Constants } from '../Constants';
 import { WeaponItem } from '../Weapon/WeaponItem';
 import { WeaponBgItem } from '../Weapon/WeaponBgItem';
-import { oops } from '../../../../../script-oops/core/Oops';
-import { BlockUtil } from '../../../../battle/util/Util';
-import { EventConstant } from '../../../../constant/EventConstant';
+import { BlockUtil } from '../Util';
+import { EventConstant } from '../EventConstant';
 const { ccclass, property } = _decorator;
 
 @ccclass('WeaponManager')
@@ -40,7 +39,7 @@ export class WeaponManager extends Component {
             let path = Constants.weaponPath;
             let pos = GridData.instance.getItemPosByTiledObj(gridObjArr);
 
-            oops.res.load(path, Prefab, (err: Error | null, content: Prefab) => {
+            resources.load(path, Prefab, (err: Error | null, content: Prefab) => {
                 let weaponItem = instantiate(content);
                 weaponItem.parent = this.weaponList;
                 weaponItem.setPosition(pos);
@@ -74,22 +73,26 @@ export class WeaponManager extends Component {
                 path = Constants.weaponBgPath;
             }
 
-            oops.res.load(path, Prefab, (err: Error | null, content: Prefab) => {
+            resources.load(path, Prefab, (err: Error | null, content: Prefab) => {
+                if (err) {
+                    console.error('Failed to load prefab:', err);
+                    return;
+                }
+            
                 let weaponItem = instantiate(content);
                 weaponItem.parent = this.removeWeaponList;
-
+            
                 if (weaponCfg.itemType == "1") {
                     weaponItem.getComponent(WeaponItem)!.init(weaponCfg, key, false);
-                }
-                else if (weaponCfg.itemType == "2") {   // TODO: 少一个配件
-
-                }
-                else if (weaponCfg.itemType == "3") {
-                    //格子
+                } else if (weaponCfg.itemType == "2") {
+                    // TODO: 处理 itemType 为 "2" 的情况
+                } else if (weaponCfg.itemType == "3") {
                     weaponItem.getComponent(WeaponBgItem)!.init(weaponCfg, key, false);
                 }
+            
                 this.updateRemoveLayOut();
             });
+            game.emit(EventConstant.GAME_TAP_BTN);
         }
     }
 
@@ -136,26 +139,6 @@ export class WeaponManager extends Component {
                 weaponItem.getComponent(WeaponItem)!.setBuildWeaponPos(key, pos);
             }
         })
-    }
-
-
-    /* 转换飞的金币动画 */
-    private showFlyGoldAnim() {
-        if (this.removeWeaponList.children.length) {
-            let items = this.removeWeaponList.children;
-            for (let i = 0; i < items.length; i++) {
-                const element = items[i];
-                let coinObj = new CoinObj();
-                coinObj.wpos = element.getComponent(UITransform)!.convertToWorldSpaceAR(v3(0, 0, 0));
-                coinObj.num = BlockUtil.getRandomInt(5, 10);
-                game.emit(EventConstant.WEAPON_CHANGE_COIN, coinObj);
-            }
-        }
-    }
-
-    /* 隐藏显示卸载列表 */
-    private showHideRemoveList(status: boolean) {
-        this.removeWeaponList.active = status;
     }
 
     /* 根据内容设置排布 */
