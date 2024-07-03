@@ -41,3 +41,76 @@
     at AssetDump.decode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/types/asset-dump.ccc:1:946)
     at _decodeByType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:4617)
     at decodePatch (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:6224)
+7-3-2024 12:13:03 - warn: [Assets] The uuid is already pointing to another resource.
+[
+  "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/101.png",
+  "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/101.png"
+]
+The file uuid has been updated: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/101.png
+    160ba03e-0d60-49d5-b9fa-e061ea0d7843 -> 66144777-d36c-4067-b95f-c7b3f250d633[Assets] The uuid is already pointing to another resource.
+[
+  "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/101.png",
+  "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/101.png"
+]
+The file uuid has been updated: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/101.png
+    160ba03e-0d60-49d5-b9fa-e061ea0d7843 -> 66144777-d36c-4067-b95f-c7b3f250d633  
+The file uuid has been updated: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/101.png  
+160ba03e-0d60-49d5-b9fa-e061ea0d7843 -> 66144777-d36c-4067-b95f-c7b3f250d633  
+at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at CustomConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at AssetDB._replaceUUID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/asset-db.ccc:1:9318)  
+at AssetDB._checkAssetsStatSync (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/asset-db.ccc:1:10409)  
+at AssetDB.refresh (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/asset-db.ccc:1:8357)  
+at refresh (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/manager.ccc:1:3624)  
+at AssetManager._refreshAsset (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/manager/asset-manager.ccc:1:10448)
+7-3-2024 12:15:52 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:69429:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1091)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/types/asset-dump.ccc:1:946)
+    at _decodeByType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:4617)
+    at decodePatch (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:6224)
+7-3-2024 12:15:52 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:69429:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1091)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/types/asset-dump.ccc:1:946)
+    at _decodeByType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:4617)
+    at decodePatch (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:6224)
+7-3-2024 12:15:52 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:69429:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1091)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/types/asset-dump.ccc:1:946)
+    at _decodeByType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:4617)
+    at decodePatch (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:6224)
+7-3-2024 12:15:52 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:69429:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1091)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/types/asset-dump.ccc:1:946)
+    at _decodeByType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:4617)
+    at decodePatch (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:6224)
+7-3-2024 12:15:54 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:69429:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1091)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/types/asset-dump.ccc:1:946)
+    at _decodeByType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:4617)
+    at decodePatch (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:6224)
+7-3-2024 12:15:54 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172110:12)
+    at warnID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:172292:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:69429:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1091)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/types/asset-dump.ccc:1:946)
+    at _decodeByType (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:4617)
+    at decodePatch (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/decode.ccc:1:6224)

@@ -248,3 +248,428 @@
 2024-7-3 12:01:49-debug: asset-db:refresh-all-database (36ms)
 2024-7-3 12:01:49-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
 2024-7-3 12:01:49-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 12:08:11-debug: refresh db internal success
+2024-7-3 12:08:11-debug: refresh db assets success
+2024-7-3 12:08:11-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:08:11-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:08:11-debug: asset-db:refresh-all-database (34ms)
+2024-7-3 12:08:11-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 12:08:18-debug: refresh db internal success
+2024-7-3 12:08:18-debug: refresh db assets success
+2024-7-3 12:08:18-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:08:18-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:08:18-debug: asset-db:refresh-all-database (27ms)
+2024-7-3 12:08:18-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 12:08:18-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 12:08:32-debug: refresh db internal success
+2024-7-3 12:08:32-debug: refresh db assets success
+2024-7-3 12:08:32-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:08:32-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:08:32-debug: asset-db:refresh-all-database (27ms)
+2024-7-3 12:08:52-debug: refresh db internal success
+2024-7-3 12:08:52-debug: refresh db assets success
+2024-7-3 12:08:52-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:08:52-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:08:52-debug: asset-db:refresh-all-database (27ms)
+2024-7-3 12:09:03-debug: refresh db internal success
+2024-7-3 12:09:03-debug: refresh db assets success
+2024-7-3 12:09:03-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:09:03-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:09:03-debug: asset-db:refresh-all-database (31ms)
+2024-7-3 12:09:11-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefeb...
+2024-7-3 12:09:11-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefebbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:09:11-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources success
+2024-7-3 12:09:11-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resourcesbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:09:14-debug: refresh db internal success
+2024-7-3 12:09:14-debug: refresh db assets success
+2024-7-3 12:09:14-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:09:14-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:09:14-debug: asset-db:refresh-all-database (25ms)
+2024-7-3 12:09:14-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 12:09:14-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 12:09:19-debug: start move asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefeb -> /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab...
+2024-7-3 12:09:19-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab...
+2024-7-3 12:09:19-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:09:19-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources success
+2024-7-3 12:09:19-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources...
+2024-7-3 12:09:19-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resourcesbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:09:19-debug: move asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefeb -> /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab success
+2024-7-3 12:09:19-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets success
+2024-7-3 12:10:22-debug: refresh db internal success
+2024-7-3 12:10:22-debug: refresh db assets success
+2024-7-3 12:10:22-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:10:22-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:10:22-debug: asset-db:refresh-all-database (29ms)
+2024-7-3 12:10:22-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 12:10:22-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 12:10:27-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/image...
+2024-7-3 12:10:27-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/imagebackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:10:27-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources success
+2024-7-3 12:10:28-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resourcesbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:10:34-debug: start move asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/image -> /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images...
+2024-7-3 12:10:34-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images...
+2024-7-3 12:10:34-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/imagesbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:10:34-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources...
+2024-7-3 12:10:34-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources success
+2024-7-3 12:10:34-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resourcesbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:10:34-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets success
+2024-7-3 12:10:34-debug: move asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/image -> /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images success
+2024-7-3 12:10:47-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/101.png...
+2024-7-3 12:10:47-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/101.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:10:47-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/101.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:10:47-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/101.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:10:47-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images success
+2024-7-3 12:10:47-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/imagesbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:10:48-debug: refresh db internal success
+2024-7-3 12:10:48-debug: refresh db assets success
+2024-7-3 12:10:48-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:10:48-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:10:48-debug: asset-db:refresh-all-database (31ms)
+2024-7-3 12:10:48-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 12:10:48-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 12:12:07-debug: refresh db internal success
+2024-7-3 12:12:07-debug: refresh db assets success
+2024-7-3 12:12:07-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:12:07-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:12:07-debug: asset-db:refresh-all-database (26ms)
+2024-7-3 12:12:23-debug: refresh db internal success
+2024-7-3 12:12:23-debug: refresh db assets success
+2024-7-3 12:12:23-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:12:23-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:12:23-debug: asset-db:refresh-all-database (32ms)
+2024-7-3 12:12:23-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 12:12:23-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 12:12:28-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon...
+2024-7-3 12:12:28-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weaponbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:28-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images success
+2024-7-3 12:12:28-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/imagesbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:32-debug: refresh db internal success
+2024-7-3 12:12:32-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:12:32-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:12:32-debug: refresh db assets success
+2024-7-3 12:12:32-debug: asset-db:refresh-all-database (37ms)
+2024-7-3 12:12:34-debug: refresh db internal success
+2024-7-3 12:12:34-debug: refresh db assets success
+2024-7-3 12:12:34-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:12:34-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:12:34-debug: asset-db:refresh-all-database (37ms)
+2024-7-3 12:12:34-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 12:12:41-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid...
+2024-7-3 12:12:41-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/gridbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:41-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images success
+2024-7-3 12:12:41-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/imagesbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag.png...
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag1.png...
+2024-7-3 12:12:51-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag7.png...
+2024-7-3 12:12:51-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag8.png...
+2024-7-3 12:12:51-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag9.png...
+2024-7-3 12:12:51-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag3.png...
+2024-7-3 12:12:51-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag5.png...
+2024-7-3 12:12:51-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag6.png...
+2024-7-3 12:12:51-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cell.png...
+2024-7-3 12:12:51-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellBgTips.png...
+2024-7-3 12:12:51-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellBg.png...
+2024-7-3 12:12:51-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellTips.png...
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag1.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag1.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag1.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag3.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag3.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag3.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag5.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag5.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag5.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag6.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag6.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag6.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag7.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag7.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag7.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag8.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag8.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag8.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag9.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag9.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag9.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cell.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cell.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cell.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellBg.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellBg.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellBg.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellBgTips.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellBgTips.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellBgTips.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellTips.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellTips.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellTips.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:51-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid success
+2024-7-3 12:12:51-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid success
+2024-7-3 12:12:51-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid success
+2024-7-3 12:12:51-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid success
+2024-7-3 12:12:51-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid success
+2024-7-3 12:12:51-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid success
+2024-7-3 12:12:51-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid success
+2024-7-3 12:12:51-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid success
+2024-7-3 12:12:51-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid success
+2024-7-3 12:12:51-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid success
+2024-7-3 12:12:51-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid success
+2024-7-3 12:12:51-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid success
+2024-7-3 12:12:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/gridbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:12:52-debug: refresh db internal success
+2024-7-3 12:12:52-debug: refresh db assets success
+2024-7-3 12:12:52-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:12:52-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:12:52-debug: asset-db:refresh-all-database (24ms)
+2024-7-3 12:13:00-debug: refresh db internal success
+2024-7-3 12:13:00-debug: refresh db assets success
+2024-7-3 12:13:00-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:13:00-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:13:00-debug: asset-db:refresh-all-database (39ms)
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/101.png...
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/101.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/102.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/104.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/303.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/203.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/301.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/402.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/403.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/302.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/201.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/502.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/501.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/404.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/601.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/603.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/504.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/503.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/602.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/702.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/701.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/703.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70101.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/10000.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70301.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70201.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/401.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/202.png...
+2024-7-3 12:13:03-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/103.png...
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/101.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/101.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/102.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/102.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/102.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/202.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/202.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/202.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/103.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/103.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/103.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/104.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/104.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/104.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/401.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/401.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/401.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/303.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/303.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/303.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/203.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/203.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/203.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/301.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/301.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/301.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/402.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/402.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/402.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/403.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/403.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/403.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/302.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/302.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/302.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/201.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/201.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/201.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/502.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/502.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/502.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/501.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/501.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/501.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/404.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/404.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/404.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/601.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/601.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/601.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/603.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/603.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/603.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/504.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/504.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/504.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/503.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/503.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/503.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/602.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/602.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/602.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/702.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/702.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/702.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/701.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/701.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/701.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/703.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/703.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/703.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70101.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70101.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70101.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/10000.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/10000.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:03-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/10000.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:04-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70301.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:04-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70301.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:04-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70301.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:04-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70201.pngbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:04-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70201.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:04-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70201.png@f9941background: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon success
+2024-7-3 12:13:04-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weaponbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:13:57-debug: refresh db internal success
+2024-7-3 12:13:57-debug: refresh db assets success
+2024-7-3 12:13:57-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:13:57-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:13:57-debug: asset-db:refresh-all-database (34ms)
+2024-7-3 12:13:58-debug: refresh db internal success
+2024-7-3 12:13:58-debug: refresh db assets success
+2024-7-3 12:13:58-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:13:58-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:13:58-debug: asset-db:refresh-all-database (36ms)
+2024-7-3 12:13:58-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 12:13:58-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 12:14:13-debug: refresh db internal success
+2024-7-3 12:14:13-debug: refresh db assets success
+2024-7-3 12:14:13-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:14:13-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:14:13-debug: asset-db:refresh-all-database (37ms)
+2024-7-3 12:14:17-debug: refresh db internal success
+2024-7-3 12:14:17-debug: refresh db assets success
+2024-7-3 12:14:17-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:14:17-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:14:17-debug: asset-db:refresh-all-database (25ms)
+2024-7-3 12:14:17-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 12:14:17-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 12:14:44-debug: refresh db internal success
+2024-7-3 12:14:44-debug: %cDestroy%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/101.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-7-3 12:14:44-debug: %cDestroy%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/101.png@f9941background: #ffb8b8; color: #000;color: #000;
+2024-7-3 12:14:44-debug: %cDestroy%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/101.pngbackground: #ffb8b8; color: #000;color: #000;
+2024-7-3 12:14:44-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resourcesbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:14:44-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/imagesbackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:14:44-debug: refresh db assets success
+2024-7-3 12:14:44-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:14:44-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:14:44-debug: asset-db:refresh-all-database (39ms)
+2024-7-3 12:14:44-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 12:14:44-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 12:14:47-debug: refresh db internal success
+2024-7-3 12:14:47-debug: refresh db assets success
+2024-7-3 12:14:47-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:14:47-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:14:47-debug: asset-db:refresh-all-database (33ms)
+2024-7-3 12:14:47-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 12:15:36-debug: refresh db internal success
+2024-7-3 12:15:36-debug: refresh db assets success
+2024-7-3 12:15:36-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:15:36-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:15:36-debug: asset-db:refresh-all-database (30ms)
+2024-7-3 12:15:38-debug: Query all assets info in project
+2024-7-3 12:15:38-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-3 12:15:38-debug: 查询 Asset Bundle start, progress: 0%
+2024-7-3 12:15:38-debug: // ---- build task 查询 Asset Bundle ----
+2024-7-3 12:15:38-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-3 12:15:38-debug:   Number of all scenes: 0
+2024-7-3 12:15:38-debug:   Number of all scripts: 2
+2024-7-3 12:15:38-debug:   Number of other assets: 419
+2024-7-3 12:15:38-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
+2024-7-3 12:15:38-debug: 查询 Asset Bundle start, progress: 5%
+2024-7-3 12:15:38-debug: [Build Memory track]: 查询 Asset Bundle start:167.45MB, end 167.11MB, increase: -348.58KB
+2024-7-3 12:15:38-debug: // ---- build task 查询 Asset Bundle ----
+2024-7-3 12:15:38-debug: run build task 查询 Asset Bundle success in 6 ms√, progress: 5%
+2024-7-3 12:15:38-debug: // ---- build task 查询 Asset Bundle ---- (1ms)
+2024-7-3 12:15:38-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2024-7-3 12:15:38-debug: [Build Memory track]: 查询 Asset Bundle start:167.12MB, end 167.20MB, increase: 86.08KB
+2024-7-3 12:15:38-debug: run build task 查询 Asset Bundle success in 1 ms√, progress: 10%
+2024-7-3 12:15:38-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-7-3 12:15:38-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2024-7-3 12:15:38-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:167.21MB, end 167.22MB, increase: 13.93KB
+2024-7-3 12:15:38-debug: 填充脚本数据到 settings.json start, progress: 12%
+2024-7-3 12:15:38-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-7-3 12:15:38-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2024-7-3 12:15:38-debug: [Build Memory track]: 填充脚本数据到 settings.json start:167.23MB, end 167.24MB, increase: 9.54KB
+2024-7-3 12:15:38-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2024-7-3 12:15:38-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-7-3 12:15:38-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
+2024-7-3 12:15:38-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 15%
+2024-7-3 12:15:38-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:167.25MB, end 167.37MB, increase: 120.93KB
+2024-7-3 12:15:42-debug: refresh db internal success
+2024-7-3 12:15:42-debug: refresh db assets success
+2024-7-3 12:15:42-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:15:42-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:15:42-debug: asset-db:refresh-all-database (37ms)
+2024-7-3 12:15:42-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 12:15:42-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 12:15:46-debug: refresh db internal success
+2024-7-3 12:15:46-debug: refresh db assets success
+2024-7-3 12:15:46-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:15:46-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:15:46-debug: asset-db:refresh-all-database (30ms)
+2024-7-3 12:15:46-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 12:15:46-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 12:15:58-debug: refresh db internal success
+2024-7-3 12:15:58-debug: refresh db assets success
+2024-7-3 12:15:58-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:15:58-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:15:58-debug: asset-db:refresh-all-database (26ms)
+2024-7-3 12:16:47-debug: refresh db internal success
+2024-7-3 12:16:47-debug: refresh db assets success
+2024-7-3 12:16:47-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 12:16:47-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 12:16:47-debug: asset-db:refresh-all-database (24ms)
+2024-7-3 12:16:52-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene...
+2024-7-3 12:16:52-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scenebackground: #aaff85; color: #000;color: #000;
+2024-7-3 12:16:52-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets success
