@@ -1,0 +1,1004 @@
+2024-7-3 16:32:35-log: Cannot access game frame or container.
+2024-7-3 16:32:35-debug: asset-db:require-engine-code (591ms)
+2024-7-3 16:32:35-log: meshopt wasm decoder initialized
+2024-7-3 16:32:35-log: [box2d]:box2d wasm lib loaded.
+2024-7-3 16:32:35-log: [bullet]:bullet wasm lib loaded.
+2024-7-3 16:32:35-log: Cocos Creator v3.8.3
+2024-7-3 16:32:37-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:207.45MB, end 210.06MB, increase: 2.62MB
+2024-7-3 16:32:37-debug: [Assets Memory track]: asset-db-plugin-register: project start:78.70MB, end 210.13MB, increase: 131.42MB
+2024-7-3 16:32:37-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:78.09MB, end 210.14MB, increase: 132.06MB
+2024-7-3 16:32:35-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:27.26MB, end 78.08MB, increase: 50.82MB
+2024-7-3 16:32:35-debug: [Assets Memory track]: asset-db-plugin-register: programming start:78.82MB, end 80.17MB, increase: 1.35MB
+2024-7-3 16:32:37-debug: [Assets Memory track]: asset-db-plugin-register: builder start:80.19MB, end 207.27MB, increase: 127.08MB
+2024-7-3 16:32:37-debug: run package(windows) handler(enable) start
+2024-7-3 16:32:37-debug: run package(windows) handler(enable) success!
+2024-7-3 16:32:37-debug: run package(xiaomi-quick-game) handler(enable) start
+2024-7-3 16:32:37-debug: run package(cocos-service) handler(enable) start
+2024-7-3 16:32:37-debug: run package(cocos-service) handler(enable) success!
+2024-7-3 16:32:37-debug: run package(im-plugin) handler(enable) start
+2024-7-3 16:32:37-debug: run package(im-plugin) handler(enable) success!
+2024-7-3 16:32:37-debug: run package(blank-template) handler(enable) success!
+2024-7-3 16:32:37-debug: run package(xiaomi-quick-game) handler(enable) success!
+2024-7-3 16:32:37-debug: run package(placeholder) handler(enable) success!
+2024-7-3 16:32:37-debug: run package(blank-template) handler(enable) start
+2024-7-3 16:32:37-debug: run package(placeholder) handler(enable) start
+2024-7-3 16:32:37-debug: asset-db:worker-init: initPlugin (1629ms)
+2024-7-3 16:32:37-debug: [Assets Memory track]: asset-db:worker-init start:27.26MB, end 204.19MB, increase: 176.93MB
+2024-7-3 16:32:37-debug: Run asset db hook engine-extends:beforePreStart success!
+2024-7-3 16:32:37-debug: Run asset db hook programming:beforePreStart success!
+2024-7-3 16:32:37-debug: Run asset db hook engine-extends:beforePreStart ...
+2024-7-3 16:32:37-debug: Run asset db hook programming:beforePreStart ...
+2024-7-3 16:32:37-debug: asset-db:worker-init (2533ms)
+2024-7-3 16:32:37-debug: asset-db-hook-programming-beforePreStart (43ms)
+2024-7-3 16:32:37-debug: asset-db-hook-engine-extends-beforePreStart (43ms)
+2024-7-3 16:32:37-debug: Preimport db internal success
+2024-7-3 16:32:37-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Grid/GridBgItem.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:32:37-debug: Preimport db assets success
+2024-7-3 16:32:37-debug: Run asset db hook programming:afterPreStart ...
+2024-7-3 16:32:37-debug: starting packer-driver...
+2024-7-3 16:32:37-debug: initialize scripting environment...
+2024-7-3 16:32:37-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-7-3 16:32:37-debug: Run asset db hook engine-extends:afterPreStart success!
+2024-7-3 16:32:37-debug: Start up the 'internal' database...
+2024-7-3 16:32:37-debug: Run asset db hook programming:afterPreStart success!
+2024-7-3 16:32:37-debug: [Assets Memory track]: asset-db:worker-init: preStart start:204.19MB, end 208.97MB, increase: 4.78MB
+2024-7-3 16:32:37-debug: Run asset db hook engine-extends:afterPreStart ...
+2024-7-3 16:32:37-debug: asset-db-hook-programming-afterPreStart (379ms)
+2024-7-3 16:32:37-debug: asset-db:worker-effect-data-processing (155ms)
+2024-7-3 16:32:37-debug: asset-db-hook-engine-extends-afterPreStart (155ms)
+2024-7-3 16:32:37-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:204.23MB, end 222.19MB, increase: 17.96MB
+2024-7-3 16:32:37-debug: Start up the 'assets' database...
+2024-7-3 16:32:37-debug: asset-db:worker-startup-database[internal] (481ms)
+2024-7-3 16:32:37-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:207.75MB, end 218.92MB, increase: 11.17MB
+2024-7-3 16:32:37-debug: lazy register asset handler directory
+2024-7-3 16:32:37-debug: lazy register asset handler text
+2024-7-3 16:32:37-debug: lazy register asset handler json
+2024-7-3 16:32:37-debug: lazy register asset handler spine-data
+2024-7-3 16:32:37-debug: lazy register asset handler dragonbones
+2024-7-3 16:32:37-debug: lazy register asset handler dragonbones-atlas
+2024-7-3 16:32:37-debug: lazy register asset handler terrain
+2024-7-3 16:32:37-debug: lazy register asset handler javascript
+2024-7-3 16:32:37-debug: lazy register asset handler typescript
+2024-7-3 16:32:37-debug: lazy register asset handler scene
+2024-7-3 16:32:37-debug: lazy register asset handler prefab
+2024-7-3 16:32:37-debug: lazy register asset handler sprite-frame
+2024-7-3 16:32:37-debug: lazy register asset handler *
+2024-7-3 16:32:37-debug: lazy register asset handler image
+2024-7-3 16:32:37-debug: lazy register asset handler sign-image
+2024-7-3 16:32:37-debug: lazy register asset handler alpha-image
+2024-7-3 16:32:37-debug: lazy register asset handler texture
+2024-7-3 16:32:37-debug: [Assets Memory track]: asset-db:worker-init: startup start:208.98MB, end 218.92MB, increase: 9.95MB
+2024-7-3 16:32:37-debug: lazy register asset handler erp-texture-cube
+2024-7-3 16:32:37-debug: lazy register asset handler render-texture
+2024-7-3 16:32:37-debug: lazy register asset handler texture-cube-face
+2024-7-3 16:32:37-debug: lazy register asset handler rt-sprite-frame
+2024-7-3 16:32:37-debug: lazy register asset handler gltf
+2024-7-3 16:32:37-debug: lazy register asset handler gltf-mesh
+2024-7-3 16:32:37-debug: lazy register asset handler gltf-animation
+2024-7-3 16:32:37-debug: lazy register asset handler gltf-skeleton
+2024-7-3 16:32:37-debug: lazy register asset handler gltf-material
+2024-7-3 16:32:37-debug: lazy register asset handler gltf-scene
+2024-7-3 16:32:37-debug: lazy register asset handler gltf-embeded-image
+2024-7-3 16:32:37-debug: lazy register asset handler fbx
+2024-7-3 16:32:37-debug: lazy register asset handler material
+2024-7-3 16:32:37-debug: lazy register asset handler physics-material
+2024-7-3 16:32:37-debug: lazy register asset handler effect
+2024-7-3 16:32:37-debug: lazy register asset handler effect-header
+2024-7-3 16:32:37-debug: lazy register asset handler tiled-map
+2024-7-3 16:32:37-debug: lazy register asset handler animation-clip
+2024-7-3 16:32:37-debug: lazy register asset handler animation-graph
+2024-7-3 16:32:37-debug: lazy register asset handler animation-graph-variant
+2024-7-3 16:32:37-debug: lazy register asset handler animation-mask
+2024-7-3 16:32:37-debug: lazy register asset handler ttf-font
+2024-7-3 16:32:37-debug: lazy register asset handler bitmap-font
+2024-7-3 16:32:37-debug: lazy register asset handler particle
+2024-7-3 16:32:37-debug: lazy register asset handler sprite-atlas
+2024-7-3 16:32:37-debug: lazy register asset handler auto-atlas
+2024-7-3 16:32:37-debug: lazy register asset handler label-atlas
+2024-7-3 16:32:37-debug: lazy register asset handler render-pipeline
+2024-7-3 16:32:37-debug: lazy register asset handler render-stage
+2024-7-3 16:32:37-debug: lazy register asset handler texture-cube
+2024-7-3 16:32:37-debug: lazy register asset handler instantiation-material
+2024-7-3 16:32:37-debug: lazy register asset handler instantiation-mesh
+2024-7-3 16:32:37-debug: lazy register asset handler instantiation-skeleton
+2024-7-3 16:32:37-debug: lazy register asset handler instantiation-animation
+2024-7-3 16:32:37-debug: lazy register asset handler video-clip
+2024-7-3 16:32:37-debug: lazy register asset handler audio-clip
+2024-7-3 16:32:37-debug: lazy register asset handler buffer
+2024-7-3 16:32:37-debug: lazy register asset handler render-flow
+2024-7-3 16:32:37-debug: asset-db:worker-startup-database[assets] (453ms)
+2024-7-3 16:32:37-debug: asset-db:start-database (511ms)
+2024-7-3 16:32:37-debug: asset-db:ready (4566ms)
+2024-7-3 16:32:37-debug: init worker message success
+2024-7-3 16:32:37-debug: programming:execute-script (3ms)
+2024-7-3 16:32:38-debug: [Build Memory track]: builder:worker-init start:224.49MB, end 232.21MB, increase: 7.73MB
+2024-7-3 16:32:38-debug: builder:worker-init (231ms)
+2024-7-3 16:35:22-debug: refresh db internal success
+2024-7-3 16:35:22-debug: refresh db assets success
+2024-7-3 16:35:22-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:35:22-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:35:22-debug: asset-db:refresh-all-database (53ms)
+2024-7-3 16:35:22-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 16:35:22-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:35:29-debug: refresh db internal success
+2024-7-3 16:35:29-debug: refresh db assets success
+2024-7-3 16:35:29-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:35:29-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:35:29-debug: asset-db:refresh-all-database (45ms)
+2024-7-3 16:35:29-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 16:35:29-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:35:46-debug: refresh db internal success
+2024-7-3 16:35:46-debug: refresh db assets success
+2024-7-3 16:35:46-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:35:46-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:35:46-debug: asset-db:refresh-all-database (47ms)
+2024-7-3 16:35:46-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 16:35:46-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:36:00-debug: refresh db internal success
+2024-7-3 16:36:00-debug: refresh db assets success
+2024-7-3 16:36:00-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:36:00-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:36:00-debug: asset-db:refresh-all-database (34ms)
+2024-7-3 16:36:22-debug: refresh db internal success
+2024-7-3 16:36:22-debug: refresh db assets success
+2024-7-3 16:36:22-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:36:22-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:36:22-debug: asset-db:refresh-all-database (35ms)
+2024-7-3 16:36:22-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:36:32-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab...
+2024-7-3 16:36:32-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:36:32-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block success
+2024-7-3 16:36:54-debug: refresh db internal success
+2024-7-3 16:36:54-debug: refresh db assets success
+2024-7-3 16:36:54-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:36:54-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:36:54-debug: asset-db:refresh-all-database (36ms)
+2024-7-3 16:36:58-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab...
+2024-7-3 16:36:58-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:36:58-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block success
+2024-7-3 16:37:02-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab...
+2024-7-3 16:37:02-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:37:02-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block success
+2024-7-3 16:37:15-debug: refresh db internal success
+2024-7-3 16:37:15-debug: refresh db assets success
+2024-7-3 16:37:15-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:37:15-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:37:15-debug: asset-db:refresh-all-database (36ms)
+2024-7-3 16:37:26-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab...
+2024-7-3 16:37:26-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:37:26-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block success
+2024-7-3 16:37:28-debug: Query all assets info in project
+2024-7-3 16:37:28-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-3 16:37:28-debug: Query asset bundle start, progress: 0%
+2024-7-3 16:37:28-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:37:28-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-3 16:37:28-debug:   Number of all scenes: 2
+2024-7-3 16:37:28-debug:   Number of all scripts: 8
+2024-7-3 16:37:28-debug:   Number of other assets: 422
+2024-7-3 16:37:28-debug: // ---- build task Query asset bundle ---- (5ms)
+2024-7-3 16:37:28-debug: [Build Memory track]: Query asset bundle start:172.12MB, end 172.67MB, increase: 567.43KB
+2024-7-3 16:37:28-debug: Query asset bundle start, progress: 5%
+2024-7-3 16:37:28-debug: run build task Query asset bundle success in 5 ms√, progress: 5%
+2024-7-3 16:37:28-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:37:28-debug: run build task Query asset bundle success in 1 ms√, progress: 10%
+2024-7-3 16:37:28-debug: // ---- build task Query asset bundle ---- (1ms)
+2024-7-3 16:37:28-debug: [Build Memory track]: Query asset bundle start:172.68MB, end 172.76MB, increase: 85.62KB
+2024-7-3 16:37:28-debug: Sort some build options to settings.json start, progress: 10%
+2024-7-3 16:37:28-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:37:28-debug: run build task Sort some build options to settings.json success in √, progress: 12%
+2024-7-3 16:37:28-debug: [Build Memory track]: Sort some build options to settings.json start:172.77MB, end 172.78MB, increase: 9.97KB
+2024-7-3 16:37:28-debug: Fill script data to settings start, progress: 12%
+2024-7-3 16:37:28-debug: // ---- build task Fill script data to settings ----
+2024-7-3 16:37:28-debug: // ---- build task Fill script data to settings ---- (1ms)
+2024-7-3 16:37:28-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+2024-7-3 16:37:28-debug: [Build Memory track]: Fill script data to settings start:172.79MB, end 172.80MB, increase: 13.09KB
+2024-7-3 16:37:28-debug: Sort some build options to settings.json start, progress: 13%
+2024-7-3 16:37:28-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:37:28-debug: // ---- build task Sort some build options to settings.json ---- (3ms)
+2024-7-3 16:37:28-debug: [Build Memory track]: Sort some build options to settings.json start:172.81MB, end 172.23MB, increase: -601.54KB
+2024-7-3 16:37:28-debug: run build task Sort some build options to settings.json success in 3 ms√, progress: 15%
+2024-7-3 16:37:33-debug: refresh db internal success
+2024-7-3 16:37:33-debug: refresh db assets success
+2024-7-3 16:37:33-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:37:33-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:37:33-debug: asset-db:refresh-all-database (42ms)
+2024-7-3 16:37:33-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:37:45-debug: refresh db internal success
+2024-7-3 16:37:45-debug: refresh db assets success
+2024-7-3 16:37:45-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:37:45-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:37:45-debug: asset-db:refresh-all-database (39ms)
+2024-7-3 16:37:53-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab...
+2024-7-3 16:37:53-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:37:53-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block success
+2024-7-3 16:37:58-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab...
+2024-7-3 16:37:58-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:37:58-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block success
+2024-7-3 16:38:02-debug: Query all assets info in project
+2024-7-3 16:38:02-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-3 16:38:02-debug: Query asset bundle start, progress: 0%
+2024-7-3 16:38:02-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:38:02-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-3 16:38:02-debug:   Number of all scenes: 2
+2024-7-3 16:38:02-debug:   Number of all scripts: 8
+2024-7-3 16:38:02-debug:   Number of other assets: 422
+2024-7-3 16:38:02-debug: // ---- build task Query asset bundle ---- (6ms)
+2024-7-3 16:38:02-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:38:02-debug: [Build Memory track]: Query asset bundle start:174.01MB, end 173.73MB, increase: -290.39KB
+2024-7-3 16:38:02-debug: Query asset bundle start, progress: 5%
+2024-7-3 16:38:02-debug: run build task Query asset bundle success in 6 ms√, progress: 5%
+2024-7-3 16:38:02-debug: // ---- build task Query asset bundle ---- (1ms)
+2024-7-3 16:38:02-debug: Sort some build options to settings.json start, progress: 10%
+2024-7-3 16:38:02-debug: [Build Memory track]: Query asset bundle start:173.73MB, end 173.82MB, increase: 85.99KB
+2024-7-3 16:38:02-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:38:02-debug: run build task Query asset bundle success in 1 ms√, progress: 10%
+2024-7-3 16:38:02-debug: run build task Sort some build options to settings.json success in √, progress: 12%
+2024-7-3 16:38:02-debug: [Build Memory track]: Sort some build options to settings.json start:173.83MB, end 173.84MB, increase: 9.34KB
+2024-7-3 16:38:02-debug: // ---- build task Fill script data to settings ----
+2024-7-3 16:38:02-debug: Fill script data to settings start, progress: 12%
+2024-7-3 16:38:02-debug: run build task Fill script data to settings success in √, progress: 13%
+2024-7-3 16:38:02-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:38:02-debug: [Build Memory track]: Fill script data to settings start:173.84MB, end 173.85MB, increase: 10.91KB
+2024-7-3 16:38:02-debug: Sort some build options to settings.json start, progress: 13%
+2024-7-3 16:38:02-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+2024-7-3 16:38:02-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 15%
+2024-7-3 16:38:02-debug: [Build Memory track]: Sort some build options to settings.json start:173.86MB, end 173.97MB, increase: 113.98KB
+2024-7-3 16:39:23-debug: Query all assets info in project
+2024-7-3 16:39:23-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-3 16:39:23-debug: Query asset bundle start, progress: 0%
+2024-7-3 16:39:23-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:39:23-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-3 16:39:23-debug:   Number of all scenes: 2
+2024-7-3 16:39:23-debug:   Number of all scripts: 8
+2024-7-3 16:39:23-debug:   Number of other assets: 422
+2024-7-3 16:39:23-debug: // ---- build task Query asset bundle ---- (12ms)
+2024-7-3 16:39:23-debug: [Build Memory track]: Query asset bundle start:173.78MB, end 173.54MB, increase: -241.07KB
+2024-7-3 16:39:23-debug: Query asset bundle start, progress: 5%
+2024-7-3 16:39:23-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:39:23-debug: run build task Query asset bundle success in 12 ms√, progress: 5%
+2024-7-3 16:39:23-debug: // ---- build task Query asset bundle ---- (1ms)
+2024-7-3 16:39:23-debug: run build task Query asset bundle success in 1 ms√, progress: 10%
+2024-7-3 16:39:23-debug: [Build Memory track]: Query asset bundle start:173.55MB, end 173.64MB, increase: 89.45KB
+2024-7-3 16:39:23-debug: Sort some build options to settings.json start, progress: 10%
+2024-7-3 16:39:23-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:39:23-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+2024-7-3 16:39:23-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
+2024-7-3 16:39:23-debug: [Build Memory track]: Sort some build options to settings.json start:173.65MB, end 173.66MB, increase: 12.14KB
+2024-7-3 16:39:23-debug: Fill script data to settings start, progress: 12%
+2024-7-3 16:39:23-debug: // ---- build task Fill script data to settings ----
+2024-7-3 16:39:23-debug: run build task Fill script data to settings success in √, progress: 13%
+2024-7-3 16:39:23-debug: [Build Memory track]: Fill script data to settings start:173.67MB, end 173.68MB, increase: 11.59KB
+2024-7-3 16:39:23-debug: Sort some build options to settings.json start, progress: 13%
+2024-7-3 16:39:23-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:39:23-debug: // ---- build task Sort some build options to settings.json ---- (3ms)
+2024-7-3 16:39:23-debug: [Build Memory track]: Sort some build options to settings.json start:173.69MB, end 173.80MB, increase: 113.46KB
+2024-7-3 16:39:23-debug: run build task Sort some build options to settings.json success in 3 ms√, progress: 15%
+2024-7-3 16:39:51-debug: Query all assets info in project
+2024-7-3 16:39:51-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-3 16:39:51-debug: Query asset bundle start, progress: 0%
+2024-7-3 16:39:51-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:39:51-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-3 16:39:51-debug:   Number of all scenes: 2
+2024-7-3 16:39:51-debug:   Number of all scripts: 8
+2024-7-3 16:39:51-debug:   Number of other assets: 422
+2024-7-3 16:39:51-debug: // ---- build task Query asset bundle ---- (6ms)
+2024-7-3 16:39:51-debug: [Build Memory track]: Query asset bundle start:174.40MB, end 174.03MB, increase: -379.63KB
+2024-7-3 16:39:51-debug: Query asset bundle start, progress: 5%
+2024-7-3 16:39:51-debug: run build task Query asset bundle success in 6 ms√, progress: 5%
+2024-7-3 16:39:51-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:39:51-debug: // ---- build task Query asset bundle ---- (1ms)
+2024-7-3 16:39:51-debug: run build task Query asset bundle success in 1 ms√, progress: 10%
+2024-7-3 16:39:51-debug: [Build Memory track]: Query asset bundle start:174.03MB, end 174.12MB, increase: 84.52KB
+2024-7-3 16:39:51-debug: Sort some build options to settings.json start, progress: 10%
+2024-7-3 16:39:51-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:39:51-debug: run build task Sort some build options to settings.json success in √, progress: 12%
+2024-7-3 16:39:51-debug: [Build Memory track]: Sort some build options to settings.json start:174.13MB, end 174.14MB, increase: 11.07KB
+2024-7-3 16:39:51-debug: // ---- build task Fill script data to settings ----
+2024-7-3 16:39:51-debug: Fill script data to settings start, progress: 12%
+2024-7-3 16:39:51-debug: [Build Memory track]: Fill script data to settings start:174.15MB, end 174.16MB, increase: 10.23KB
+2024-7-3 16:39:51-debug: Sort some build options to settings.json start, progress: 13%
+2024-7-3 16:39:51-debug: run build task Fill script data to settings success in √, progress: 13%
+2024-7-3 16:39:51-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:39:51-debug: // ---- build task Sort some build options to settings.json ---- (5ms)
+2024-7-3 16:39:51-debug: run build task Sort some build options to settings.json success in 5 ms√, progress: 15%
+2024-7-3 16:39:51-debug: [Build Memory track]: Sort some build options to settings.json start:174.16MB, end 174.28MB, increase: 113.32KB
+2024-7-3 16:40:04-debug: refresh db internal success
+2024-7-3 16:40:04-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Grid/GridBgItem.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:40:04-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/GridManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:40:04-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Grid/GridItem.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:40:04-debug: refresh db assets success
+2024-7-3 16:40:04-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:40:04-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:40:04-debug: asset-db:refresh-all-database (44ms)
+2024-7-3 16:40:04-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 16:40:04-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:40:05-debug: Query all assets info in project
+2024-7-3 16:40:05-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-3 16:40:05-debug: Query asset bundle start, progress: 0%
+2024-7-3 16:40:05-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:40:05-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-3 16:40:05-debug:   Number of all scenes: 2
+2024-7-3 16:40:05-debug:   Number of all scripts: 8
+2024-7-3 16:40:05-debug:   Number of other assets: 422
+2024-7-3 16:40:05-debug: // ---- build task Query asset bundle ---- (56ms)
+2024-7-3 16:40:05-debug: run build task Query asset bundle success in 56 ms√, progress: 5%
+2024-7-3 16:40:05-debug: [Build Memory track]: Query asset bundle start:175.06MB, end 174.70MB, increase: -367.24KB
+2024-7-3 16:40:05-debug: Query asset bundle start, progress: 5%
+2024-7-3 16:40:05-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:40:05-debug: // ---- build task Query asset bundle ---- (15ms)
+2024-7-3 16:40:05-debug: run build task Query asset bundle success in 15 ms√, progress: 10%
+2024-7-3 16:40:05-debug: [Build Memory track]: Query asset bundle start:174.71MB, end 174.80MB, increase: 86.80KB
+2024-7-3 16:40:05-debug: Sort some build options to settings.json start, progress: 10%
+2024-7-3 16:40:05-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:40:05-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+2024-7-3 16:40:05-debug: Fill script data to settings start, progress: 12%
+2024-7-3 16:40:05-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
+2024-7-3 16:40:05-debug: [Build Memory track]: Sort some build options to settings.json start:174.81MB, end 174.82MB, increase: 11.88KB
+2024-7-3 16:40:05-debug: // ---- build task Fill script data to settings ----
+2024-7-3 16:40:05-debug: run build task Fill script data to settings success in √, progress: 13%
+2024-7-3 16:40:05-debug: [Build Memory track]: Fill script data to settings start:174.83MB, end 174.84MB, increase: 10.38KB
+2024-7-3 16:40:05-debug: Sort some build options to settings.json start, progress: 13%
+2024-7-3 16:40:05-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:40:05-debug: // ---- build task Sort some build options to settings.json ---- (3ms)
+2024-7-3 16:40:05-debug: run build task Sort some build options to settings.json success in 3 ms√, progress: 15%
+2024-7-3 16:40:05-debug: [Build Memory track]: Sort some build options to settings.json start:174.84MB, end 174.97MB, increase: 129.24KB
+2024-7-3 16:40:10-debug: Query all assets info in project
+2024-7-3 16:40:10-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-3 16:40:10-debug: Query asset bundle start, progress: 0%
+2024-7-3 16:40:10-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:40:10-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-3 16:40:10-debug:   Number of all scripts: 8
+2024-7-3 16:40:10-debug:   Number of all scenes: 2
+2024-7-3 16:40:10-debug:   Number of other assets: 422
+2024-7-3 16:40:10-debug: // ---- build task Query asset bundle ---- (5ms)
+2024-7-3 16:40:10-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:40:10-debug: [Build Memory track]: Query asset bundle start:174.91MB, end 175.35MB, increase: 457.12KB
+2024-7-3 16:40:10-debug: Query asset bundle start, progress: 5%
+2024-7-3 16:40:10-debug: run build task Query asset bundle success in 5 ms√, progress: 5%
+2024-7-3 16:40:10-debug: run build task Query asset bundle success in √, progress: 10%
+2024-7-3 16:40:10-debug: [Build Memory track]: Query asset bundle start:175.36MB, end 175.44MB, increase: 83.73KB
+2024-7-3 16:40:10-debug: Sort some build options to settings.json start, progress: 10%
+2024-7-3 16:40:10-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:40:10-debug: run build task Sort some build options to settings.json success in √, progress: 12%
+2024-7-3 16:40:10-debug: [Build Memory track]: Sort some build options to settings.json start:175.45MB, end 175.46MB, increase: 9.21KB
+2024-7-3 16:40:10-debug: Fill script data to settings start, progress: 12%
+2024-7-3 16:40:10-debug: // ---- build task Fill script data to settings ----
+2024-7-3 16:40:10-debug: run build task Fill script data to settings success in √, progress: 13%
+2024-7-3 16:40:10-debug: [Build Memory track]: Fill script data to settings start:175.47MB, end 175.48MB, increase: 10.01KB
+2024-7-3 16:40:10-debug: Sort some build options to settings.json start, progress: 13%
+2024-7-3 16:40:10-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:40:10-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+2024-7-3 16:40:10-debug: run build task Sort some build options to settings.json success in 2 ms√, progress: 15%
+2024-7-3 16:40:10-debug: [Build Memory track]: Sort some build options to settings.json start:175.49MB, end 175.60MB, increase: 113.91KB
+2024-7-3 16:43:14-debug: refresh db internal success
+2024-7-3 16:43:14-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/GridManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:43:14-debug: refresh db assets success
+2024-7-3 16:43:14-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:43:14-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:43:14-debug: asset-db:refresh-all-database (36ms)
+2024-7-3 16:43:14-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 16:43:14-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:43:16-debug: Query all assets info in project
+2024-7-3 16:43:16-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-3 16:43:16-debug: Query asset bundle start, progress: 0%
+2024-7-3 16:43:16-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:43:16-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-3 16:43:16-debug:   Number of all scenes: 2
+2024-7-3 16:43:16-debug:   Number of other assets: 422
+2024-7-3 16:43:16-debug:   Number of all scripts: 8
+2024-7-3 16:43:16-debug: // ---- build task Query asset bundle ---- (4ms)
+2024-7-3 16:43:16-debug: run build task Query asset bundle success in 4 ms√, progress: 5%
+2024-7-3 16:43:16-debug: Query asset bundle start, progress: 5%
+2024-7-3 16:43:16-debug: [Build Memory track]: Query asset bundle start:176.24MB, end 175.79MB, increase: -468.97KB
+2024-7-3 16:43:16-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:43:16-debug: run build task Query asset bundle success in √, progress: 10%
+2024-7-3 16:43:16-debug: Sort some build options to settings.json start, progress: 10%
+2024-7-3 16:43:16-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:43:16-debug: [Build Memory track]: Query asset bundle start:175.79MB, end 175.87MB, increase: 82.89KB
+2024-7-3 16:43:16-debug: run build task Sort some build options to settings.json success in √, progress: 12%
+2024-7-3 16:43:16-debug: [Build Memory track]: Sort some build options to settings.json start:175.88MB, end 175.89MB, increase: 10.33KB
+2024-7-3 16:43:16-debug: // ---- build task Fill script data to settings ----
+2024-7-3 16:43:16-debug: Fill script data to settings start, progress: 12%
+2024-7-3 16:43:16-debug: run build task Fill script data to settings success in √, progress: 13%
+2024-7-3 16:43:16-debug: Sort some build options to settings.json start, progress: 13%
+2024-7-3 16:43:16-debug: [Build Memory track]: Fill script data to settings start:175.90MB, end 175.91MB, increase: 10.45KB
+2024-7-3 16:43:16-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:43:16-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+2024-7-3 16:43:16-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 15%
+2024-7-3 16:43:16-debug: [Build Memory track]: Sort some build options to settings.json start:175.92MB, end 176.03MB, increase: 113.34KB
+2024-7-3 16:43:21-debug: refresh db internal success
+2024-7-3 16:43:21-debug: refresh db assets success
+2024-7-3 16:43:21-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:43:21-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:43:21-debug: asset-db:refresh-all-database (38ms)
+2024-7-3 16:43:21-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 16:43:21-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:43:51-debug: refresh db internal success
+2024-7-3 16:43:51-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/GridManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:43:51-debug: refresh db assets success
+2024-7-3 16:43:51-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:43:51-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:43:51-debug: asset-db:refresh-all-database (37ms)
+2024-7-3 16:43:54-debug: Query all assets info in project
+2024-7-3 16:43:54-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-3 16:43:54-debug: Query asset bundle start, progress: 0%
+2024-7-3 16:43:54-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:43:54-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-3 16:43:54-debug:   Number of all scenes: 2
+2024-7-3 16:43:54-debug:   Number of all scripts: 8
+2024-7-3 16:43:54-debug:   Number of other assets: 422
+2024-7-3 16:43:54-debug: // ---- build task Query asset bundle ---- (5ms)
+2024-7-3 16:43:54-debug: // ---- build task Query asset bundle ----
+2024-7-3 16:43:54-debug: run build task Query asset bundle success in 5 ms√, progress: 5%
+2024-7-3 16:43:54-debug: [Build Memory track]: Query asset bundle start:176.76MB, end 176.33MB, increase: -438.64KB
+2024-7-3 16:43:54-debug: Query asset bundle start, progress: 5%
+2024-7-3 16:43:54-debug: // ---- build task Query asset bundle ---- (1ms)
+2024-7-3 16:43:54-debug: run build task Query asset bundle success in 1 ms√, progress: 10%
+2024-7-3 16:43:54-debug: [Build Memory track]: Query asset bundle start:176.34MB, end 176.42MB, increase: 86.20KB
+2024-7-3 16:43:54-debug: Sort some build options to settings.json start, progress: 10%
+2024-7-3 16:43:54-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:43:54-debug: run build task Sort some build options to settings.json success in √, progress: 12%
+2024-7-3 16:43:54-debug: [Build Memory track]: Sort some build options to settings.json start:176.43MB, end 176.44MB, increase: 11.02KB
+2024-7-3 16:43:54-debug: Fill script data to settings start, progress: 12%
+2024-7-3 16:43:54-debug: // ---- build task Fill script data to settings ----
+2024-7-3 16:43:54-debug: run build task Fill script data to settings success in √, progress: 13%
+2024-7-3 16:43:54-debug: [Build Memory track]: Fill script data to settings start:176.45MB, end 176.46MB, increase: 8.12KB
+2024-7-3 16:43:54-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 16:43:54-debug: Sort some build options to settings.json start, progress: 13%
+2024-7-3 16:43:54-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+2024-7-3 16:43:54-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 15%
+2024-7-3 16:43:54-debug: [Build Memory track]: Sort some build options to settings.json start:176.47MB, end 176.58MB, increase: 114.63KB
+2024-7-3 16:47:17-debug: refresh db internal success
+2024-7-3 16:47:17-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/GridManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:47:17-debug: refresh db assets success
+2024-7-3 16:47:17-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:47:17-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:47:17-debug: asset-db:refresh-all-database (42ms)
+2024-7-3 16:47:17-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:47:57-debug: refresh db internal success
+2024-7-3 16:47:57-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/GridMapManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:47:57-debug: refresh db assets success
+2024-7-3 16:47:57-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:47:57-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:47:57-debug: asset-db:refresh-all-database (36ms)
+2024-7-3 16:47:57-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 16:47:57-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:48:05-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab...
+2024-7-3 16:48:05-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:48:05-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block success
+2024-7-3 16:48:09-debug: refresh db internal success
+2024-7-3 16:48:09-debug: refresh db assets success
+2024-7-3 16:48:09-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:48:09-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:48:09-debug: asset-db:refresh-all-database (34ms)
+2024-7-3 16:48:09-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 16:48:09-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:48:34-debug: refresh db internal success
+2024-7-3 16:48:34-debug: refresh db assets success
+2024-7-3 16:48:34-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:48:34-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:48:34-debug: asset-db:refresh-all-database (34ms)
+2024-7-3 16:48:54-debug: refresh db internal success
+2024-7-3 16:48:54-debug: refresh db assets success
+2024-7-3 16:48:54-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:48:54-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:48:54-debug: asset-db:refresh-all-database (36ms)
+2024-7-3 16:48:54-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:49:29-debug: refresh db internal success
+2024-7-3 16:49:29-debug: refresh db assets success
+2024-7-3 16:49:29-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:49:29-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:49:29-debug: asset-db:refresh-all-database (35ms)
+2024-7-3 16:49:52-debug: refresh db internal success
+2024-7-3 16:49:52-debug: refresh db assets success
+2024-7-3 16:49:52-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:49:52-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:49:52-debug: asset-db:refresh-all-database (32ms)
+2024-7-3 16:49:52-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:49:57-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block...
+2024-7-3 16:49:57-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Blockbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:49:57-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script success
+2024-7-3 16:49:57-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scriptbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:50:01-debug: refresh db internal success
+2024-7-3 16:50:01-debug: refresh db assets success
+2024-7-3 16:50:01-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:50:01-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:50:01-debug: asset-db:refresh-all-database (39ms)
+2024-7-3 16:50:01-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 16:50:01-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:50:09-debug: start move asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data -> /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Data...
+2024-7-3 16:50:09-debug: start move asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Grid -> /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Grid...
+2024-7-3 16:50:09-debug: start move asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr -> /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgr...
+2024-7-3 16:50:09-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Grid...
+2024-7-3 16:50:09-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Gridbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:50:09-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Grid/BaseBlock.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:50:09-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Grid/GridBgItem.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:50:09-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Grid/GridItem.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:50:09-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgr...
+2024-7-3 16:50:09-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Data...
+2024-7-3 16:50:09-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgrbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:50:09-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgr/GridManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:50:09-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgr/GridMapManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:50:09-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Databackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:50:09-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Data/GridData.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:50:09-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block success
+2024-7-3 16:50:09-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script...
+2024-7-3 16:50:09-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block success
+2024-7-3 16:50:09-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block success
+2024-7-3 16:50:09-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script...
+2024-7-3 16:50:09-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script...
+2024-7-3 16:50:09-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scriptbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:50:09-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Blockbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:50:09-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets success
+2024-7-3 16:50:09-debug: move asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Grid -> /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Grid success
+2024-7-3 16:50:09-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets success
+2024-7-3 16:50:09-debug: move asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr -> /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgr success
+2024-7-3 16:50:09-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets success
+2024-7-3 16:50:09-debug: move asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data -> /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Data success
+2024-7-3 16:50:35-debug: refresh db internal success
+2024-7-3 16:50:35-debug: refresh db assets success
+2024-7-3 16:50:35-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:50:35-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:50:35-debug: asset-db:refresh-all-database (35ms)
+2024-7-3 16:50:35-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:50:47-debug: refresh db internal success
+2024-7-3 16:50:47-debug: refresh db assets success
+2024-7-3 16:50:47-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:50:47-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:50:47-debug: asset-db:refresh-all-database (37ms)
+2024-7-3 16:50:52-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Game.ts...
+2024-7-3 16:50:52-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Game.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:50:52-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block success
+2024-7-3 16:50:52-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Blockbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:50:57-debug: refresh db internal success
+2024-7-3 16:50:57-debug: refresh db assets success
+2024-7-3 16:50:57-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:50:57-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:50:57-debug: asset-db:refresh-all-database (38ms)
+2024-7-3 16:50:57-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 16:50:57-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:51:03-debug: refresh db internal success
+2024-7-3 16:51:03-debug: refresh db assets success
+2024-7-3 16:51:03-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:51:03-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:51:03-debug: asset-db:refresh-all-database (33ms)
+2024-7-3 16:51:03-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:51:09-debug: refresh db internal success
+2024-7-3 16:51:09-debug: refresh db assets success
+2024-7-3 16:51:09-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:51:09-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:51:09-debug: asset-db:refresh-all-database (37ms)
+2024-7-3 16:51:09-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 16:51:09-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:54:05-debug: refresh db internal success
+2024-7-3 16:54:05-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Game.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:54:05-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgr/GridManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:54:05-debug: refresh db assets success
+2024-7-3 16:54:05-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:54:05-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:54:05-debug: asset-db:refresh-all-database (47ms)
+2024-7-3 16:54:05-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 16:54:17-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab...
+2024-7-3 16:54:17-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:54:17-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block success
+2024-7-3 16:54:27-debug: refresh db internal success
+2024-7-3 16:54:27-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Game.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:54:27-debug: refresh db assets success
+2024-7-3 16:54:27-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:54:27-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:54:27-debug: asset-db:refresh-all-database (39ms)
+2024-7-3 16:54:30-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab...
+2024-7-3 16:54:30-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:54:30-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block success
+2024-7-3 16:59:34-debug: refresh db internal success
+2024-7-3 16:59:34-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Game.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:59:34-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgr/GridManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:59:34-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgr/GridMapManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 16:59:34-debug: refresh db assets success
+2024-7-3 16:59:34-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 16:59:34-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 16:59:34-debug: asset-db:refresh-all-database (34ms)
+2024-7-3 16:59:34-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:00:48-debug: refresh db internal success
+2024-7-3 17:00:48-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgr/GridMapManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:00:48-debug: refresh db assets success
+2024-7-3 17:00:48-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:00:48-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:00:48-debug: asset-db:refresh-all-database (42ms)
+2024-7-3 17:02:26-debug: refresh db internal success
+2024-7-3 17:02:26-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgr/GridMapManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:02:26-debug: refresh db assets success
+2024-7-3 17:02:26-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:02:26-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:02:26-debug: asset-db:refresh-all-database (40ms)
+2024-7-3 17:02:26-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 17:02:26-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:02:27-debug: Query all assets info in project
+2024-7-3 17:02:27-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-3 17:02:27-debug: Query asset bundle start, progress: 0%
+2024-7-3 17:02:27-debug: // ---- build task Query asset bundle ----
+2024-7-3 17:02:27-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-3 17:02:27-debug:   Number of all scenes: 2
+2024-7-3 17:02:27-debug:   Number of all scripts: 9
+2024-7-3 17:02:27-debug:   Number of other assets: 422
+2024-7-3 17:02:27-debug: // ---- build task Query asset bundle ---- (7ms)
+2024-7-3 17:02:27-debug: [Build Memory track]: Query asset bundle start:165.00MB, end 164.64MB, increase: -375.13KB
+2024-7-3 17:02:27-debug: Query asset bundle start, progress: 5%
+2024-7-3 17:02:27-debug: run build task Query asset bundle success in 7 ms√, progress: 5%
+2024-7-3 17:02:27-debug: // ---- build task Query asset bundle ----
+2024-7-3 17:02:27-debug: run build task Query asset bundle success in √, progress: 10%
+2024-7-3 17:02:27-debug: [Build Memory track]: Query asset bundle start:164.65MB, end 164.72MB, increase: 76.95KB
+2024-7-3 17:02:27-debug: Sort some build options to settings.json start, progress: 10%
+2024-7-3 17:02:27-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 17:02:27-debug: run build task Sort some build options to settings.json success in √, progress: 12%
+2024-7-3 17:02:27-debug: Fill script data to settings start, progress: 12%
+2024-7-3 17:02:27-debug: [Build Memory track]: Sort some build options to settings.json start:164.73MB, end 164.74MB, increase: 10.41KB
+2024-7-3 17:02:27-debug: // ---- build task Fill script data to settings ----
+2024-7-3 17:02:27-debug: run build task Fill script data to settings success in √, progress: 13%
+2024-7-3 17:02:27-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 17:02:27-debug: [Build Memory track]: Fill script data to settings start:164.75MB, end 164.76MB, increase: 9.27KB
+2024-7-3 17:02:27-debug: Sort some build options to settings.json start, progress: 13%
+2024-7-3 17:02:27-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+2024-7-3 17:02:27-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 15%
+2024-7-3 17:02:27-debug: [Build Memory track]: Sort some build options to settings.json start:164.77MB, end 164.89MB, increase: 119.36KB
+2024-7-3 17:02:33-debug: refresh db internal success
+2024-7-3 17:02:33-debug: refresh db assets success
+2024-7-3 17:02:33-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:02:33-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:02:33-debug: asset-db:refresh-all-database (38ms)
+2024-7-3 17:02:33-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 17:02:33-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:05:33-debug: refresh db internal success
+2024-7-3 17:05:33-debug: refresh db assets success
+2024-7-3 17:05:33-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:05:33-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:05:33-debug: asset-db:refresh-all-database (37ms)
+2024-7-3 17:05:33-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 17:05:33-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:05:50-debug: refresh db internal success
+2024-7-3 17:05:50-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgr/GridMapManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:05:50-debug: refresh db assets success
+2024-7-3 17:05:50-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:05:50-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:05:50-debug: asset-db:refresh-all-database (36ms)
+2024-7-3 17:05:50-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 17:05:50-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:05:57-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab...
+2024-7-3 17:05:57-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:05:57-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block success
+2024-7-3 17:05:59-debug: Query all assets info in project
+2024-7-3 17:05:59-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-3 17:05:59-debug: Query asset bundle start, progress: 0%
+2024-7-3 17:05:59-debug: // ---- build task Query asset bundle ----
+2024-7-3 17:05:59-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-3 17:05:59-debug:   Number of other assets: 422
+2024-7-3 17:05:59-debug:   Number of all scripts: 9
+2024-7-3 17:05:59-debug:   Number of all scenes: 2
+2024-7-3 17:05:59-debug: // ---- build task Query asset bundle ---- (5ms)
+2024-7-3 17:05:59-debug: run build task Query asset bundle success in 5 ms√, progress: 5%
+2024-7-3 17:05:59-debug: [Build Memory track]: Query asset bundle start:166.37MB, end 166.00MB, increase: -377.87KB
+2024-7-3 17:05:59-debug: Query asset bundle start, progress: 5%
+2024-7-3 17:05:59-debug: // ---- build task Query asset bundle ----
+2024-7-3 17:05:59-debug: // ---- build task Query asset bundle ---- (1ms)
+2024-7-3 17:05:59-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 17:05:59-debug: run build task Query asset bundle success in 1 ms√, progress: 10%
+2024-7-3 17:05:59-debug: [Build Memory track]: Query asset bundle start:166.01MB, end 166.09MB, increase: 78.92KB
+2024-7-3 17:05:59-debug: Sort some build options to settings.json start, progress: 10%
+2024-7-3 17:05:59-debug: run build task Sort some build options to settings.json success in √, progress: 12%
+2024-7-3 17:05:59-debug: Fill script data to settings start, progress: 12%
+2024-7-3 17:05:59-debug: // ---- build task Fill script data to settings ----
+2024-7-3 17:05:59-debug: [Build Memory track]: Sort some build options to settings.json start:166.10MB, end 166.11MB, increase: 9.56KB
+2024-7-3 17:05:59-debug: run build task Fill script data to settings success in √, progress: 13%
+2024-7-3 17:05:59-debug: [Build Memory track]: Fill script data to settings start:166.11MB, end 166.12MB, increase: 10.95KB
+2024-7-3 17:05:59-debug: Sort some build options to settings.json start, progress: 13%
+2024-7-3 17:05:59-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 17:05:59-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+2024-7-3 17:05:59-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 15%
+2024-7-3 17:05:59-debug: [Build Memory track]: Sort some build options to settings.json start:166.13MB, end 166.25MB, increase: 115.52KB
+2024-7-3 17:06:27-debug: refresh db internal success
+2024-7-3 17:06:27-debug: refresh db assets success
+2024-7-3 17:06:27-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:06:27-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:06:27-debug: asset-db:refresh-all-database (34ms)
+2024-7-3 17:06:27-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 17:06:27-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:12:44-debug: refresh db internal success
+2024-7-3 17:12:44-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgr/GridMapManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:12:44-debug: refresh db assets success
+2024-7-3 17:12:44-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:12:44-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:12:44-debug: asset-db:refresh-all-database (35ms)
+2024-7-3 17:12:44-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 17:12:44-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:20:45-debug: refresh db internal success
+2024-7-3 17:20:45-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Data/GridData.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:20:45-debug: refresh db assets success
+2024-7-3 17:20:45-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:20:45-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:20:45-debug: asset-db:refresh-all-database (39ms)
+2024-7-3 17:21:09-debug: refresh db internal success
+2024-7-3 17:21:09-debug: refresh db assets success
+2024-7-3 17:21:09-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:21:09-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:21:09-debug: asset-db:refresh-all-database (38ms)
+2024-7-3 17:21:13-debug: start rename asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block -> /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block...
+2024-7-3 17:21:13-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block...
+2024-7-3 17:21:13-debug: %cDestroy%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Grid/GridBgItem.tsbackground: #ffb8b8; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cDestroy%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Grid/GridItem.tsbackground: #ffb8b8; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cDestroy%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgrbackground: #ffb8b8; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cDestroy%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgr/GridManager.tsbackground: #ffb8b8; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cDestroy%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Mgr/GridMapManager.tsbackground: #ffb8b8; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cDestroy%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Grid/BaseBlock.tsbackground: #ffb8b8; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cDestroy%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Data/GridData.tsbackground: #ffb8b8; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cDestroy%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Databackground: #ffb8b8; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cDestroy%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Gridbackground: #ffb8b8; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cDestroy%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Blockbackground: #ffb8b8; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cDestroy%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block/Game.tsbackground: #ffb8b8; color: #000;color: #000;
+2024-7-3 17:21:13-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script success
+2024-7-3 17:21:13-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block...
+2024-7-3 17:21:13-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/blockbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Gridbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgrbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Data/GridData.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Databackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:21:13-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:21:13-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script success
+2024-7-3 17:21:13-debug: rename asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Block -> /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block success
+2024-7-3 17:21:13-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scriptbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:21:17-debug: refresh db internal success
+2024-7-3 17:21:17-debug: refresh db assets success
+2024-7-3 17:21:17-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:21:17-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:21:17-debug: asset-db:refresh-all-database (38ms)
+2024-7-3 17:21:22-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager...
+2024-7-3 17:21:22-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/managerbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:21:22-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script success
+2024-7-3 17:21:22-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scriptbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:21:41-debug: refresh db internal success
+2024-7-3 17:21:41-debug: refresh db assets success
+2024-7-3 17:21:41-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:21:41-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:21:41-debug: asset-db:refresh-all-database (39ms)
+2024-7-3 17:21:52-debug: refresh db internal success
+2024-7-3 17:21:52-debug: refresh db assets success
+2024-7-3 17:21:52-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:21:52-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:21:52-debug: asset-db:refresh-all-database (39ms)
+2024-7-3 17:21:52-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 17:21:52-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:21:59-debug: refresh db internal success
+2024-7-3 17:21:59-debug: refresh db assets success
+2024-7-3 17:21:59-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:21:59-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:21:59-debug: asset-db:refresh-all-database (36ms)
+2024-7-3 17:21:59-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 17:21:59-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:22:17-debug: refresh db internal success
+2024-7-3 17:22:17-debug: refresh db assets success
+2024-7-3 17:22:17-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:22:17-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:22:17-debug: asset-db:refresh-all-database (38ms)
+2024-7-3 17:22:49-debug: refresh db internal success
+2024-7-3 17:22:49-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager/TemplateMgr.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:22:49-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/managerbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:22:49-debug: refresh db assets success
+2024-7-3 17:22:49-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:22:49-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:22:49-debug: asset-db:refresh-all-database (40ms)
+2024-7-3 17:22:49-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:23:34-debug: refresh db internal success
+2024-7-3 17:23:34-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager/TemplateMgr.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:23:34-debug: refresh db assets success
+2024-7-3 17:23:34-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:23:34-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:23:34-debug: asset-db:refresh-all-database (37ms)
+2024-7-3 17:23:34-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 17:23:34-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:25:12-debug: refresh db internal success
+2024-7-3 17:25:12-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Data/GridData.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:25:12-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:25:12-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:25:12-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:25:12-debug: refresh db assets success
+2024-7-3 17:25:12-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:25:12-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:25:12-debug: asset-db:refresh-all-database (35ms)
+2024-7-3 17:25:12-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 17:25:12-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:27:27-debug: refresh db internal success
+2024-7-3 17:27:27-debug: refresh db assets success
+2024-7-3 17:27:27-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:27:27-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:27:27-debug: asset-db:refresh-all-database (36ms)
+2024-7-3 17:27:27-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 17:27:27-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:27:34-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/folder...
+2024-7-3 17:27:34-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/folderbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:27:34-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script success
+2024-7-3 17:27:34-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scriptbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:27:43-debug: start move asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/folder -> /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template...
+2024-7-3 17:27:43-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template...
+2024-7-3 17:27:43-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/templatebackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:27:43-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script success
+2024-7-3 17:27:43-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script...
+2024-7-3 17:27:43-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scriptbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:27:43-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets success
+2024-7-3 17:27:43-debug: move asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/folder -> /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template success
+2024-7-3 17:28:15-debug: refresh db internal success
+2024-7-3 17:28:15-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:28:15-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/templatebackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:28:15-debug: refresh db assets success
+2024-7-3 17:28:15-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:28:15-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:28:15-debug: asset-db:refresh-all-database (39ms)
+2024-7-3 17:28:15-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:28:26-debug: refresh db internal success
+2024-7-3 17:28:26-debug: refresh db assets success
+2024-7-3 17:28:26-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:28:26-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:28:26-debug: asset-db:refresh-all-database (37ms)
+2024-7-3 17:28:26-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 17:28:26-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:32:46-debug: refresh db internal success
+2024-7-3 17:32:46-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Data/GridData.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:32:46-debug: refresh db assets success
+2024-7-3 17:32:46-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:32:46-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:32:46-debug: asset-db:refresh-all-database (37ms)
+2024-7-3 17:32:46-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:32:49-debug: refresh db internal success
+2024-7-3 17:32:49-debug: refresh db assets success
+2024-7-3 17:32:49-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:32:49-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:32:49-debug: asset-db:refresh-all-database (36ms)
+2024-7-3 17:32:49-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 17:32:49-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:35:18-debug: refresh db internal success
+2024-7-3 17:35:18-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Data/GridData.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:35:18-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:35:18-debug: refresh db assets success
+2024-7-3 17:35:18-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:35:18-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:35:18-debug: asset-db:refresh-all-database (42ms)
+2024-7-3 17:35:18-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-3 17:35:18-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 17:35:35-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab...
+2024-7-3 17:35:35-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:35:35-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block success
+2024-7-3 17:35:35-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab...
+2024-7-3 17:35:35-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:35:35-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block success
+2024-7-3 17:35:36-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab...
+2024-7-3 17:35:36-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:35:36-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block success
+2024-7-3 17:35:36-debug: start refresh asset from /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab...
+2024-7-3 17:35:36-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:35:36-debug: refresh asset /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block success
+2024-7-3 17:35:38-debug: Query all assets info in project
+2024-7-3 17:35:38-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-3 17:35:38-debug: Query asset bundle start, progress: 0%
+2024-7-3 17:35:38-debug: // ---- build task Query asset bundle ----
+2024-7-3 17:35:38-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-3 17:35:38-debug:   Number of all scenes: 2
+2024-7-3 17:35:38-debug:   Number of all scripts: 11
+2024-7-3 17:35:38-debug:   Number of other assets: 422
+2024-7-3 17:35:38-debug: // ---- build task Query asset bundle ---- (4ms)
+2024-7-3 17:35:38-debug: [Build Memory track]: Query asset bundle start:173.17MB, end 172.76MB, increase: -423.57KB
+2024-7-3 17:35:38-debug: Query asset bundle start, progress: 5%
+2024-7-3 17:35:38-debug: run build task Query asset bundle success in 4 ms√, progress: 5%
+2024-7-3 17:35:38-debug: // ---- build task Query asset bundle ----
+2024-7-3 17:35:38-debug: // ---- build task Query asset bundle ---- (1ms)
+2024-7-3 17:35:38-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 17:35:38-debug: [Build Memory track]: Query asset bundle start:172.77MB, end 172.84MB, increase: 79.25KB
+2024-7-3 17:35:38-debug: Sort some build options to settings.json start, progress: 10%
+2024-7-3 17:35:38-debug: run build task Query asset bundle success in 1 ms√, progress: 10%
+2024-7-3 17:35:38-debug: run build task Sort some build options to settings.json success in √, progress: 12%
+2024-7-3 17:35:38-debug: Fill script data to settings start, progress: 12%
+2024-7-3 17:35:38-debug: // ---- build task Fill script data to settings ----
+2024-7-3 17:35:38-debug: [Build Memory track]: Sort some build options to settings.json start:172.85MB, end 172.86MB, increase: 9.56KB
+2024-7-3 17:35:38-debug: // ---- build task Fill script data to settings ---- (1ms)
+2024-7-3 17:35:38-debug: [Build Memory track]: Fill script data to settings start:172.87MB, end 172.88MB, increase: 13.47KB
+2024-7-3 17:35:38-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 17:35:38-debug: Sort some build options to settings.json start, progress: 13%
+2024-7-3 17:35:38-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+2024-7-3 17:35:38-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+2024-7-3 17:35:38-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 15%
+2024-7-3 17:35:38-debug: [Build Memory track]: Sort some build options to settings.json start:172.89MB, end 173.00MB, increase: 113.96KB
+2024-7-3 17:35:41-debug: refresh db internal success
+2024-7-3 17:35:41-debug: refresh db assets success
+2024-7-3 17:35:41-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:35:41-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:35:41-debug: asset-db:refresh-all-database (34ms)
+2024-7-3 17:36:16-debug: refresh db internal success
+2024-7-3 17:36:16-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:36:16-debug: refresh db assets success
+2024-7-3 17:36:16-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:36:16-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:36:16-debug: asset-db:refresh-all-database (35ms)
+2024-7-3 17:36:45-debug: refresh db internal success
+2024-7-3 17:36:45-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager/TemplateMgr.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 17:36:45-debug: refresh db assets success
+2024-7-3 17:36:45-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:36:45-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:36:45-debug: asset-db:refresh-all-database (37ms)
+2024-7-3 17:36:52-debug: refresh db internal success
+2024-7-3 17:36:52-debug: refresh db assets success
+2024-7-3 17:36:52-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:36:52-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:36:52-debug: asset-db:refresh-all-database (35ms)
+2024-7-3 17:36:53-debug: Query all assets info in project
+2024-7-3 17:36:53-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-3 17:36:53-debug: Query asset bundle start, progress: 0%
+2024-7-3 17:36:53-debug: // ---- build task Query asset bundle ----
+2024-7-3 17:36:53-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-3 17:36:53-debug:   Number of all scenes: 2
+2024-7-3 17:36:53-debug:   Number of all scripts: 11
+2024-7-3 17:36:53-debug:   Number of other assets: 422
+2024-7-3 17:36:53-debug: // ---- build task Query asset bundle ---- (3ms)
+2024-7-3 17:36:53-debug: run build task Query asset bundle success in 3 ms√, progress: 5%
+2024-7-3 17:36:53-debug: // ---- build task Query asset bundle ----
+2024-7-3 17:36:53-debug: Query asset bundle start, progress: 5%
+2024-7-3 17:36:53-debug: [Build Memory track]: Query asset bundle start:174.38MB, end 174.88MB, increase: 512.96KB
+2024-7-3 17:36:53-debug: run build task Query asset bundle success in √, progress: 10%
+2024-7-3 17:36:53-debug: [Build Memory track]: Query asset bundle start:174.89MB, end 174.97MB, increase: 79.60KB
+2024-7-3 17:36:53-debug: Sort some build options to settings.json start, progress: 10%
+2024-7-3 17:36:53-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 17:36:53-debug: run build task Sort some build options to settings.json success in √, progress: 12%
+2024-7-3 17:36:53-debug: [Build Memory track]: Sort some build options to settings.json start:174.98MB, end 174.99MB, increase: 10.34KB
+2024-7-3 17:36:53-debug: Fill script data to settings start, progress: 12%
+2024-7-3 17:36:53-debug: // ---- build task Fill script data to settings ----
+2024-7-3 17:36:53-debug: run build task Fill script data to settings success in √, progress: 13%
+2024-7-3 17:36:53-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 17:36:53-debug: Sort some build options to settings.json start, progress: 13%
+2024-7-3 17:36:53-debug: [Build Memory track]: Fill script data to settings start:175.00MB, end 175.00MB, increase: 9.53KB
+2024-7-3 17:36:53-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+2024-7-3 17:36:53-debug: [Build Memory track]: Sort some build options to settings.json start:175.01MB, end 175.13MB, increase: 115.81KB
+2024-7-3 17:36:53-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 15%
+2024-7-3 17:36:57-debug: refresh db internal success
+2024-7-3 17:36:57-debug: refresh db assets success
+2024-7-3 17:36:57-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 17:36:57-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 17:36:57-debug: asset-db:refresh-all-database (33ms)
+2024-7-3 18:14:45-debug: refresh db internal success
+2024-7-3 18:14:45-debug: %cImport%c: /Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Data/GridData.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-3 18:14:45-debug: refresh db assets success
+2024-7-3 18:14:45-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-3 18:14:45-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-3 18:14:45-debug: asset-db:refresh-all-database (39ms)
+2024-7-3 18:14:45-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-3 18:41:43-debug: Query all assets info in project
+2024-7-3 18:41:43-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-3 18:41:43-debug: Query asset bundle start, progress: 0%
+2024-7-3 18:41:43-debug: // ---- build task Query asset bundle ----
+2024-7-3 18:41:43-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-3 18:41:43-debug:   Number of all scenes: 2
+2024-7-3 18:41:43-debug:   Number of other assets: 422
+2024-7-3 18:41:43-debug:   Number of all scripts: 11
+2024-7-3 18:41:43-debug: // ---- build task Query asset bundle ---- (17ms)
+2024-7-3 18:41:43-debug: // ---- build task Query asset bundle ----
+2024-7-3 18:41:43-debug: run build task Query asset bundle success in 17 ms√, progress: 5%
+2024-7-3 18:41:43-debug: [Build Memory track]: Query asset bundle start:175.64MB, end 176.06MB, increase: 433.45KB
+2024-7-3 18:41:43-debug: Query asset bundle start, progress: 5%
+2024-7-3 18:41:43-debug: Sort some build options to settings.json start, progress: 10%
+2024-7-3 18:41:43-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+2024-7-3 18:41:43-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 18:41:43-debug: [Build Memory track]: Query asset bundle start:176.07MB, end 176.15MB, increase: 82.09KB
+2024-7-3 18:41:43-debug: // ---- build task Query asset bundle ---- (3ms)
+2024-7-3 18:41:43-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+2024-7-3 18:41:43-debug: // ---- build task Fill script data to settings ----
+2024-7-3 18:41:43-debug: [Build Memory track]: Sort some build options to settings.json start:176.16MB, end 176.17MB, increase: 13.33KB
+2024-7-3 18:41:43-debug: Fill script data to settings start, progress: 12%
+2024-7-3 18:41:43-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
+2024-7-3 18:41:43-debug: // ---- build task Fill script data to settings ---- (1ms)
+2024-7-3 18:41:43-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+2024-7-3 18:41:43-debug: Sort some build options to settings.json start, progress: 13%
+2024-7-3 18:41:43-debug: [Build Memory track]: Fill script data to settings start:176.18MB, end 176.19MB, increase: 12.41KB
+2024-7-3 18:41:43-debug: // ---- build task Sort some build options to settings.json ----
+2024-7-3 18:41:43-debug: // ---- build task Sort some build options to settings.json ---- (6ms)
+2024-7-3 18:41:43-debug: run build task Sort some build options to settings.json success in 6 ms√, progress: 15%
+2024-7-3 18:41:43-debug: [Build Memory track]: Sort some build options to settings.json start:176.20MB, end 175.47MB, increase: -752.23KB
