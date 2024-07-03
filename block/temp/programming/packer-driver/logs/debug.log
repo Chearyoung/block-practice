@@ -256,6 +256,7 @@ Feature changed: false
 14:07:11 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
+<<<<<<< HEAD
 14:07:11 debug: Target(editor) build started.
 14:07:11 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:55:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:58:08 GMT+0800 (中国标准时间)
 14:07:11 debug: Inspect cce:/internal/x/prerequisite-imports
@@ -416,3 +417,63 @@ Feature changed: false
 14:10:27 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
 14:10:27 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
 14:10:27 debug: Target(preview) ends with cost 73.26445900090039ms.
+=======
+12:01:13 debug: Target(editor) build started.
+12:01:13 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:05:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:05:09 GMT+0800 (中国标准时间)
+12:01:13 debug: Inspect cce:/internal/x/prerequisite-imports
+12:01:13 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:01:13 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts.
+12:01:13 debug: Target(editor) ends with cost 17.810417000204325ms.
+12:01:13 debug: Target(preview) build started.
+12:01:13 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:05:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:05:09 GMT+0800 (中国标准时间)
+12:01:13 debug: Inspect cce:/internal/x/prerequisite-imports
+12:01:13 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:01:13 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/BaseBlock.ts.
+12:01:13 debug: Target(preview) ends with cost 15.049665999598801ms.
+12:28:59 debug: Dispatch build request for time accumulated 1 asset changes.
+12:28:59 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+12:28:59 debug: Target(editor) build started.
+12:28:59 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:05:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:32:54 GMT+0800 (中国标准时间)
+12:28:59 debug: Inspect cce:/internal/x/prerequisite-imports
+12:28:59 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:28:59 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts.
+12:28:59 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts
+12:28:59 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts as cce:/internal/x/cc.
+12:28:59 debug: Target(editor) ends with cost 22.449457999318838ms.
+12:28:59 debug: Target(preview) build started.
+12:28:59 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:05:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:32:54 GMT+0800 (中国标准时间)
+12:28:59 debug: Inspect cce:/internal/x/prerequisite-imports
+12:28:59 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:28:59 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts.
+12:28:59 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts
+12:28:59 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts as cce:/internal/x/cc.
+12:28:59 debug: Target(preview) ends with cost 25.18095799908042ms.
+12:30:33 debug: Dispatch build request for time accumulated 1 asset changes.
+12:30:33 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+12:30:33 debug: Target(editor) build started.
+12:30:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:32:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:34:28 GMT+0800 (中国标准时间)
+12:30:33 debug: Inspect cce:/internal/x/prerequisite-imports
+12:30:33 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:30:33 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts.
+12:30:33 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts.
+12:30:33 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts
+12:30:33 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
+12:30:33 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
+12:30:33 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
+12:30:33 debug: Target(editor) ends with cost 36.69616699963808ms.
+12:30:33 debug: Target(preview) build started.
+12:30:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:32:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:34:28 GMT+0800 (中国标准时间)
+12:30:33 debug: Inspect cce:/internal/x/prerequisite-imports
+12:30:33 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:30:33 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts.
+12:30:33 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts.
+12:30:33 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts
+12:30:33 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
+12:30:33 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
+12:30:33 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
+12:30:33 debug: Target(preview) ends with cost 25.37879099883139ms.
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113

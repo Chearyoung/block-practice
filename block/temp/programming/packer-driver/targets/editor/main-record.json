@@ -640,7 +640,11 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
+<<<<<<< HEAD
       "mTimestamp": 7284383.156208999,
+=======
+      "mTimestamp": 2068928.3271660004,
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -658,7 +662,11 @@
           }
         },
         {
+<<<<<<< HEAD
           "value": "file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts",
+=======
+          "value": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts",
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -667,16 +675,25 @@
             },
             "end": {
               "line": 5,
+<<<<<<< HEAD
               "column": 273
+=======
+              "column": 303
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
             }
           }
         },
         {
+<<<<<<< HEAD
           "value": "file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts",
+=======
+          "value": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts",
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 5,
+<<<<<<< HEAD
               "column": 289
             },
             "end": {
@@ -724,6 +741,13 @@
             "end": {
               "line": 5,
               "column": 665
+=======
+              "column": 319
+            },
+            "end": {
+              "line": 5,
+              "column": 423
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
             }
           }
         }
@@ -740,13 +764,18 @@
         {
           "resolved": {
             "type": "module",
+<<<<<<< HEAD
             "url": "file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts"
+=======
+            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts"
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
+<<<<<<< HEAD
             "url": "file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts"
           },
           "messages": []
@@ -769,6 +798,9 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts"
+=======
+            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts"
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
           },
           "messages": []
         }
@@ -900,6 +932,7 @@
         }
       ]
     },
+<<<<<<< HEAD
     "file:///Users/wangzhaoye/block-practice/block/assets/Game%08Controller.ts": {
       "mTimestamp": {
         "mtime": 1719979420165.5967,
@@ -958,6 +991,14 @@
         "uuid": "240bcc8c-fa53-4424-9185-1b6247580b2b"
       },
       "chunkId": "8176ffb0c0a88e799d3660a9a6e8e613f72a93e6",
+=======
+    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts": {
+      "mTimestamp": {
+        "mtime": 1719979252307.409,
+        "uuid": "240bcc8c-fa53-4424-9185-1b6247580b2b"
+      },
+      "chunkId": "1360649b71002ad4014c36f3b77d32d72e25654d",
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
       "imports": [
         {
           "value": "cc"
@@ -974,12 +1015,21 @@
         }
       ]
     },
+<<<<<<< HEAD
     "file:///Users/wangzhaoye/block-practice/block/assets/script/WeaponManager.ts": {
       "mTimestamp": {
         "mtime": 1719980974577.9636,
         "uuid": "65682309-5676-46ad-a308-d6f346e92a26"
       },
       "chunkId": "9530bb5decc75fd1a85e28ccff3d71cbee66facc",
+=======
+    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts": {
+      "mTimestamp": {
+        "mtime": 1719981033136.7349,
+        "uuid": "9e2c5b53-d802-4690-9a50-8e9a1823e585"
+      },
+      "chunkId": "95c95bfbf0ecde8e394362bc35cdb05cee4e1c83",
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
       "imports": [
         {
           "value": "cc"
@@ -1025,6 +1075,7 @@
           "messages": []
         }
       ]
+<<<<<<< HEAD
     },
     "file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts": {
       "mTimestamp": {
@@ -1789,6 +1840,8 @@
           ]
         }
       ]
+=======
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
     }
   }
 }

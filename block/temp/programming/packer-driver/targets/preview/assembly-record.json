@@ -415,6 +415,18 @@
       },
       "timestamp": 1719986976583
     },
+    "1360649b71002ad4014c36f3b77d32d72e25654d": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1719980939153
+    },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
         "__unresolved_0": {
@@ -427,13 +439,18 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
+<<<<<<< HEAD
             "id": "8176ffb0c0a88e799d3660a9a6e8e613f72a93e6"
+=======
+            "id": "1360649b71002ad4014c36f3b77d32d72e25654d"
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
           },
           "messages": []
         },
         "__unresolved_2": {
           "resolved": {
             "type": "chunk",
+<<<<<<< HEAD
             "id": "9ce1c0f263ebe02c6086dfb880266a85040cb119"
           },
           "messages": []
@@ -456,10 +473,14 @@
           "resolved": {
             "type": "chunk",
             "id": "65c46289c786cdea6bdfde86f14facac9c233706"
+=======
+            "id": "95c95bfbf0ecde8e394362bc35cdb05cee4e1c83"
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
           },
           "messages": []
         }
       },
+<<<<<<< HEAD
       "timestamp": 1719987027221
     },
     "206eef875977a76b4852eff17b0de7010155be0d": {
@@ -552,6 +573,12 @@
             }
           ]
         },
+=======
+      "timestamp": 1719981033196
+    },
+    "95c95bfbf0ecde8e394362bc35cdb05cee4e1c83": {
+      "imports": {
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
         "cc": {
           "resolved": {
             "type": "chunk",
@@ -560,17 +587,26 @@
           "messages": []
         }
       },
+<<<<<<< HEAD
       "timestamp": 1719987027281
+=======
+      "timestamp": 1719981033208
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
     }
   },
   "entries": {
     "cce:/internal/x/cc": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
     "cce:/internal/x/prerequisite-imports": "6d8fd2b0177941b032ddc0733af48a561fb60657",
     "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "31e3c2f26607ebb67e59edfae1b48b9458089fb9",
+<<<<<<< HEAD
     "file:///Users/wangzhaoye/block-practice/block/assets/script/BaseBlock.ts": "8176ffb0c0a88e799d3660a9a6e8e613f72a93e6",
     "file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts": "9ce1c0f263ebe02c6086dfb880266a85040cb119",
     "file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts": "206eef875977a76b4852eff17b0de7010155be0d",
     "file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts": "65395e6f15b201b6c4d6832b45d4bc9f6c1109ac",
     "file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts": "65c46289c786cdea6bdfde86f14facac9c233706"
+=======
+    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/BaseBlock.ts": "1360649b71002ad4014c36f3b77d32d72e25654d",
+    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts": "95c95bfbf0ecde8e394362bc35cdb05cee4e1c83"
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
   }
 }

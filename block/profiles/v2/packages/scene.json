@@ -33,6 +33,7 @@
     "enableSnapping": true,
     "snapThreshold": 4
   },
+<<<<<<< HEAD
   "camera-infos": {
     "6adb5af7-66c9-435e-b556-59b828da342f": {
       "position": {
@@ -83,5 +84,19 @@
     "iso": 0,
     "aperture": 19,
     "shutter": 7
+=======
+  "float-window": {
+    "position": {
+      "cc": {
+        "Camera": {
+          "dock": false,
+          "top": null,
+          "bottom": 10,
+          "left": null,
+          "right": 10
+        }
+      }
+    }
+>>>>>>> 4ec5f6474710833a9d401fa9ee2d0d6e2ebff113
   }
 }
