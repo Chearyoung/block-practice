@@ -10,11 +10,11 @@
       "uuid": "1dc55438-d48e-441a-b800-4d8ebfd44d71"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene": {
-      "time": 1720073806013.0142,
+      "time": 1720074495861.3657,
       "uuid": "6077d639-3a4b-4bb8-9b64-774a9761a2bc"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script": {
-      "time": 1720073806013.192,
+      "time": 1720074489191.078,
       "uuid": "bc24167b-280d-46d6-9328-233e76809fc6"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static": {
@@ -50,7 +50,7 @@
       "uuid": "05f51175-adb4-420a-ac11-61e018ea3898"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon": {
-      "time": 1720073806013.571,
+      "time": 1720074489191.2905,
       "uuid": "46ce02f0-0a91-4a76-a3c2-eaf6876e4427"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block": {
@@ -58,7 +58,7 @@
       "uuid": "f97c0d4d-7092-411f-a18c-cca0ddd54cd6"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene": {
-      "time": 1720073806014.1372,
+      "time": 1720074489191.5266,
       "uuid": "d7bbd0f3-3bd1-42f4-b352-744c1d91822b"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template": {
@@ -126,7 +126,7 @@
       "uuid": "ab18158a-02e2-40b2-9ac6-e3b75c810a76"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr": {
-      "time": 1720073806013.7747,
+      "time": 1720074489191.3928,
       "uuid": "21b929a0-8651-4d6a-afaf-cad9ae990729"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup": {
@@ -154,7 +154,7 @@
       "uuid": "38f6a9ed-0d93-4289-b8a3-739eaba996e9"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts": {
-      "time": 1720073806013.273,
+      "time": 1720074489191.1184,
       "uuid": "e56e7ce0-9961-4d5a-8a27-018eacf2c75d"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts": {
@@ -190,11 +190,11 @@
       "uuid": "80502411-c055-4a2a-aae4-002bb4f8b2bd"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts": {
-      "time": 1720073806013.4727,
+      "time": 1720074489191.2212,
       "uuid": "f96cdda8-70dd-40bf-bb22-6763256f3d3b"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts": {
-      "time": 1720073806013.6619,
+      "time": 1720074489191.3225,
       "uuid": "25dfd9f6-3516-4f28-b669-20ec18f39c22"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts": {
@@ -202,7 +202,7 @@
       "uuid": "b11a6fb2-dd20-44c9-bc4c-fc60033d3c2b"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts": {
-      "time": 1720073806014.197,
+      "time": 1720074489191.5608,
       "uuid": "9e2c5b53-d802-4690-9a50-8e9a1823e585"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts": {
@@ -226,7 +226,7 @@
       "uuid": "cbb1be24-9b7c-4637-bec9-10d2cad1f6cb"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts": {
-      "time": 1720073806014.0168,
+      "time": 1720074489191.4475,
       "uuid": "b1f90095-ba1f-47c4-90ce-6cbae65b4fdc"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res.meta": {
@@ -401,7 +401,7 @@
       "time": 1720004115492.7273
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Block.scene": {
-      "time": 1720074391021.3547,
+      "time": 1720074495862.6616,
       "uuid": "130ad698-3028-4b54-9667-9fc7a1ef4016"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Test.scene": {
@@ -952,11 +952,11 @@
       "time": 1720004114990.8315,
       "uuid": "e2084fe2-3acd-42ce-a339-c88f695d2354"
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Block.scene.meta": {
-      "time": 1720073806013.069
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbaccessory.json.meta": {
+      "time": 1720004115002.6245
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefabs/weaponBgItem.prefab.meta": {
-      "time": 1720004115002.193
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Block.scene.meta": {
+      "time": 1720074560678.2908
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefabs/weaponItem.prefab.meta": {
       "time": 1720004115002.3452
@@ -964,17 +964,17 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Test.scene.meta": {
       "time": 1720073771961.5317
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbaccessory.json.meta": {
-      "time": 1720004115002.6245
-    },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbblockgrid.json.meta": {
-      "time": 1720004115002.996
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefabs/weaponBgItem.prefab.meta": {
+      "time": 1720004115002.193
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbbattleattr.json.meta": {
       "time": 1720004115002.8413
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbblockitem.json.meta": {
       "time": 1720004115003.1523
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbblockgrid.json.meta": {
+      "time": 1720004115002.996
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbblockrefreshlevel.json.meta": {
       "time": 1720004115003.3247
@@ -988,29 +988,29 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbbullet.json.meta": {
       "time": 1720004115003.9622
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbbuff.json.meta": {
-      "time": 1720004115003.7966
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbcar.json.meta": {
       "time": 1720004115004.1228
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbbuff.json.meta": {
+      "time": 1720004115003.7966
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbchaptersummary.json.meta": {
       "time": 1720004115004.2734
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbconstcommon.json.meta": {
-      "time": 1720004115004.5999
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbconstcar.json.meta": {
       "time": 1720004115004.434
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbcreature.json.meta": {
-      "time": 1720004115004.7441
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbconstcommon.json.meta": {
+      "time": 1720004115004.5999
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbenemy.json.meta": {
+      "time": 1720004115004.8992
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbenemyprototype.json.meta": {
       "time": 1720004115005.0574
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbenemy.json.meta": {
-      "time": 1720004115004.8992
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbcreature.json.meta": {
+      "time": 1720004115004.7441
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbformula.json.meta": {
       "time": 1720004115005.2185
@@ -1036,11 +1036,11 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbitem.json.meta": {
       "time": 1720004115006.3218
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbmonstergroup.json.meta": {
-      "time": 1720004115006.4873
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbobstacle.json.meta": {
       "time": 1720004115006.642
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbmonstergroup.json.meta": {
+      "time": 1720004115006.4873
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbroguepara.json.meta": {
       "time": 1720004115006.9683
@@ -1066,20 +1066,20 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbstagetd.json.meta": {
       "time": 1720004115007.9736
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbstate.json.meta": {
-      "time": 1720004115008.2905
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbstagetdb.json.meta": {
       "time": 1720004115008.14
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbstate.json.meta": {
+      "time": 1720004115008.2905
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbweapon.json.meta": {
       "time": 1720004115008.51
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/car_yingzi.png.meta": {
-      "time": 1720004114991.3645
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/car.png.meta": {
       "time": 1720004114991.219
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/car_yingzi.png.meta": {
+      "time": 1720004114991.3645
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/common/button3.png.meta": {
       "time": 1720004114994.8877
@@ -1096,11 +1096,11 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/loading/AutoAtlas.pac.meta": {
       "time": 1720004114996.6484
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/joystick/inner.png.meta": {
-      "time": 1720004114995.6777
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/launch/TP_Logo.png.meta": {
       "time": 1720004114996.3547
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/joystick/inner.png.meta": {
+      "time": 1720004114995.6777
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/joystick/round.png.meta": {
       "time": 1720004114995.8584
@@ -1126,11 +1126,11 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag.png.meta": {
       "time": 1720062396025.8467
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/login/cover.jpg.meta": {
-      "time": 1720004114999.4204
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/bg/loading_bg.png.meta": {
       "time": 1720004114988.2566
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/login/cover.jpg.meta": {
+      "time": 1720004114999.4204
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/loading/loading.jpg.meta": {
       "time": 1720004114998.672
@@ -1177,11 +1177,11 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/103.png.meta": {
       "time": 1720062396039.5105
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/104.png.meta": {
-      "time": 1720062396026.061
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/10000.png.meta": {
       "time": 1720062396022.7075
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/104.png.meta": {
+      "time": 1720062396026.061
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/201.png.meta": {
       "time": 1720062396023.472
@@ -1189,11 +1189,11 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/202.png.meta": {
       "time": 1720062396040.2395
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/301.png.meta": {
-      "time": 1720062396030.192
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/203.png.meta": {
       "time": 1720062396026.2583
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/301.png.meta": {
+      "time": 1720062396030.192
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/302.png.meta": {
       "time": 1720062396022.469
@@ -1213,14 +1213,14 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/404.png.meta": {
       "time": 1720062396038.2627
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/501.png.meta": {
-      "time": 1720062396035.0574
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/503.png.meta": {
+      "time": 1720062396016.3923
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/502.png.meta": {
       "time": 1720062396031.8232
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/503.png.meta": {
-      "time": 1720062396016.3923
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/501.png.meta": {
+      "time": 1720062396035.0574
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/504.png.meta": {
       "time": 1720062396040.4219
@@ -1240,17 +1240,17 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/702.png.meta": {
       "time": 1720062396037.8572
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab.meta": {
-      "time": 1720004115489.3513
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70301.png.meta": {
+      "time": 1720062396027.0457
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/703.png.meta": {
       "time": 1720062396035.462
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70301.png.meta": {
-      "time": 1720062396027.0457
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70101.png.meta": {
       "time": 1720062396038.9197
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab.meta": {
+      "time": 1720004115489.3513
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/auto-atlas.pac.meta": {
       "time": 1720004114991.5842
@@ -1309,14 +1309,14 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/image_jd4.png.meta": {
       "time": 1720004114993.8184
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/image_jdt1.png.meta": {
-      "time": 1720004114994.1125
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/image_jd5.png.meta": {
       "time": 1720004114993.972
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/image_jdt2.png.meta": {
       "time": 1720004114994.2573
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/image_jdt1.png.meta": {
+      "time": 1720004114994.1125
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/image_wave2.png.meta": {
       "time": 1720004114994.387
@@ -1357,11 +1357,11 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup/game/fail_title.png.meta": {
       "time": 1720004114990.2544
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup/pause/1900049e372_3f4.png.meta": {
-      "time": 1720004114990.9116
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup/game/victory_title.png.meta": {
       "time": 1720004114990.6096
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup/pause/1900049e372_3f4.png.meta": {
+      "time": 1720004114990.9116
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup/game/gold.png.meta": {
       "time": 1720004114990.3948
