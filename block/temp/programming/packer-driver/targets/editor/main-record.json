@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 5097.741624999995,
+      "mTimestamp": 491056.408875,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -896,7 +896,7 @@
           }
         },
         {
-          "value": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager/TemplateMgr.ts",
+          "value": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
@@ -905,49 +905,35 @@
             },
             "end": {
               "line": 5,
-              "column": 2364
-            }
-          }
-        },
-        {
-          "value": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts",
-          "resolved": "__unresolved_19",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 2380
-            },
-            "end": {
-              "line": 5,
-              "column": 2484
+              "column": 2360
             }
           }
         },
         {
           "value": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts",
-          "resolved": "__unresolved_20",
+          "resolved": "__unresolved_19",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2500
+              "column": 2376
             },
             "end": {
               "line": 5,
-              "column": 2595
+              "column": 2471
             }
           }
         },
         {
           "value": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts",
-          "resolved": "__unresolved_21",
+          "resolved": "__unresolved_20",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2611
+              "column": 2487
             },
             "end": {
               "line": 5,
-              "column": 2715
+              "column": 2591
             }
           }
         }
@@ -1083,13 +1069,6 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager/TemplateMgr.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
             "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts"
           },
           "messages": []
@@ -1186,7 +1165,7 @@
     },
     "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts": {
       "mTimestamp": {
-        "mtime": 1720010944728.5854,
+        "mtime": 1720058296872.7341,
         "uuid": "fe537a22-f782-4f56-8ebd-fc50c71b3860"
       },
       "chunkId": "e2850b8b17f0e42ece4fac6fa4ce421bd2224392",
@@ -1229,7 +1208,7 @@
           }
         },
         {
-          "value": "../manager/TemplateMgr",
+          "value": "../Mgr/TemplateMgr",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
@@ -1238,7 +1217,7 @@
             },
             "end": {
               "line": 3,
-              "column": 50
+              "column": 46
             }
           }
         },
@@ -1297,7 +1276,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager/TemplateMgr.ts"
+            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts"
           },
           "messages": []
         },
@@ -2294,108 +2273,9 @@
       ]
     },
     "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager/TemplateMgr.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115492.9802,
-        "uuid": "f8e436be-1211-4f50-bd30-b2508b24fdee"
-      },
-      "chunkId": "27bdd8be307ab7c7b36d8773352cc957087da0b6",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 37
-            },
-            "end": {
-              "line": 1,
-              "column": 41
-            }
-          }
-        },
-        {
-          "value": "cc/env",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 22
-            },
-            "end": {
-              "line": 2,
-              "column": 30
-            }
-          }
-        },
-        {
-          "value": "../template/schema",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 81
-            },
-            "end": {
-              "line": 4,
-              "column": 101
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "external",
-            "specifierOrURL": "cc/env"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts"
-          },
-          "messages": []
-        }
-      ]
+      "erroneous": true,
+      "mTimestamp": 0,
+      "chunkId": "14546c0fa3aa869362242eef8634926b868d3daf"
     },
     "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts": {
       "mTimestamp": {

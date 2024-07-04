@@ -8,7 +8,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
   }
 
   function _reportPossibleCrUseOfTemplates(extras) {
-    _reporterNs.report("Templates", "../manager/TemplateMgr", _context.meta, extras);
+    _reporterNs.report("Templates", "../Mgr/TemplateMgr", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfBlockUtil(extras) {

@@ -1,6 +1,6 @@
 import { Rect, Size, Vec2, Vec3 } from "cc";
 import { WeaponData } from "./WeaponData";
-import { Templates } from "../manager/TemplateMgr";
+import { Templates } from "../Mgr/TemplateMgr";
 import { BlockUtil } from "../Util";
 // import { re } from "mathjs";
 

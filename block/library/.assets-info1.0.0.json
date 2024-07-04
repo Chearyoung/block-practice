@@ -14,7 +14,7 @@
       "uuid": "6077d639-3a4b-4bb8-9b64-774a9761a2bc"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script": {
-      "time": 1720004115493.411,
+      "time": 1720058278526.1013,
       "uuid": "bc24167b-280d-46d6-9328-233e76809fc6"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static": {
@@ -56,10 +56,6 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block": {
       "time": 1720007350570.293,
       "uuid": "f97c0d4d-7092-411f-a18c-cca0ddd54cd6"
-    },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager": {
-      "time": 1720004115493.0151,
-      "uuid": "b50da068-d97c-4b1c-b251-bed9d6c91a72"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene": {
       "time": 1720004180659.5347,
@@ -174,7 +170,7 @@
       "uuid": "bb54d597-cf0e-4508-9651-d80250689744"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts": {
-      "time": 1720010944728.5854,
+      "time": 1720058296872.7341,
       "uuid": "fe537a22-f782-4f56-8ebd-fc50c71b3860"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts": {
@@ -204,10 +200,6 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts": {
       "time": 1720010389007.1187,
       "uuid": "b11a6fb2-dd20-44c9-bc4c-fc60033d3c2b"
-    },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager/TemplateMgr.ts": {
-      "time": 1720004115492.9802,
-      "uuid": "f8e436be-1211-4f50-bd30-b2508b24fdee"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts": {
       "time": 1720004180660.574,
@@ -278,9 +270,6 @@
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block.meta": {
       "time": 1720004115490.3245
-    },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager.meta": {
-      "time": 1720004115492.8264
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene.meta": {
       "time": 1719980888792.542
@@ -389,9 +378,6 @@
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts.meta": {
       "time": 1720004115491.141
-    },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager/TemplateMgr.ts.meta": {
-      "time": 1720004115493.0881
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts.meta": {
       "time": 1719981033138.7803
@@ -1391,6 +1377,16 @@
       "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Data/GridData.ts",
       "time": 1720004115490.7502,
       "removeTime": 1720007350570
+    },
+    "b50da068-d97c-4b1c-b251-bed9d6c91a72": {
+      "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager",
+      "time": 1720004115493.0151,
+      "removeTime": 1720058278527
+    },
+    "f8e436be-1211-4f50-bd30-b2508b24fdee": {
+      "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager/TemplateMgr.ts",
+      "time": 1720004115492.9802,
+      "removeTime": 1720058278527
     }
   }
 }
