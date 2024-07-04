@@ -1411,7 +1411,7 @@
       "uuid": "0b26ff02-bd9b-4821-a173-2771d5831051"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/Mgr": {
-      "time": 1719989195629.519,
+      "time": 1720062323542.1162,
       "uuid": "05f51175-adb4-420a-ac11-61e018ea3898"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/Weapon": {
@@ -1419,7 +1419,7 @@
       "uuid": "46ce02f0-0a91-4a76-a3c2-eaf6876e4427"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/block": {
-      "time": 1720058670271.1067,
+      "time": 1720062044593.1562,
       "uuid": "f97c0d4d-7092-411f-a18c-cca0ddd54cd6"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/scene": {
@@ -1483,7 +1483,7 @@
       "uuid": "19a3c8bb-51fe-44dc-9c30-ee4383d89542"
     },
     "/Users/wangzhaoye/block-practice/block/assets/resources/prefab/block": {
-      "time": 1720058670269.2625,
+      "time": 1720062044592.9756,
       "uuid": "c23c0283-5fd6-4ca8-91e4-8fba71a62e57"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/block/Grid": {
@@ -1515,7 +1515,7 @@
       "uuid": "b2853591-058d-43b8-9495-480262adfc94"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/Constants.ts": {
-      "time": 1719996120926.1694,
+      "time": 1720063249293.3728,
       "uuid": "38f6a9ed-0d93-4289-b8a3-739eaba996e9"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts": {
@@ -1563,11 +1563,11 @@
       "uuid": "25dfd9f6-3516-4f28-b669-20ec18f39c22"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts": {
-      "time": 1720058670270.3462,
+      "time": 1720062044593.245,
       "uuid": "b11a6fb2-dd20-44c9-bc4c-fc60033d3c2b"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts": {
-      "time": 1720000798866.8315,
+      "time": 1720062362316.194,
       "uuid": "9e2c5b53-d802-4690-9a50-8e9a1823e585"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts": {
@@ -1766,7 +1766,7 @@
       "time": 1720058670271.642
     },
     "/Users/wangzhaoye/block-practice/block/assets/scene/Block.scene": {
-      "time": 1720004769222.6448,
+      "time": 1720063322819.9224,
       "uuid": "130ad698-3028-4b54-9667-9fc7a1ef4016"
     },
     "/Users/wangzhaoye/block-practice/block/assets/scene/Test.scene": {
@@ -2166,15 +2166,15 @@
       "uuid": "365343ef-5d0a-4ed9-8ae1-5a7efd4e4d7c"
     },
     "/Users/wangzhaoye/block-practice/block/assets/resources/prefab/block/BlockUI.prefab": {
-      "time": 1720058670268.8523,
+      "time": 1720062044592.671,
       "uuid": "44db69c1-64bd-4db7-849f-396a412a8a32"
     },
     "/Users/wangzhaoye/block-practice/block/assets/resources/prefab/block/girdItem.prefab": {
-      "time": 1720058670269.0547,
+      "time": 1720062044592.8843,
       "uuid": "b20f978c-bcb8-4399-b3b3-11bd48bad01e"
     },
     "/Users/wangzhaoye/block-practice/block/assets/resources/prefab/block/gridBgItem.prefab": {
-      "time": 1720058670269.2253,
+      "time": 1720062044593.0728,
       "uuid": "504ce1eb-1431-4f0c-a2fb-8d18fef2c73c"
     },
     "/Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/auto-atlas.pac": {
@@ -2732,5 +2732,16 @@
       "time": 1719995464654.8105
     }
   },
-  "missing": {}
+  "missing": {
+    "2c0a89e2-e42d-4cfa-81a4-df138d0bceea": {
+      "path": "/Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridManager.ts",
+      "time": 1720062295074.4453,
+      "removeTime": 1720062323529
+    },
+    "dba6b811-6343-4b80-a442-86630c92ac16": {
+      "path": "/Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridMapManager.ts",
+      "time": 1720062295055.692,
+      "removeTime": 1720062323542
+    }
+  }
 }

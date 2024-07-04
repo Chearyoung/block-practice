@@ -13,7 +13,7 @@ export class Constants {
     //动态资源路径
     public static itemPath = 'Game/Item/';//道具路径
     public static weaponIconPath = 'images/weapon/';//道具路径
-    public static gridPath = 'icon/block/grid/';//格子路径
+    public static gridPath = 'images/grid/';//格子路径
 
 
     //弹窗

@@ -289,9 +289,14 @@
     "value": {
       "depends": [
         "130ad698-3028-4b54-9667-9fc7a1ef4016",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "b20f978c-bcb8-4399-b3b3-11bd48bad01e",
+        "504ce1eb-1431-4f0c-a2fb-8d18fef2c73c",
         "86d249e2-3ba8-4df5-8461-cee44b400dd1@f9941"
       ],
       "dependScripts": [
+        "b1f90095-ba1f-47c4-90ce-6cbae65b4fdc",
+        "cbb1be24-9b7c-4637-bec9-10d2cad1f6cb",
         "80502411-c055-4a2a-aae4-002bb4f8b2bd",
         "de5e720e-fb39-4df9-abc1-37b468f7136c",
         "9e2c5b53-d802-4690-9a50-8e9a1823e585"
@@ -2945,6 +2950,16 @@
         "37d0323a-89da-4702-8e26-dde7f97d5bd8@6c48a"
       ]
     },
+    "versionCode": 1
+  },
+  "dba6b811-6343-4b80-a442-86630c92ac16": {
+    "url": "db://assets/script/Mgr/GridMapManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2c0a89e2-e42d-4cfa-81a4-df138d0bceea": {
+    "url": "db://assets/script/Mgr/GridManager.ts",
+    "value": {},
     "versionCode": 1
   }
 }

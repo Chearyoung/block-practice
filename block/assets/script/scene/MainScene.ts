@@ -1,5 +1,7 @@
 import { _decorator, Component, Node, Input, game, EventTouch, v3,tween} from 'cc';
 import { WeaponManager } from "../Mgr/WeaponManager";
+import { GridMapManager } from '../block//Mgr/GridMapManager';
+import { GridManager } from '../block/Mgr/GridManager';
 import { TemplateMgr } from "../Mgr/TemplateMgr";
 import { GridData } from "../Data/GridData";
 import { GameDefine } from '../GameDefine';
@@ -15,6 +17,12 @@ export class MainScene extends Component {
     @property(Node)
     removeWeaponList: Node = null!;
 
+    @property(GridMapManager)
+    gridMapManager: GridMapManager = null!;
+
+    @property(GridManager)
+    gridManager: GridManager = null!;
+
     @property(WeaponManager)
     weaponManager: WeaponManager = null!;
     start() {
@@ -22,6 +30,8 @@ export class MainScene extends Component {
             // 加载配置表
             TemplateMgr.instance().init(() => {
                 GridData.instance.init();
+                this.gridManager.init();
+                this.gridMapManager.init();
                 this.weaponManager.init();
             })
         }, 0.5)

@@ -1,11 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-<<<<<<< HEAD
-      "mTimestamp": 4680.67208300007,
-=======
-      "mTimestamp": 11851.750791999977,
->>>>>>> cd57a087969292277cbbf64fea2a7c87d8b09cd0
+      "mTimestamp": 11810.448582999874,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -644,11 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-<<<<<<< HEAD
-      "mTimestamp": 2644457.34575,
-=======
-      "mTimestamp": 2636540.068,
->>>>>>> cd57a087969292277cbbf64fea2a7c87d8b09cd0
+      "mTimestamp": 1149084.5881669996,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1149,1965 +1141,9 @@
         }
       ]
     },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115008.8042,
-        "uuid": "38f6a9ed-0d93-4289-b8a3-739eaba996e9"
-      },
-      "chunkId": "20e183e2e7ff6ae038a443d613749f35d1a4b6c8",
-      "imports": [
-        {
-          "value": "cc"
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts": {
-      "mTimestamp": {
-        "mtime": 1720058296872.7341,
-        "uuid": "fe537a22-f782-4f56-8ebd-fc50c71b3860"
-      },
-      "chunkId": "e2850b8b17f0e42ece4fac6fa4ce421bd2224392",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 39
-            },
-            "end": {
-              "line": 1,
-              "column": 43
-            }
-          }
-        },
-        {
-          "value": "./WeaponData",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 27
-            },
-            "end": {
-              "line": 2,
-              "column": 41
-            }
-          }
-        },
-        {
-          "value": "../Mgr/TemplateMgr",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 26
-            },
-            "end": {
-              "line": 3,
-              "column": 46
-            }
-          }
-        },
-        {
-          "value": "../Util",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 26
-            },
-            "end": {
-              "line": 4,
-              "column": 35
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "cce:/internal/code-quality/cr.mjs": {
-<<<<<<< HEAD
-      "mTimestamp": 1720058697917,
-=======
-      "mTimestamp": 1720058840982,
->>>>>>> cd57a087969292277cbbf64fea2a7c87d8b09cd0
-      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
-      "imports": [],
-      "type": "esm",
-      "resolutions": []
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115009.2747,
-        "uuid": "9134856f-a96e-418b-aabc-4816f7e1df95"
-      },
-      "chunkId": "5b76b60e7d0551e5db1f78d3e5768831c2c49bd4",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 21
-            },
-            "end": {
-              "line": 1,
-              "column": 25
-            }
-          }
-        },
-        {
-          "value": "../Mgr/TemplateMgr",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 26
-            },
-            "end": {
-              "line": 2,
-              "column": 46
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115010.1638,
-        "uuid": "ee9a1390-a5c1-4a0e-a26f-bb057ea32add"
-      },
-      "chunkId": "655b490a7635d368f3a3f90dd174c2ede718b012",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 37
-            },
-            "end": {
-              "line": 1,
-              "column": 41
-            }
-          }
-        },
-        {
-          "value": "cc/env",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 22
-            },
-            "end": {
-              "line": 2,
-              "column": 30
-            }
-          }
-        },
-        {
-          "value": "../schema",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 81
-            },
-            "end": {
-              "line": 3,
-              "column": 92
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "external",
-            "specifierOrURL": "cc/env"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115012.277,
-        "uuid": "bb54d597-cf0e-4508-9651-d80250689744"
-      },
-      "chunkId": "972050f44b75ef7fde82c2c2a8c54bbd62826a30",
-      "imports": [
-        {
-          "value": "cc"
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115010.5974,
-        "uuid": "72f8ca39-31a1-42e0-8f8f-7495586c0722"
-      },
-      "chunkId": "0ee184fa984f54d9aa18b5513490c8003ae6fe91",
-      "imports": [
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 109
-            },
-            "end": {
-              "line": 1,
-              "column": 113
-            }
-          }
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 23
-            },
-            "end": {
-              "line": 2,
-              "column": 27
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115009.4507,
-        "uuid": "e56e7ce0-9961-4d5a-8a27-018eacf2c75d"
-      },
-      "chunkId": "49fe2a14e0b98bffba16cb796e582a63826ab495",
-      "imports": [
-        {
-          "value": "cc"
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115009.7205,
-        "uuid": "de5e720e-fb39-4df9-abc1-37b468f7136c"
-      },
-      "chunkId": "4725e95252de895cb13dcf514dfc1adbab0c6449",
-      "imports": [
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 77
-            },
-            "end": {
-              "line": 1,
-              "column": 81
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115009.8853,
-        "uuid": "fd47677f-e3f4-4f1c-b5d7-1761c31dd6ca"
-      },
-      "chunkId": "34dfa8264877f3bc50434e95ac09e0c8e8b9e4f2",
-      "imports": [
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115010.3286,
-        "uuid": "80502411-c055-4a2a-aae4-002bb4f8b2bd"
-      },
-      "chunkId": "a14c8584e06a02788fe6c7d2e50376fb077b5507",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 128
-            },
-            "end": {
-              "line": 1,
-              "column": 132
-            }
-          }
-        },
-        {
-          "value": "../Data/GridData",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 45
-            },
-            "end": {
-              "line": 2,
-              "column": 63
-            }
-          }
-        },
-        {
-          "value": "../Data/WeaponData",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 36
-            },
-            "end": {
-              "line": 3,
-              "column": 56
-            }
-          }
-        },
-        {
-          "value": "../Constants",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 26
-            },
-            "end": {
-              "line": 4,
-              "column": 40
-            }
-          }
-        },
-        {
-          "value": "../Weapon/WeaponItem",
-          "resolved": "__unresolved_4",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 27
-            },
-            "end": {
-              "line": 5,
-              "column": 49
-            }
-          }
-        },
-        {
-          "value": "../Weapon/WeaponBgItem",
-          "resolved": "__unresolved_5",
-          "loc": {
-            "start": {
-              "line": 6,
-              "column": 29
-            },
-            "end": {
-              "line": 6,
-              "column": 53
-            }
-          }
-        },
-        {
-          "value": "../Util",
-          "resolved": "__unresolved_6",
-          "loc": {
-            "start": {
-              "line": 7,
-              "column": 26
-            },
-            "end": {
-              "line": 7,
-              "column": 35
-            }
-          }
-        },
-        {
-          "value": "../EventConstant",
-          "resolved": "__unresolved_7",
-          "loc": {
-            "start": {
-              "line": 8,
-              "column": 30
-            },
-            "end": {
-              "line": 8,
-              "column": 48
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115011.0034,
-        "uuid": "25dfd9f6-3516-4f28-b669-20ec18f39c22"
-      },
-      "chunkId": "b4fa29a33328275b0ee102effb58f758e57b08c8",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 202
-            },
-            "end": {
-              "line": 1,
-              "column": 206
-            }
-          }
-        },
-        {
-          "value": "../Data/WeaponData",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 40
-            },
-            "end": {
-              "line": 2,
-              "column": 60
-            }
-          }
-        },
-        {
-          "value": "../Data/GridData",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 34
-            },
-            "end": {
-              "line": 3,
-              "column": 52
-            }
-          }
-        },
-        {
-          "value": "../Constants",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 26
-            },
-            "end": {
-              "line": 4,
-              "column": 40
-            }
-          }
-        },
-        {
-          "value": "../EventConstant",
-          "resolved": "__unresolved_4",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 30
-            },
-            "end": {
-              "line": 5,
-              "column": 48
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115010.8655,
-        "uuid": "f96cdda8-70dd-40bf-bb22-6763256f3d3b"
-      },
-      "chunkId": "c704643832485b7eb9ea52839c95c9d94b26c8b7",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 167
-            },
-            "end": {
-              "line": 1,
-              "column": 171
-            }
-          }
-        },
-        {
-          "value": "../Data/WeaponData",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 40
-            },
-            "end": {
-              "line": 2,
-              "column": 60
-            }
-          }
-        },
-        {
-          "value": "../Data/GridData",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 34
-            },
-            "end": {
-              "line": 3,
-              "column": 52
-            }
-          }
-        },
-        {
-          "value": "../Constants",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 26
-            },
-            "end": {
-              "line": 4,
-              "column": 40
-            }
-          }
-        },
-        {
-          "value": "../EventConstant",
-          "resolved": "__unresolved_4",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 30
-            },
-            "end": {
-              "line": 5,
-              "column": 48
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts": {
-      "mTimestamp": {
-        "mtime": 1720059444164.6907,
-        "uuid": "b11a6fb2-dd20-44c9-bc4c-fc60033d3c2b"
-      },
-      "chunkId": "a457af15546403b8bbea798346372a3eb544e44d",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 173
-            },
-            "end": {
-              "line": 1,
-              "column": 177
-            }
-          }
-        },
-        {
-          "value": "./Mgr/GridMapManager",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 31
-            },
-            "end": {
-              "line": 2,
-              "column": 53
-            }
-          }
-        },
-        {
-          "value": "./Mgr/GridManager",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 28
-            },
-            "end": {
-              "line": 3,
-              "column": 47
-            }
-          }
-        },
-        {
-          "value": "../Mgr/WeaponManager",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 30
-            },
-            "end": {
-              "line": 4,
-              "column": 52
-            }
-          }
-        },
-        {
-          "value": "../GameDefine",
-          "resolved": "__unresolved_4",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 27
-            },
-            "end": {
-              "line": 5,
-              "column": 42
-            }
-          }
-        },
-        {
-          "value": "../Mgr/TemplateMgr",
-          "resolved": "__unresolved_5",
-          "loc": {
-            "start": {
-              "line": 6,
-              "column": 28
-            },
-            "end": {
-              "line": 6,
-              "column": 48
-            }
-          }
-        },
-        {
-          "value": "../EventConstant",
-          "resolved": "__unresolved_6",
-          "loc": {
-            "start": {
-              "line": 10,
-              "column": 30
-            },
-            "end": {
-              "line": 10,
-              "column": 48
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts": {
-      "mTimestamp": {
-        "mtime": 1720009670395.186,
-        "uuid": "b1f90095-ba1f-47c4-90ce-6cbae65b4fdc"
-      },
-      "chunkId": "401af37c60a3a270619c0985e9eba69a5789fe6b",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 166
-            },
-            "end": {
-              "line": 1,
-              "column": 170
-            }
-          }
-        },
-        {
-          "value": "../../Constants",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 26
-            },
-            "end": {
-              "line": 2,
-              "column": 43
-            }
-          }
-        },
-        {
-          "value": "../../Data/GridData",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 44
-            },
-            "end": {
-              "line": 3,
-              "column": 65
-            }
-          }
-        },
-        {
-          "value": "../Grid/GridBgItem",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 27
-            },
-            "end": {
-              "line": 4,
-              "column": 47
-            }
-          }
-        },
-        {
-          "value": "../../Weapon/WeaponItem",
-          "resolved": "__unresolved_4",
-          "loc": {
-            "start": {
-              "line": 6,
-              "column": 27
-            },
-            "end": {
-              "line": 6,
-              "column": 52
-            }
-          }
-        },
-        {
-          "value": "../../Util",
-          "resolved": "__unresolved_5",
-          "loc": {
-            "start": {
-              "line": 8,
-              "column": 26
-            },
-            "end": {
-              "line": 8,
-              "column": 38
-            }
-          }
-        },
-        {
-          "value": "../../EventConstant",
-          "resolved": "__unresolved_6",
-          "loc": {
-            "start": {
-              "line": 9,
-              "column": 30
-            },
-            "end": {
-              "line": 9,
-              "column": 51
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts": {
-      "mTimestamp": {
-        "mtime": 1720008451545.493,
-        "uuid": "1bb7cac5-cae3-4ed3-8a9c-a85546f6fb1e"
-      },
-      "chunkId": "2da8f5c483c29a90a7a89cdde4aba07b254b9b73",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 83
-            },
-            "end": {
-              "line": 1,
-              "column": 87
-            }
-          }
-        },
-        {
-          "value": "../../Data/GridData",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 34
-            },
-            "end": {
-              "line": 3,
-              "column": 55
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts": {
-      "mTimestamp": {
-        "mtime": 1720061454694.4802,
-        "uuid": "cbb1be24-9b7c-4637-bec9-10d2cad1f6cb"
-      },
-      "chunkId": "bebe09c65e1dc2d78a55a58c7efebad5d7718e76",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 122
-            },
-            "end": {
-              "line": 1,
-              "column": 126
-            }
-          }
-        },
-        {
-          "value": "../../Data/GridData",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 34
-            },
-            "end": {
-              "line": 2,
-              "column": 55
-            }
-          }
-        },
-        {
-          "value": "../Grid/GridItem",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 25
-            },
-            "end": {
-              "line": 4,
-              "column": 43
-            }
-          }
-        },
-        {
-          "value": "../../Data/WeaponData",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 40
-            },
-            "end": {
-              "line": 5,
-              "column": 63
-            }
-          }
-        },
-        {
-          "value": "../Grid/GridBgItem",
-          "resolved": "__unresolved_4",
-          "loc": {
-            "start": {
-              "line": 6,
-              "column": 27
-            },
-            "end": {
-              "line": 6,
-              "column": 47
-            }
-          }
-        },
-        {
-          "value": "../../EventConstant",
-          "resolved": "__unresolved_5",
-          "loc": {
-            "start": {
-              "line": 7,
-              "column": 30
-            },
-            "end": {
-              "line": 7,
-              "column": 51
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts": {
-      "mTimestamp": {
-        "mtime": 1720008998328.7039,
-        "uuid": "4644c662-caf3-455b-a829-d1d35ae5ff0d"
-      },
-      "chunkId": "0bc4ea64ccbd6c813edf6f0042feab00bc585493",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 83
-            },
-            "end": {
-              "line": 1,
-              "column": 87
-            }
-          }
-        },
-        {
-          "value": "../../Data/GridData",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 34
-            },
-            "end": {
-              "line": 3,
-              "column": 55
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115491.3438,
-        "uuid": "240bcc8c-fa53-4424-9185-1b6247580b2b"
-      },
-      "chunkId": "a943b328aad9f4ce6158f8288fe83575c749f378",
-      "imports": [
-        {
-          "value": "cc"
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts": {
-      "mTimestamp": {
-        "mtime": 1720004180660.574,
-        "uuid": "9e2c5b53-d802-4690-9a50-8e9a1823e585"
-      },
-      "chunkId": "95c95bfbf0ecde8e394362bc35cdb05cee4e1c83",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 78
-            },
-            "end": {
-              "line": 1,
-              "column": 82
-            }
-          }
-        },
-        {
-          "value": "../Mgr/WeaponManager",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 30
-            },
-            "end": {
-              "line": 2,
-              "column": 52
-            }
-          }
-        },
-        {
-          "value": "../Mgr/TemplateMgr",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 28
-            },
-            "end": {
-              "line": 3,
-              "column": 48
-            }
-          }
-        },
-        {
-          "value": "../Data/GridData",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 25
-            },
-            "end": {
-              "line": 4,
-              "column": 43
-            }
-          }
-        },
-        {
-          "value": "../GameDefine",
-          "resolved": "__unresolved_4",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 27
-            },
-            "end": {
-              "line": 5,
-              "column": 42
-            }
-          }
-        },
-        {
-          "value": "../EventConstant",
-          "resolved": "__unresolved_5",
-          "loc": {
-            "start": {
-              "line": 6,
-              "column": 30
-            },
-            "end": {
-              "line": 6,
-              "column": 48
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-<<<<<<< HEAD
     "file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts": {
       "mTimestamp": {
-        "mtime": 1719996120926.1694,
+        "mtime": 1720063249293.3728,
         "uuid": "38f6a9ed-0d93-4289-b8a3-739eaba996e9"
       },
       "chunkId": "8865fec114a2682799ba2b117b4f0115058eb265",
@@ -3252,6 +1288,13 @@
           "messages": []
         }
       ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1720062103939,
+      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
     },
     "file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts": {
       "mTimestamp": {
@@ -4147,7 +2190,7 @@
     },
     "file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts": {
       "mTimestamp": {
-        "mtime": 1720058670270.3462,
+        "mtime": 1720062044593.245,
         "uuid": "b11a6fb2-dd20-44c9-bc4c-fc60033d3c2b"
       },
       "chunkId": "447e3ebab785d85fd50628db5ae82e5383cb70b6",
@@ -4232,15 +2275,29 @@
           }
         },
         {
-          "value": "../EventConstant",
+          "value": "../Mgr/TemplateMgr",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
-              "line": 9,
+              "line": 6,
+              "column": 28
+            },
+            "end": {
+              "line": 6,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../EventConstant",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 10,
               "column": 30
             },
             "end": {
-              "line": 9,
+              "line": 10,
               "column": 48
             }
           }
@@ -4301,6 +2358,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts"
           },
           "messages": []
         },
@@ -4862,7 +2926,7 @@
     },
     "file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts": {
       "mTimestamp": {
-        "mtime": 1720000798866.8315,
+        "mtime": 1720062362316.194,
         "uuid": "9e2c5b53-d802-4690-9a50-8e9a1823e585"
       },
       "chunkId": "443c05a027ebe780a9fe039a05508f7e0e2f54f0",
@@ -4905,57 +2969,85 @@
           }
         },
         {
-          "value": "../Mgr/TemplateMgr",
+          "value": "../block//Mgr/GridMapManager",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 3,
-              "column": 28
+              "column": 31
             },
             "end": {
               "line": 3,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "../block/Mgr/GridManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 28
+            },
+            "end": {
+              "line": 4,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "../Mgr/TemplateMgr",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 28
+            },
+            "end": {
+              "line": 5,
               "column": 48
             }
           }
         },
         {
           "value": "../Data/GridData",
-          "resolved": "__unresolved_3",
+          "resolved": "__unresolved_5",
           "loc": {
             "start": {
-              "line": 4,
+              "line": 6,
               "column": 25
             },
             "end": {
-              "line": 4,
+              "line": 6,
               "column": 43
             }
           }
         },
         {
           "value": "../GameDefine",
-          "resolved": "__unresolved_4",
+          "resolved": "__unresolved_6",
           "loc": {
             "start": {
-              "line": 5,
+              "line": 7,
               "column": 27
             },
             "end": {
-              "line": 5,
+              "line": 7,
               "column": 42
             }
           }
         },
         {
           "value": "../EventConstant",
-          "resolved": "__unresolved_5",
+          "resolved": "__unresolved_7",
           "loc": {
             "start": {
-              "line": 6,
+              "line": 8,
               "column": 30
             },
             "end": {
-              "line": 6,
+              "line": 8,
               "column": 48
             }
           }
@@ -5001,6 +3093,20 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts"
           },
           "messages": []
@@ -5034,14 +3140,6 @@
         "uuid": "40e393f1-3208-4920-9375-a1e47a25accc"
       },
       "chunkId": "89e168743ae6d89a2a76b4e6be3d484ebecd3419",
-=======
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115493.7524,
-        "uuid": "40e393f1-3208-4920-9375-a1e47a25accc"
-      },
-      "chunkId": "37a3e2fb9082eb163b70b5d52e8cca6ccb212fab",
->>>>>>> cd57a087969292277cbbf64fea2a7c87d8b09cd0
       "imports": [
         {
           "value": "cc"
@@ -5055,6 +3153,418 @@
             "url": "cce:/internal/x/cc"
           },
           "messages": []
+        }
+      ]
+    },
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridMapManager.ts": {
+      "mTimestamp": {
+        "mtime": 1720062295055.692,
+        "uuid": "dba6b811-6343-4b80-a442-86630c92ac16"
+      },
+      "chunkId": "3ea5704d0386b69426d7b28b5b67e8eef50d7315",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 166
+            },
+            "end": {
+              "line": 1,
+              "column": 170
+            }
+          }
+        },
+        {
+          "value": "../../Constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "../../Data/GridData",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 44
+            },
+            "end": {
+              "line": 3,
+              "column": 65
+            }
+          }
+        },
+        {
+          "value": "../Grid/GridBgItem",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 27
+            },
+            "end": {
+              "line": 4,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "../../Weapon/WeaponItem",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 27
+            },
+            "end": {
+              "line": 6,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "../../Util",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 26
+            },
+            "end": {
+              "line": 8,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "../../EventConstant",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 30
+            },
+            "end": {
+              "line": 9,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridMapManager.ts 为起点找不到模块 \"../../Constants\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridMapManager.ts 为起点找不到模块 \"../../Data/GridData\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridMapManager.ts 为起点找不到模块 \"../Grid/GridBgItem\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridMapManager.ts 为起点找不到模块 \"../../Weapon/WeaponItem\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridMapManager.ts 为起点找不到模块 \"../../Util\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridMapManager.ts 为起点找不到模块 \"../../EventConstant\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        }
+      ]
+    },
+    "file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridManager.ts": {
+      "mTimestamp": {
+        "mtime": 1720062295074.4453,
+        "uuid": "2c0a89e2-e42d-4cfa-81a4-df138d0bceea"
+      },
+      "chunkId": "4b49d5e408460c7a8deaf38f8633861b4c3ea835",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 122
+            },
+            "end": {
+              "line": 1,
+              "column": 126
+            }
+          }
+        },
+        {
+          "value": "../../Data/GridData",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "../Grid/GridItem",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 25
+            },
+            "end": {
+              "line": 4,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "../../Data/WeaponData",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 40
+            },
+            "end": {
+              "line": 5,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "../Grid/GridBgItem",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 27
+            },
+            "end": {
+              "line": 6,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "../../EventConstant",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 30
+            },
+            "end": {
+              "line": 7,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridManager.ts 为起点找不到模块 \"../../Data/GridData\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridManager.ts 为起点找不到模块 \"../Grid/GridItem\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridManager.ts 为起点找不到模块 \"../../Data/WeaponData\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridManager.ts 为起点找不到模块 \"../Grid/GridBgItem\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/GridManager.ts 为起点找不到模块 \"../../EventConstant\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
         }
       ]
     }
