@@ -268,7 +268,6 @@ export class WeaponItem extends Component {
         game.on(EventConstant.GAME_TOUCH_START, this.onTouchStart, this);
         game.on(EventConstant.GAME_TOUCH_MOVE, this.onTouchMove, this);
         game.on(EventConstant.GAME_TOUCH_END, this.onTouchEnd, this);
-        game.on(EventConstant.GAME_TOUCH_CANCLE, this.onTouchEnd, this);
 
         game.on(EventConstant.WEAPON_REMOVE, this.onWeaponRemove, this);
         game.on(EventConstant.WEAPON_ICON_STATUS, this.onSetIconStatus, this);
@@ -282,7 +281,6 @@ export class WeaponItem extends Component {
         game.off(EventConstant.GAME_TOUCH_START, this.onTouchStart, this);
         game.off(EventConstant.GAME_TOUCH_MOVE, this.onTouchMove, this);
         game.off(EventConstant.GAME_TOUCH_END, this.onTouchEnd, this);
-        game.off(EventConstant.GAME_TOUCH_CANCLE, this.onTouchEnd, this);
 
         game.off(EventConstant.WEAPON_REMOVE, this.onWeaponRemove, this);
         game.off(EventConstant.WEAPON_ICON_STATUS, this.onSetIconStatus, this);
