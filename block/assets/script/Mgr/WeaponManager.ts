@@ -83,6 +83,7 @@ export class WeaponManager extends Component {
                 weaponItem.parent = this.removeWeaponList;
             
                 if (weaponCfg.itemType == "1") {
+                    console.log("weaponCfg",weaponCfg);
                     weaponItem.getComponent(WeaponItem)!.init(weaponCfg, key, false);
                 } else if (weaponCfg.itemType == "2") {
                     // TODO: 处理 itemType 为 "2" 的情况

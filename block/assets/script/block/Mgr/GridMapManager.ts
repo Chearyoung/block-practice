@@ -42,6 +42,7 @@ export class GridMapManager extends Component {
     private _temPoint: GridObj = null!;
     private _temAddPoint: GridObj = null!; //新增格子
     private _mainAreaKey: string = '1';//原区域key 
+    private _isPlace : boolean = true;
 
     private _addPlaceAreaData: Map<string, GridBgObj> = new Map();//新增放置区域数据  key=>placeAreaKey
 
@@ -498,10 +499,12 @@ export class GridMapManager extends Component {
         let item = weaponBgItem!.node;
         this.initAllGridListTips();
         if (this._placeStatus) {
+            this._isPlace = true;
             item.setPosition(this._temPos);
             this.setAddPlaceAreaKey(weaponBgItem!);
         }
         else {
+            this._isPlace = false;
             game.emit(EventConstant.ADD_REMOVE_WEAPON_LIST, item);
             this._addPlaceAreaData.delete(weaponBgItem!.weaponKey);
         }
@@ -511,7 +514,9 @@ export class GridMapManager extends Component {
     /* 放置格子确定 */
     private onPlaceGridFinish() {
         if (this.allGridList.active) {
-            this.checkAddAreaGridData();
+            if(this._isPlace){
+                this.checkAddAreaGridData();
+            }
             GridData.instance.gridEditMode = false;
             this.allGridList.active = false;
             this.gridList.parent = this.bg;

@@ -15,7 +15,7 @@
         "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
-        "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/*"
+        "/Users/wangzhaoye/block-practice/block/assets/*"
       ]
     },
     "experimentalDecorators": true,
