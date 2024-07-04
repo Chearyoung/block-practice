@@ -411,6 +411,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           }), EventConstant) : EventConstant).GAME_TOUCH_END, this.onTouchEnd, this);
           game.on((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
             error: Error()
+          }), EventConstant) : EventConstant).GAME_TOUCH_CANCLE, this.onTouchEnd, this);
+          game.on((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+            error: Error()
           }), EventConstant) : EventConstant).WEAPON_REMOVE, this.onWeaponRemove, this);
           game.on((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
             error: Error()
@@ -439,6 +442,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           game.off((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
             error: Error()
           }), EventConstant) : EventConstant).GAME_TOUCH_END, this.onTouchEnd, this);
+          game.off((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+            error: Error()
+          }), EventConstant) : EventConstant).GAME_TOUCH_CANCLE, this.onTouchEnd, this);
           game.off((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
             error: Error()
           }), EventConstant) : EventConstant).WEAPON_REMOVE, this.onWeaponRemove, this);

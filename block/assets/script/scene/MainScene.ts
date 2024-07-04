@@ -15,6 +15,14 @@ export class MainScene extends Component {
     gameCtrl: Node = null!;
 
     @property(Node)
+    refresh: Node = null!;
+
+
+    @property(Node)
+    confirm: Node = null!;
+
+
+    @property(Node)
     removeWeaponList: Node = null!;
 
     @property(GridMapManager)
@@ -86,11 +94,23 @@ export class MainScene extends Component {
         game.emit(EventConstant.WEAPON_REMOVE_REFRESH);
     }
 
+    onToucWeaponBg(){
+        this.refresh.active = false;
+        this.confirm.active = true;
+    }
+
+    public onPlaceFinishBtn() {
+        game.emit(EventConstant.PLACE_GRID_FINISH);
+        this.refresh.active = true;
+        this.confirm.active = false;
+    }
+
     protected onEnable(): void {
         this.gameCtrl.on(Input.EventType.TOUCH_START, this.onTouchStart, this);
         this.gameCtrl.on(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
         this.gameCtrl.on(Input.EventType.TOUCH_END, this.onTouchEnd, this);
         game.on(EventConstant.GAME_TAP_BTN, this.onTapBtn, this);
+        game.on(EventConstant.TOUCH_WEAPONBG, this.onToucWeaponBg, this);
     }
 
     protected onDisable(): void {
@@ -98,6 +118,7 @@ export class MainScene extends Component {
         this.gameCtrl.off(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
         this.gameCtrl.off(Input.EventType.TOUCH_END, this.onTouchEnd, this);
         game.off(EventConstant.GAME_TAP_BTN, this.onTapBtn, this);
+        game.off(EventConstant.TOUCH_WEAPONBG, this.onToucWeaponBg, this);
     }
 }
 

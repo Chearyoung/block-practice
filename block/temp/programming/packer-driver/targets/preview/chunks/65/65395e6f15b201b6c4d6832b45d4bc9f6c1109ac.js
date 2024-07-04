@@ -249,6 +249,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           }), GridData) : GridData).instance.checkPointinGrid(v2(touchPos.x, touchPos.y), this._pointGridObj) && !(_crd && WeaponData === void 0 ? (_reportPossibleCrUseOfWeaponData({
             error: Error()
           }), WeaponData) : WeaponData).instance.isSelect) {
+            game.emit((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+              error: Error()
+            }), EventConstant) : EventConstant).TOUCH_WEAPONBG, this);
             this._isTouch = true;
             (_crd && WeaponData === void 0 ? (_reportPossibleCrUseOfWeaponData({
               error: Error()

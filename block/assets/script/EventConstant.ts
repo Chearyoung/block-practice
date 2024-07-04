@@ -77,6 +77,7 @@ export const EventConstant = {
     WEAPON_UPGRADE: 'weaponGrade', // 武器升级
     WEAPON_SHAKE: 'weaponShake', // 武器抖动
     WEAPON_PlACE: 'weaponPlace', // 武器放置完成
+    TOUCH_WEAPONBG: 'weaponbg', // 武器放置完成
     WEAPON_REMOVE: 'weaponRemove', // 武器卸下
     WEAPON_CHANGE_COIN: 'weaponChangeCoin', // 武器转换金币
     WEAPON_PROGRESS_BAR: 'weaponProgressBar', // 武器进度条

@@ -1519,7 +1519,7 @@
       "uuid": "38f6a9ed-0d93-4289-b8a3-739eaba996e9"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts": {
-      "time": 1719988506336.5393,
+      "time": 1720065605901.3665,
       "uuid": "e56e7ce0-9961-4d5a-8a27-018eacf2c75d"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts": {
@@ -1555,11 +1555,11 @@
       "uuid": "80502411-c055-4a2a-aae4-002bb4f8b2bd"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts": {
-      "time": 1720002561443.3364,
+      "time": 1720065617079.9873,
       "uuid": "f96cdda8-70dd-40bf-bb22-6763256f3d3b"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts": {
-      "time": 1720059142193.654,
+      "time": 1720065509192.172,
       "uuid": "25dfd9f6-3516-4f28-b669-20ec18f39c22"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts": {
@@ -1567,7 +1567,7 @@
       "uuid": "b11a6fb2-dd20-44c9-bc4c-fc60033d3c2b"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts": {
-      "time": 1720062362316.194,
+      "time": 1720065871063.0227,
       "uuid": "9e2c5b53-d802-4690-9a50-8e9a1823e585"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts": {
@@ -1591,7 +1591,7 @@
       "uuid": "cbb1be24-9b7c-4637-bec9-10d2cad1f6cb"
     },
     "/Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts": {
-      "time": 1720058670271.546,
+      "time": 1720065258746.6628,
       "uuid": "b1f90095-ba1f-47c4-90ce-6cbae65b4fdc"
     },
     "/Users/wangzhaoye/block-practice/block/assets/res.meta": {
@@ -1766,7 +1766,7 @@
       "time": 1720058670271.642
     },
     "/Users/wangzhaoye/block-practice/block/assets/scene/Block.scene": {
-      "time": 1720063322819.9224,
+      "time": 1720065918387.3147,
       "uuid": "130ad698-3028-4b54-9667-9fc7a1ef4016"
     },
     "/Users/wangzhaoye/block-practice/block/assets/scene/Test.scene": {

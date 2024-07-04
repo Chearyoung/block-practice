@@ -139,6 +139,7 @@ export class WeaponBgItem extends Component {
         //是否触摸到武器(只能选中一个)
         let touchPos = this.point.getComponent(UITransform)!.convertToNodeSpaceAR(new Vec3(wpos!.x, wpos!.y, 0));
         if (GridData.instance.checkPointinGrid(v2(touchPos.x, touchPos.y), this._pointGridObj) && !WeaponData.instance.isSelect) {
+            game.emit(EventConstant.TOUCH_WEAPONBG,this);
             this._isTouch = true;
             WeaponData.instance.isSelect = true;
             this._touchStatus = TouchStatus.START;

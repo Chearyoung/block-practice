@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6", "__unresolved_7"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Input, game, v3, tween, WeaponManager, GridMapManager, GridManager, TemplateMgr, GridData, GameDefine, EventConstant, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _crd, ccclass, property, MainScene;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Input, game, v3, tween, WeaponManager, GridMapManager, GridManager, TemplateMgr, GridData, GameDefine, EventConstant, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _crd, ccclass, property, MainScene;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -78,11 +78,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         property
       } = _decorator);
 
-      _export("MainScene", MainScene = (_dec = ccclass('MainScene'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(_crd && GridMapManager === void 0 ? (_reportPossibleCrUseOfGridMapManager({
+      _export("MainScene", MainScene = (_dec = ccclass('MainScene'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Node), _dec6 = property(_crd && GridMapManager === void 0 ? (_reportPossibleCrUseOfGridMapManager({
         error: Error()
-      }), GridMapManager) : GridMapManager), _dec5 = property(_crd && GridManager === void 0 ? (_reportPossibleCrUseOfGridManager({
+      }), GridMapManager) : GridMapManager), _dec7 = property(_crd && GridManager === void 0 ? (_reportPossibleCrUseOfGridManager({
         error: Error()
-      }), GridManager) : GridManager), _dec6 = property(_crd && WeaponManager === void 0 ? (_reportPossibleCrUseOfWeaponManager({
+      }), GridManager) : GridManager), _dec8 = property(_crd && WeaponManager === void 0 ? (_reportPossibleCrUseOfWeaponManager({
         error: Error()
       }), WeaponManager) : WeaponManager), _dec(_class = (_class2 = class MainScene extends Component {
         constructor(...args) {
@@ -90,13 +90,17 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
           _initializerDefineProperty(this, "gameCtrl", _descriptor, this);
 
-          _initializerDefineProperty(this, "removeWeaponList", _descriptor2, this);
+          _initializerDefineProperty(this, "refresh", _descriptor2, this);
 
-          _initializerDefineProperty(this, "gridMapManager", _descriptor3, this);
+          _initializerDefineProperty(this, "confirm", _descriptor3, this);
 
-          _initializerDefineProperty(this, "gridManager", _descriptor4, this);
+          _initializerDefineProperty(this, "removeWeaponList", _descriptor4, this);
 
-          _initializerDefineProperty(this, "weaponManager", _descriptor5, this);
+          _initializerDefineProperty(this, "gridMapManager", _descriptor5, this);
+
+          _initializerDefineProperty(this, "gridManager", _descriptor6, this);
+
+          _initializerDefineProperty(this, "weaponManager", _descriptor7, this);
         }
 
         start() {
@@ -192,6 +196,19 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           }), EventConstant) : EventConstant).WEAPON_REMOVE_REFRESH);
         }
 
+        onToucWeaponBg() {
+          this.refresh.active = false;
+          this.confirm.active = true;
+        }
+
+        onPlaceFinishBtn() {
+          game.emit((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+            error: Error()
+          }), EventConstant) : EventConstant).PLACE_GRID_FINISH);
+          this.refresh.active = true;
+          this.confirm.active = false;
+        }
+
         onEnable() {
           this.gameCtrl.on(Input.EventType.TOUCH_START, this.onTouchStart, this);
           this.gameCtrl.on(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
@@ -199,6 +216,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           game.on((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
             error: Error()
           }), EventConstant) : EventConstant).GAME_TAP_BTN, this.onTapBtn, this);
+          game.on((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+            error: Error()
+          }), EventConstant) : EventConstant).TOUCH_WEAPONBG, this.onToucWeaponBg, this);
         }
 
         onDisable() {
@@ -208,6 +228,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           game.off((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
             error: Error()
           }), EventConstant) : EventConstant).GAME_TAP_BTN, this.onTapBtn, this);
+          game.off((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+            error: Error()
+          }), EventConstant) : EventConstant).TOUCH_WEAPONBG, this.onToucWeaponBg, this);
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "gameCtrl", [_dec2], {
@@ -217,28 +240,42 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         initializer: function () {
           return null;
         }
-      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "removeWeaponList", [_dec3], {
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "refresh", [_dec3], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function () {
           return null;
         }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "gridMapManager", [_dec4], {
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "confirm", [_dec4], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function () {
           return null;
         }
-      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "gridManager", [_dec5], {
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "removeWeaponList", [_dec5], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function () {
           return null;
         }
-      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "weaponManager", [_dec6], {
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "gridMapManager", [_dec6], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "gridManager", [_dec7], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "weaponManager", [_dec8], {
         configurable: true,
         enumerable: true,
         writable: true,

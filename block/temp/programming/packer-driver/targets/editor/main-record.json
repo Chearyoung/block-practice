@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 1149084.5881669996,
+      "mTimestamp": 3770733.602667,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1580,7 +1580,7 @@
     },
     "file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts": {
       "mTimestamp": {
-        "mtime": 1719988506336.5393,
+        "mtime": 1720065605901.3665,
         "uuid": "e56e7ce0-9961-4d5a-8a27-018eacf2c75d"
       },
       "chunkId": "5f4276738e7dac56ba5536ef19e4a9b2e81c074b",
@@ -1896,7 +1896,7 @@
     },
     "file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts": {
       "mTimestamp": {
-        "mtime": 1720059142193.654,
+        "mtime": 1720065509192.172,
         "uuid": "25dfd9f6-3516-4f28-b669-20ec18f39c22"
       },
       "chunkId": "65c46289c786cdea6bdfde86f14facac9c233706",
@@ -2043,7 +2043,7 @@
     },
     "file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts": {
       "mTimestamp": {
-        "mtime": 1720002561443.3364,
+        "mtime": 1720065617079.9873,
         "uuid": "f96cdda8-70dd-40bf-bb22-6763256f3d3b"
       },
       "chunkId": "65395e6f15b201b6c4d6832b45d4bc9f6c1109ac",
@@ -2379,7 +2379,7 @@
     },
     "file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts": {
       "mTimestamp": {
-        "mtime": 1720058670271.546,
+        "mtime": 1720065258746.6628,
         "uuid": "b1f90095-ba1f-47c4-90ce-6cbae65b4fdc"
       },
       "chunkId": "d4d54e524b9ec20855bdc26ebe35ff8526f5a643",
@@ -2926,7 +2926,7 @@
     },
     "file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts": {
       "mTimestamp": {
-        "mtime": 1720062362316.194,
+        "mtime": 1720065871063.0227,
         "uuid": "9e2c5b53-d802-4690-9a50-8e9a1823e585"
       },
       "chunkId": "443c05a027ebe780a9fe039a05508f7e0e2f54f0",

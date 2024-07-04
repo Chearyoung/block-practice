@@ -132,13 +132,13 @@ export class GridMapManager extends Component {
             const res: string = this._gridRes[i];
             let sprite: Sprite = this.bgs[i].getComponent(Sprite)!;
             let path: string = Constants.gridPath + res + '/spriteFrame';
-            // oops.res.load(path, SpriteFrame, (err: Error | null, content: SpriteFrame) => {
-            //     sprite.spriteFrame = content;
-            //     let pos: Readonly<Vec3> = this.resNodePos(i, size, this._padding, gridWidth);
-            //     if (!pos.equals(Vec3.ZERO)) {
-            //         this.bgs[i].setPosition(pos);
-            //     }
-            // });
+            resources.load(path, SpriteFrame, (err: Error | null, content: SpriteFrame) => {
+                sprite.spriteFrame = content;
+                let pos: Readonly<Vec3> = this.resNodePos(i, size, this._padding, gridWidth);
+                if (!pos.equals(Vec3.ZERO)) {
+                    this.bgs[i].setPosition(pos);
+                }
+            });
             resources.load(path, SpriteFrame, (err: Error | null, content: SpriteFrame) => {
                 if (err) {
                     console.error('Failed to load SpriteFrame:', err);
@@ -412,7 +412,6 @@ export class GridMapManager extends Component {
 
     /* 放置新增格子移动 */
     private onPlaceGridMove(weaponBgItem?: WeaponBgItem) {
-        weaponBgItem!.node.parent = this.node;
         this.initAllGridListTips();
         let firstGridObj: GridObj = new GridObj();
         firstGridObj.row = 0;

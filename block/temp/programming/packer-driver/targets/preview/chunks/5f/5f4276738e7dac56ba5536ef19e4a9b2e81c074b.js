@@ -106,6 +106,8 @@ System.register(["cc"], function (_export, _context) {
         // 武器抖动
         WEAPON_PlACE: 'weaponPlace',
         // 武器放置完成
+        TOUCH_WEAPONBG: 'weaponbg',
+        // 武器放置完成
         WEAPON_REMOVE: 'weaponRemove',
         // 武器卸下
         WEAPON_CHANGE_COIN: 'weaponChangeCoin',
