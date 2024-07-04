@@ -33,19 +33,59 @@
     "enableSnapping": true,
     "snapThreshold": 4
   },
-  "float-window": {
-    "position": {
-      "cc": {
-        "Camera": {
-          "dock": false,
-          "top": null,
-          "bottom": 10,
-          "left": null,
-          "right": 10
-        }
-      }
+  "camera-infos": {
+    "7c7b5fef-836d-4ab6-bee8-2d06adaaa639": {
+      "position": {
+        "x": 360,
+        "y": 779.9999999999999,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 0,
+        "y": 0,
+        "width": 205.8,
+        "height": 445.9
+      },
+      "scale": 0.28583333333333333
+    },
+    "22843d80-602d-4101-a0c3-ca478767d430": {
+      "position": {
+        "x": 360,
+        "y": 779.9999999999999,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 0,
+        "y": 0,
+        "width": 205.8,
+        "height": 445.9
+      },
+      "scale": 0.28583333333333333
     }
   },
+<<<<<<< HEAD
   "camera-infos": {
     "7c7b5fef-836d-4ab6-bee8-2d06adaaa639": {
       "position": {
@@ -205,6 +245,11 @@
     "b20f978c-bcb8-4399-b3b3-11bd48bad01e",
     "04daa289-9296-419d-8272-cd19b335fd4a",
     "130ad698-3028-4b54-9667-9fc7a1ef4016"
+=======
+  "camera-uuids": [
+    "7c7b5fef-836d-4ab6-bee8-2d06adaaa639",
+    "22843d80-602d-4101-a0c3-ca478767d430"
+>>>>>>> 5e5f1211d503ab198d3997be0e5afa6321296eb1
   ],
   "camera": {
     "color": [

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 7-4-2024 11:01:38 - warn: /Users/wangzhaoye/block-practice/block/profiles/v2/packages/scene.json: Unexpected token < in JSON at position 3066SyntaxError: /Users/wangzhaoye/block-practice/block/profiles/v2/packages/scene.json: Unexpected token < in JSON at position 3066
     at JSON.parse (<anonymous>)
     at Object.readFileSync (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/jsonfile/index.js:63:17)
@@ -237,3 +238,16 @@ at async PackerDriver._startBuildIteration (/Applications/Cocos/Creator/3.8.3/Co
     at Object.<anonymous> (electron/js2c/browser_init.js:161:9782)
     at Object.emit (events.js:315:20)
     at Object.emit (domain.js:467:12)
+=======
+7-4-2024 11:28:50 - log: Load engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine
+7-4-2024 11:28:51 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+7-4-2024 11:28:51 - log: Register native engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+7-4-2024 11:28:51 - log: Request namespace: device-list
+7-4-2024 11:29:07 - log: [Scene] meshopt wasm decoder initialized
+7-4-2024 11:29:07 - log: [Scene] [box2d]:box2d wasm lib loaded.
+7-4-2024 11:29:07 - log: [Scene] [bullet]:bullet wasm lib loaded.
+7-4-2024 11:29:08 - log: [Scene] [PHYSICS]: using builtin.
+7-4-2024 11:29:08 - log: [Scene] Cocos Creator v3.8.3
+7-4-2024 11:29:08 - info: [Scene] Forward render pipeline initialized.
+7-4-2024 11:29:08 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+>>>>>>> 5e5f1211d503ab198d3997be0e5afa6321296eb1

@@ -1,594 +1,0 @@
-2024-7-4 10:05:00-log: Cannot access game frame or container.
-2024-7-4 10:05:00-debug: asset-db:require-engine-code (538ms)
-2024-7-4 10:05:00-log: meshopt wasm decoder initialized
-2024-7-4 10:05:00-log: [box2d]:box2d wasm lib loaded.
-2024-7-4 10:05:00-log: [bullet]:bullet wasm lib loaded.
-2024-7-4 10:05:00-log: Cocos Creator v3.8.3
-2024-7-4 10:05:00-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:27.21MB, end 77.24MB, increase: 50.03MB
-2024-7-4 10:05:02-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:77.24MB, end 175.65MB, increase: 98.41MB
-2024-7-4 10:05:02-debug: [Assets Memory track]: asset-db-plugin-register: builder start:79.42MB, end 179.93MB, increase: 100.51MB
-2024-7-4 10:05:02-debug: [Assets Memory track]: asset-db-plugin-register: project start:78.02MB, end 175.63MB, increase: 97.61MB
-2024-7-4 10:05:00-debug: [Assets Memory track]: asset-db-plugin-register: programming start:78.13MB, end 79.40MB, increase: 1.27MB
-2024-7-4 10:05:02-debug: run package(windows) handler(enable) start
-2024-7-4 10:05:02-debug: run package(xiaomi-quick-game) handler(enable) start
-2024-7-4 10:05:02-debug: run package(xiaomi-quick-game) handler(enable) success!
-2024-7-4 10:05:02-debug: run package(cocos-service) handler(enable) start
-2024-7-4 10:05:02-debug: run package(im-plugin) handler(enable) start
-2024-7-4 10:05:02-debug: run package(im-plugin) handler(enable) success!
-2024-7-4 10:05:02-debug: run package(windows) handler(enable) success!
-2024-7-4 10:05:02-debug: run package(placeholder) handler(enable) start
-2024-7-4 10:05:02-debug: run package(placeholder) handler(enable) success!
-2024-7-4 10:05:02-debug: run package(cocos-service) handler(enable) success!
-2024-7-4 10:05:02-debug: run package(blank-template) handler(enable) success!
-2024-7-4 10:05:02-debug: run package(blank-template) handler(enable) start
-2024-7-4 10:05:02-debug: asset-db:worker-init: initPlugin (1625ms)
-2024-7-4 10:05:02-debug: [Assets Memory track]: asset-db:worker-init start:27.20MB, end 175.97MB, increase: 148.76MB
-2024-7-4 10:05:02-debug: Run asset db hook engine-extends:beforePreStart success!
-2024-7-4 10:05:02-debug: Run asset db hook programming:beforePreStart success!
-2024-7-4 10:05:02-debug: Run asset db hook engine-extends:beforePreStart ...
-2024-7-4 10:05:02-debug: Run asset db hook programming:beforePreStart ...
-2024-7-4 10:05:02-debug: asset-db:worker-init (2556ms)
-2024-7-4 10:05:02-debug: asset-db-hook-programming-beforePreStart (54ms)
-2024-7-4 10:05:02-debug: asset-db-hook-engine-extends-beforePreStart (54ms)
-2024-7-4 10:05:02-debug: %cImport%c: /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: Preimport db internal success
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/scenebackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/staticbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/scriptbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resourcesbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/imagesbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/prefabsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/templatebackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Databackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Framebackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Mgrbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Weaponbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/blockbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/scenebackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/templatebackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/bgbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/blockbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/commonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/carbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/joystickbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/launchbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loginbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/roguebackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loadingbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/ttfbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/gridbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/buttonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weaponbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/prefab/blockbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/block/Gridbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/block/Mgrbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popupbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/uibackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/rogue/uibackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/gamebackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/pausebackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Constants.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/EventConstant.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/GameDefine.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Util.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/schema.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/block/Game.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/template/schema.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/block/Grid/BaseBlock.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:02-debug: Preimport db assets success
-2024-7-4 10:05:02-debug: Run asset db hook programming:afterPreStart ...
-2024-7-4 10:05:02-debug: starting packer-driver...
-2024-7-4 10:05:04-debug: initialize scripting environment...
-2024-7-4 10:05:04-debug: Set detail map pack:///resolution-detail-map.json: {}
-2024-7-4 10:05:04-debug: [Assets Memory track]: asset-db:worker-init: preStart start:175.97MB, end 177.02MB, increase: 1.05MB
-2024-7-4 10:05:04-debug: Start up the 'internal' database...
-2024-7-4 10:05:04-debug: Run asset db hook engine-extends:afterPreStart success!
-2024-7-4 10:05:04-debug: Run asset db hook programming:afterPreStart success!
-2024-7-4 10:05:04-debug: Run asset db hook engine-extends:afterPreStart ...
-2024-7-4 10:05:04-debug: asset-db-hook-programming-afterPreStart (2326ms)
-2024-7-4 10:05:04-debug: asset-db-hook-engine-extends-afterPreStart (158ms)
-2024-7-4 10:05:04-debug: asset-db:worker-effect-data-processing (158ms)
-2024-7-4 10:05:04-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:176.01MB, end 189.45MB, increase: 13.44MB
-2024-7-4 10:05:04-debug: Start up the 'assets' database...
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/scene/Block.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/scene/Test.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/prefabs/weaponBgItem.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: asset-db:worker-startup-database[internal] (2474ms)
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbaccessory.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/prefabs/weaponItem.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbbattleattr.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbblockgrid.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbblockitem.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbblockrefreshlibrary.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbblockrefreshlevel.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbbubble.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbbuff.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbbullet.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbcar.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbchaptersummary.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbconstcar.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbconstcommon.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbcreature.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbenemy.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbenemyprototype.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbformula.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbhero.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbherobreak.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbherolevel.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbheroskill.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbheroskin.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbherostar.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbitem.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbmonstergroup.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbobstacle.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbpublicrogueskill.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbroguepara.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbrogueskill.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbskill.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbskilleffect.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbstage.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbstagesummary.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbstagetd.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbstagetdb.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbweapon.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/template/temp_tbstate.jsonbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/bg/loading_bg.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/car.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/car_yingzi.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/common/button3.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/common/popup_bg_466.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/common/button3.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/car.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/bg/loading_bg.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/car_yingzi.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/common/popup_bg_466.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/common/button3.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/car.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/bg/loading_bg.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/car_yingzi.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/common/popup_bg_466.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/common/tip_bg.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/joystick/inner.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/joystick/round.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/launch/TP_Logo.plistbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/common/tip_bg.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/joystick/inner.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/common/tip_bg.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/joystick/round.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/joystick/inner.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/launch/TP_Logo.plist@5a010background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/joystick/round.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/launch/TP_Logo.plist@e93f4background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/launch/TP_Logo.plist@fd330background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/launch/TP_Logo.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/AutoAtlas.pacbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/launch/TP_Logo.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/guang@2x.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/launch/TP_Logo.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/guang@2x.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/jindutiao@2x.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/guang@2x.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/jindutiao@2x.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/jindutiaodi@2x.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/jindutiao@2x.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/loading.jpgbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/logo.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/jindutiaodi@2x.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/jindutiaodi@2x.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/login/cover.jpgbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/logo.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/logo.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/loading.jpg@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/ttf/PLAY-BOLD.TTFbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/login/cover.jpg@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/loading/loading.jpg@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/login/cover.jpg@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/button/button01.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag1.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/button/button01.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/button/button01.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag1.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag1.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag3.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag5.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag6.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag7.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag5.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag3.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag8.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag5.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag6.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag3.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag6.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag7.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag8.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag7.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag8.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag9.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/cell.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/cellBg.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/cellBgTips.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag9.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/cellTips.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/bag9.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/cellBg.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/cellBgTips.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:04-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/cell.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/cellBg.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/cellBgTips.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/cell.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/cellTips.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/grid/cellTips.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/10000.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/101.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/10000.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/102.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/103.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/104.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/10000.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/102.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/101.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/103.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/104.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/102.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/101.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/103.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/104.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/201.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/202.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/203.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/301.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/201.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/202.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/203.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/201.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/202.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/301.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/203.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/301.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/302.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/303.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/401.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/402.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/403.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/302.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/302.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/303.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/401.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/303.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/402.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/401.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/403.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/402.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/403.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/404.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/501.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/502.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/503.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/404.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/504.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/404.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/501.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/502.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/503.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/502.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/501.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/503.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/504.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/504.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/601.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/602.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/603.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/701.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/70101.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/601.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/601.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/602.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/603.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/602.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/603.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/701.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/70101.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/701.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/70101.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/702.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/70201.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/703.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/702.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/70301.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/702.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/70201.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/703.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/70201.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/703.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/prefab/block/BlockUI.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/70301.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/images/weapon/70301.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/prefab/block/girdItem.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/resources/prefab/block/gridBgItem.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/auto-atlas.pacbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/bg_top1.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/bg_wave1.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/btn1.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/btn_yg1.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/bg_top1.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/bg_wave1.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/btn1.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/bg_top1.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/bg_wave1.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/btn1.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/btn_yg1.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/btn_yg2.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/btn_yg1.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon1.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon2.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon3.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/btn_yg2.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/btn_yg2.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon_yt.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon1.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon2.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon3.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon1.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon2.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon3.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon_yt.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon_yt.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon_yt_jd1.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon_yt_jd2.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd1.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd2.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon_yt_jd1.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon_yt_jd2.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd3.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon_yt_jd1.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/icon_yt_jd2.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd1.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd2.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd1.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd2.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd3.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd3.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd4.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd5.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jdt2.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jdt1.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd4.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_wave2.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd5.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd4.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jd5.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jdt2.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jdt1.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jdt2.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_jdt1.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_wave2.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/jdt_nj1.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/image_wave2.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/jdt_nj2.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/rogue/ui/bg_1.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/rogue/ui/prograssWhite.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/jdt_nj1.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/jdt_nj1.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/jdt_nj2.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/1717616873905176.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/car/ui/jdt_nj2.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/rogue/ui/bg_1.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/rogue/ui/prograssWhite.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/rogue/ui/bg_1.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/rogue/ui/prograssWhite.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/1717616873905176.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/1717616874413177.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/1717616873905176.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/1717616875951180.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/1717616874413177.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/19000270638_769.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/1717616874413177.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/bar.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/button01.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/1717616875951180.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/1717616875951180.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/19000270638_769.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/bar.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/button01.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/19000270638_769.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/bar.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/button02.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/button01.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/fail_title.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/button02.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/gold.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/button02.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/victory_title.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/fail_title.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/pause/1900049e372_3f4.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/fail_title.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/gold.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/pause/1900049e372_3f4.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/gold.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/pause/1900049e372_3f4.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/victory_title.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/victory_title.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/launch/TP_Logo.plistbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cReImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/launch/TP_Logo.plist@5a010background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cReImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/launch/TP_Logo.plist@e93f4background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: %cReImport%c: /Users/wangzhaoye/block-practice/block/assets/res/static/launch/TP_Logo.plist@fd330background: #aaff85; color: #000;color: #000;
-2024-7-4 10:05:05-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:177.78MB, end 192.87MB, increase: 15.09MB
-2024-7-4 10:05:05-debug: lazy register asset handler directory
-2024-7-4 10:05:05-debug: lazy register asset handler text
-2024-7-4 10:05:05-debug: lazy register asset handler json
-2024-7-4 10:05:05-debug: lazy register asset handler spine-data
-2024-7-4 10:05:05-debug: lazy register asset handler dragonbones
-2024-7-4 10:05:05-debug: lazy register asset handler dragonbones-atlas
-2024-7-4 10:05:05-debug: lazy register asset handler terrain
-2024-7-4 10:05:05-debug: lazy register asset handler javascript
-2024-7-4 10:05:05-debug: lazy register asset handler typescript
-2024-7-4 10:05:05-debug: lazy register asset handler scene
-2024-7-4 10:05:05-debug: lazy register asset handler prefab
-2024-7-4 10:05:05-debug: lazy register asset handler sprite-frame
-2024-7-4 10:05:05-debug: lazy register asset handler tiled-map
-2024-7-4 10:05:05-debug: lazy register asset handler buffer
-2024-7-4 10:05:05-debug: lazy register asset handler sign-image
-2024-7-4 10:05:05-debug: lazy register asset handler alpha-image
-2024-7-4 10:05:05-debug: lazy register asset handler texture
-2024-7-4 10:05:05-debug: lazy register asset handler texture-cube
-2024-7-4 10:05:05-debug: lazy register asset handler erp-texture-cube
-2024-7-4 10:05:05-debug: lazy register asset handler render-texture
-2024-7-4 10:05:05-debug: lazy register asset handler texture-cube-face
-2024-7-4 10:05:05-debug: lazy register asset handler rt-sprite-frame
-2024-7-4 10:05:05-debug: lazy register asset handler gltf
-2024-7-4 10:05:05-debug: lazy register asset handler gltf-mesh
-2024-7-4 10:05:05-debug: lazy register asset handler gltf-animation
-2024-7-4 10:05:05-debug: lazy register asset handler gltf-skeleton
-2024-7-4 10:05:05-debug: lazy register asset handler gltf-material
-2024-7-4 10:05:05-debug: [Assets Memory track]: asset-db:worker-init: startup start:177.02MB, end 192.88MB, increase: 15.85MB
-2024-7-4 10:05:05-debug: lazy register asset handler image
-2024-7-4 10:05:05-debug: lazy register asset handler fbx
-2024-7-4 10:05:05-debug: lazy register asset handler material
-2024-7-4 10:05:05-debug: lazy register asset handler physics-material
-2024-7-4 10:05:05-debug: lazy register asset handler effect
-2024-7-4 10:05:05-debug: lazy register asset handler effect-header
-2024-7-4 10:05:05-debug: lazy register asset handler audio-clip
-2024-7-4 10:05:05-debug: lazy register asset handler animation-clip
-2024-7-4 10:05:05-debug: lazy register asset handler *
-2024-7-4 10:05:05-debug: lazy register asset handler gltf-embeded-image
-2024-7-4 10:05:05-debug: lazy register asset handler animation-graph-variant
-2024-7-4 10:05:05-debug: lazy register asset handler animation-mask
-2024-7-4 10:05:05-debug: lazy register asset handler bitmap-font
-2024-7-4 10:05:05-debug: lazy register asset handler particle
-2024-7-4 10:05:05-debug: lazy register asset handler sprite-atlas
-2024-7-4 10:05:05-debug: lazy register asset handler auto-atlas
-2024-7-4 10:05:05-debug: lazy register asset handler label-atlas
-2024-7-4 10:05:05-debug: lazy register asset handler render-pipeline
-2024-7-4 10:05:05-debug: lazy register asset handler render-stage
-2024-7-4 10:05:05-debug: lazy register asset handler gltf-scene
-2024-7-4 10:05:05-debug: lazy register asset handler instantiation-material
-2024-7-4 10:05:05-debug: lazy register asset handler instantiation-mesh
-2024-7-4 10:05:05-debug: lazy register asset handler instantiation-skeleton
-2024-7-4 10:05:05-debug: lazy register asset handler instantiation-animation
-2024-7-4 10:05:05-debug: lazy register asset handler render-flow
-2024-7-4 10:05:05-debug: lazy register asset handler video-clip
-2024-7-4 10:05:05-debug: lazy register asset handler animation-graph
-2024-7-4 10:05:05-debug: lazy register asset handler ttf-font
-2024-7-4 10:05:05-debug: asset-db:worker-startup-database[assets] (2593ms)
-2024-7-4 10:05:05-debug: asset-db:start-database (2667ms)
-2024-7-4 10:05:05-debug: asset-db:ready (6804ms)
-2024-7-4 10:05:05-debug: init worker message success
-2024-7-4 10:05:05-debug: [Build Memory track]: builder:worker-init start:195.92MB, end 203.07MB, increase: 7.15MB
-2024-7-4 10:05:05-debug: programming:execute-script (3ms)
-2024-7-4 10:05:05-debug: builder:worker-init (237ms)
-2024-7-4 10:06:13-debug: refresh db internal success
-2024-7-4 10:06:13-debug: refresh db assets success
-2024-7-4 10:06:13-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-4 10:06:13-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-4 10:06:13-debug: asset-db:refresh-all-database (52ms)
-2024-7-4 10:06:13-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-4 10:06:13-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-4 10:06:24-debug: Query all assets info in project
-2024-7-4 10:06:24-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-7-4 10:06:24-debug: 查询 Asset Bundle start, progress: 0%
-2024-7-4 10:06:24-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-4 10:06:24-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-7-4 10:06:24-debug:   Number of all scenes: 2
-2024-7-4 10:06:24-debug:   Number of all scripts: 21
-2024-7-4 10:06:24-debug:   Number of other assets: 618
-2024-7-4 10:06:24-debug: // ---- build task 查询 Asset Bundle ---- (9ms)
-2024-7-4 10:06:24-debug: run build task 查询 Asset Bundle success in 9 ms√, progress: 5%
-2024-7-4 10:06:24-debug: [Build Memory track]: 查询 Asset Bundle start:168.30MB, end 168.22MB, increase: -83.23KB
-2024-7-4 10:06:24-debug: 查询 Asset Bundle start, progress: 5%
-2024-7-4 10:06:24-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-4 10:06:24-debug: // ---- build task 查询 Asset Bundle ---- (1ms)
-2024-7-4 10:06:24-debug: [Build Memory track]: 查询 Asset Bundle start:168.23MB, end 168.34MB, increase: 116.34KB
-2024-7-4 10:06:24-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-7-4 10:06:24-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-4 10:06:24-debug: run build task 查询 Asset Bundle success in 1 ms√, progress: 10%
-2024-7-4 10:06:24-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
-2024-7-4 10:06:24-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:168.35MB, end 168.36MB, increase: 11.48KB
-2024-7-4 10:06:24-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-7-4 10:06:24-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-7-4 10:06:24-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
-2024-7-4 10:06:24-debug: [Build Memory track]: 填充脚本数据到 settings.json start:168.37MB, end 168.38MB, increase: 9.90KB
-2024-7-4 10:06:24-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-7-4 10:06:24-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-4 10:06:24-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2024-7-4 10:06:24-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:168.39MB, end 168.52MB, increase: 131.39KB
-2024-7-4 10:06:24-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 15%
-2024-7-4 10:06:37-debug: refresh db internal success
-2024-7-4 10:06:37-debug: refresh db assets success
-2024-7-4 10:06:37-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-4 10:06:37-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-4 10:06:37-debug: asset-db:refresh-all-database (45ms)
-2024-7-4 10:06:39-debug: Query all assets info in project
-2024-7-4 10:06:39-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-7-4 10:06:39-debug: 查询 Asset Bundle start, progress: 0%
-2024-7-4 10:06:39-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-4 10:06:39-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-7-4 10:06:39-debug:   Number of all scenes: 2
-2024-7-4 10:06:39-debug:   Number of all scripts: 21
-2024-7-4 10:06:39-debug:   Number of other assets: 618
-2024-7-4 10:06:39-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
-2024-7-4 10:06:39-debug: [Build Memory track]: 查询 Asset Bundle start:169.15MB, end 169.84MB, increase: 710.33KB
-2024-7-4 10:06:39-debug: 查询 Asset Bundle start, progress: 5%
-2024-7-4 10:06:39-debug: run build task 查询 Asset Bundle success in 7 ms√, progress: 5%
-2024-7-4 10:06:39-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-4 10:06:39-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
-2024-7-4 10:06:39-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
-2024-7-4 10:06:39-debug: [Build Memory track]: 查询 Asset Bundle start:169.03MB, end 169.15MB, increase: 117.40KB
-2024-7-4 10:06:39-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-7-4 10:06:39-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-4 10:06:39-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
-2024-7-4 10:06:39-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:169.16MB, end 169.17MB, increase: 9.71KB
-2024-7-4 10:06:39-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-7-4 10:06:39-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-7-4 10:06:39-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
-2024-7-4 10:06:39-debug: [Build Memory track]: 填充脚本数据到 settings.json start:169.18MB, end 169.19MB, increase: 10.43KB
-2024-7-4 10:06:39-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-4 10:06:39-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-7-4 10:06:39-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
-2024-7-4 10:06:39-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 15%
-2024-7-4 10:06:39-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:169.19MB, end 169.31MB, increase: 114.93KB
-2024-7-4 10:07:52-debug: refresh db internal success
-2024-7-4 10:07:52-debug: refresh db assets success
-2024-7-4 10:07:52-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-4 10:07:52-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-4 10:07:52-debug: asset-db:refresh-all-database (48ms)
-2024-7-4 10:07:52-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-4 10:07:52-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-4 10:49:02-debug: refresh db internal success
-2024-7-4 10:49:02-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-4 10:49:02-debug: refresh db assets success
-2024-7-4 10:49:02-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-4 10:49:02-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-4 10:49:02-debug: asset-db:refresh-all-database (60ms)
-2024-7-4 10:56:03-debug: refresh db internal success
-2024-7-4 10:56:03-debug: refresh db assets success
-2024-7-4 10:56:03-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-4 10:56:03-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-4 10:56:03-debug: asset-db:refresh-all-database (46ms)
-2024-7-4 10:56:04-debug: refresh db internal success
-2024-7-4 10:56:04-debug: refresh db assets success
-2024-7-4 10:56:04-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-4 10:56:04-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-4 10:56:04-debug: asset-db:refresh-all-database (45ms)
-2024-7-4 10:57:06-debug: refresh db internal success
-2024-7-4 10:57:06-debug: refresh db assets success
-2024-7-4 10:57:06-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-4 10:57:06-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-4 10:57:06-debug: asset-db:refresh-all-database (41ms)

@@ -1,479 +1,485 @@
-11:01:55 debug: 2024/7/4上午11:01:55
-11:01:55 debug: Project: /Users/wangzhaoye/block-practice/block
-11:01:55 debug: Targets: editor,preview
-11:01:55 debug: Incremental file seems great.
-11:01:55 debug: Engine path: /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine
-11:01:55 debug: Initializing target [Editor]
-11:01:55 debug: Loading cache
-11:01:55 debug: Record file loaded failed with error: SyntaxError: /Users/wangzhaoye/block-practice/block/temp/programming/packer-driver/targets/editor/main-record.json: Unexpected token < in JSON at position 45
-11:01:55 debug: Loading cache costs 0.4710419997572899ms.
-11:01:55 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server,meshopt
-11:01:55 debug: Our import map(foo:/bar): {
+11:29:03 debug: 2024/7/4上午11:29:03
+11:29:03 debug: Project: /Users/jhh/Desktop/projects/block_project/block-practice/block
+11:29:03 debug: Targets: editor,preview
+11:29:03 debug: Packer deriver version file lost or format incorrect: Error: ENOENT: no such file or directory, open '/Users/jhh/Desktop/projects/block_project/block-practice/block/temp/programming/packer-driver/VERSION'
+11:29:03 debug: Clearing out the targets...
+11:29:03 debug: Engine path: /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine
+11:29:03 debug: Initializing target [Editor]
+11:29:03 debug: Loading cache
+11:29:03 debug: Record file loaded failed with error: Error: ENOENT: no such file or directory, open '/Users/jhh/Desktop/projects/block_project/block-practice/block/temp/programming/packer-driver/targets/editor/main-record.json'
+11:29:03 debug: Loading cache costs 0.1702920002862811ms.
+11:29:03 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server,meshopt
+11:29:03 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-11:01:55 debug: Initializing target [Preview]
-11:01:55 debug: Loading cache
-11:01:55 debug: Record file loaded failed with error: SyntaxError: /Users/wangzhaoye/block-practice/block/temp/programming/packer-driver/targets/preview/main-record.json: Unexpected token < in JSON at position 45
-11:01:55 debug: Loading cache costs 0.7336670001968741ms.
-11:01:55 debug: Our import map(foo:/bar): {
+11:29:03 debug: Initializing target [Preview]
+11:29:03 debug: Loading cache
+11:29:03 debug: Record file loaded failed with error: Error: ENOENT: no such file or directory, open '/Users/jhh/Desktop/projects/block_project/block-practice/block/temp/programming/packer-driver/targets/preview/main-record.json'
+11:29:03 debug: Loading cache costs 0.15745799988508224ms.
+11:29:03 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-11:01:55 debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
-11:01:55 debug: Reset databases. Enumerated domains: [
+11:29:03 debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
+11:29:03 debug: Reset databases. Enumerated domains: [
   {
     "root": "db://internal/",
     "physical": "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets"
   },
   {
     "root": "db://assets/",
-    "physical": "/Users/wangzhaoye/block-practice/block/assets"
+    "physical": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets"
   }
 ]
-11:01:55 debug: Our import map(foo:/bar): {
+11:29:03 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///Users/wangzhaoye/block-practice/block/assets/"
+    "db://assets/": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/"
   }
 }
-11:01:55 debug: Our import map(foo:/bar): {
+11:29:03 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///Users/wangzhaoye/block-practice/block/assets/"
+    "db://assets/": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/"
   }
 }
-11:01:55 debug: Pulling asset-db.
-11:01:55 debug: Fetch asset-db cost: 3.8318749996833503ms.
-11:01:55 debug: Build iteration starts.
+11:29:03 debug: Pulling asset-db.
+11:29:03 debug: Fetch asset-db cost: 3.8226250000298023ms.
+11:29:03 debug: Build iteration starts.
 Number of accumulated asset changes: 21
 Feature changed: false
-11:01:55 debug: Target(editor) build started.
-11:01:55 debug: Inspect cce:/internal/x/cc
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-11:01:55 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-11:01:55 debug: Inspect cce:/internal/x/prerequisite-imports
-11:01:55 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-11:01:55 debug: Inspect file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
-11:01:55 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-11:01:55 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-11:01:55 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-11:01:55 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts.
-11:01:55 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts
-11:01:55 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts as cce:/internal/x/cc.
-11:01:55 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:55 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts
-11:01:55 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/code-quality/cr.mjs.
-11:01:55 debug: Inspect cce:/internal/code-quality/cr.mjs
-11:01:55 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/x/cc.
-11:01:55 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/x/cc.
-11:01:55 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/x/cc.
-11:01:55 debug: Resolve ./WeaponData from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
-11:01:55 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts
-11:01:55 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/code-quality/cr.mjs.
-11:01:55 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
-11:01:55 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
-11:01:55 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
-11:01:55 debug: Resolve ../Mgr/TemplateMgr from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
-11:01:55 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts
-11:01:56 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/code-quality/cr.mjs.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc/env from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts as external dependency cc/env.
-11:01:56 debug: Resolve ../schema from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve ../Mgr/TemplateMgr from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
-11:01:56 debug: Resolve ../Util from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts
-11:01:56 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/code-quality/cr.mjs.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve ../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:56 debug: Resolve ../Data/WeaponData from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
-11:01:56 debug: Resolve ../Constants from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts.
-11:01:56 debug: Resolve ../Weapon/WeaponItem from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts
-11:01:56 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/code-quality/cr.mjs.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve ../Data/WeaponData from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
-11:01:56 debug: Resolve ../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:56 debug: Resolve ../Constants from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts.
-11:01:56 debug: Resolve ../EventConstant from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:56 debug: Resolve ../Weapon/WeaponBgItem from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts
-11:01:56 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/code-quality/cr.mjs.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve ../Data/WeaponData from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
-11:01:56 debug: Resolve ../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:56 debug: Resolve ../Constants from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts.
-11:01:56 debug: Resolve ../EventConstant from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:56 debug: Resolve ../Util from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts.
-11:01:56 debug: Resolve ../EventConstant from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts
-11:01:56 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as cce:/internal/code-quality/cr.mjs.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve ./Mgr/GridMapManager from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts
-11:01:56 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/code-quality/cr.mjs.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve ../../Constants from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts.
-11:01:56 debug: Resolve ../../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:56 debug: Resolve ../Grid/GridBgItem from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts
-11:01:56 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/code-quality/cr.mjs.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve ../../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:56 debug: Resolve ../../Weapon/WeaponItem from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
-11:01:56 debug: Resolve ../../Util from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts.
-11:01:56 debug: Resolve ../../EventConstant from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:56 debug: Resolve ./Mgr/GridManager from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts
-11:01:56 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/code-quality/cr.mjs.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve ../../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:56 debug: Resolve ../Grid/GridItem from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts
-11:01:56 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/code-quality/cr.mjs.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve ../../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:56 debug: Resolve ../../Data/WeaponData from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
-11:01:56 debug: Resolve ../Grid/GridBgItem from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
-11:01:56 debug: Resolve ../../EventConstant from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:56 debug: Resolve ../Mgr/WeaponManager from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts.
-11:01:56 debug: Resolve ../GameDefine from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts.
-11:01:56 debug: Resolve ../Mgr/TemplateMgr from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
-11:01:56 debug: Resolve ../EventConstant from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/BaseBlock.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/BaseBlock.ts
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/BaseBlock.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts
-11:01:56 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/code-quality/cr.mjs.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve ../Mgr/WeaponManager from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts.
-11:01:56 debug: Resolve ../Mgr/TemplateMgr from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
-11:01:56 debug: Resolve ../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:56 debug: Resolve ../GameDefine from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts.
-11:01:56 debug: Resolve ../EventConstant from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts as cce:/internal/x/cc.
-11:01:56 debug: Target(editor) ends with cost 1168.9128330000676ms.
-11:01:56 debug: Target(preview) build started.
-11:01:56 debug: Inspect cce:/internal/x/cc
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-11:01:56 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-11:01:56 debug: Inspect cce:/internal/x/prerequisite-imports
-11:01:56 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-11:01:56 debug: Inspect file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
-11:01:56 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts
-11:01:56 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts as cce:/internal/x/cc.
-11:01:56 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:56 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts
-11:01:57 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/code-quality/cr.mjs.
-11:01:57 debug: Inspect cce:/internal/code-quality/cr.mjs
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve ./WeaponData from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts
-11:01:57 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/code-quality/cr.mjs.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve ../Mgr/TemplateMgr from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts
-11:01:57 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/code-quality/cr.mjs.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc/env from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts as external dependency cc/env.
-11:01:57 debug: Resolve ../schema from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve ../Mgr/TemplateMgr from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
-11:01:57 debug: Resolve ../Util from file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts
-11:01:57 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/code-quality/cr.mjs.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve ../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:57 debug: Resolve ../Data/WeaponData from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
-11:01:57 debug: Resolve ../Constants from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts.
-11:01:57 debug: Resolve ../Weapon/WeaponItem from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts
-11:01:57 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/code-quality/cr.mjs.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve ../Data/WeaponData from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
-11:01:57 debug: Resolve ../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:57 debug: Resolve ../Constants from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts.
-11:01:57 debug: Resolve ../EventConstant from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:57 debug: Resolve ../Weapon/WeaponBgItem from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts
-11:01:57 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/code-quality/cr.mjs.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve ../Data/WeaponData from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
-11:01:57 debug: Resolve ../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:57 debug: Resolve ../Constants from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts.
-11:01:57 debug: Resolve ../EventConstant from file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:57 debug: Resolve ../Util from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts.
-11:01:57 debug: Resolve ../EventConstant from file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts
-11:01:57 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as cce:/internal/code-quality/cr.mjs.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve ./Mgr/GridMapManager from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts
-11:01:57 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/code-quality/cr.mjs.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve ../../Constants from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts.
-11:01:57 debug: Resolve ../../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:57 debug: Resolve ../Grid/GridBgItem from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts
-11:01:57 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/code-quality/cr.mjs.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve ../../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:57 debug: Resolve ../../Weapon/WeaponItem from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
-11:01:57 debug: Resolve ../../Util from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts.
-11:01:57 debug: Resolve ../../EventConstant from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:57 debug: Resolve ./Mgr/GridManager from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts
-11:01:57 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/code-quality/cr.mjs.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve ../../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:57 debug: Resolve ../Grid/GridItem from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts
-11:01:57 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/code-quality/cr.mjs.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve ../../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:57 debug: Resolve ../../Data/WeaponData from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
-11:01:57 debug: Resolve ../Grid/GridBgItem from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
-11:01:57 debug: Resolve ../../EventConstant from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:57 debug: Resolve ../Mgr/WeaponManager from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts.
-11:01:57 debug: Resolve ../GameDefine from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts.
-11:01:57 debug: Resolve ../Mgr/TemplateMgr from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
-11:01:57 debug: Resolve ../EventConstant from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/BaseBlock.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/BaseBlock.ts
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/BaseBlock.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts
-11:01:57 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/code-quality/cr.mjs.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
-11:01:57 debug: Resolve ../Mgr/WeaponManager from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts.
-11:01:57 debug: Resolve ../Mgr/TemplateMgr from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
-11:01:57 debug: Resolve ../Data/GridData from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:57 debug: Resolve ../GameDefine from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts.
-11:01:57 debug: Resolve ../EventConstant from file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts.
-11:01:57 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts.
-11:01:57 debug: Inspect file:///Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts
-11:01:57 debug: Resolve cc from file:///Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts as cce:/internal/x/cc.
-11:01:57 debug: Target(preview) ends with cost 958.3247500001453ms.
-11:01:59 debug: Pulling asset-db.
-11:01:59 debug: Fetch asset-db cost: 294.9663750003092ms.
-11:01:59 debug: Build iteration starts.
+11:29:03 debug: Target(editor) build started.
+11:29:03 debug: Inspect cce:/internal/x/cc
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+11:29:03 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+11:29:03 debug: Inspect cce:/internal/x/prerequisite-imports
+11:29:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:29:03 debug: Inspect file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
+11:29:03 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:29:03 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:29:03 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:29:03 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:29:03 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts
+11:29:03 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts as cce:/internal/x/cc.
+11:29:03 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:03 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts
+11:29:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/code-quality/cr.mjs.
+11:29:03 debug: Inspect cce:/internal/code-quality/cr.mjs
+11:29:03 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/x/cc.
+11:29:03 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/x/cc.
+11:29:03 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/x/cc.
+11:29:03 debug: Resolve ./WeaponData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:29:03 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts
+11:29:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/code-quality/cr.mjs.
+11:29:03 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
+11:29:03 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
+11:29:03 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
+11:29:03 debug: Resolve ../Mgr/TemplateMgr from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
+11:29:03 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts
+11:29:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/code-quality/cr.mjs.
+11:29:03 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/x/cc.
+11:29:03 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/x/cc.
+11:29:03 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/x/cc.
+11:29:03 debug: Resolve cc/env from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts as external dependency cc/env.
+11:29:03 debug: Resolve ../schema from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts.
+11:29:03 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve ../Mgr/TemplateMgr from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
+11:29:04 debug: Resolve ../Util from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts
+11:29:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/code-quality/cr.mjs.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve ../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:04 debug: Resolve ../Data/WeaponData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:29:04 debug: Resolve ../Constants from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:29:04 debug: Resolve ../Weapon/WeaponItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts
+11:29:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/code-quality/cr.mjs.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve ../Data/WeaponData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:29:04 debug: Resolve ../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:04 debug: Resolve ../Constants from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:29:04 debug: Resolve ../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:04 debug: Resolve ../Weapon/WeaponBgItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts
+11:29:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/code-quality/cr.mjs.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve ../Data/WeaponData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:29:04 debug: Resolve ../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:04 debug: Resolve ../Constants from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:29:04 debug: Resolve ../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:04 debug: Resolve ../Util from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts.
+11:29:04 debug: Resolve ../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts
+11:29:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as cce:/internal/code-quality/cr.mjs.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve ./Mgr/GridMapManager from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts
+11:29:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/code-quality/cr.mjs.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve ../../Constants from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:29:04 debug: Resolve ../../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:04 debug: Resolve ../Grid/GridBgItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts
+11:29:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/code-quality/cr.mjs.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve ../../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:04 debug: Resolve ../../Weapon/WeaponItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+11:29:04 debug: Resolve ../../Util from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts.
+11:29:04 debug: Resolve ../../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:04 debug: Resolve ./Mgr/GridManager from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts
+11:29:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/code-quality/cr.mjs.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve ../../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:04 debug: Resolve ../Grid/GridItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts
+11:29:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/code-quality/cr.mjs.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve ../../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:04 debug: Resolve ../../Data/WeaponData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:29:04 debug: Resolve ../Grid/GridBgItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
+11:29:04 debug: Resolve ../../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:04 debug: Resolve ../Mgr/WeaponManager from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts.
+11:29:04 debug: Resolve ../GameDefine from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts.
+11:29:04 debug: Resolve ../Mgr/TemplateMgr from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
+11:29:04 debug: Resolve ../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts
+11:29:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/code-quality/cr.mjs.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve ../Mgr/WeaponManager from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts.
+11:29:04 debug: Resolve ../block//Mgr/GridMapManager from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
+11:29:04 debug: Resolve ../block/Mgr/GridManager from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts.
+11:29:04 debug: Resolve ../Mgr/TemplateMgr from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
+11:29:04 debug: Resolve ../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:04 debug: Resolve ../GameDefine from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts.
+11:29:04 debug: Resolve ../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts as cce:/internal/x/cc.
+11:29:04 debug: Target(editor) ends with cost 1147.9542500004172ms.
+11:29:04 debug: Target(preview) build started.
+11:29:04 debug: Inspect cce:/internal/x/cc
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+11:29:04 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+11:29:04 debug: Inspect cce:/internal/x/prerequisite-imports
+11:29:04 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:29:04 debug: Inspect file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
+11:29:04 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts
+11:29:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/code-quality/cr.mjs.
+11:29:04 debug: Inspect cce:/internal/code-quality/cr.mjs
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve ./WeaponData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts
+11:29:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/code-quality/cr.mjs.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve ../Mgr/TemplateMgr from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts
+11:29:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/code-quality/cr.mjs.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts as cce:/internal/x/cc.
+11:29:04 debug: Resolve cc/env from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts as external dependency cc/env.
+11:29:04 debug: Resolve ../schema from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts.
+11:29:04 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve ../Mgr/TemplateMgr from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
+11:29:05 debug: Resolve ../Util from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts
+11:29:05 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/code-quality/cr.mjs.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve ../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:05 debug: Resolve ../Data/WeaponData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:29:05 debug: Resolve ../Constants from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:29:05 debug: Resolve ../Weapon/WeaponItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts
+11:29:05 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/code-quality/cr.mjs.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve ../Data/WeaponData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:29:05 debug: Resolve ../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:05 debug: Resolve ../Constants from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:29:05 debug: Resolve ../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:05 debug: Resolve ../Weapon/WeaponBgItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts
+11:29:05 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/code-quality/cr.mjs.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve ../Data/WeaponData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:29:05 debug: Resolve ../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:05 debug: Resolve ../Constants from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:29:05 debug: Resolve ../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:05 debug: Resolve ../Util from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts.
+11:29:05 debug: Resolve ../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts
+11:29:05 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as cce:/internal/code-quality/cr.mjs.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve ./Mgr/GridMapManager from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts
+11:29:05 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/code-quality/cr.mjs.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve ../../Constants from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:29:05 debug: Resolve ../../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:05 debug: Resolve ../Grid/GridBgItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts
+11:29:05 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/code-quality/cr.mjs.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve ../../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:05 debug: Resolve ../../Weapon/WeaponItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+11:29:05 debug: Resolve ../../Util from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts.
+11:29:05 debug: Resolve ../../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:05 debug: Resolve ./Mgr/GridManager from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts
+11:29:05 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/code-quality/cr.mjs.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve ../../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:05 debug: Resolve ../Grid/GridItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts
+11:29:05 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/code-quality/cr.mjs.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve ../../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:05 debug: Resolve ../../Data/WeaponData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:29:05 debug: Resolve ../Grid/GridBgItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
+11:29:05 debug: Resolve ../../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:05 debug: Resolve ../Mgr/WeaponManager from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts.
+11:29:05 debug: Resolve ../GameDefine from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts.
+11:29:05 debug: Resolve ../Mgr/TemplateMgr from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
+11:29:05 debug: Resolve ../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts
+11:29:05 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/code-quality/cr.mjs.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as cce:/internal/x/cc.
+11:29:05 debug: Resolve ../Mgr/WeaponManager from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts.
+11:29:05 debug: Resolve ../block//Mgr/GridMapManager from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
+11:29:05 debug: Resolve ../block/Mgr/GridManager from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts.
+11:29:05 debug: Resolve ../Mgr/TemplateMgr from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
+11:29:05 debug: Resolve ../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:05 debug: Resolve ../GameDefine from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts.
+11:29:05 debug: Resolve ../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts.
+11:29:05 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts.
+11:29:05 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts
+11:29:05 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts as cce:/internal/x/cc.
+11:29:05 debug: Target(preview) ends with cost 964.7363750003278ms.
+11:29:07 debug: Pulling asset-db.
+11:29:07 debug: Fetch asset-db cost: 277.35283300001174ms.
+11:29:07 debug: Build iteration starts.
 Number of accumulated asset changes: 21
 Feature changed: false
-11:01:59 debug: Target(editor) build started.
-11:01:59 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间)
-11:01:59 debug: Inspect cce:/internal/x/prerequisite-imports
-11:01:59 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/BaseBlock.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts.
-11:01:59 debug: Target(editor) ends with cost 19.540207999758422ms.
-11:01:59 debug: Target(preview) build started.
-11:01:59 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间)
-11:01:59 debug: Inspect cce:/internal/x/prerequisite-imports
-11:01:59 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Constants.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/GridData.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Data/WeaponData.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/EventConstant.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/GameDefine.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/WeaponManager.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Util.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/Weapon/WeaponItem.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Game.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/BaseBlock.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Grid/GridItem.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridManager.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/scene/MainScene.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts.
-11:01:59 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts.
-11:01:59 debug: Target(preview) ends with cost 18.648541999980807ms.
-11:04:55 debug: Dispatch build request for time accumulated 1 asset changes.
-11:04:55 debug: Build iteration starts.
+11:29:07 debug: Target(editor) build started.
+11:29:07 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (中国标准时间)
+11:29:07 debug: Inspect cce:/internal/x/prerequisite-imports
+11:29:07 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts.
+11:29:07 debug: Target(editor) ends with cost 23.945917000062764ms.
+11:29:07 debug: Target(preview) build started.
+11:29:07 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (中国标准时间)
+11:29:07 debug: Inspect cce:/internal/x/prerequisite-imports
+11:29:07 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts.
+11:29:07 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts.
+11:29:07 debug: Target(preview) ends with cost 22.28683300036937ms.
+11:43:26 debug: Dispatch build request for time accumulated 1 asset changes.
+11:43:26 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
+<<<<<<< HEAD
 11:04:55 debug: Target(editor) build started.
 11:04:55 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:03:11 GMT+0800 (中国标准时间)
 11:04:55 debug: Inspect cce:/internal/x/prerequisite-imports
@@ -1422,3 +1428,79 @@ Feature changed: false
 12:04:32 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/schema.ts.
 12:04:32 debug: Resolve file:///Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/wangzhaoye/block-practice/block/assets/script/template/schema.ts.
 12:04:32 debug: Target(preview) ends with cost 66.5109160002321ms.
+=======
+11:43:26 debug: Target(editor) build started.
+11:43:26 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:14:35 GMT+0800 (中国标准时间)
+11:43:26 debug: Inspect cce:/internal/x/prerequisite-imports
+11:43:26 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts.
+11:43:26 debug: Detected change: file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts. Last mtime: Thu Jul 04 2024 11:21:23 GMT+0800 (中国标准时间)@b1f90095-ba1f-47c4-90ce-6cbae65b4fdc, Current mtime: Thu Jul 04 2024 11:43:08 GMT+0800 (中国标准时间)@b1f90095-ba1f-47c4-90ce-6cbae65b4fdc
+11:43:26 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts
+11:43:26 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/code-quality/cr.mjs.
+11:43:26 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
+11:43:26 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
+11:43:26 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
+11:43:26 debug: Resolve ../../Constants from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:43:26 debug: Resolve ../../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:43:26 debug: Resolve ../Grid/GridBgItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
+11:43:26 debug: Resolve ../../Weapon/WeaponItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+11:43:26 debug: Resolve ../../Util from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts.
+11:43:26 debug: Resolve ../../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts.
+11:43:26 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts.
+11:43:27 debug: Target(editor) ends with cost 221.3944159997627ms.
+11:43:27 debug: Target(preview) build started.
+11:43:27 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:14:35 GMT+0800 (中国标准时间)
+11:43:27 debug: Inspect cce:/internal/x/prerequisite-imports
+11:43:27 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/WeaponData.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Frame/ContentWidthAdapter.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/WeaponManager.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts.
+11:43:27 debug: Detected change: file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts. Last mtime: Thu Jul 04 2024 11:21:23 GMT+0800 (中国标准时间)@b1f90095-ba1f-47c4-90ce-6cbae65b4fdc, Current mtime: Thu Jul 04 2024 11:43:08 GMT+0800 (中国标准时间)@b1f90095-ba1f-47c4-90ce-6cbae65b4fdc
+11:43:27 debug: Inspect file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts
+11:43:27 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/code-quality/cr.mjs.
+11:43:27 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
+11:43:27 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
+11:43:27 debug: Resolve cc from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as cce:/internal/x/cc.
+11:43:27 debug: Resolve ../../Constants from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Constants.ts.
+11:43:27 debug: Resolve ../../Data/GridData from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts.
+11:43:27 debug: Resolve ../Grid/GridBgItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
+11:43:27 debug: Resolve ../../Weapon/WeaponItem from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts.
+11:43:27 debug: Resolve ../../Util from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Util.ts.
+11:43:27 debug: Resolve ../../EventConstant from file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/BaseBlock.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridItem.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/schema.ts.
+11:43:27 debug: Resolve file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts from cce:/internal/x/prerequisite-imports as file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts.
+11:43:27 debug: Target(preview) ends with cost 163.97829100023955ms.
+>>>>>>> 5e5f1211d503ab198d3997be0e5afa6321296eb1

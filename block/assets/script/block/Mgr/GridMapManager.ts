@@ -200,6 +200,7 @@ export class GridMapManager extends Component {
     }
 
 
+
     /* 设置节点透明度 */
     private setNodeOpacity(value: number) {
         this.weaponList.getComponent(UIOpacity)!.opacity = value;

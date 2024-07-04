@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6", "__unresolved_7"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Input, game, v3, tween, WeaponManager, TemplateMgr, GridData, GameDefine, EventConstant, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, MainScene;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Input, game, v3, tween, WeaponManager, GridMapManager, GridManager, TemplateMgr, GridData, GameDefine, EventConstant, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _crd, ccclass, property, MainScene;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -11,6 +11,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
   function _reportPossibleCrUseOfWeaponManager(extras) {
     _reporterNs.report("WeaponManager", "../Mgr/WeaponManager", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfGridMapManager(extras) {
+    _reporterNs.report("GridMapManager", "../block//Mgr/GridMapManager", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfGridManager(extras) {
+    _reporterNs.report("GridManager", "../block/Mgr/GridManager", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfTemplateMgr(extras) {
@@ -46,13 +54,17 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     }, function (_unresolved_2) {
       WeaponManager = _unresolved_2.WeaponManager;
     }, function (_unresolved_3) {
-      TemplateMgr = _unresolved_3.TemplateMgr;
+      GridMapManager = _unresolved_3.GridMapManager;
     }, function (_unresolved_4) {
-      GridData = _unresolved_4.GridData;
+      GridManager = _unresolved_4.GridManager;
     }, function (_unresolved_5) {
-      GameDefine = _unresolved_5.GameDefine;
+      TemplateMgr = _unresolved_5.TemplateMgr;
     }, function (_unresolved_6) {
-      EventConstant = _unresolved_6.EventConstant;
+      GridData = _unresolved_6.GridData;
+    }, function (_unresolved_7) {
+      GameDefine = _unresolved_7.GameDefine;
+    }, function (_unresolved_8) {
+      EventConstant = _unresolved_8.EventConstant;
     }],
     execute: function () {
       _crd = true;
@@ -66,7 +78,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         property
       } = _decorator);
 
-      _export("MainScene", MainScene = (_dec = ccclass('MainScene'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(_crd && WeaponManager === void 0 ? (_reportPossibleCrUseOfWeaponManager({
+      _export("MainScene", MainScene = (_dec = ccclass('MainScene'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(_crd && GridMapManager === void 0 ? (_reportPossibleCrUseOfGridMapManager({
+        error: Error()
+      }), GridMapManager) : GridMapManager), _dec5 = property(_crd && GridManager === void 0 ? (_reportPossibleCrUseOfGridManager({
+        error: Error()
+      }), GridManager) : GridManager), _dec6 = property(_crd && WeaponManager === void 0 ? (_reportPossibleCrUseOfWeaponManager({
         error: Error()
       }), WeaponManager) : WeaponManager), _dec(_class = (_class2 = class MainScene extends Component {
         constructor(...args) {
@@ -76,7 +92,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
           _initializerDefineProperty(this, "removeWeaponList", _descriptor2, this);
 
-          _initializerDefineProperty(this, "weaponManager", _descriptor3, this);
+          _initializerDefineProperty(this, "gridMapManager", _descriptor3, this);
+
+          _initializerDefineProperty(this, "gridManager", _descriptor4, this);
+
+          _initializerDefineProperty(this, "weaponManager", _descriptor5, this);
         }
 
         start() {
@@ -88,6 +108,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
               (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
                 error: Error()
               }), GridData) : GridData).instance.init();
+              this.gridManager.init();
+              this.gridMapManager.init();
               this.weaponManager.init();
             });
           }, 0.5);
@@ -202,7 +224,21 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         initializer: function () {
           return null;
         }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "weaponManager", [_dec4], {
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "gridMapManager", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "gridManager", [_dec5], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "weaponManager", [_dec6], {
         configurable: true,
         enumerable: true,
         writable: true,
