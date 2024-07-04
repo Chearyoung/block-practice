@@ -10,11 +10,11 @@
       "uuid": "1dc55438-d48e-441a-b800-4d8ebfd44d71"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene": {
-      "time": 1720063577304.3901,
+      "time": 1720073806013.0142,
       "uuid": "6077d639-3a4b-4bb8-9b64-774a9761a2bc"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script": {
-      "time": 1720058278526.1013,
+      "time": 1720073806013.192,
       "uuid": "bc24167b-280d-46d6-9328-233e76809fc6"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static": {
@@ -50,7 +50,7 @@
       "uuid": "05f51175-adb4-420a-ac11-61e018ea3898"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon": {
-      "time": 1720062455384.7056,
+      "time": 1720073806013.571,
       "uuid": "46ce02f0-0a91-4a76-a3c2-eaf6876e4427"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block": {
@@ -58,7 +58,7 @@
       "uuid": "f97c0d4d-7092-411f-a18c-cca0ddd54cd6"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene": {
-      "time": 1720063577304.865,
+      "time": 1720073806014.1372,
       "uuid": "d7bbd0f3-3bd1-42f4-b352-744c1d91822b"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template": {
@@ -126,7 +126,7 @@
       "uuid": "ab18158a-02e2-40b2-9ac6-e3b75c810a76"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr": {
-      "time": 1720004115492.6438,
+      "time": 1720073806013.7747,
       "uuid": "21b929a0-8651-4d6a-afaf-cad9ae990729"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup": {
@@ -154,7 +154,7 @@
       "uuid": "38f6a9ed-0d93-4289-b8a3-739eaba996e9"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts": {
-      "time": 1720004115009.4507,
+      "time": 1720073806013.273,
       "uuid": "e56e7ce0-9961-4d5a-8a27-018eacf2c75d"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts": {
@@ -190,11 +190,11 @@
       "uuid": "80502411-c055-4a2a-aae4-002bb4f8b2bd"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponBgItem.ts": {
-      "time": 1720004115010.8655,
+      "time": 1720073806013.4727,
       "uuid": "f96cdda8-70dd-40bf-bb22-6763256f3d3b"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Weapon/WeaponItem.ts": {
-      "time": 1720062455384.8035,
+      "time": 1720073806013.6619,
       "uuid": "25dfd9f6-3516-4f28-b669-20ec18f39c22"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts": {
@@ -202,7 +202,7 @@
       "uuid": "b11a6fb2-dd20-44c9-bc4c-fc60033d3c2b"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts": {
-      "time": 1720063577304.8997,
+      "time": 1720073806014.197,
       "uuid": "9e2c5b53-d802-4690-9a50-8e9a1823e585"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts": {
@@ -226,7 +226,7 @@
       "uuid": "cbb1be24-9b7c-4637-bec9-10d2cad1f6cb"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts": {
-      "time": 1720064588046.1782,
+      "time": 1720073806014.0168,
       "uuid": "b1f90095-ba1f-47c4-90ce-6cbae65b4fdc"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res.meta": {
@@ -401,11 +401,11 @@
       "time": 1720004115492.7273
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Block.scene": {
-      "time": 1720066528613.3054,
+      "time": 1720074391021.3547,
       "uuid": "130ad698-3028-4b54-9667-9fc7a1ef4016"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Test.scene": {
-      "time": 1720012047076.2678,
+      "time": 1720073771957.5703,
       "uuid": "7c7b5fef-836d-4ab6-bee8-2d06adaaa639"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefabs/weaponBgItem.prefab": {
@@ -953,7 +953,7 @@
       "uuid": "e2084fe2-3acd-42ce-a339-c88f695d2354"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Block.scene.meta": {
-      "time": 1719980390087.665
+      "time": 1720073806013.069
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefabs/weaponBgItem.prefab.meta": {
       "time": 1720004115002.193
@@ -962,7 +962,7 @@
       "time": 1720004115002.3452
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Test.scene.meta": {
-      "time": 1720004115490.117
+      "time": 1720073771961.5317
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbaccessory.json.meta": {
       "time": 1720004115002.6245
