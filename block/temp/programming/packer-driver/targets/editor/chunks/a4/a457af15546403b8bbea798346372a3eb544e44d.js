@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, tween, v3, Input, director, Tween, game, GridMapManager, GridManager, WeaponManager, GameDefine, EventConstant, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _crd, ccclass, property, Game;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, tween, v3, Input, director, Tween, game, GridMapManager, GridManager, WeaponManager, GameDefine, TemplateMgr, EventConstant, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _crd, ccclass, property, Game;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -23,6 +23,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
   function _reportPossibleCrUseOfGameDefine(extras) {
     _reporterNs.report("GameDefine", "../GameDefine", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfTemplateMgr(extras) {
+    _reporterNs.report("TemplateMgr", "../Mgr/TemplateMgr", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfEventConstant(extras) {
@@ -54,7 +58,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     }, function (_unresolved_5) {
       GameDefine = _unresolved_5.GameDefine;
     }, function (_unresolved_6) {
-      EventConstant = _unresolved_6.EventConstant;
+      TemplateMgr = _unresolved_6.TemplateMgr;
+    }, function (_unresolved_7) {
+      EventConstant = _unresolved_7.EventConstant;
     }],
     execute: function () {
       _crd = true;
@@ -113,10 +119,17 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         }
 
         init() {
-          this.gridManager.init();
-          this.gridMapManager.init();
-          this.weaponManager.init();
-          this.onTapBtn();
+          this.scheduleOnce(() => {
+            // 加载配置表
+            (_crd && TemplateMgr === void 0 ? (_reportPossibleCrUseOfTemplateMgr({
+              error: Error()
+            }), TemplateMgr) : TemplateMgr).instance().init(() => {
+              this.gridManager.init();
+              this.gridMapManager.init();
+              this.weaponManager.init();
+              this.onTapBtn();
+            });
+          }, 0.5);
         }
         /* 触碰开始 */
 

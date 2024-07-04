@@ -198,7 +198,7 @@
       "uuid": "25dfd9f6-3516-4f28-b669-20ec18f39c22"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts": {
-      "time": 1720010389007.1187,
+      "time": 1720059444164.6907,
       "uuid": "b11a6fb2-dd20-44c9-bc4c-fc60033d3c2b"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/scene/MainScene.ts": {
@@ -222,7 +222,7 @@
       "uuid": "4644c662-caf3-455b-a829-d1d35ae5ff0d"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts": {
-      "time": 1720008653932.8608,
+      "time": 1720061454694.4802,
       "uuid": "cbb1be24-9b7c-4637-bec9-10d2cad1f6cb"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridMapManager.ts": {
@@ -801,15 +801,15 @@
       "uuid": "365343ef-5d0a-4ed9-8ae1-5a7efd4e4d7c"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab": {
-      "time": 1720010406123.3145,
+      "time": 1720061886447.2268,
       "uuid": "44db69c1-64bd-4db7-849f-396a412a8a32"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/girdItem.prefab": {
-      "time": 1720004115489.4844,
+      "time": 1720061280310.1572,
       "uuid": "b20f978c-bcb8-4399-b3b3-11bd48bad01e"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/gridBgItem.prefab": {
-      "time": 1720006984847.9397,
+      "time": 1720061350346.2188,
       "uuid": "504ce1eb-1431-4f0c-a2fb-8d18fef2c73c"
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/auto-atlas.pac": {
@@ -952,14 +952,14 @@
       "time": 1720004114990.8315,
       "uuid": "e2084fe2-3acd-42ce-a339-c88f695d2354"
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Test.scene.meta": {
-      "time": 1720004115490.117
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Block.scene.meta": {
+      "time": 1719980390087.665
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefabs/weaponItem.prefab.meta": {
       "time": 1720004115002.3452
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Block.scene.meta": {
-      "time": 1719980390087.665
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/scene/Test.scene.meta": {
+      "time": 1720004115490.117
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbaccessory.json.meta": {
       "time": 1720004115002.6245
@@ -970,11 +970,11 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbblockgrid.json.meta": {
       "time": 1720004115002.996
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbblockrefreshlevel.json.meta": {
-      "time": 1720004115003.3247
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbbattleattr.json.meta": {
       "time": 1720004115002.8413
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbblockrefreshlevel.json.meta": {
+      "time": 1720004115003.3247
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbblockitem.json.meta": {
       "time": 1720004115003.1523
@@ -991,23 +991,23 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbcar.json.meta": {
       "time": 1720004115004.1228
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbchaptersummary.json.meta": {
-      "time": 1720004115004.2734
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbbuff.json.meta": {
       "time": 1720004115003.7966
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbconstcommon.json.meta": {
-      "time": 1720004115004.5999
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbchaptersummary.json.meta": {
+      "time": 1720004115004.2734
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbconstcar.json.meta": {
       "time": 1720004115004.434
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbcreature.json.meta": {
-      "time": 1720004115004.7441
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbconstcommon.json.meta": {
+      "time": 1720004115004.5999
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbenemyprototype.json.meta": {
       "time": 1720004115005.0574
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbcreature.json.meta": {
+      "time": 1720004115004.7441
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbenemy.json.meta": {
       "time": 1720004115004.8992
@@ -1021,17 +1021,17 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbherobreak.json.meta": {
       "time": 1720004115005.5437
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbherolevel.json.meta": {
-      "time": 1720004115005.6863
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbheroskill.json.meta": {
       "time": 1720004115005.8462
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbheroskin.json.meta": {
-      "time": 1720004115006.0002
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbherolevel.json.meta": {
+      "time": 1720004115005.6863
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbherostar.json.meta": {
       "time": 1720004115006.1606
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbheroskin.json.meta": {
+      "time": 1720004115006.0002
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbitem.json.meta": {
       "time": 1720004115006.3218
@@ -1060,14 +1060,14 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbstage.json.meta": {
       "time": 1720004115007.6492
     },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbstagetdb.json.meta": {
+      "time": 1720004115008.14
+    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbstagesummary.json.meta": {
       "time": 1720004115007.8152
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbstagetd.json.meta": {
       "time": 1720004115007.9736
-    },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbstagetdb.json.meta": {
-      "time": 1720004115008.14
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbstate.json.meta": {
       "time": 1720004115008.2905
@@ -1075,26 +1075,26 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/template/temp_tbweapon.json.meta": {
       "time": 1720004115008.51
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/car_yingzi.png.meta": {
-      "time": 1720004114991.3645
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/car.png.meta": {
       "time": 1720004114991.219
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/common/button3.png.meta": {
       "time": 1720004114994.8877
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/common/popup_bg_466.png.meta": {
-      "time": 1720004114995.198
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/car_yingzi.png.meta": {
+      "time": 1720004114991.3645
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/common/tip_bg.png.meta": {
       "time": 1720004114995.354
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/joystick/inner.png.meta": {
-      "time": 1720004114995.6777
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/common/popup_bg_466.png.meta": {
+      "time": 1720004114995.198
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/launch/TP_Logo.plist.meta": {
       "time": 1720004114996.1536
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/joystick/inner.png.meta": {
+      "time": 1720004114995.6777
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/loading/AutoAtlas.pac.meta": {
       "time": 1720004114996.6484
@@ -1126,11 +1126,14 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/login/cover.jpg.meta": {
       "time": 1720004114999.4204
     },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag.png.meta": {
+      "time": 1719979971527.2708
+    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/bg/loading_bg.png.meta": {
       "time": 1720004114988.2566
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag.png.meta": {
-      "time": 1719979971527.2708
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/loading/loading.jpg.meta": {
+      "time": 1720004114998.672
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag1.png.meta": {
       "time": 1719979971527.3374
@@ -1138,14 +1141,11 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag3.png.meta": {
       "time": 1719979971527.5913
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/loading/loading.jpg.meta": {
-      "time": 1720004114998.672
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag5.png.meta": {
+      "time": 1719979971527.5881
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag6.png.meta": {
       "time": 1719979971527.731
-    },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag5.png.meta": {
-      "time": 1719979971527.5881
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag7.png.meta": {
       "time": 1719979971527.734
@@ -1156,20 +1156,20 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/bag9.png.meta": {
       "time": 1719979971527.96
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellBg.png.meta": {
-      "time": 1719979971528.5315
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cell.png.meta": {
       "time": 1719979971528.4514
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellBg.png.meta": {
+      "time": 1719979971528.5315
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellBgTips.png.meta": {
       "time": 1719979971528.5876
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/101.png.meta": {
-      "time": 1719979983899.6238
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/grid/cellTips.png.meta": {
       "time": 1719979971528.823
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/101.png.meta": {
+      "time": 1719979983899.6238
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/102.png.meta": {
       "time": 1719979983887.6772
@@ -1183,26 +1183,26 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/104.png.meta": {
       "time": 1719979983887.9805
     },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/201.png.meta": {
+      "time": 1719979983888.4375
+    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/202.png.meta": {
       "time": 1719979983887.6958
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/203.png.meta": {
       "time": 1719979983887.9338
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/201.png.meta": {
-      "time": 1719979983888.4375
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/301.png.meta": {
       "time": 1719979983888.138
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/401.png.meta": {
+      "time": 1719979983888.022
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/302.png.meta": {
       "time": 1719979983888.4666
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/303.png.meta": {
       "time": 1719979983888.0237
-    },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/401.png.meta": {
-      "time": 1719979983888.022
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/402.png.meta": {
       "time": 1719979983888.2747
@@ -1213,11 +1213,11 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/404.png.meta": {
       "time": 1719979983888.7869
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/501.png.meta": {
-      "time": 1719979983888.7273
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/502.png.meta": {
       "time": 1719979983888.6606
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/501.png.meta": {
+      "time": 1719979983888.7273
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/503.png.meta": {
       "time": 1719979983888.9756
@@ -1240,35 +1240,35 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/702.png.meta": {
       "time": 1719979983889.3794
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70301.png.meta": {
-      "time": 1719979983889.6753
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab.meta": {
+      "time": 1720004115489.3513
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/703.png.meta": {
       "time": 1719979983889.4766
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/BlockUI.prefab.meta": {
-      "time": 1720004115489.3513
-    },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/auto-atlas.pac.meta": {
-      "time": 1720004114991.5842
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70101.png.meta": {
+      "time": 1719979983889.5068
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/girdItem.prefab.meta": {
       "time": 1720004115489.6099
     },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/auto-atlas.pac.meta": {
+      "time": 1720004114991.5842
+    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/prefab/block/gridBgItem.prefab.meta": {
       "time": 1720004115489.8618
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70101.png.meta": {
-      "time": 1719979983889.5068
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70301.png.meta": {
+      "time": 1719979983889.6753
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/resources/images/weapon/70201.png.meta": {
       "time": 1719979983889.8162
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/bg_wave1.png.meta": {
-      "time": 1720004114991.894
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/bg_top1.png.meta": {
       "time": 1720004114991.7449
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/bg_wave1.png.meta": {
+      "time": 1720004114991.894
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/btn1.png.meta": {
       "time": 1720004114992.0212
@@ -1279,17 +1279,17 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/btn_yg2.png.meta": {
       "time": 1720004114992.3586
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/icon2.png.meta": {
-      "time": 1720004114992.6138
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/icon1.png.meta": {
       "time": 1720004114992.4927
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/icon3.png.meta": {
-      "time": 1720004114992.7349
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/icon2.png.meta": {
+      "time": 1720004114992.6138
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/icon_yt.png.meta": {
       "time": 1720004114992.8804
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/icon3.png.meta": {
+      "time": 1720004114992.7349
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/icon_yt_jd1.png.meta": {
       "time": 1720004114993.0542
@@ -1309,14 +1309,14 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/image_jd4.png.meta": {
       "time": 1720004114993.8184
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/image_jdt1.png.meta": {
-      "time": 1720004114994.1125
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/image_jd5.png.meta": {
       "time": 1720004114993.972
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/image_jdt2.png.meta": {
       "time": 1720004114994.2573
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/image_jdt1.png.meta": {
+      "time": 1720004114994.1125
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/image_wave2.png.meta": {
       "time": 1720004114994.387
@@ -1327,17 +1327,17 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/car/ui/jdt_nj2.png.meta": {
       "time": 1720004114994.65
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/rogue/ui/prograssWhite.png.meta": {
-      "time": 1720004115000.02
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/rogue/ui/bg_1.png.meta": {
       "time": 1720004114999.8403
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup/game/1717616873905176.png.meta": {
-      "time": 1720004114988.8367
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/rogue/ui/prograssWhite.png.meta": {
+      "time": 1720004115000.02
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup/game/1717616874413177.png.meta": {
       "time": 1720004114989.007
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup/game/1717616873905176.png.meta": {
+      "time": 1720004114988.8367
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup/game/1717616875951180.png.meta": {
       "time": 1720004114989.1787
@@ -1357,11 +1357,11 @@
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup/game/fail_title.png.meta": {
       "time": 1720004114990.2544
     },
-    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup/game/victory_title.png.meta": {
-      "time": 1720004114990.6096
-    },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup/pause/1900049e372_3f4.png.meta": {
       "time": 1720004114990.9116
+    },
+    "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup/game/victory_title.png.meta": {
+      "time": 1720004114990.6096
     },
     "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/res/static/block/popup/game/gold.png.meta": {
       "time": 1720004114990.3948
@@ -2732,26 +2732,5 @@
       "time": 1719995464654.8105
     }
   },
-  "missing": {
-    "8c8c112e-a963-49d8-beda-3c226e567fb5": {
-      "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Data",
-      "time": 1720004115490.8005,
-      "removeTime": 1720007350570
-    },
-    "4445774f-6d4b-4fe0-94f6-f66ac88409ea": {
-      "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Data/GridData.ts",
-      "time": 1720004115490.7502,
-      "removeTime": 1720007350570
-    },
-    "b50da068-d97c-4b1c-b251-bed9d6c91a72": {
-      "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager",
-      "time": 1720004115493.0151,
-      "removeTime": 1720058278527
-    },
-    "f8e436be-1211-4f50-bd30-b2508b24fdee": {
-      "path": "/Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager/TemplateMgr.ts",
-      "time": 1720004115492.9802,
-      "removeTime": 1720058278527
-    }
-  }
+  "missing": {}
 }

@@ -3,6 +3,7 @@ import { GridMapManager } from './Mgr/GridMapManager';
 import { GridManager } from './Mgr/GridManager';
 import { WeaponManager } from '../Mgr/WeaponManager';
 import { GameDefine } from '../GameDefine';
+import { TemplateMgr } from "../Mgr/TemplateMgr";
 // import { OpenPopupManager } from './Frame/OpenPopupManager';
 // import { oops } from '../../../script-oops/core/Oops';
 // import { UIID } from '../../config/GameUIConfig';
@@ -49,10 +50,17 @@ export class Game extends Component {
     }
 
     private init() {
-        this.gridManager.init();
-        this.gridMapManager.init();
-        this.weaponManager.init();
-        this.onTapBtn();
+
+        this.scheduleOnce(() => {
+            // 加载配置表
+            TemplateMgr.instance().init(() => {
+                this.gridManager.init();
+                this.gridMapManager.init();
+                this.weaponManager.init();
+                this.onTapBtn();
+            })
+        }, 0.5)
+        
     }
 
     /* 触碰开始 */
