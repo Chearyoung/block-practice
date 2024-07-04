@@ -1,11 +1,11 @@
-7-4-2024 11:17:42 - log: Load engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine
-7-4-2024 11:17:42 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-7-4-2024 11:17:42 - log: Register native engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-7-4-2024 11:17:42 - log: Request namespace: device-list
-7-4-2024 11:17:58 - log: [Scene] meshopt wasm decoder initialized
-7-4-2024 11:17:58 - log: [Scene] [box2d]:box2d wasm lib loaded.
-7-4-2024 11:17:58 - log: [Scene] [bullet]:bullet wasm lib loaded.
-7-4-2024 11:17:59 - log: [Scene] [PHYSICS]: using builtin.
-7-4-2024 11:17:59 - log: [Scene] Cocos Creator v3.8.3
-7-4-2024 11:17:59 - info: [Scene] Forward render pipeline initialized.
-7-4-2024 11:17:59 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+7-4-2024 11:28:50 - log: Load engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine
+7-4-2024 11:28:51 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+7-4-2024 11:28:51 - log: Register native engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+7-4-2024 11:28:51 - log: Request namespace: device-list
+7-4-2024 11:29:07 - log: [Scene] meshopt wasm decoder initialized
+7-4-2024 11:29:07 - log: [Scene] [box2d]:box2d wasm lib loaded.
+7-4-2024 11:29:07 - log: [Scene] [bullet]:bullet wasm lib loaded.
+7-4-2024 11:29:08 - log: [Scene] [PHYSICS]: using builtin.
+7-4-2024 11:29:08 - log: [Scene] Cocos Creator v3.8.3
+7-4-2024 11:29:08 - info: [Scene] Forward render pipeline initialized.
+7-4-2024 11:29:08 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
