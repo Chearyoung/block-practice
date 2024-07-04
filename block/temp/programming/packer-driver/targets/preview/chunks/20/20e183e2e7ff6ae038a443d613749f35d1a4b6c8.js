@@ -34,7 +34,7 @@ System.register(["cc"], function (_export, _context) {
       //道具路径
       Constants.weaponIconPath = 'images/weapon/';
       //道具路径
-      Constants.gridPath = 'icon/block/grid/';
+      Constants.gridPath = 'images/grid/';
       //格子路径
       //弹窗
       Constants.PopupUI = {
