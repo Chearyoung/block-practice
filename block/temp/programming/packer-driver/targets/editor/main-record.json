@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 4359.236207999995,
+      "mTimestamp": 11851.750791999977,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 491056.408875,
+      "mTimestamp": 2636540.068,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1290,7 +1290,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1720057808428,
+      "mTimestamp": 1720058840982,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -2188,120 +2188,9 @@
         }
       ]
     },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Data/GridData.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115490.7502,
-        "uuid": "4445774f-6d4b-4fe0-94f6-f66ac88409ea"
-      },
-      "chunkId": "7a466fd4d932d290b19f5d81490099b97b4b2334",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 44
-            },
-            "end": {
-              "line": 1,
-              "column": 48
-            }
-          }
-        },
-        {
-          "value": "../../manager/TemplateMgr",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 26
-            },
-            "end": {
-              "line": 2,
-              "column": 53
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager/TemplateMgr.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/manager/TemplateMgr.ts": {
-      "erroneous": true,
-      "mTimestamp": 0,
-      "chunkId": "14546c0fa3aa869362242eef8634926b868d3daf"
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts": {
-      "mTimestamp": {
-        "mtime": 1720004115493.7524,
-        "uuid": "40e393f1-3208-4920-9375-a1e47a25accc"
-      },
-      "chunkId": "37a3e2fb9082eb163b70b5d52e8cca6ccb212fab",
-      "imports": [
-        {
-          "value": "cc"
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
     "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Game.ts": {
       "mTimestamp": {
-        "mtime": 1720010389007.1187,
+        "mtime": 1720059444164.6907,
         "uuid": "b11a6fb2-dd20-44c9-bc4c-fc60033d3c2b"
       },
       "chunkId": "a457af15546403b8bbea798346372a3eb544e44d",
@@ -2386,15 +2275,29 @@
           }
         },
         {
-          "value": "../EventConstant",
+          "value": "../Mgr/TemplateMgr",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
-              "line": 9,
+              "line": 6,
+              "column": 28
+            },
+            "end": {
+              "line": 6,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../EventConstant",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 10,
               "column": 30
             },
             "end": {
-              "line": 9,
+              "line": 10,
               "column": 48
             }
           }
@@ -2455,6 +2358,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/GameDefine.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Mgr/TemplateMgr.ts"
           },
           "messages": []
         },
@@ -2656,9 +2566,93 @@
         }
       ]
     },
+    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts": {
+      "mTimestamp": {
+        "mtime": 1720008451545.493,
+        "uuid": "1bb7cac5-cae3-4ed3-8a9c-a85546f6fb1e"
+      },
+      "chunkId": "2da8f5c483c29a90a7a89cdde4aba07b254b9b73",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 83
+            },
+            "end": {
+              "line": 1,
+              "column": 87
+            }
+          }
+        },
+        {
+          "value": "../../Data/GridData",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
     "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Mgr/GridManager.ts": {
       "mTimestamp": {
-        "mtime": 1720008653932.8608,
+        "mtime": 1720061454694.4802,
         "uuid": "cbb1be24-9b7c-4637-bec9-10d2cad1f6cb"
       },
       "chunkId": "bebe09c65e1dc2d78a55a58c7efebad5d7718e76",
@@ -2830,90 +2824,6 @@
         "uuid": "4644c662-caf3-455b-a829-d1d35ae5ff0d"
       },
       "chunkId": "0bc4ea64ccbd6c813edf6f0042feab00bc585493",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 83
-            },
-            "end": {
-              "line": 1,
-              "column": 87
-            }
-          }
-        },
-        {
-          "value": "../../Data/GridData",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 34
-            },
-            "end": {
-              "line": 3,
-              "column": 55
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/Data/GridData.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/block/Grid/GridBgItem.ts": {
-      "mTimestamp": {
-        "mtime": 1720008451545.493,
-        "uuid": "1bb7cac5-cae3-4ed3-8a9c-a85546f6fb1e"
-      },
-      "chunkId": "2da8f5c483c29a90a7a89cdde4aba07b254b9b73",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3177,6 +3087,28 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/EventConstant.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/jhh/Desktop/projects/block_project/block-practice/block/assets/script/template/schema.ts": {
+      "mTimestamp": {
+        "mtime": 1720004115493.7524,
+        "uuid": "40e393f1-3208-4920-9375-a1e47a25accc"
+      },
+      "chunkId": "37a3e2fb9082eb163b70b5d52e8cca6ccb212fab",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
           },
           "messages": []
         }
