@@ -1,14 +1,14 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, UITransform, GridData, GridObj, _dec, _class, _crd, ccclass, property, GridItem;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Color, Component, Sprite, UIOpacity, UITransform, GridData, GridObj, _dec, _class, _crd, ccclass, property, GridItem;
 
   function _reportPossibleCrUseOfGridData(extras) {
-    _reporterNs.report("GridData", "../Data/GridData", _context.meta, extras);
+    _reporterNs.report("GridData", "../../Data/GridData", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfGridObj(extras) {
-    _reporterNs.report("GridObj", "../Data/GridData", _context.meta, extras);
+    _reporterNs.report("GridObj", "../../Data/GridData", _context.meta, extras);
   }
 
   return {
@@ -19,7 +19,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
+      Color = _cc.Color;
       Component = _cc.Component;
+      Sprite = _cc.Sprite;
+      UIOpacity = _cc.UIOpacity;
       UITransform = _cc.UITransform;
     }, function (_unresolved_2) {
       GridData = _unresolved_2.GridData;
@@ -30,7 +33,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _cclegacy._RF.push({}, "4644cZiyvNFW6gp0dNa5f8N", "GridItem", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'UITransform', 'UIOpacity']);
+      __checkObsolete__(['_decorator', 'Color', 'Component', 'Node', 'Sprite', 'UIOpacity', 'UITransform']);
 
       ({
         ccclass,
@@ -46,8 +49,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this._gridValue = '0';
         }
 
+        // 0:占用格子 '':无格子  weaponKey: 武器占用格子
         get gridObj() {
           return this._gridObj;
+        }
+
+        get gridValue() {
+          return this._gridValue;
         }
 
         init(row, col, value) {
@@ -58,10 +66,25 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           }), GridData) : GridData).instance.gridHeight);
           this._gridObj.row = row;
           this._gridObj.col = col;
-          this._gridValue = value; // this.node.getComponent(UIOpacity)!.opacity = value ? 255 : 0;
+          this._gridValue = value;
+          this.node.getComponent(UIOpacity).opacity = value ? 255 : 0;
         }
 
-        update(deltaTime) {}
+        setDeafult() {
+          this.node.getComponent(Sprite).color = new Color().fromHEX('FFFFFF');
+        }
+
+        setGreen() {
+          this.node.getComponent(Sprite).color = new Color().fromHEX('7ed263');
+        }
+
+        setRed() {
+          this.node.getComponent(Sprite).color = new Color().fromHEX('dd6662');
+        }
+
+        setYellow() {
+          this.node.getComponent(Sprite).color = new Color().fromHEX('dbc464');
+        }
 
       }) || _class));
 

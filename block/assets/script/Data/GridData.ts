@@ -1,7 +1,8 @@
 import { Rect, Size, Vec2, Vec3 } from "cc";
 import { WeaponData } from "./WeaponData";
-import { Templates } from "../Mgr/TemplateMgr";
+import { Templates } from "../manager/TemplateMgr";
 import { BlockUtil } from "../Util";
+// import { re } from "mathjs";
 
 export interface BagModel {
     ClassName?: string;
@@ -77,7 +78,7 @@ export class GridData {
     /* 初始化格子数据 */
     private initGridMapData() {
         const n = 12;   // TODO: 增加人数
-        const blockGrid = Templates.TbBlockGrid.getDataMap().get(this._curGrid);
+        const blockGrid = Templates.TbBlockGrid.getDataMap().get(this._curGrid)!;
         const privateGrid = blockGrid.privateGrid.map(row => row.map(String));
         const expandFactor = this.getExpandFactor(privateGrid, n);
         let expandPrivateGrid: string[][] = privateGrid;
@@ -557,5 +558,3 @@ export class GridObj {
         return `GridObj { row: ${this.row}, col: ${this.col} }`;
     }
 }
-
-

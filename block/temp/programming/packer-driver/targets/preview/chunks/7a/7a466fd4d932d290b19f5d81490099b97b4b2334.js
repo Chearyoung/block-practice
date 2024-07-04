@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Templates, GridData, GridObj, _crd, ccclass, property;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Templates, GridData, WeaponObj, GridObj, _crd, ccclass, property;
 
   function _reportPossibleCrUseOfTemplates(extras) {
     _reporterNs.report("Templates", "../../manager/TemplateMgr", _context.meta, extras);
@@ -9,6 +9,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
   _export({
     GridData: void 0,
+    WeaponObj: void 0,
     GridObj: void 0
   });
 
@@ -20,7 +21,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
-      Component = _cc.Component;
     }, function (_unresolved_2) {
       Templates = _unresolved_2.Templates;
     }],
@@ -54,21 +54,40 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           //格子高度
           this._space = 10;
           //格子间隔
+          this._gridItemData = new Map();
+          //携带的武器数据  key=>武器唯一id
           this._curWeaponTildeIndex = [];
           //当前武器位置索引
           this._gridEditMode = false;
         }
 
-        static get instance() {
-          if (!this._instance) {
-            this._instance = new GridData();
-          }
+        //是否为格子编辑模式
+        get gridEditMode() {
+          return this._gridEditMode;
+        }
 
-          return this._instance;
+        set gridEditMode(value) {
+          this._gridEditMode = value;
+        }
+
+        get iconScale() {
+          return this._bagCfg.picture;
+        }
+
+        get space() {
+          return this._space;
         }
 
         get bagCfg() {
           return this._bagCfg;
+        }
+
+        get curWeaponTildeIndex() {
+          return this._curWeaponTildeIndex;
+        }
+
+        set curWeaponTildeIndex(value) {
+          this._curWeaponTildeIndex = value;
         }
 
         get gridWidth() {
@@ -83,9 +102,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.initGridMapData();
           this.initGridItemData();
         }
+        /* 初始化格子数据 */
+
 
         initGridMapData() {
-          var n = 8;
+          var n = 12; // TODO: 增加人数
+
           var blockGrid = (_crd && Templates === void 0 ? (_reportPossibleCrUseOfTemplates({
             error: Error()
           }), Templates) : Templates).TbBlockGrid.getDataMap().get(this._curGrid);
@@ -125,8 +147,26 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this._gridColLen = Number(row_col[0]);
           this._gridRowLen = Number(row_col[1]);
         }
+        /* 初始携带的武器数据 */
 
-        initGridItemData() {}
+
+        initGridItemData() {
+          //调试 初始携带武器数据
+          //this.addWeaponItem(1008);
+          //初始化地图格子数据
+          this._gridItemData.forEach((weaponObj, key) => {
+            var data = weaponObj.data;
+
+            for (var i = 0; i < data.length; i++) {
+              var gridObj = data[i];
+              this._gridMapData[gridObj.row][gridObj.col] = key;
+            }
+          }); // console.log('携带武器数据', this._gridItemData);
+          // console.log('初始格子数据', this._gridMapData);
+
+        }
+        /** 获取扩展因子 */
+
 
         getExpandFactor(matrix, n) {
           if (n == 0) return 0;
@@ -205,19 +245,420 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           return matrix;
         }
+        /**扩展二维数组 */
+
+
+        expandMatrix(matrix, n) {
+          var m = matrix.length;
+          var originalCols = matrix[0].length; // 计算扩展后的行列数
+
+          var expandedRows = m + 2 * n;
+          var expandedCols = originalCols + 2 * n; // 创建扩展后的数组，并初始化为 0
+
+          var expanded = [];
+
+          for (var i = 0; i < expandedRows; i++) {
+            expanded.push(new Array(expandedCols).fill(0));
+          } // 将原始数组复制到扩展数组的中心位置
+
+
+          for (var _i4 = 0; _i4 < m; _i4++) {
+            for (var j = 0; j < originalCols; j++) {
+              expanded[_i4 + n][j + n] = matrix[_i4][j];
+            }
+          } // 扩展四周边界
+
+
+          for (var _i5 = 0; _i5 < n; _i5++) {
+            // 上方 n 行
+            for (var _j = 0; _j < expandedCols; _j++) {
+              expanded[_i5][_j] = '';
+            } // 下方 n 行
+
+
+            for (var _j2 = 0; _j2 < expandedCols; _j2++) {
+              expanded[expandedRows - 1 - _i5][_j2] = '';
+            }
+          }
+
+          for (var _j3 = 0; _j3 < n; _j3++) {
+            // 左侧 n 列（包括上下已填充的 n 行）
+            for (var _i6 = 0; _i6 < expandedRows; _i6++) {
+              expanded[_i6][_j3] = '';
+            } // 右侧 n 列（包括上下已填充的 n 行）
+
+
+            for (var _i7 = 0; _i7 < expandedRows; _i7++) {
+              expanded[_i7][expandedCols - 1 - _j3] = '';
+            }
+          }
+
+          return expanded;
+        }
+        /**
+         * 添加携带的武器id
+         * @param wid 
+         */
+
+
+        addWeaponItem(wid) {
+          var weaponCfg = WeaponData.instance.getWeaponCfgById(wid);
+
+          if (weaponCfg == null) {
+            return;
+          }
+
+          var weaponObj = new WeaponObj();
+          weaponObj.id = BlockUtil.getUuid(10);
+          weaponObj.gid = this._curGrid;
+          weaponObj.wid = wid;
+          var points = weaponCfg.Points;
+          var data = [];
+
+          for (var i = 0; i < points.length; i++) {
+            var element = points[i];
+
+            for (var j = 0; j < element.length; j++) {
+              var gridObj = new GridObj();
+              gridObj.row = i;
+              gridObj.col = j;
+              data.push(gridObj);
+            }
+          }
+
+          weaponObj.data = data;
+
+          this._gridItemData.set(weaponObj.id, weaponObj);
+        }
+        /* 设置重组格子数据 */
+
+
+        setRebuildGridMapData(value) {
+          var row = value.length;
+          var col = value[0].length;
+          this._gridMapData = value;
+          this._bagCfg.private_gridLen = row + '_' + col;
+          this._gridColLen = row;
+          this._gridRowLen = col; //设置武器位置数据
+
+          this._gridItemData.forEach((weaponObj, key) => {
+            var data = [];
+
+            for (var i = 0; i < value.length; i++) {
+              var element = value[i];
+
+              for (var j = 0; j < element.length; j++) {
+                var weaponKey = element[j];
+
+                if (weaponKey == key) {
+                  var gridObj = new GridObj();
+                  gridObj.row = i;
+                  gridObj.col = j;
+                  data.push(gridObj);
+                }
+              }
+            }
+
+            weaponObj.data = data;
+          });
+        }
+        /* 获取最大背包尺寸 */
+
+
+        getMaxGridMapSize() {
+          var size = new Size();
+          var bagCfg = this.bagCfg;
+          var width = bagCfg.private_gridWidth;
+          var height = bagCfg.private_gredHeight;
+          var space = bagCfg.private_space;
+          var row_col = bagCfg.max_gridLen.split('_');
+          var rowLen = Number(row_col[0]);
+          var colLen = Number(row_col[1]);
+          var w = colLen * width + (colLen - 1) * space;
+          var h = rowLen * height + (rowLen - 1) * space;
+          size.width = w;
+          size.height = h;
+          return size;
+        }
+        /* 获取背包尺寸 */
+
+
+        getGridMapSize() {
+          var size = new Size();
+          var bagCfg = this.bagCfg;
+          var width = bagCfg.private_gridWidth;
+          var height = bagCfg.private_gredHeight;
+          var space = bagCfg.private_space;
+          var row_col = bagCfg.private_gridLen.split('_');
+          var rowLen = Number(row_col[1]);
+          var colLen = Number(row_col[0]);
+          var w = rowLen * width + (rowLen - 1) * space;
+          var h = colLen * height + (colLen - 1) * space;
+          size.width = w;
+          size.height = h;
+          return size;
+        }
+        /**
+         * 通过行列数量获取尺寸
+         * @param rowLen 
+         * @param colLen 
+         */
+
+
+        getGridSizeByRowCol(rowLen, colLen) {
+          var size = new Size();
+          var bagCfg = this.bagCfg;
+          var width = bagCfg.private_gridWidth;
+          var height = bagCfg.private_gredHeight;
+          var space = bagCfg.private_space;
+          var w = rowLen * width + (rowLen - 1) * space;
+          var h = colLen * height + (colLen - 1) * space;
+          size.width = w;
+          size.height = h;
+          return size;
+        }
+        /* 获取格子数据 */
+
+
+        getGridMapData() {
+          return this._gridMapData;
+        }
+        /* 获取携带的武器位置数据 */
+
+
+        getGridItemData() {
+          return Array.from(this._gridItemData.values());
+        }
+        /* 获取携带的武器唯一键值 */
+
+
+        getGridItemDataKeys() {
+          return Array.from(this._gridItemData.keys());
+        }
+        /*获取携带的武器Map数据  */
+
+
+        getGridItemMapData() {
+          return this._gridItemData;
+        }
+        /**
+         * 通过位置组获取位置中点坐标
+         * @param gridObjArr 
+         */
+
+
+        getItemPosByTiledObj(gridObjArr) {
+          var startPos = this.getGridPosByTiled(gridObjArr[0]);
+          var endPos = this.getGridPosByTiled(gridObjArr[gridObjArr.length - 1]);
+          var pos = new Vec3(0, 0, 0);
+          pos.x = (startPos.x + endPos.x) / 2;
+          pos.y = (startPos.y + endPos.y) / 2;
+          return pos;
+        }
+        /**
+         * 通过位置获取坐标
+         * @param gridObj 
+         * @returns 
+         */
+
+
+        getGridPosByTiled(gridObj) {
+          var posX = gridObj.col * this._gridWidth + this._gridWidth / 2 + gridObj.col * this._space;
+          var posY = gridObj.row * this._gredHeight + this._gredHeight / 2 + gridObj.row * this._space;
+          return new Vec3(posX, -posY);
+        }
+        /**
+         * 通过位置获取位置索引
+         * @param row 
+         * @param col  
+         */
+
+
+        getGridIndexByTiled(row, col) {
+          return row * this._gridRowLen + col;
+        }
+        /**
+         * 通过位置索引获取位置
+         * @param index 
+         */
+
+
+        getGridTiledByIndex(index) {
+          var row = Math.floor(index / this._gridRowLen);
+          var col = index % this._gridRowLen;
+          var gridObj = new GridObj();
+          gridObj.row = row;
+          gridObj.col = col;
+          return gridObj;
+        }
+        /**
+         * 通过武器唯一id 删除位置数据
+         * @param id   武器唯一id
+         */
+
+
+        deletGridDataByWeaponId(id) {
+          if (this._gridItemData.has(id)) {
+            var weaponObj = this._gridItemData.get(id);
+
+            var gridObjArr = weaponObj.data;
+
+            for (var i = 0; i < gridObjArr.length; i++) {
+              var gridObj = gridObjArr[i];
+              this._gridMapData[gridObj.row][gridObj.col] = '0';
+            }
+
+            this._gridItemData.delete(id);
+          }
+        }
+        /**
+         * 添加放置数据
+         * @param gridObjArr 
+         * @param wid 
+         */
+
+
+        addGridDataByWeaponId(gridObjArr, wid, weaponKey) {
+          var weaponObj = new WeaponObj();
+          weaponObj.id = weaponKey;
+          weaponObj.gid = this._curGrid;
+          weaponObj.wid = wid;
+          weaponObj.data = gridObjArr;
+
+          this._gridItemData.set(weaponObj.id, weaponObj);
+
+          for (var i = 0; i < gridObjArr.length; i++) {
+            var element = gridObjArr[i];
+            this._gridMapData[element.row][element.col] = weaponObj.id;
+          }
+        }
+        /* 合成更新 */
+
+
+        updateGridItemData(weaponKey, wid) {
+          if (this._gridItemData.has(weaponKey)) {
+            var weaponObj = this._gridItemData.get(weaponKey);
+
+            weaponObj.wid = wid;
+          }
+        }
+        /**
+         * 通过坐标获取位置
+         * @param pos 
+         */
+
+
+        getTiledByPos(pos) {
+          var tiledX = pos.x > 0 ? Math.floor((pos.x - this._gridWidth / 2) / (this._gridWidth + this._space)) : 3;
+          var tiledY = pos.y < 0 ? Math.floor((Math.abs(pos.y) - this._gredHeight / 2) / (this._gredHeight + this._space)) : 3;
+          var gridObj = new GridObj();
+          gridObj.row = tiledY;
+          gridObj.col = tiledX;
+          return gridObj;
+        }
+        /**
+         * 通过位置获取位置索引
+         * @param pos 
+         */
+
+
+        getTiledIndexByPos(pos) {
+          var gridObj = this.getTiledByPos(pos);
+
+          if (gridObj.col < 0 || gridObj.row < 0 || gridObj.col > this._gridRowLen - 1 || gridObj.row > this._gridColLen - 1) {
+            return -1;
+          }
+
+          return this.getGridIndexByTiled(gridObj.row, gridObj.col);
+        }
+        /* 检测武器id是否相同 */
+
+
+        checkSameWeapoIdByKey(weaponKey, wid) {
+          if (this._gridItemData.has(weaponKey)) {
+            var weaponObj = this._gridItemData.get(weaponKey);
+
+            if (wid == weaponObj.wid) {
+              return true;
+            }
+          }
+
+          return false;
+        }
+        /* 间隔触摸点是否在位置上 */
+
+
+        checkPointinGrid(touchPos, gridObjArr) {
+          var isTouch = false;
+
+          for (var i = 0; i < gridObjArr.length; i++) {
+            var gridObj = gridObjArr[i];
+            var pos = this.getGridPosByTiled(gridObj);
+            var rect = new Rect(pos.x - this._gridWidth / 2, pos.y - this.gridHeight / 2, this.gridWidth, this.gridHeight);
+
+            if (rect.contains(touchPos)) {
+              isTouch = true;
+              break;
+            }
+          }
+
+          return isTouch;
+        }
+        /**
+        * 通过位置获取位置索引
+        * @param row 
+        * @param col 
+        */
+
+
+        getGridBgIndexByTiled(row, col) {
+          var row_col = this._bagCfg.max_gridLen.split('_');
+
+          return row * Number(row_col[1]) + col;
+        }
+
+        clear() {
+          this._gridItemData.clear();
+
+          this._curWeaponTildeIndex = [];
+          this._bagCfg = null;
+          this._gridEditMode = false;
+        }
+
+        static get instance() {
+          if (!this._instance) {
+            this._instance = new GridData();
+          }
+
+          return this._instance;
+        }
 
       });
 
-      //是否为格子编辑模式
       GridData._instance = null;
 
-      _export("GridObj", GridObj = class GridObj extends Component {
+      _export("WeaponObj", WeaponObj = class WeaponObj {
         constructor() {
-          super(...arguments);
+          this.id = '';
+          //唯一id
+          this.wid = 0;
+          //武器id
+          this.gid = 0;
+          //格子表id
+          this.data = [];
+        } //位置数据
+
+
+      });
+
+      _export("GridObj", GridObj = class GridObj {
+        constructor() {
           this.row = 0;
+          //行
           this.col = 0;
         }
 
+        //列
         toString() {
           return "GridObj { row: " + this.row + ", col: " + this.col + " }";
         }

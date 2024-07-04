@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, instantiate, Label, Node, Prefab, Size, GridData, GridItem, GridBgItem, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _crd, ccclass, property, GridManager;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, game, instantiate, Node, Prefab, Rect, UITransform, v2, GridData, GridObj, GridItem, WeaponData, GridBgItem, EventConstant, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, GridManager;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -10,15 +10,35 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
 
   function _reportPossibleCrUseOfGridData(extras) {
-    _reporterNs.report("GridData", "../Data/GridData", _context.meta, extras);
+    _reporterNs.report("GridData", "../../Data/GridData", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfGridObj(extras) {
+    _reporterNs.report("GridObj", "../../Data/GridData", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfWeaponItem(extras) {
+    _reporterNs.report("WeaponItem", "../../Weapon/WeaponItem", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfGridItem(extras) {
     _reporterNs.report("GridItem", "../Grid/GridItem", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfWeaponData(extras) {
+    _reporterNs.report("WeaponData", "../../Data/WeaponData", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfWeaponModel(extras) {
+    _reporterNs.report("WeaponModel", "../../Data/WeaponData", _context.meta, extras);
+  }
+
   function _reportPossibleCrUseOfGridBgItem(extras) {
     _reporterNs.report("GridBgItem", "../Grid/GridBgItem", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfEventConstant(extras) {
+    _reporterNs.report("EventConstant", "../../EventConstant", _context.meta, extras);
   }
 
   return {
@@ -30,87 +50,73 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
+      game = _cc.game;
       instantiate = _cc.instantiate;
-      Label = _cc.Label;
       Node = _cc.Node;
       Prefab = _cc.Prefab;
-      Size = _cc.Size;
+      Rect = _cc.Rect;
+      UITransform = _cc.UITransform;
+      v2 = _cc.v2;
     }, function (_unresolved_2) {
       GridData = _unresolved_2.GridData;
+      GridObj = _unresolved_2.GridObj;
     }, function (_unresolved_3) {
       GridItem = _unresolved_3.GridItem;
     }, function (_unresolved_4) {
-      GridBgItem = _unresolved_4.GridBgItem;
+      WeaponData = _unresolved_4.WeaponData;
+    }, function (_unresolved_5) {
+      GridBgItem = _unresolved_5.GridBgItem;
+    }, function (_unresolved_6) {
+      EventConstant = _unresolved_6.EventConstant;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "cbb1b4km3xGN77JENLK0fbL", "GridManager", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'instantiate', 'Label', 'Node', 'Prefab', 'Size', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Component', 'game', 'instantiate', 'Intersection2D', 'Node', 'Prefab', 'Rect', 'UITransform', 'v2', 'Vec2', 'Vec3']);
 
       ({
         ccclass,
         property
       } = _decorator);
 
-      _export("GridManager", GridManager = (_dec = ccclass('GridManager'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Prefab), _dec5 = property(Prefab), _dec6 = property(Node), _dec(_class = (_class2 = class GridManager extends Component {
+      _export("GridManager", GridManager = (_dec = ccclass('GridManager'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Prefab), _dec5 = property(Prefab), _dec(_class = (_class2 = class GridManager extends Component {
         constructor(...args) {
           super(...args);
 
           _initializerDefineProperty(this, "allGridList", _descriptor, this);
 
+          //所有格子列表
           _initializerDefineProperty(this, "gridList", _descriptor2, this);
 
-          _initializerDefineProperty(this, "gridPreab", _descriptor3, this);
+          _initializerDefineProperty(this, "gridPrefab", _descriptor3, this);
 
-          _initializerDefineProperty(this, "gridBgPreab", _descriptor4, this);
-
-          _initializerDefineProperty(this, "label", _descriptor5, this);
-
-          this.size = new Size(510, 510);
-          this._padding = 90;
-          this._gridData = [['', '0', '0', '0', '0', ''], ['', '0', '0', '0', '0', ''], ['', '0', '0', '0', '0', ''], ['', '0', '0', '0', '0', '']];
-          this._maxGrid = [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']];
+          _initializerDefineProperty(this, "gridBgPrefab", _descriptor4, this);
         }
 
-        onLoad() {}
-
-        start() {}
-
+        //所有格子背景预制体
         init() {
           (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
             error: Error()
           }), GridData) : GridData).instance.init();
-          this.label.getComponent(Label).string = "背包界面";
           this.initGridList();
           this.initAllGridList();
         }
+        /* 初始所有的背景格子 */
 
-        initGridList() {
-          this.gridList.removeAllChildren();
-
-          for (let i = 0; i < this._gridData.length; i++) {
-            const element = this._gridData[i];
-
-            for (let j = 0; j < element.length; j++) {
-              const item = element[j];
-              let gridItem = instantiate(this.gridPreab);
-              gridItem.parent = this.gridList;
-              gridItem.getComponent(_crd && GridItem === void 0 ? (_reportPossibleCrUseOfGridItem({
-                error: Error()
-              }), GridItem) : GridItem).init(i, j, item);
-            }
-          }
-        }
 
         initAllGridList() {
-          for (let i = 0; i < this._maxGrid.length; i++) {
-            const element = this._maxGrid[i];
+          let gridData = (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
+            error: Error()
+          }), GridData) : GridData).instance.bagCfg.max_grid;
+
+          for (let i = 0; i < gridData.length; i++) {
+            const element = gridData[i];
 
             for (let j = 0; j < element.length; j++) {
               const item = element[j];
-              let gridBgItem = instantiate(this.gridBgPreab);
+              let gridBgItem = instantiate(this.gridBgPrefab);
               gridBgItem.parent = this.allGridList;
               gridBgItem.getComponent(_crd && GridBgItem === void 0 ? (_reportPossibleCrUseOfGridBgItem({
                 error: Error()
@@ -119,7 +125,253 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           }
         }
 
-        update(dt) {// console.log(dt);
+        initGridList() {
+          this.gridList.removeAllChildren();
+          let gridData = (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
+            error: Error()
+          }), GridData) : GridData).instance.getGridMapData();
+
+          for (let i = 0; i < gridData.length; i++) {
+            const element = gridData[i];
+
+            for (let j = 0; j < element.length; j++) {
+              const item = element[j];
+              let gridItem = instantiate(this.gridPrefab);
+              gridItem.parent = this.gridList;
+              gridItem.getComponent(_crd && GridItem === void 0 ? (_reportPossibleCrUseOfGridItem({
+                error: Error()
+              }), GridItem) : GridItem).init(i, j, item);
+            }
+          }
+        }
+        /* 初始化格子状态 */
+
+
+        initGridStatus() {
+          let items = this.gridList.children;
+
+          for (let j = 0; j < items.length; j++) {
+            const element = items[j];
+            element.getComponent(_crd && GridItem === void 0 ? (_reportPossibleCrUseOfGridItem({
+              error: Error()
+            }), GridItem) : GridItem).setDeafult();
+          }
+        }
+        /**
+         * 检测位置状态(检测坐标)
+         * @param posArr 
+         * @param wid 武器id
+         */
+
+
+        cherGridStatus(posArr, weaponItem) {
+          let wid = weaponItem.weaponCfg.tempId;
+          let gridIndexArr = [];
+          let items = this.gridList.children;
+          let gridMapData = (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
+            error: Error()
+          }), GridData) : GridData).instance.getGridMapData();
+
+          for (let n = 0; n < posArr.length; n++) {
+            const checkPos = posArr[n];
+            let index = -1;
+
+            for (let m = 0; m < items.length; m++) {
+              const element = items[m];
+              let gridObj = element.getComponent(_crd && GridItem === void 0 ? (_reportPossibleCrUseOfGridItem({
+                error: Error()
+              }), GridItem) : GridItem).gridObj;
+              let gridValue = element.getComponent(_crd && GridItem === void 0 ? (_reportPossibleCrUseOfGridItem({
+                error: Error()
+              }), GridItem) : GridItem).gridValue;
+              let pos = (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
+                error: Error()
+              }), GridData) : GridData).instance.getGridPosByTiled(gridObj);
+              let width = (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
+                error: Error()
+              }), GridData) : GridData).instance.gridWidth;
+              let height = (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
+                error: Error()
+              }), GridData) : GridData).instance.gridHeight;
+              let rect = new Rect(pos.x - width / 2, pos.y - height / 2, width, height);
+
+              if (rect.contains(v2(checkPos.x, checkPos.y)) && gridValue) {
+                index = m;
+                break;
+              }
+            }
+
+            gridIndexArr.push(index);
+          }
+
+          (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
+            error: Error()
+          }), GridData) : GridData).instance.curWeaponTildeIndex = gridIndexArr;
+          let placeWeaponKeyArr = []; //被占用可抖动的武器key(多个)
+
+          if (gridIndexArr.includes(-1)) {
+            //超出区域(占用和未占用)
+            for (let j = 0; j < items.length; j++) {
+              const element = items[j];
+
+              if (gridIndexArr.includes(j)) {
+                let gridObj = (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
+                  error: Error()
+                }), GridData) : GridData).instance.getGridTiledByIndex(j); //是否占用
+
+                if (gridMapData[gridObj.row][gridObj.col]) {
+                  element.getComponent(_crd && GridItem === void 0 ? (_reportPossibleCrUseOfGridItem({
+                    error: Error()
+                  }), GridItem) : GridItem).setRed(); //被占用的武器抖动状态
+
+                  let weaponKey = gridMapData[gridObj.row][gridObj.col];
+
+                  if (!placeWeaponKeyArr.includes(weaponKey)) {
+                    placeWeaponKeyArr.push(weaponKey);
+                  }
+                } else {
+                  element.getComponent(_crd && GridItem === void 0 ? (_reportPossibleCrUseOfGridItem({
+                    error: Error()
+                  }), GridItem) : GridItem).setYellow();
+                }
+              } else {
+                element.getComponent(_crd && GridItem === void 0 ? (_reportPossibleCrUseOfGridItem({
+                  error: Error()
+                }), GridItem) : GridItem).setDeafult();
+              }
+            }
+          } else {
+            //未超出区域
+            let sanmeCount = 0; //相同wid 数量
+
+            let weaponKey = '';
+
+            for (let j = 0; j < items.length; j++) {
+              const element = items[j];
+
+              if (gridIndexArr.includes(j)) {
+                element.getComponent(_crd && GridItem === void 0 ? (_reportPossibleCrUseOfGridItem({
+                  error: Error()
+                }), GridItem) : GridItem).setGreen(); //抖动和合成状态
+
+                let gridObj = (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
+                  error: Error()
+                }), GridData) : GridData).instance.getGridTiledByIndex(j);
+                weaponKey = gridMapData[gridObj.row][gridObj.col]; //检测武器id是否相同
+
+                if ((_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
+                  error: Error()
+                }), GridData) : GridData).instance.checkSameWeapoIdByKey(weaponKey, wid)) {
+                  sanmeCount++;
+                } //添加到抖动列表
+
+
+                if (!placeWeaponKeyArr.includes(weaponKey)) {
+                  placeWeaponKeyArr.push(weaponKey);
+                }
+              } else {
+                element.getComponent(_crd && GridItem === void 0 ? (_reportPossibleCrUseOfGridItem({
+                  error: Error()
+                }), GridItem) : GridItem).setDeafult();
+              }
+            } //是否达到合成成状态
+
+
+            if (sanmeCount == gridIndexArr.length) {
+              //可以合成(是否合成达到最大等级)
+              let level = weaponItem.weaponCfg.Level;
+              let group = weaponItem.weaponCfg.weaponGroupNum;
+
+              if ((_crd && WeaponData === void 0 ? (_reportPossibleCrUseOfWeaponData({
+                error: Error()
+              }), WeaponData) : WeaponData).instance.checkWeaponByLevel(level + 1, group)) {
+                placeWeaponKeyArr = [];
+                weaponItem.setIconYellow();
+                game.emit((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+                  error: Error()
+                }), EventConstant) : EventConstant).WEAPON_ICON_STATUS, weaponKey, true);
+              }
+            }
+          } //设置抖动
+
+
+          for (let index = 0; index < placeWeaponKeyArr.length; index++) {
+            const element = placeWeaponKeyArr[index];
+            game.emit((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+              error: Error()
+            }), EventConstant) : EventConstant).WEAPON_SHAKE, element);
+          }
+        }
+        /* 武器移动 */
+
+
+        onWeaponMove(weaponItem) {
+          let weaponKey = weaponItem.weaponKey;
+          let weaponCfg = weaponItem.weaponCfg;
+          let Type = weaponCfg.Type;
+          let typeArr = Type.split('_');
+          let row = Number(typeArr[0]);
+          let col = Number(typeArr[1]);
+          let pointPosArr = [];
+          let points = weaponCfg.Points;
+          (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
+            error: Error()
+          }), GridData) : GridData).instance.deletGridDataByWeaponId(weaponKey);
+
+          for (let i = 0; i < row; i++) {
+            for (let j = 0; j < col; j++) {
+              if (points[i][j]) {
+                //如果位置点存在
+                let gripObj = new (_crd && GridObj === void 0 ? (_reportPossibleCrUseOfGridObj({
+                  error: Error()
+                }), GridObj) : GridObj)();
+                gripObj.row = i;
+                gripObj.col = j;
+                let tieldPos = (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
+                  error: Error()
+                }), GridData) : GridData).instance.getGridPosByTiled(gripObj);
+                let wpos = weaponItem.point.getComponent(UITransform).convertToWorldSpaceAR(tieldPos);
+                let pos = weaponItem.node.parent.getComponent(UITransform).convertToNodeSpaceAR(wpos);
+                pointPosArr.push(pos);
+              }
+            }
+          } //初始状态
+
+
+          game.emit((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+            error: Error()
+          }), EventConstant) : EventConstant).WEAPON_ICON_STATUS_INIT);
+          this.cherGridStatus(pointPosArr, weaponItem);
+        }
+
+        onEnable() {
+          game.on((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+            error: Error()
+          }), EventConstant) : EventConstant).WEAPON_MOVE, this.onWeaponMove, this);
+          game.on((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+            error: Error()
+          }), EventConstant) : EventConstant).WEAPON_PlACE, this.initGridStatus, this);
+          game.on((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+            error: Error()
+          }), EventConstant) : EventConstant).INIT_BUILD_GRID_LIST, this.initGridList, this);
+        }
+
+        onDisable() {
+          game.off((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+            error: Error()
+          }), EventConstant) : EventConstant).WEAPON_MOVE, this.onWeaponMove, this);
+          game.off((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+            error: Error()
+          }), EventConstant) : EventConstant).WEAPON_PlACE, this.initGridStatus, this);
+          game.off((_crd && EventConstant === void 0 ? (_reportPossibleCrUseOfEventConstant({
+            error: Error()
+          }), EventConstant) : EventConstant).INIT_BUILD_GRID_LIST, this.initGridList, this);
+        }
+
+        clear() {
+          (_crd && GridData === void 0 ? (_reportPossibleCrUseOfGridData({
+            error: Error()
+          }), GridData) : GridData).instance.clear();
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "allGridList", [_dec2], {
@@ -136,21 +388,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         initializer: function () {
           return null;
         }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "gridPreab", [_dec4], {
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "gridPrefab", [_dec4], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function () {
           return null;
         }
-      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "gridBgPreab", [_dec5], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function () {
-          return null;
-        }
-      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "label", [_dec6], {
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "gridBgPrefab", [_dec5], {
         configurable: true,
         enumerable: true,
         writable: true,

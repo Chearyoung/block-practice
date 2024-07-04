@@ -1,261 +1,0 @@
-2024-7-3 15:02:26-log: Cannot access game frame or container.
-2024-7-3 15:02:26-debug: asset-db:require-engine-code (525ms)
-2024-7-3 15:02:26-log: meshopt wasm decoder initialized
-2024-7-3 15:02:26-log: [box2d]:box2d wasm lib loaded.
-2024-7-3 15:02:27-log: [bullet]:bullet wasm lib loaded.
-2024-7-3 15:02:27-log: Cocos Creator v3.8.3
-2024-7-3 15:02:28-debug: [Assets Memory track]: asset-db-plugin-register: project start:78.19MB, end 175.68MB, increase: 97.49MB
-2024-7-3 15:02:28-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:77.42MB, end 175.70MB, increase: 98.28MB
-2024-7-3 15:02:27-debug: [Assets Memory track]: asset-db-plugin-register: programming start:78.31MB, end 79.67MB, increase: 1.36MB
-2024-7-3 15:02:27-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:26.86MB, end 77.41MB, increase: 50.55MB
-2024-7-3 15:02:28-debug: [Assets Memory track]: asset-db-plugin-register: builder start:79.69MB, end 180.10MB, increase: 100.41MB
-2024-7-3 15:02:28-debug: run package(web-mobile) handler(enable) start
-2024-7-3 15:02:28-debug: run package(web-mobile) handler(enable) success!
-2024-7-3 15:02:28-debug: run package(wechatprogram) handler(enable) success!
-2024-7-3 15:02:28-debug: run package(windows) handler(enable) start
-2024-7-3 15:02:28-debug: run package(wechatgame) handler(enable) success!
-2024-7-3 15:02:28-debug: run package(xiaomi-quick-game) handler(enable) success!
-2024-7-3 15:02:28-debug: run package(xiaomi-quick-game) handler(enable) start
-2024-7-3 15:02:28-debug: run package(cocos-service) handler(enable) start
-2024-7-3 15:02:28-debug: run package(cocos-service) handler(enable) success!
-2024-7-3 15:02:28-debug: run package(im-plugin) handler(enable) success!
-2024-7-3 15:02:28-debug: run package(im-plugin) handler(enable) start
-2024-7-3 15:02:28-debug: run package(blank-template) handler(enable) start
-2024-7-3 15:02:28-debug: run package(blank-template) handler(enable) success!
-2024-7-3 15:02:28-debug: run package(placeholder) handler(enable) start
-2024-7-3 15:02:28-debug: run package(placeholder) handler(enable) success!
-2024-7-3 15:02:28-debug: run package(wechatgame) handler(enable) start
-2024-7-3 15:02:28-debug: run package(wechatprogram) handler(enable) start
-2024-7-3 15:02:28-debug: run package(windows) handler(enable) success!
-2024-7-3 15:02:28-debug: asset-db:worker-init: initPlugin (1429ms)
-2024-7-3 15:02:28-debug: [Assets Memory track]: asset-db:worker-init start:26.86MB, end 176.13MB, increase: 149.28MB
-2024-7-3 15:02:28-debug: Run asset db hook engine-extends:beforePreStart success!
-2024-7-3 15:02:28-debug: Run asset db hook programming:beforePreStart success!
-2024-7-3 15:02:28-debug: Run asset db hook engine-extends:beforePreStart ...
-2024-7-3 15:02:28-debug: Run asset db hook programming:beforePreStart ...
-2024-7-3 15:02:28-debug: asset-db:worker-init (2285ms)
-2024-7-3 15:02:28-debug: asset-db-hook-programming-beforePreStart (41ms)
-2024-7-3 15:02:28-debug: asset-db-hook-engine-extends-beforePreStart (41ms)
-2024-7-3 15:02:28-debug: Preimport db internal success
-2024-7-3 15:02:28-debug: Preimport db assets success
-2024-7-3 15:02:28-debug: Run asset db hook programming:afterPreStart ...
-2024-7-3 15:02:28-debug: starting packer-driver...
-2024-7-3 15:02:28-debug: initialize scripting environment...
-2024-7-3 15:02:28-debug: Set detail map pack:///resolution-detail-map.json: {  "./chunks/c0/c0d46be4b5a52a119835577ad6b490748b497920.js": {    "__unresolved_1": {      "error": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Oops.ts 为起点找不到模块 \"../libs/ecs/ECS\"",      "messages": [        {          "level": "warn",          "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"        }      ]    },    "__unresolved_10": {      "error": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Oops.ts 为起点找不到模块 \"./gui/scene/SceneManager\"",      "messages": [        {          "level": "warn",          "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"        }      ]    },    "__unresolved_2": {      "error": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Oops.ts 为起点找不到模块 \"../libs/network/HttpRequest\"",      "messages": [        {          "level": "warn",          "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"        }      ]    },    "__unresolved_3": {      "error": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Oops.ts 为起点找不到模块 \"../libs/network/NetManager\"",      "messages": [        {          "level": "warn",          "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"        }      ]    },    "__unresolved_4": {      "error": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Oops.ts 为起点找不到模块 \"../module/config/Config\"",      "messages": [        {          "level": "warn",          "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"        }      ]    },    "__unresolved_5": {      "error": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Oops.ts 为起点找不到模块 \"./common/event/MessageManager\"",      "messages": [        {          "level": "warn",          "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"        }      ]    },    "__unresolved_6": {      "error": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Oops.ts 为起点找不到模块 \"./common/loader/ResLoader\"",      "messages": [        {          "level": "warn",          "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"        }      ]    },    "__unresolved_7": {      "error": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Oops.ts 为起点找不到模块 \"./common/log/Logger\"",      "messages": [        {          "level": "warn",          "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"        }      ]    },    "__unresolved_8": {      "error": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Oops.ts 为起点找不到模块 \"./common/random/RandomManager\"",      "messages": [        {          "level": "warn",          "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"        }      ]    },    "__unresolved_9": {      "error": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Oops.ts 为起点找不到模块 \"./common/storage/StorageManager\"",      "messages": [        {          "level": "warn",          "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"        }      ]    }  },  "./chunks/60/60d7c718b913b6b7e9d22cddda249a4b80503d9d.js": {    "__unresolved_1": {      "error": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts 为起点找不到模块 \"../battle/pushOut/PushOutTemp\"",      "messages": [        {          "level": "warn",          "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"        }      ]    },    "__unresolved_2": {      "error": "Error: 以 file:///Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.ts 为起点找不到模块 \"../template/schema\"",      "messages": [        {          "level": "warn",          "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"        }      ]    }  }}
-2024-7-3 15:02:28-debug: Run asset db hook engine-extends:afterPreStart ...
-2024-7-3 15:02:28-debug: Start up the 'internal' database...
-2024-7-3 15:02:28-debug: Run asset db hook engine-extends:afterPreStart success!
-2024-7-3 15:02:28-debug: Run asset db hook programming:afterPreStart success!
-2024-7-3 15:02:28-debug: [Assets Memory track]: asset-db:worker-init: preStart start:176.14MB, end 179.20MB, increase: 3.06MB
-2024-7-3 15:02:29-debug: asset-db-hook-programming-afterPreStart (366ms)
-2024-7-3 15:02:29-debug: asset-db:worker-effect-data-processing (155ms)
-2024-7-3 15:02:29-debug: asset-db-hook-engine-extends-afterPreStart (155ms)
-2024-7-3 15:02:29-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:176.18MB, end 189.42MB, increase: 13.24MB
-2024-7-3 15:02:29-debug: Start up the 'assets' database...
-2024-7-3 15:02:29-debug: asset-db:worker-startup-database[internal] (479ms)
-2024-7-3 15:02:29-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:177.97MB, end 190.43MB, increase: 12.46MB
-2024-7-3 15:02:29-debug: lazy register asset handler directory
-2024-7-3 15:02:29-debug: lazy register asset handler text
-2024-7-3 15:02:29-debug: lazy register asset handler json
-2024-7-3 15:02:29-debug: lazy register asset handler spine-data
-2024-7-3 15:02:29-debug: lazy register asset handler dragonbones
-2024-7-3 15:02:29-debug: lazy register asset handler dragonbones-atlas
-2024-7-3 15:02:29-debug: lazy register asset handler terrain
-2024-7-3 15:02:29-debug: lazy register asset handler javascript
-2024-7-3 15:02:29-debug: lazy register asset handler typescript
-2024-7-3 15:02:29-debug: lazy register asset handler scene
-2024-7-3 15:02:29-debug: lazy register asset handler prefab
-2024-7-3 15:02:29-debug: lazy register asset handler sprite-frame
-2024-7-3 15:02:29-debug: lazy register asset handler tiled-map
-2024-7-3 15:02:29-debug: lazy register asset handler image
-2024-7-3 15:02:29-debug: lazy register asset handler sign-image
-2024-7-3 15:02:29-debug: lazy register asset handler alpha-image
-2024-7-3 15:02:29-debug: lazy register asset handler texture
-2024-7-3 15:02:29-debug: lazy register asset handler texture-cube
-2024-7-3 15:02:29-debug: lazy register asset handler erp-texture-cube
-2024-7-3 15:02:29-debug: lazy register asset handler buffer
-2024-7-3 15:02:29-debug: lazy register asset handler texture-cube-face
-2024-7-3 15:02:29-debug: lazy register asset handler rt-sprite-frame
-2024-7-3 15:02:29-debug: lazy register asset handler gltf
-2024-7-3 15:02:29-debug: lazy register asset handler gltf-mesh
-2024-7-3 15:02:29-debug: lazy register asset handler gltf-animation
-2024-7-3 15:02:29-debug: lazy register asset handler gltf-skeleton
-2024-7-3 15:02:29-debug: lazy register asset handler gltf-material
-2024-7-3 15:02:29-debug: lazy register asset handler gltf-scene
-2024-7-3 15:02:29-debug: lazy register asset handler gltf-embeded-image
-2024-7-3 15:02:29-debug: lazy register asset handler fbx
-2024-7-3 15:02:29-debug: lazy register asset handler material
-2024-7-3 15:02:29-debug: [Assets Memory track]: asset-db:worker-init: startup start:179.20MB, end 190.43MB, increase: 11.23MB
-2024-7-3 15:02:29-debug: lazy register asset handler effect
-2024-7-3 15:02:29-debug: lazy register asset handler *
-2024-7-3 15:02:29-debug: lazy register asset handler audio-clip
-2024-7-3 15:02:29-debug: lazy register asset handler animation-clip
-2024-7-3 15:02:29-debug: lazy register asset handler animation-graph
-2024-7-3 15:02:29-debug: lazy register asset handler physics-material
-2024-7-3 15:02:29-debug: lazy register asset handler animation-mask
-2024-7-3 15:02:29-debug: lazy register asset handler ttf-font
-2024-7-3 15:02:29-debug: lazy register asset handler bitmap-font
-2024-7-3 15:02:29-debug: lazy register asset handler particle
-2024-7-3 15:02:29-debug: lazy register asset handler sprite-atlas
-2024-7-3 15:02:29-debug: lazy register asset handler render-texture
-2024-7-3 15:02:29-debug: lazy register asset handler animation-graph-variant
-2024-7-3 15:02:29-debug: lazy register asset handler render-pipeline
-2024-7-3 15:02:29-debug: lazy register asset handler render-stage
-2024-7-3 15:02:29-debug: lazy register asset handler render-flow
-2024-7-3 15:02:29-debug: lazy register asset handler instantiation-material
-2024-7-3 15:02:29-debug: lazy register asset handler instantiation-mesh
-2024-7-3 15:02:29-debug: lazy register asset handler instantiation-skeleton
-2024-7-3 15:02:29-debug: lazy register asset handler instantiation-animation
-2024-7-3 15:02:29-debug: lazy register asset handler video-clip
-2024-7-3 15:02:29-debug: lazy register asset handler auto-atlas
-2024-7-3 15:02:29-debug: lazy register asset handler label-atlas
-2024-7-3 15:02:29-debug: lazy register asset handler effect-header
-2024-7-3 15:02:29-debug: asset-db:worker-startup-database[assets] (439ms)
-2024-7-3 15:02:29-debug: asset-db:start-database (507ms)
-2024-7-3 15:02:29-debug: asset-db:ready (4314ms)
-2024-7-3 15:02:29-debug: init worker message success
-2024-7-3 15:02:29-debug: programming:execute-script (3ms)
-2024-7-3 15:02:29-debug: [Build Memory track]: builder:worker-init start:187.94MB, end 200.29MB, increase: 12.35MB
-2024-7-3 15:02:29-debug: builder:worker-init (248ms)
-2024-7-3 15:02:51-debug: refresh db internal success
-2024-7-3 15:02:51-debug: refresh db assets success
-2024-7-3 15:02:51-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:02:51-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:02:51-debug: asset-db:refresh-all-database (50ms)
-2024-7-3 15:02:51-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-3 15:02:51-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-3 15:03:10-debug: refresh db internal success
-2024-7-3 15:03:10-debug: refresh db assets success
-2024-7-3 15:03:10-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:03:10-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:03:10-debug: asset-db:refresh-all-database (42ms)
-2024-7-3 15:03:10-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-3 15:03:10-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-3 15:03:32-debug: refresh db internal success
-2024-7-3 15:03:32-debug: refresh db assets success
-2024-7-3 15:03:32-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:03:32-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:03:32-debug: asset-db:refresh-all-database (41ms)
-2024-7-3 15:03:32-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-3 15:03:32-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-3 15:03:49-debug: refresh db internal success
-2024-7-3 15:03:49-debug: refresh db assets success
-2024-7-3 15:03:49-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:03:49-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:03:49-debug: asset-db:refresh-all-database (38ms)
-2024-7-3 15:03:49-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-3 15:03:49-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-3 15:03:51-debug: programming:execute-script (1ms)
-2024-7-3 15:03:53-debug: start remove asset /Users/wangzhaoye/block-practice/block/assets/script/Oops.ts...
-2024-7-3 15:03:53-debug: start refresh asset from /Users/wangzhaoye/block-practice/block/assets/script/Oops.ts...
-2024-7-3 15:03:53-debug: %cDestroy%c: /Users/wangzhaoye/block-practice/block/assets/script/Oops.tsbackground: #ffb8b8; color: #000;color: #000;
-2024-7-3 15:03:53-debug: refresh asset /Users/wangzhaoye/block-practice/block/assets/script success
-2024-7-3 15:03:53-debug: remove asset /Users/wangzhaoye/block-practice/block/assets/script/Oops.ts success
-2024-7-3 15:03:53-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/scriptbackground: #aaff85; color: #000;color: #000;
-2024-7-3 15:04:58-debug: refresh db internal success
-2024-7-3 15:04:58-debug: refresh db assets success
-2024-7-3 15:04:58-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:04:58-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:04:58-debug: asset-db:refresh-all-database (47ms)
-2024-7-3 15:06:22-debug: refresh db internal success
-2024-7-3 15:06:22-debug: refresh db assets success
-2024-7-3 15:06:22-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:06:22-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:06:22-debug: asset-db:refresh-all-database (36ms)
-2024-7-3 15:06:58-debug: refresh db internal success
-2024-7-3 15:06:58-debug: refresh db assets success
-2024-7-3 15:06:58-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:06:58-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:06:58-debug: asset-db:refresh-all-database (45ms)
-2024-7-3 15:06:58-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-3 15:06:58-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-3 15:08:27-debug: refresh db internal success
-2024-7-3 15:08:27-debug: refresh db assets success
-2024-7-3 15:08:27-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:08:27-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:08:27-debug: asset-db:refresh-all-database (40ms)
-2024-7-3 15:08:27-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-3 15:08:27-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-3 15:09:05-debug: refresh db internal success
-2024-7-3 15:09:05-debug: refresh db assets success
-2024-7-3 15:09:05-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:09:05-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:09:05-debug: asset-db:refresh-all-database (35ms)
-2024-7-3 15:09:05-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-3 15:09:05-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-3 15:10:08-debug: refresh db internal success
-2024-7-3 15:10:08-debug: refresh db assets success
-2024-7-3 15:10:08-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:10:08-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:10:08-debug: asset-db:refresh-all-database (39ms)
-2024-7-3 15:10:08-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-3 15:10:08-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-3 15:10:28-debug: refresh db internal success
-2024-7-3 15:10:28-debug: refresh db assets success
-2024-7-3 15:10:28-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:10:28-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:10:28-debug: asset-db:refresh-all-database (31ms)
-2024-7-3 15:10:28-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-3 15:10:53-debug: refresh db internal success
-2024-7-3 15:10:53-debug: refresh db assets success
-2024-7-3 15:10:53-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:10:53-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:10:53-debug: asset-db:refresh-all-database (51ms)
-2024-7-3 15:11:03-debug: refresh db internal success
-2024-7-3 15:11:03-debug: refresh db assets success
-2024-7-3 15:11:03-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:11:03-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:11:03-debug: asset-db:refresh-all-database (35ms)
-2024-7-3 15:11:46-debug: refresh db internal success
-2024-7-3 15:11:46-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-3 15:11:46-debug: refresh db assets success
-2024-7-3 15:11:46-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:11:46-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:11:46-debug: asset-db:refresh-all-database (27ms)
-2024-7-3 15:11:46-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-3 15:11:46-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-3 15:11:49-debug: refresh db internal success
-2024-7-3 15:11:49-debug: refresh db assets success
-2024-7-3 15:11:49-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:11:49-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:11:49-debug: asset-db:refresh-all-database (41ms)
-2024-7-3 15:11:49-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-3 15:11:49-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-3 15:11:53-debug: refresh db internal success
-2024-7-3 15:11:53-debug: refresh db assets success
-2024-7-3 15:11:53-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:11:53-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:11:53-debug: asset-db:refresh-all-database (27ms)
-2024-7-3 15:11:55-debug: refresh db internal success
-2024-7-3 15:11:55-debug: refresh db assets success
-2024-7-3 15:11:55-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:11:55-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:11:55-debug: asset-db:refresh-all-database (35ms)
-2024-7-3 15:11:55-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-3 15:13:28-debug: refresh db internal success
-2024-7-3 15:13:28-debug: refresh db assets success
-2024-7-3 15:13:28-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:13:28-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:13:28-debug: asset-db:refresh-all-database (40ms)
-2024-7-3 15:13:28-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-3 15:13:28-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-3 15:13:31-debug: start refresh asset from /Users/wangzhaoye/block-practice/block/assets/script/schema.ts...
-2024-7-3 15:13:31-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/schema.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-3 15:13:31-debug: refresh asset /Users/wangzhaoye/block-practice/block/assets/script success
-2024-7-3 15:13:31-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/scriptbackground: #aaff85; color: #000;color: #000;
-2024-7-3 15:13:33-debug: refresh db internal success
-2024-7-3 15:13:33-debug: refresh db assets success
-2024-7-3 15:13:33-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:13:33-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:13:33-debug: asset-db:refresh-all-database (34ms)
-2024-7-3 15:13:59-debug: refresh db internal success
-2024-7-3 15:13:59-debug: %cImport%c: /Users/wangzhaoye/block-practice/block/assets/script/Mgr/TemplateMgr.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-3 15:13:59-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:13:59-debug: refresh db assets success
-2024-7-3 15:13:59-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:13:59-debug: asset-db:refresh-all-database (34ms)
-2024-7-3 15:15:18-debug: refresh db internal success
-2024-7-3 15:15:18-debug: refresh db assets success
-2024-7-3 15:15:18-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-3 15:15:18-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-3 15:15:18-debug: asset-db:refresh-all-database (44ms)

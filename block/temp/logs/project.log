@@ -1,103 +1,11 @@
-7-3-2024 16:18:22 - log: Load engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine
-7-3-2024 16:18:23 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-7-3-2024 16:18:23 - log: Register native engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-7-3-2024 16:18:23 - log: Request namespace: device-list
-7-3-2024 16:18:28 - log: [Scene] meshopt wasm decoder initialized
-7-3-2024 16:18:28 - log: [Scene] [box2d]:box2d wasm lib loaded.
-7-3-2024 16:18:28 - log: [Scene] [bullet]:bullet wasm lib loaded.
-7-3-2024 16:18:28 - log: [Scene] [PHYSICS]: using builtin.
-7-3-2024 16:18:28 - log: [Scene] Cocos Creator v3.8.3
-7-3-2024 16:18:28 - info: [Scene] Forward render pipeline initialized.
-7-3-2024 16:18:28 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-3-2024 16:35:55 - info: [PreviewInEditor] 预览环境初始化完毕
-7-3-2024 16:35:56 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-3-2024 16:35:56 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-3-2024 16:35:56 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-3-2024 16:35:56 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-3-2024 16:35:56 - log: [PreviewInEditor] Cocos Creator v3.8.3
-7-3-2024 16:35:56 - info: [PreviewInEditor] Forward render pipeline initialized.
-7-3-2024 16:35:56 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-3-2024 16:35:57 - log: [PreviewInEditor] 开始加载策划配置
-7-3-2024 16:35:57 - log: [PreviewInEditor] 配置加载完成
-7-3-2024 16:36:01 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
-    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
-    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
-    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
-    at Array.forEach (<anonymous>)
-    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
-    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
-    at Array.forEach (<anonymous>)
-    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
-    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
-    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
-7-3-2024 16:36:01 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
-    at <process:scene>
-    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
-    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
-    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
-    at Array.forEach (<anonymous>)
-    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
-    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
-    at Array.forEach (<anonymous>)
-    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
-    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
-    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
-7-3-2024 16:36:02 - info: [PreviewInEditor] 预览环境初始化完毕
-7-3-2024 16:42:03 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-3-2024 16:42:03 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-3-2024 16:42:03 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-3-2024 16:42:03 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-3-2024 16:42:03 - log: [PreviewInEditor] Cocos Creator v3.8.3
-7-3-2024 16:42:03 - info: [PreviewInEditor] Forward render pipeline initialized.
-7-3-2024 16:42:03 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-3-2024 16:42:04 - log: [PreviewInEditor] 开始加载策划配置
-7-3-2024 16:42:04 - log: [PreviewInEditor] 配置加载完成
-7-3-2024 16:42:07 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
-    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
-    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
-    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
-    at Array.forEach (<anonymous>)
-    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
-    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
-    at Array.forEach (<anonymous>)
-    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
-    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
-    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
-7-3-2024 16:42:07 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
-    at <process:scene>
-    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
-    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
-    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
-    at Array.forEach (<anonymous>)
-    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
-    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
-    at Array.forEach (<anonymous>)
-    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
-    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
-    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
-7-3-2024 16:42:07 - info: [PreviewInEditor] 预览环境初始化完毕
-7-3-2024 17:53:07 - warn: [Assets] The uuid is already pointing to another resource.
-[
-  "/Users/wangzhaoye/block-practice/block/assets/resources/images/button/button01.png",
-  "/Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/button01.png"
-]
-The file uuid has been updated: /Users/wangzhaoye/block-practice/block/assets/resources/images/button/button01.png
-    f0075b91-82f1-4479-abc6-2116e69faeb1 -> 86d249e2-3ba8-4df5-8461-cee44b400dd1[Assets] The uuid is already pointing to another resource.
-[
-  "/Users/wangzhaoye/block-practice/block/assets/resources/images/button/button01.png",
-  "/Users/wangzhaoye/block-practice/block/assets/res/static/block/popup/game/button01.png"
-]
-The file uuid has been updated: /Users/wangzhaoye/block-practice/block/assets/resources/images/button/button01.png
-    f0075b91-82f1-4479-abc6-2116e69faeb1 -> 86d249e2-3ba8-4df5-8461-cee44b400dd1  
-The file uuid has been updated: /Users/wangzhaoye/block-practice/block/assets/resources/images/button/button01.png  
-f0075b91-82f1-4479-abc6-2116e69faeb1 -> 86d249e2-3ba8-4df5-8461-cee44b400dd1  
-at Object.encode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
-at Logger._logHandler (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
-at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
-at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
-at CustomConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
-at AssetDB._replaceUUID (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/asset-db.ccc:1:9318)  
-at AssetDB._checkAssetsStatSync (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/asset-db.ccc:1:10409)  
-at AssetDB.refresh (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/asset-db.ccc:1:8357)  
-at refresh (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/manager.ccc:1:3624)  
-at AssetManager._refreshAsset (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/manager/asset-manager.ccc:1:10448)
+7-4-2024 09:50:08 - log: Load engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine
+7-4-2024 09:50:08 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+7-4-2024 09:50:08 - log: Register native engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+7-4-2024 09:50:08 - log: Request namespace: device-list
+7-4-2024 09:50:13 - log: [Scene] meshopt wasm decoder initialized
+7-4-2024 09:50:13 - log: [Scene] [box2d]:box2d wasm lib loaded.
+7-4-2024 09:50:14 - log: [Scene] [bullet]:bullet wasm lib loaded.
+7-4-2024 09:50:14 - log: [Scene] [PHYSICS]: using builtin.
+7-4-2024 09:50:14 - log: [Scene] Cocos Creator v3.8.3
+7-4-2024 09:50:14 - info: [Scene] Forward render pipeline initialized.
+7-4-2024 09:50:14 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
