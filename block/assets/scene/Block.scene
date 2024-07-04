@@ -2539,7 +2539,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": -25,
+      "y": -350,
       "z": 0
     },
     "_lrot": {
@@ -2616,7 +2616,7 @@
     "_constraint": 0,
     "_constraintNum": 2,
     "_affectedByScale": false,
-    "_isAlign": false,
+    "_isAlign": true,
     "_id": "169jVWd2NLAKV5eGXXqBnJ"
   },
   {
